@@ -1,0 +1,161 @@
+{
+ "step": "extract",
+ "call": "s08",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:26:49",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "e2ba94bd75422ae1",
+ "input": {
+  "call": "s08",
+  "date": "2026-10-01",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "REP",
+    "name": "Derek Shaw",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "BUY",
+    "name": "Grace Liu",
+    "role": "Director of logistics",
+    "company": "a frozen dough and bakery distributor",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "s08-s001",
+    "speaker": "REP",
+    "start": 0.29,
+    "text": "Hi Grace, Derek Shaw with Brinewatch. Thanks for taking the call. So I'd love to just walk you through our platform real quick because I think it's a perfect fit for a bakery distributor."
+   },
+   {
+    "id": "s08-s002",
+    "speaker": "BUY",
+    "start": 11.45,
+    "text": "Before you do, let me save us both some time. We're running a formal RFP for temperature monitoring in November. We'll invite three vendors and we'll pick one by December 15th."
+   },
+   {
+    "id": "s08-s003",
+    "speaker": "REP",
+    "start": 22.11,
+    "text": "Oh great, great, well, we'd love to be in that. Our platform covers trucks, warehouses, all of it and our customers love the app."
+   },
+   {
+    "id": "s08-s004",
+    "speaker": "BUY",
+    "start": 30.25,
+    "text": "We run 15 trucks of frozen dough and it has to stay at zero degrees or below. Last quarter we logged 41 excursions above that."
+   },
+   {
+    "id": "s08-s005",
+    "speaker": "REP",
+    "start": 38.91,
+    "text": "Well, okay, yeah, 41 is a lot, so."
+   },
+   {
+    "id": "s08-s006",
+    "speaker": "BUY",
+    "start": 40.31,
+    "text": "And each one means a product hold while quality checks it. The budget's already approved at $60,000 for the year."
+   },
+   {
+    "id": "s08-s007",
+    "speaker": "REP",
+    "start": 47.67,
+    "text": "Oh nice, well that's plenty for us, so the way it works is, sensors in every truck, alerts by text and a dashboard for the whole fleet. Setup is super fast."
+   },
+   {
+    "id": "s08-s008",
+    "speaker": "BUY",
+    "start": 58.05,
+    "text": "Our COO, Raj Maita, makes the final decision and the RFP will ask for integration with our warehouse management system. Can you do that?"
+   },
+   {
+    "id": "s08-s009",
+    "speaker": "REP",
+    "start": 66.91,
+    "text": "Yeah totally, we integrate with pretty much everything."
+   },
+   {
+    "id": "s08-s010",
+    "speaker": "BUY",
+    "start": 70.23,
+    "text": "Okay, to get on the invite list, I need your company information for vendor registration by the end of next week."
+   },
+   {
+    "id": "s08-s011",
+    "speaker": "REP",
+    "start": 77.17,
+    "text": "Sure thing I'll send that over, and hey, could we maybe do a demo before the RFP."
+   },
+   {
+    "id": "s08-s012",
+    "speaker": "BUY",
+    "start": 82.85,
+    "text": "No Demos outside the process. Everyone gets the same shot. Just send the registration information."
+   },
+   {
+    "id": "s08-s013",
+    "speaker": "REP",
+    "start": 89.01,
+    "text": "Got it I'll get that to you this week, thanks Grace."
+   }
+  ]
+ },
+ "reply": "{\"fields\":{\"metrics\":[{\"value\":\"41 excursions above zero degrees last quarter\",\"number\":41,\"evidence\":[{\"segment\":\"s08-s004\",\"quote\":\"Last quarter we logged 41 excursions above that.\"}]}],\"economic_buyer\":[{\"value\":\"COO Raj Maita makes the final decision\",\"name\":\"Raj Maita\",\"role\":\"COO\",\"evidence\":[{\"segment\":\"s08-s008\",\"quote\":\"Our COO, Raj Maita, makes the final decision\"}]}],\"decision_criteria\":[{\"value\":\"The RFP will ask for integration with their warehouse management system\",\"evidence\":[{\"segment\":\"s08-s008\",\"quote\":\"the RFP will ask for integration with our warehouse management system\"}]},{\"value\":\"Frozen dough has to stay at zero degrees or below\",\"evidence\":[{\"segment\":\"s08-s004\",\"quote\":\"it has to stay at zero degrees or below\"}]}],\"decision_process\":[{\"value\":\"Formal RFP in November with three vendors invited, one picked by December 15th\",\"due\":\"December 15th\",\"evidence\":[{\"segment\":\"s08-s002\",\"quote\":\"We'll invite three vendors and we'll pick one by December 15th.\"}]}],\"paper_process\":[],\"pain\":[{\"value\":\"Each excursion means a product hold while quality checks it\",\"evidence\":[{\"segment\":\"s08-s006\",\"quote\":\"each one means a product hold while quality checks it\"}]}],\"champion\":[],\"competition\":[{\"value\":\"Three vendors will be invited to the RFP\",\"number\":3,\"evidence\":[{\"segment\":\"s08-s002\",\"quote\":\"We'll invite three vendors\"}]}],\"critical_event\":[{\"value\":\"Formal RFP for temperature monitoring in November\",\"evidence\":[{\"segment\":\"s08-s002\",\"quote\":\"We're running a formal RFP for temperature monitoring in November.\"}]}],\"budget\":[{\"value\":\"Budget already approved at $60,000 for the year\",\"number\":60000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s08-s006\",\"quote\":\"The budget's already approved at $60,000 for the year.\"}]}],\"pricing\":[],\"amount\":[],\"close_date\":[{\"value\":\"Vendor pick expected by December 15th\",\"due\":\"December 15th\",\"evidence\":[{\"segment\":\"s08-s002\",\"quote\":\"we'll pick one by December 15th\"}]}],\"next_steps\":[{\"value\":\"Seller sends company information for vendor registration\",\"owner\":\"seller\",\"due\":\"by the end of next week\",\"evidence\":[{\"segment\":\"s08-s010\",\"quote\":\"I need your company information for vendor registration by the end of next week.\"}]}],\"stakeholders\":[],\"risks\":[],\"account\":[{\"value\":\"Runs 15 trucks of frozen dough\",\"number\":15,\"unit\":\"trucks\",\"evidence\":[{\"segment\":\"s08-s004\",\"quote\":\"We run 15 trucks of frozen dough\"}]}],\"seller_claims\":[{\"value\":\"Platform has sensors in every truck, text alerts and a fleet dashboard\",\"evidence\":[{\"segment\":\"s08-s007\",\"quote\":\"sensors in every truck, alerts by text and a dashboard for the whole fleet\"}]},{\"value\":\"Seller says they integrate with pretty much everything\",\"evidence\":[{\"segment\":\"s08-s009\",\"quote\":\"we integrate with pretty much everything\"}]}]},\"commitments\":[{\"by\":\"seller\",\"who\":\"REP\",\"what\":\"Send company information for vendor registration\",\"kind\":\"deliverable\",\"due\":\"this week\",\"evidence\":[{\"segment\":\"s08-s011\",\"quote\":\"Sure thing I'll send that over\"},{\"segment\":\"s08-s013\",\"quote\":\"I'll get that to you this week\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": 15,
+ "ms": 7644,
+ "meta": {
+  "ms": 6561,
+  "api_ms": 6461,
+  "input_tokens": 7741,
+  "output_tokens": 1227,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5966,
+   "cache_read_input_tokens": 1773,
+   "output_tokens": 1227,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5966,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1227,
+     "cache_read_input_tokens": 1773,
+     "cache_creation_input_tokens": 5966,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5966
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0363153,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

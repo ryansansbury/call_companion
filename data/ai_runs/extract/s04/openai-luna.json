@@ -1,0 +1,179 @@
+{
+ "step": "extract",
+ "call": "s04",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:50:09",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "dc7c175c6ec42094",
+ "input": {
+  "call": "s04",
+  "date": "2026-09-17",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "REP",
+    "name": "Derek Shaw",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "BUY",
+    "name": "Nina Park",
+    "role": "Operations manager",
+    "company": "a seafood wholesaler",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "s04-s001",
+    "speaker": "REP",
+    "start": 0.31,
+    "text": "Hey Nina, Derek Shaw with Brinewatch, you guys are a seafood wholesaler right?"
+   },
+   {
+    "id": "s04-s002",
+    "speaker": "BUY",
+    "start": 5.07,
+    "text": "Right fresh and frozen mostly to restaurants, 12 trucks."
+   },
+   {
+    "id": "s04-s003",
+    "speaker": "REP",
+    "start": 8.93,
+    "text": "Great, so I'm guessing temperature is a big deal for you right?"
+   },
+   {
+    "id": "s04-s004",
+    "speaker": "BUY",
+    "start": 12.51,
+    "text": "It's everything. Fresh fish has to stay right around 32 degrees, and if it gets warm, the restaurants send it back."
+   },
+   {
+    "id": "s04-s005",
+    "speaker": "REP",
+    "start": 19.51,
+    "text": "Yeah, so that's exactly what we do. Our sensors track every compartment and the second something drifts you get a text. We've got a great app, the reporting is super easy and honestly most of our seafood customers see the difference in the first month."
+   },
+   {
+    "id": "s04-s006",
+    "speaker": "BUY",
+    "start": 33.43,
+    "text": "We get two or three rejected deliveries a week right now."
+   },
+   {
+    "id": "s04-s007",
+    "speaker": "REP",
+    "start": 36.11,
+    "text": "Oh wow yeah so with us you'd catch those before they ever get to the restaurant, do you have any temperature monitoring today?"
+   },
+   {
+    "id": "s04-s008",
+    "speaker": "BUY",
+    "start": 43.57,
+    "text": "The trucks have a display in the cab, but it doesn't record anything. Each rejected delivery costs us about $1200, so it adds up."
+   },
+   {
+    "id": "s04-s009",
+    "speaker": "REP",
+    "start": 51.53,
+    "text": "Totally, are you looking at other options?"
+   },
+   {
+    "id": "s04-s010",
+    "speaker": "BUY",
+    "start": 54.31,
+    "text": "We got a quote from Frostgauge last month. It was cheaper, but my drivers didn't like the app."
+   },
+   {
+    "id": "s04-s011",
+    "speaker": "REP",
+    "start": 59.53,
+    "text": "Yeah, we hear that a lot. Our app is way easier, the drivers basically don't have to touch it and it works without a signal which is huge for you guys."
+   },
+   {
+    "id": "s04-s012",
+    "speaker": "BUY",
+    "start": 68.47,
+    "text": "We also do airport pickups twice a week, and those runs are the worst for temperature. The fish sits on the tarmac before we even get it."
+   },
+   {
+    "id": "s04-s013",
+    "speaker": "REP",
+    "start": 76.23,
+    "text": "Right yeah the sensors would catch that too, would you want to see a demo?"
+   },
+   {
+    "id": "s04-s014",
+    "speaker": "BUY",
+    "start": 80.75,
+    "text": "Maybe I'd have to run it by the owner, Frank. He signs everything."
+   },
+   {
+    "id": "s04-s015",
+    "speaker": "REP",
+    "start": 84.65,
+    "text": "Sure, does Frank usually move fast on stuff like this?"
+   },
+   {
+    "id": "s04-s016",
+    "speaker": "BUY",
+    "start": 88.47,
+    "text": "Depends on the price."
+   },
+   {
+    "id": "s04-s017",
+    "speaker": "REP",
+    "start": 89.59,
+    "text": "Got it, well I'll send over some info and a few times for a demo and you can share it with Frank."
+   },
+   {
+    "id": "s04-s018",
+    "speaker": "BUY",
+    "start": 95.43,
+    "text": "Okay."
+   },
+   {
+    "id": "s04-s019",
+    "speaker": "REP",
+    "start": 96.53,
+    "text": "Cool talk soon Nina."
+   }
+  ]
+ },
+ "reply": "{\"fields\":{\"metrics\":[{\"value\":\"They get 2 rejected deliveries a week.\",\"number\":2,\"unit\":\"deliveries per week\",\"evidence\":[{\"segment\":\"s04-s006\",\"quote\":\"two or three rejected deliveries a week\"}]},{\"value\":\"They get 3 rejected deliveries a week.\",\"number\":3,\"unit\":\"deliveries per week\",\"evidence\":[{\"segment\":\"s04-s006\",\"quote\":\"two or three rejected deliveries a week\"}]},{\"value\":\"Each rejected delivery costs about $1,200.\",\"number\":1200,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s04-s008\",\"quote\":\"Each rejected delivery costs us about $1200\"}]}],\"economic_buyer\":[{\"value\":\"Frank is the owner and signs everything.\",\"name\":\"Frank\",\"role\":\"owner\",\"evidence\":[{\"segment\":\"s04-s014\",\"quote\":\"the owner, Frank. He signs everything\"}]}],\"decision_criteria\":[{\"value\":\"Fresh fish has to stay right around 32 degrees.\",\"number\":32,\"unit\":\"degrees\",\"evidence\":[{\"segment\":\"s04-s004\",\"quote\":\"Fresh fish has to stay right around 32 degrees\"}]}],\"decision_process\":[{\"value\":\"Nina would run it by Frank.\",\"evidence\":[{\"segment\":\"s04-s014\",\"quote\":\"I'd have to run it by the owner, Frank\"}]}],\"paper_process\":[],\"pain\":[{\"value\":\"The cab display doesn't record anything.\",\"evidence\":[{\"segment\":\"s04-s008\",\"quote\":\"The trucks have a display in the cab, but it doesn't record anything\"}]},{\"value\":\"When fresh fish gets warm, restaurants send it back.\",\"evidence\":[{\"segment\":\"s04-s004\",\"quote\":\"if it gets warm, the restaurants send it back\"}]},{\"value\":\"Airport pickups are the worst for temperature because the fish sits on the tarmac before they get it.\",\"evidence\":[{\"segment\":\"s04-s012\",\"quote\":\"those runs are the worst for temperature. The fish sits on the tarmac before we even get it\"}]}],\"champion\":[],\"competition\":[{\"value\":\"Frostgauge was cheaper.\",\"evidence\":[{\"segment\":\"s04-s010\",\"quote\":\"We got a quote from Frostgauge last month. It was cheaper\"}]},{\"value\":\"Her drivers didn't like Frostgauge's app.\",\"evidence\":[{\"segment\":\"s04-s010\",\"quote\":\"my drivers didn't like the app\"}]}],\"critical_event\":[],\"budget\":[],\"pricing\":[],\"amount\":[],\"close_date\":[],\"next_steps\":[{\"value\":\"Derek will send Nina some information and a few times for a demo.\",\"owner\":\"seller\",\"evidence\":[{\"segment\":\"s04-s017\",\"quote\":\"I'll send over some info and a few times for a demo\"}]}],\"stakeholders\":[],\"risks\":[{\"value\":\"Frank's decision speed depends on the price.\",\"evidence\":[{\"segment\":\"s04-s016\",\"quote\":\"Depends on the price\"}]}],\"account\":[{\"value\":\"They have 12 trucks.\",\"number\":12,\"unit\":\"trucks\",\"evidence\":[{\"segment\":\"s04-s002\",\"quote\":\"12 trucks\"}]},{\"value\":\"They deliver fresh and frozen products mostly to restaurants.\",\"evidence\":[{\"segment\":\"s04-s002\",\"quote\":\"fresh and frozen mostly to restaurants\"}]},{\"value\":\"They do airport pickups 2 times a week.\",\"number\":2,\"unit\":\"times per week\",\"evidence\":[{\"segment\":\"s04-s012\",\"quote\":\"airport pickups twice a week\"}]}],\"seller_claims\":[{\"value\":\"Brinewatch sensors track every compartment.\",\"evidence\":[{\"segment\":\"s04-s005\",\"quote\":\"Our sensors track every compartment\"}]},{\"value\":\"A text alert comes when something drifts.\",\"evidence\":[{\"segment\":\"s04-s005\",\"quote\":\"the second something drifts you get a text\"}]},{\"value\":\"The app is easy to use.\",\"evidence\":[{\"segment\":\"s04-s005\",\"quote\":\"the reporting is super easy\"}]},{\"value\":\"Most seafood customers see the difference in the first month.\",\"evidence\":[{\"segment\":\"s04-s005\",\"quote\":\"most of our seafood customers see the difference in the first month\"}]},{\"value\":\"Brinewatch would catch rejected deliveries before they get to the restaurant.\",\"evidence\":[{\"segment\":\"s04-s007\",\"quote\":\"with us you'd catch those before they ever get to the restaurant\"}]},{\"value\":\"Drivers basically don't have to touch the app.\",\"evidence\":[{\"segment\":\"s04-s011\",\"quote\":\"the drivers basically don't have to touch it\"}]},{\"value\":\"The app works without a signal.\",\"evidence\":[{\"segment\":\"s04-s011\",\"quote\":\"it works without a signal\"}]}]},\"commitments\":[{\"by\":\"seller\",\"who\":\"REP\",\"what\":\"Send Nina some information and a few times for a demo.\",\"kind\":\"deliverable\",\"evidence\":[{\"segment\":\"s04-s017\",\"quote\":\"I'll send over some info and a few times for a demo\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 1,
+ "kept": 23,
+ "ms": 33415,
+ "meta": {
+  "ms": 33412,
+  "input_tokens": 2249,
+  "output_tokens": 4237,
+  "cost_usd": 0.002343,
+  "usage": {
+   "prompt_tokens": 2249,
+   "completion_tokens": 4237,
+   "total_tokens": 6486,
+   "prompt_tokens_details": {
+    "cached_tokens": 1236,
+    "cache_write_tokens": 1010,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3153,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

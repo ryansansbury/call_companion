@@ -1,0 +1,137 @@
+{
+ "step": "followup",
+ "call": "s06",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:51:41",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "9053b82e11c02ea5",
+ "input": {
+  "call": "s06",
+  "date": "2026-09-24",
+  "rep": "Derek Shaw",
+  "company": "Brinewatch",
+  "to": [
+   "Tara Quinn"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "Their refund rate on warm boxes hit about 3% of boxes this summer",
+    "number": 3,
+    "unit": "%"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "They ship thousands of boxes a week"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Boxes sit on porches and customers open them warm, and the complaints hurt more than the refunds"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Send Tara a deck with case studies"
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "A few dollars a box won't work for them"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "They run 6 vans for local delivery",
+    "number": 6,
+    "unit": "vans"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Most of their boxes ship by parcel"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Brinewatch says it can save them a ton on spoilage"
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Brinewatch puts sensors on every truck"
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "Alerts go out the second something drifts"
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "The reporting basically runs itself"
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "Their sensors can go right inside the boxes"
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "The sensors would show exactly when the boxes warmed up"
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "Customers would see that they care"
+   },
+   {
+    "id": "seller_claims-8",
+    "field": "seller_claims",
+    "value": "Every van gets a sensor and they would see them on one dashboard"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send Tara a deck with case studies"
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Follow-up on warm-box concerns\",\"sentences\":[{\"text\":\"Thanks for the conversation, Tara.\",\"facts\":[]},{\"text\":\"You said boxes sit on porches and customers open them warm, and that the complaints matter more than the refunds.\",\"facts\":[\"pain-1\"]},{\"text\":\"Your refund rate on warm boxes reached about 3% of boxes this summer, and you ship thousands of boxes a week.\",\"facts\":[\"metrics-1\",\"metrics-2\"]},{\"text\":\"Most of your boxes ship by parcel, and you run 6 vans for local delivery.\",\"facts\":[\"account-1\",\"account-2\"]},{\"text\":\"You noted that a few dollars per box would not work for you.\",\"facts\":[\"risks-1\"]},{\"text\":\"I’ll send you a deck with case studies.\",\"facts\":[\"next_steps-1\",\"commitments-1\"]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 4578,
+ "meta": {
+  "ms": 4575,
+  "input_tokens": 890,
+  "output_tokens": 490,
+  "cost_usd": 0.000334,
+  "usage": {
+   "prompt_tokens": 890,
+   "completion_tokens": 490,
+   "total_tokens": 1380,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 304,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

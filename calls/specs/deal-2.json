@@ -1,0 +1,39 @@
+{
+  "id": "deal-2", "kind": "deal", "split": "deal", "title": "Technical validation", "date": "2026-09-15", "length_s": 330,
+  "speakers": ["AE", "SE", "IT", "OPS"],
+  "rep": {"talk_share": 0.45, "misses": [], "note": "Balanced. Marcus asks how the decision gets made and who else is in the running, and Priya cuts Tom off once"},
+  "facts": [
+    {"id": "d2f01", "field": "decision_criteria", "value": "Nothing can need a hole in the firewall", "line": "d2-003", "terms": ["firewall"]},
+    {"id": "d2f02", "field": "decision_criteria", "value": "No new set of passwords to manage", "line": "d2-008", "terms": ["passwords"]},
+    {"id": "d2f03", "field": "decision_criteria", "value": "Two years of history matters, since some customers ask for a full year of records", "line": "d2-012", "number": 2, "unit": "years", "terms": ["two years", "full year of records"]},
+    {"id": "d2f04", "field": "decision_criteria", "value": "Alerts must reach dispatch within five minutes and escalate to Rachel if nobody acknowledges them", "line": "d2-017", "number": 5, "unit": "minutes", "terms": ["five minutes", "acknowledges"]},
+    {"id": "d2f05", "field": "decision_criteria", "value": "The driver app has to work with no signal, since half the routes cross dead zones", "line": "d2-019", "terms": ["no signal", "dead zones"]},
+    {"id": "d2f06", "field": "decision_criteria", "value": "A pilot on a few trucks on real routes, with alerts that show up", "line": "d2-029", "terms": ["pilot", "real routes"]},
+    {"id": "d2f07", "field": "decision_criteria", "value": "Installs at night, since trucks can't be pulled during the week", "line": "d2-031", "terms": ["at night", "pull trucks"]},
+    {"id": "d2f08", "field": "decision_process", "value": "Rachel recommends, Tom signs off on security, and anything over $25,000 goes to the CFO, not the board", "lines": ["d2-022", "d2-024"], "number": 25000, "unit": "USD", "terms": ["recommendation", "sign off on security"]},
+    {"id": "d2f09", "field": "economic_buyer", "value": "Linda Marsh, the CFO, approves anything over $25,000 and has the final word", "lines": ["d2-022", "d2-024"], "terms": ["Linda Marsh", "CFO", "final word"]},
+    {"id": "d2f10", "field": "competition", "value": "Frostgauge's hardware came in about 30% cheaper, but it has no driver app", "line": "d2-026", "number": 30, "unit": "percent", "terms": ["Frostgauge", "driver app"]},
+    {"id": "d2f11", "field": "paper_process", "value": "The security questionnaire has to be filled out before anything is installed", "line": "d2-032", "terms": ["security questionnaire"]},
+    {"id": "d2f12", "field": "stakeholders", "value": "Linda Marsh, the CFO, approves the purchase", "line": "d2-022", "terms": ["Linda Marsh"]},
+    {"id": "d2f13", "field": "champion", "value": "Rachel makes the recommendation and will bring Linda to the next call", "lines": ["d2-022", "d2-035"], "terms": ["recommendation", "bring Linda"]},
+    {"id": "d2f14", "field": "next_steps", "value": "Tom sends the security questionnaire by Friday", "line": "d2-032", "date": "2026-09-18", "owner": "buyer", "terms": ["by Friday"]},
+    {"id": "d2f15", "field": "next_steps", "value": "Priya sends a written pilot plan for the four trucks by Thursday", "line": "d2-033", "date": "2026-09-17", "owner": "seller", "number": 4, "unit": "trucks", "terms": ["pilot plan", "by Thursday"]},
+    {"id": "d2f16", "field": "next_steps", "value": "A call with Linda next Tuesday at ten", "line": "d2-035", "date": "2026-09-22", "owner": "buyer", "terms": ["Next Tuesday at ten", "bring Linda"]},
+    {"id": "d2f17", "field": "seller_claims", "value": "Gateways run on cellular, so nothing touches the network or opens a port", "line": "d2-004", "terms": ["cellular", "open a port"]},
+    {"id": "d2f18", "field": "seller_claims", "value": "Rhyolite owns the data, stored in the United States, with two years of history and full export", "line": "d2-011", "terms": ["United States", "two years"]},
+    {"id": "d2f19", "field": "seller_claims", "value": "A four-truck, thirty-day pilot, installed overnight at the yard", "line": "d2-030", "number": 30, "unit": "days", "terms": ["four trucks", "overnight"]},
+    {"id": "d2f20", "field": "risks", "value": "Frostgauge is in the running with cheaper hardware", "line": "d2-026", "terms": ["Frostgauge", "cheaper"]},
+    {"id": "d2f21", "field": "seller_claims", "value": "Readings go to the routing software in a nightly file, or per delivery through an API", "line": "d2-014", "terms": ["nightly file", "API"]},
+    {"id": "d2f22", "field": "decision_criteria", "value": "A nightly file to the routing software is fine to start, without opening the routing system up", "line": "d2-015", "terms": ["nightly file", "routing system"]},
+    {"id": "d2f23", "field": "account", "value": "Only one dispatcher works overnight", "line": "d2-017", "terms": ["one dispatcher"]},
+    {"id": "d2f24", "field": "account", "value": "The dock Wi-Fi is unreliable, and handhelds drop off it in the freezer", "line": "d2-006", "terms": ["dock Wi-Fi"]},
+    {"id": "d2f25", "field": "account", "value": "Six vendors already have their own portals for IT to manage", "line": "d2-008", "number": 6, "unit": "vendors", "terms": ["portals"]}
+  ],
+  "commitments": [
+    {"id": "d2k01", "by": "buyer", "who": "IT", "what": "Send Rhyolite's security questionnaire by Friday", "kind": "deliverable", "due": "2026-09-18", "line": "d2-032", "terms": ["by Friday"]},
+    {"id": "d2k02", "by": "seller", "who": "SE", "what": "Send a written pilot plan for the four trucks by Thursday", "kind": "deliverable", "due": "2026-09-17", "line": "d2-033", "terms": ["pilot plan"]},
+    {"id": "d2k03", "by": "buyer", "who": "OPS", "what": "Bring Linda to next Tuesday's call", "kind": "meeting", "due": "2026-09-22", "line": "d2-035", "terms": ["bring Linda"]},
+    {"id": "d2k04", "by": "seller", "who": "AE", "what": "Send the invite for next Tuesday", "kind": "meeting", "line": "d2-036", "terms": ["send the invite"]}
+  ],
+  "absent": ["metrics", "pain", "critical_event", "budget", "pricing", "amount", "close_date"]
+}

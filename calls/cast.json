@@ -1,0 +1,33 @@
+{
+  "note": "The deal's cast, with three candidate stock voices for each role and the line each sample says. 'voice' is the chosen voice (11/7): the first candidate for each role except the sales engineer, who moved from af_nicole to af_bella since af_nicole sounds breathy. The scored set's people live in their own call specs. Kokoro-82M stock voices only, never a clone.",
+  "seller": "Brinewatch",
+  "buyer": "Rhyolite Foodservice",
+  "competitor": "Frostgauge",
+  "deal": {
+    "AE": {
+      "name": "Marcus Webb", "role": "Account executive", "company": "Brinewatch", "side": "seller",
+      "voice": "am_michael", "speed": 1.0, "candidates": ["am_michael", "am_adam", "am_eric"],
+      "sample": "Thanks for making the time, Rachel. Before I show you anything, I'd love to hear how you're keeping an eye on temperatures across the fleet today."
+    },
+    "SE": {
+      "name": "Priya Natarajan", "role": "Sales engineer", "company": "Brinewatch", "side": "seller",
+      "voice": "af_bella", "speed": 1.0, "candidates": ["af_nicole", "af_sarah", "af_bella"],
+      "sample": "The gateway rides on cellular, so the dock's Wi-Fi never comes into it, and every reading lands in your history within a minute."
+    },
+    "OPS": {
+      "name": "Rachel Torres", "role": "Director of operations", "company": "Rhyolite Foodservice", "side": "buyer",
+      "voice": "af_heart", "speed": 1.0, "candidates": ["af_heart", "af_jessica", "af_river"],
+      "sample": "Honestly? A reefer unit died overnight two weeks ago, and nobody knew until load-out. That was fourteen thousand dollars of seafood and dairy."
+    },
+    "IT": {
+      "name": "Tom Becker", "role": "IT manager", "company": "Rhyolite Foodservice", "side": "buyer",
+      "voice": "am_liam", "speed": 1.0, "candidates": ["am_liam", "am_echo", "am_puck"],
+      "sample": "My first question is what this has to touch. If it needs a hole in the firewall, we're going to have a long conversation."
+    },
+    "CFO": {
+      "name": "Linda Marsh", "role": "Chief financial officer", "company": "Rhyolite Foodservice", "side": "buyer",
+      "voice": "af_kore", "speed": 1.0, "candidates": ["af_kore", "af_aoede", "af_nova"],
+      "sample": "I've seen the numbers Rachel sent over. What I need to understand is what it costs if we start with a pilot and walk away after thirty days."
+    }
+  }
+}

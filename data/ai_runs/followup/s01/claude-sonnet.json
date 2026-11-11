@@ -1,0 +1,217 @@
+{
+ "step": "followup",
+ "call": "s01",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:13:06",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "60bf50944b1dd920",
+ "input": {
+  "call": "s01",
+  "date": "2026-09-09",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Angela Ruiz"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "About $3,000 a month lost in milk",
+    "number": 3000,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Mark Feldman, assistant superintendent for operations, controls the equipment budget"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Keeping the price under $20,000 would make Mark's decision easier",
+    "number": 20000,
+    "unit": "USD"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Angela would bring the purchase to Mark Feldman"
+   },
+   {
+    "id": "decision_process-2",
+    "field": "decision_process",
+    "value": "Anything over 50,000 would also need a school board vote",
+    "number": 50000
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Cold chain is not tracked, so a van stuck in traffic is only found out when a cafeteria manager calls"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Milk arrived warm and schools had to throw it out last month"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Kids go without milk that day and parents hear about it"
+   },
+   {
+    "id": "pain-4",
+    "field": "pain",
+    "value": "The state inspector reviews temperature logs and the clipboards are a mess"
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Angela said she would bring it to Mark Feldman herself"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "No other vendors are being considered; Brinewatch is the first call"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "The next state inspection is in March"
+   },
+   {
+    "id": "critical_event-2",
+    "field": "critical_event",
+    "value": "Angela wants something in place by winter break"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "Nothing is budgeted in this year's budget"
+   },
+   {
+    "id": "budget-2",
+    "field": "budget",
+    "value": "A nutrition equipment grant covers up to $20,000",
+    "number": 20000,
+    "unit": "USD"
+   },
+   {
+    "id": "budget-3",
+    "field": "budget",
+    "value": "The district can apply for the nutrition equipment grant in January"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Jenna sends a quote for the vans and the kitchen's walk-in cooler"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Jenna includes language for the grant application with the quote"
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Jenna follows up about a time for a 15-minute meeting with Mark after he has seen the quote",
+    "number": 15,
+    "unit": "minutes"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Mark Feldman controls the equipment budget"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "All meals are cooked at a central kitchen"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Meals go out on 12 vans every morning",
+    "number": 12,
+    "unit": "vans"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "Drivers check a thermometer at loading and at drop-off and write it on a clipboard"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send a quote for the vans and the kitchen's walk-in cooler"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Include language for the grant application with the quote"
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Follow up about a time with Mark"
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Agreed to plan a meeting with Mark the week after next"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Next steps after our call: quote and grant language\", \"sentences\": [{\"text\": \"Hi Angela, thank you for the time on our call.\", \"facts\": []}, {\"text\": \"I heard that cold chain isn't tracked across your 12 vans, so a van stuck in traffic is only found out when a cafeteria manager calls.\", \"facts\": [\"pain-1\", \"account-2\"]}, {\"text\": \"Milk arrived warm and schools had to throw it out last month, and about $3,000 a month is lost in milk.\", \"facts\": [\"pain-2\", \"metrics-1\"]}, {\"text\": \"You also want the temperature logs in better shape, since the state inspector reviews them and the next inspection is in March, with something in place by winter break.\", \"facts\": [\"pain-4\", \"critical_event-1\", \"critical_event-2\"]}, {\"text\": \"I will send a quote for the vans and the kitchen's walk-in cooler, with language for the grant application included.\", \"facts\": [\"next_steps-1\", \"next_steps-2\", \"commitments-1\", \"commitments-2\"]}, {\"text\": \"The nutrition equipment grant covers up to $20,000, and the district can apply for it in January.\", \"facts\": [\"budget-2\", \"budget-3\"]}, {\"text\": \"You said you would bring it to Mark Feldman yourself, and I will follow up about a time for a 15-minute meeting with him after he has seen the quote.\", \"facts\": [\"champion-1\", \"decision_process-1\", \"next_steps-3\", \"commitments-3\"]}, {\"text\": \"Best, Jenna Cole, Brinewatch\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 11226,
+ "meta": {
+  "ms": 10126,
+  "api_ms": 9969,
+  "input_tokens": 6714,
+  "output_tokens": 1519,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6712,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1519,
+   "output_tokens_details": {
+    "thinking_tokens": 988
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6712,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1519,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6712,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6712
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.042041999999999996,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

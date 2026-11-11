@@ -1,0 +1,302 @@
+{
+ "step": "followup",
+ "call": "deal-2",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:45:02",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "231c716be978c9e6",
+ "input": {
+  "call": "deal-2",
+  "date": "2026-09-15",
+  "rep": "Marcus Webb",
+  "company": "Brinewatch",
+  "to": [
+   "Tom Becker",
+   "Rachel Torres"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "Dispatch should know within 5 minutes",
+    "number": 5,
+    "unit": "minutes"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Linda Marsh, the CFO, has the final word"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "The solution must not touch the network or require opening a port"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "The solution must not require another set of passwords"
+   },
+   {
+    "id": "decision_criteria-3",
+    "field": "decision_criteria",
+    "value": "Data ownership, location, and retention answers matter to the decision"
+   },
+   {
+    "id": "decision_criteria-4",
+    "field": "decision_criteria",
+    "value": "Two years of records matters to them",
+    "number": 2,
+    "unit": "years"
+   },
+   {
+    "id": "decision_criteria-5",
+    "field": "decision_criteria",
+    "value": "A nightly file is acceptable to start, and they would rather not open up the routing system yet"
+   },
+   {
+    "id": "decision_criteria-6",
+    "field": "decision_criteria",
+    "value": "If nobody acknowledges an alert, it should come to Rachel"
+   },
+   {
+    "id": "decision_criteria-7",
+    "field": "decision_criteria",
+    "value": "The driver app has to work with no signal"
+   },
+   {
+    "id": "decision_criteria-8",
+    "field": "decision_criteria",
+    "value": "Before Linda sees it, they need a pilot on real routes, ideally routes with the worst dead zones, and alerts that show up at 2 in the morning",
+    "number": 2,
+    "unit": "AM"
+   },
+   {
+    "id": "decision_criteria-9",
+    "field": "decision_criteria",
+    "value": "Installs need to happen at night because they cannot pull trucks during the week"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Rachel makes the recommendation"
+   },
+   {
+    "id": "decision_process-2",
+    "field": "decision_process",
+    "value": "Tom must sign off on security"
+   },
+   {
+    "id": "decision_process-3",
+    "field": "decision_process",
+    "value": "Anything over $25,000 goes to Linda for approval",
+    "number": 25000,
+    "unit": "USD"
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "Tom needs the security questionnaire filled out before anything gets installed"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Vendors have promised not to touch the network and later asked for a VPN"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Dock Wi-Fi is unreliable, and handhelds drop off it in the freezer"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Managing vendor portals creates account-chasing work when someone leaves",
+    "number": 6,
+    "unit": "vendors"
+   },
+   {
+    "id": "pain-4",
+    "field": "pain",
+    "value": "Routes go through dead zones, so drivers cannot wait for service"
+   },
+   {
+    "id": "pain-5",
+    "field": "pain",
+    "value": "They cannot pull trucks during the week because every truck is running"
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Rachel makes the recommendation"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "They are also talking to Frostgauge"
+   },
+   {
+    "id": "competition-2",
+    "field": "competition",
+    "value": "Frostgauge's hardware came in about 30% cheaper",
+    "number": 30,
+    "unit": "percent"
+   },
+   {
+    "id": "competition-3",
+    "field": "competition",
+    "value": "Frostgauge does not have a driver app, which is a big deal for them"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Send Tom hours for the security questionnaire"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Send Tom a written pilot plan for 4 trucks"
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Bring Linda to the call"
+   },
+   {
+    "id": "next_steps-4",
+    "field": "next_steps",
+    "value": "Send the call invite"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Linda Marsh is the CFO"
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "The security questionnaire is long and may take time"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Half the routes go through dead zones past the county line"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "There is one overnight dispatcher",
+    "number": 1,
+    "unit": "dispatcher"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "They are running every truck they have"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "The solution does not touch the network, and nothing on the buyer's side has to open a port"
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Each truck and the warehouse gateway use cellular"
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "If a truck loses signal, the gateway stores readings and sends them when it reconnects"
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "The solution supports single sign-on and lets them turn someone off in one place"
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "The buyer owns the data, it is stored in the United States, and 2 years of history are kept by default",
+    "number": 2,
+    "unit": "years"
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "They can export all of the data whenever they want"
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "The solution can send a nightly file or push each delivery's readings to the stop record through an API"
+   },
+   {
+    "id": "seller_claims-8",
+    "field": "seller_claims",
+    "value": "If nobody acknowledges an alert in 5 minutes, it goes to the next person on the list",
+    "number": 5,
+    "unit": "minutes"
+   },
+   {
+    "id": "seller_claims-9",
+    "field": "seller_claims",
+    "value": "The driver app keeps logging without signal and syncs later"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send hours for the security questionnaire"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Send a written pilot plan for the four trucks"
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Bring Linda to the call"
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Send the invite"
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Follow-up on security and pilot\",\"sentences\":[{\"text\":\"Thank you for the conversation.\",\"facts\":[]},{\"text\":\"I heard that the solution must not touch your network or require an open port, must not require another set of passwords, and the driver app needs to work without a signal.\",\"facts\":[\"decision_criteria-1\",\"decision_criteria-2\",\"decision_criteria-7\"]},{\"text\":\"You also need answers on data ownership, location, and retention, plus a pilot on real routes—ideally the worst dead zones—with alerts showing up at 2 in the morning before Linda sees it.\",\"facts\":[\"decision_criteria-3\",\"decision_criteria-8\"]},{\"text\":\"A nightly file is acceptable to start, unacknowledged alerts should come to Rachel, and installs need to happen at night.\",\"facts\":[\"decision_criteria-5\",\"decision_criteria-6\",\"decision_criteria-9\"]},{\"text\":\"I’ll send Tom hours for the security questionnaire and a written pilot plan for four trucks.\",\"facts\":[\"commitments-1\",\"commitments-2\"]},{\"text\":\"I’ll bring Linda to the call and send the invite.\",\"facts\":[\"commitments-3\",\"commitments-4\"]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 9214,
+ "meta": {
+  "ms": 9208,
+  "input_tokens": 1979,
+  "output_tokens": 909,
+  "cost_usd": 0.000652,
+  "usage": {
+   "prompt_tokens": 1979,
+   "completion_tokens": 909,
+   "total_tokens": 2888,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1976,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 643,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

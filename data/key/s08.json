@@ -1,0 +1,318 @@
+{
+ "call": "s08",
+ "facts": [
+  {
+   "id": "s08f01",
+   "field": "paper_process",
+   "value": "A formal RFP in November inviting three vendors",
+   "lines": [
+    "s08-002"
+   ],
+   "terms": [
+    "formal RFP",
+    "November"
+   ],
+   "segments": [
+    "s08-s002"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 3,
+   "unit": "vendors"
+  },
+  {
+   "id": "s08f02",
+   "field": "close_date",
+   "value": "They pick a vendor by December 15",
+   "lines": [
+    "s08-002"
+   ],
+   "terms": [
+    "December fifteenth"
+   ],
+   "segments": [
+    "s08-s002"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-12-15"
+  },
+  {
+   "id": "s08f03",
+   "field": "competition",
+   "value": "Two other vendors will be invited to the RFP",
+   "lines": [
+    "s08-002"
+   ],
+   "terms": [
+    "three vendors"
+   ],
+   "segments": [
+    "s08-s002"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s08f04",
+   "field": "account",
+   "value": "Fifteen trucks of frozen dough",
+   "lines": [
+    "s08-004"
+   ],
+   "terms": [
+    "frozen dough"
+   ],
+   "segments": [
+    "s08-s004"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 15,
+   "unit": "trucks"
+  },
+  {
+   "id": "s08f05",
+   "field": "decision_criteria",
+   "value": "Product has to stay at zero degrees or below",
+   "lines": [
+    "s08-004"
+   ],
+   "terms": [
+    "zero degrees or below"
+   ],
+   "segments": [
+    "s08-s004"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s08f06",
+   "field": "metrics",
+   "value": "Forty-one temperature excursions last quarter",
+   "lines": [
+    "s08-004"
+   ],
+   "terms": [
+    "excursions"
+   ],
+   "segments": [
+    "s08-s004"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 41,
+   "unit": "excursions"
+  },
+  {
+   "id": "s08f07",
+   "field": "pain",
+   "value": "Each excursion means a product hold while quality checks it",
+   "lines": [
+    "s08-006"
+   ],
+   "terms": [
+    "product hold"
+   ],
+   "segments": [
+    "s08-s006"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s08f08",
+   "field": "budget",
+   "value": "The budget is already approved at $60,000 for the year",
+   "lines": [
+    "s08-006"
+   ],
+   "terms": [
+    "already approved"
+   ],
+   "segments": [
+    "s08-s006"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 60000,
+   "unit": "USD"
+  },
+  {
+   "id": "s08f09",
+   "field": "economic_buyer",
+   "value": "Raj Mehta, the COO, makes the final decision",
+   "lines": [
+    "s08-008"
+   ],
+   "terms": [
+    "Raj Mehta",
+    "COO"
+   ],
+   "segments": [
+    "s08-s008"
+   ],
+   "heard": false,
+   "missing": [
+    "Raj Mehta"
+   ]
+  },
+  {
+   "id": "s08f10",
+   "field": "decision_process",
+   "value": "A formal RFP with the COO making the final decision",
+   "lines": [
+    "s08-002",
+    "s08-008"
+   ],
+   "terms": [
+    "RFP",
+    "final decision"
+   ],
+   "segments": [
+    "s08-s002",
+    "s08-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s08f11",
+   "field": "decision_criteria",
+   "value": "Integration with the warehouse management system is required",
+   "lines": [
+    "s08-008"
+   ],
+   "terms": [
+    "warehouse management system"
+   ],
+   "segments": [
+    "s08-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s08f12",
+   "field": "stakeholders",
+   "value": "Raj Mehta, COO, and the quality team",
+   "lines": [
+    "s08-006",
+    "s08-008"
+   ],
+   "terms": [
+    "Raj Mehta",
+    "quality"
+   ],
+   "segments": [
+    "s08-s006",
+    "s08-s008"
+   ],
+   "heard": false,
+   "missing": [
+    "Raj Mehta"
+   ]
+  },
+  {
+   "id": "s08f13",
+   "field": "paper_process",
+   "value": "Company information for vendor registration is due by the end of next week, and there are no demos outside the process",
+   "lines": [
+    "s08-010",
+    "s08-012"
+   ],
+   "terms": [
+    "vendor registration",
+    "No demos outside the process"
+   ],
+   "segments": [
+    "s08-s010",
+    "s08-s012"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-10-09"
+  },
+  {
+   "id": "s08f14",
+   "field": "seller_claims",
+   "value": "Integrates with pretty much everything",
+   "lines": [
+    "s08-009"
+   ],
+   "terms": [
+    "integrate with pretty much everything"
+   ],
+   "segments": [
+    "s08-s009"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s08f15",
+   "field": "seller_claims",
+   "value": "Sensors in every truck, text alerts and a fleet dashboard, with fast setup",
+   "lines": [
+    "s08-007"
+   ],
+   "terms": [
+    "dashboard"
+   ],
+   "segments": [
+    "s08-s007"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s08f16",
+   "field": "next_steps",
+   "value": "Derek sends the vendor registration information this week",
+   "lines": [
+    "s08-011",
+    "s08-013"
+   ],
+   "terms": [
+    "this week"
+   ],
+   "segments": [
+    "s08-s011",
+    "s08-s013"
+   ],
+   "heard": true,
+   "missing": []
+  }
+ ],
+ "commitments": [
+  {
+   "id": "s08k01",
+   "field": "commitments",
+   "value": "Send the vendor registration information this week",
+   "lines": [
+    "s08-013"
+   ],
+   "terms": [
+    "this week"
+   ],
+   "segments": [
+    "s08-s013"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "REP",
+   "date": "2026-10-02"
+  }
+ ],
+ "absent": [
+  "champion",
+  "critical_event",
+  "pricing",
+  "amount",
+  "risks"
+ ],
+ "source": "transcript"
+}

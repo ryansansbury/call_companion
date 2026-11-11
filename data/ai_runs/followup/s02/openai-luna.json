@@ -1,0 +1,166 @@
+{
+ "step": "followup",
+ "call": "s02",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:48:30",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "f6957ba22fa38338",
+ "input": {
+  "call": "s02",
+  "date": "2026-09-10",
+  "rep": "Derek Shaw",
+  "company": "Brinewatch",
+  "to": [
+   "Paul Henning"
+  ],
+  "facts": [
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "The walk-in alarms only beep in the kitchen; one went off at night and nobody heard it until the morning shift, and a whole cooler of patient meals was lost."
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "The accreditation survey is coming up, and they always pull the temperature logs."
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Derek will send over the standard proposal."
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Paul will look at the proposal."
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "The IT department is pretty strict about devices on the hospital network."
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "The operation is just the hospital kitchen and has no trucks."
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "There are 4 walk-ins across the kitchen and patient floors.",
+    "number": 4,
+    "unit": "walk-ins"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "There are about 20 reach-ins across the kitchen and patient floors.",
+    "number": 20,
+    "unit": "reach-ins"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Brinewatch puts wireless temperature sensors in coolers, freezers, and trucks, and a temperature drift sends a text to the right person."
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Brinewatch has dashboards, reports, and a mobile app."
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "Every cooler and freezer gets a sensor, and they all appear on one screen.",
+    "number": 1,
+    "unit": "screen"
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "Brinewatch reports are timestamped automatically."
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "Brinewatch reports can be exported with one click.",
+    "number": 1,
+    "unit": "click"
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "Brinewatch alerts escalate to the next person if the first person does not respond."
+   },
+   {
+    "id": "seller_claims-8",
+    "field": "seller_claims",
+    "value": "Brinewatch logs would be automatic."
+   },
+   {
+    "id": "seller_claims-10",
+    "field": "seller_claims",
+    "value": "Brinewatch handles everything for setup."
+   },
+   {
+    "id": "seller_claims-11",
+    "field": "seller_claims",
+    "value": "Brinewatch integrates with most facility systems."
+   },
+   {
+    "id": "seller_claims-12",
+    "field": "seller_claims",
+    "value": "Brinewatch lets customers set up as many users as they want."
+   },
+   {
+    "id": "seller_claims-13",
+    "field": "seller_claims",
+    "value": "Brinewatch is all cellular and does not touch the hospital network."
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send Paul the standard proposal."
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Look at the proposal."
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Brinewatch follow-up\",\n \"sentences\":[{\"text\":\"Thanks for speaking with me.\",\"facts\":[]},{\"text\":\"I heard that the walk-in alarms only beep in the kitchen, and one went off at night without being heard until the morning shift, resulting in a cooler of patient meals being lost.\",\"facts\":[\"pain-1\"]},{\"text\":\"The accreditation survey is coming up, and temperature logs are always pulled.\",\"facts\":[\"critical_event-1\"]},{\"text\":\"I also noted that your IT department is strict about devices on the hospital network.\",\"facts\":[\"risks-1\"]},{\"text\":\"I’ll send over the standard proposal.\",\"facts\":[\"next_steps-1\",\"commitments-1\"]},{\"text\":\"Paul, you’ll look at the proposal.\",\"facts\":[\"next_steps-2\",\"commitments-2\"]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 6782,
+ "meta": {
+  "ms": 6778,
+  "input_tokens": 1151,
+  "output_tokens": 690,
+  "cost_usd": 0.00046,
+  "usage": {
+   "prompt_tokens": 1151,
+   "completion_tokens": 690,
+   "total_tokens": 1841,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1148,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 512,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

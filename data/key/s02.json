@@ -1,0 +1,264 @@
+{
+ "call": "s02",
+ "facts": [
+  {
+   "id": "s02f01",
+   "field": "account",
+   "value": "Only the hospital kitchen, with no trucks",
+   "lines": [
+    "s02-002"
+   ],
+   "terms": [
+    "don't have trucks",
+    "hospital kitchen"
+   ],
+   "segments": [
+    "s02-s002"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s02f02",
+   "field": "account",
+   "value": "Four walk-in coolers",
+   "lines": [
+    "s02-004"
+   ],
+   "terms": [
+    "walk-ins"
+   ],
+   "segments": [
+    "s02-s004"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 4,
+   "unit": "walk-ins"
+  },
+  {
+   "id": "s02f03",
+   "field": "account",
+   "value": "About twenty reach-ins across the kitchen and the patient floors",
+   "lines": [
+    "s02-004"
+   ],
+   "terms": [
+    "reach-ins",
+    "patient floors"
+   ],
+   "segments": [
+    "s02-s004"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 20,
+   "unit": "reach-ins"
+  },
+  {
+   "id": "s02f04",
+   "field": "pain",
+   "value": "Walk-in alarms only beep in the kitchen, and one went off at night with nobody to hear it until the morning shift",
+   "lines": [
+    "s02-006"
+   ],
+   "terms": [
+    "only beep",
+    "nobody heard"
+   ],
+   "segments": [
+    "s02-s006"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s02f05",
+   "field": "pain",
+   "value": "They lost a whole cooler of patient meals",
+   "lines": [
+    "s02-008"
+   ],
+   "terms": [
+    "patient meals"
+   ],
+   "segments": [
+    "s02-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s02f06",
+   "field": "critical_event",
+   "value": "An accreditation survey is coming up, and it always pulls the temperature logs",
+   "lines": [
+    "s02-008"
+   ],
+   "terms": [
+    "accreditation survey"
+   ],
+   "segments": [
+    "s02-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s02f07",
+   "field": "decision_criteria",
+   "value": "IT is strict about devices on the hospital network",
+   "lines": [
+    "s02-010"
+   ],
+   "terms": [
+    "hospital network"
+   ],
+   "segments": [
+    "s02-s011"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s02f08",
+   "field": "stakeholders",
+   "value": "The hospital's IT department",
+   "lines": [
+    "s02-010"
+   ],
+   "terms": [
+    "IT department"
+   ],
+   "segments": [
+    "s02-s011"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s02f09",
+   "field": "seller_claims",
+   "value": "Wireless sensors text the right person the second anything drifts, and customers say it pays for itself in the first year",
+   "lines": [
+    "s02-001"
+   ],
+   "terms": [
+    "pays for itself"
+   ],
+   "segments": [
+    "s02-s001"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s02f10",
+   "field": "seller_claims",
+   "value": "Setup takes about a day, and Brinewatch handles everything",
+   "lines": [
+    "s02-009"
+   ],
+   "terms": [
+    "about a day"
+   ],
+   "segments": [
+    "s02-s010"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s02f11",
+   "field": "seller_claims",
+   "value": "It's all cellular and doesn't touch the network",
+   "lines": [
+    "s02-011"
+   ],
+   "terms": [
+    "cellular"
+   ],
+   "segments": [
+    "s02-s012"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s02f12",
+   "field": "next_steps",
+   "value": "Derek sends the standard proposal for the four walk-ins and twenty reach-ins today",
+   "lines": [
+    "s02-013",
+    "s02-015"
+   ],
+   "terms": [
+    "proposal",
+    "today"
+   ],
+   "segments": [
+    "s02-s014",
+    "s02-s016"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-10"
+  }
+ ],
+ "commitments": [
+  {
+   "id": "s02k01",
+   "field": "commitments",
+   "value": "Send the standard proposal today",
+   "lines": [
+    "s02-015"
+   ],
+   "terms": [
+    "today"
+   ],
+   "segments": [
+    "s02-s016"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "REP",
+   "date": "2026-09-10"
+  },
+  {
+   "id": "s02k02",
+   "field": "commitments",
+   "value": "Look at the proposal",
+   "lines": [
+    "s02-014"
+   ],
+   "terms": [
+    "look at it"
+   ],
+   "segments": [
+    "s02-s015"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "buyer",
+   "who": "BUY",
+   "date": null
+  }
+ ],
+ "absent": [
+  "metrics",
+  "economic_buyer",
+  "decision_process",
+  "paper_process",
+  "champion",
+  "competition",
+  "budget",
+  "pricing",
+  "amount",
+  "close_date",
+  "risks"
+ ],
+ "source": "transcript"
+}

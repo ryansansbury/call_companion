@@ -1,0 +1,263 @@
+{
+ "step": "coach",
+ "call": "deal-3",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:46:57",
+ "prompt_hash": "9f68caf76add4c2c",
+ "input_hash": "472832b424498e46",
+ "input": {
+  "call": "deal-3",
+  "date": "2026-09-22",
+  "rep": "AE",
+  "segments": [
+   {
+    "id": "d3-s001",
+    "speaker": "AE",
+    "start": 0.29,
+    "text": "Hi Rachel, hi Linda. Thanks for making the time. Linda, I know Rachel's filled you in so I'll keep this tight."
+   },
+   {
+    "id": "d3-s002",
+    "speaker": "CFO",
+    "start": 7.57,
+    "text": "Please do. I've seen the numbers Rachel sent over. What I need to understand is what this costs and what it costs if we start with a pilot and walk away."
+   },
+   {
+    "id": "d3-s003",
+    "speaker": "AE",
+    "start": 16.95,
+    "text": "Fair. Let me start with your numbers, not hours. Rachel told us you wrote off about $90,000 last year between spoiled loads and warm delivery credits, with the credits running about $5,000 a month. And someone in the office spends about two hours a day pulling stop sheets together, which is over 500 hours a year."
+   },
+   {
+    "id": "d3-s004",
+    "speaker": "OPS",
+    "start": 20.17,
+    "text": "That's right."
+   },
+   {
+    "id": "d3-s005",
+    "speaker": "OPS",
+    "start": 39.07,
+    "text": "And that's a normal week. During the audit, it's going to be all day, every day, and I can't spare anybody for that."
+   },
+   {
+    "id": "d3-s006",
+    "speaker": "CFO",
+    "start": 46.23,
+    "text": "OK and on your side."
+   },
+   {
+    "id": "d3-s007",
+    "speaker": "AE",
+    "start": 47.99,
+    "text": "For 38 trucks plus the warehouse, the hardware comes to about $31,000. Installation is about $4,500. Software is $1,260 a month. All in, year one is right around $50,000."
+   },
+   {
+    "id": "d3-s008",
+    "speaker": "CFO",
+    "start": 65.49,
+    "text": "That's more than we planned. We set aside about 40,000 for food safety this year, and that number already had some other things in it."
+   },
+   {
+    "id": "d3-s009",
+    "speaker": "AE",
+    "start": 73.83,
+    "text": "Understood. And if the alerts catch even half of what you lost last year, they cover most of that on their own."
+   },
+   {
+    "id": "d3-s010",
+    "speaker": "CFO",
+    "start": 81.25,
+    "text": "Maybe, but Frostgauge came in a lot cheaper, and honestly, if we waited in..."
+   },
+   {
+    "id": "d3-s011",
+    "speaker": "OPS",
+    "start": 84.63,
+    "text": "We can't wait, Linda. The audit's the week of the 19th, and without records for every delivery, we could lose the account."
+   },
+   {
+    "id": "d3-s012",
+    "speaker": "CFO",
+    "start": 92.31,
+    "text": "I know, next quarter would just be easier on the budget, and their hardware quote was about 30% under yours, so I have to ask why we'd pay more."
+   },
+   {
+    "id": "d3-s013",
+    "speaker": "OPS",
+    "start": 101.47,
+    "text": "Because they don't have a driver app, and half our"
+   },
+   {
+    "id": "d3-s014",
+    "speaker": "CFO",
+    "start": 103.75,
+    "text": "Besarentave как играет East Coast im trapped inside of St edges of light inside of state road safety and gamma Koala currency."
+   },
+   {
+    "id": "d3-s015",
+    "speaker": "OPS",
+    "start": 104.11,
+    "text": "routes are in dead zones. Without the app, we'd have the same gaps in the records we have now."
+   },
+   {
+    "id": "d3-s016",
+    "speaker": "AE",
+    "start": 109.71,
+    "text": "What if we start with the pilot? Four trucks for 30 days, and if the alerts don't do what we said, you walk away and owe nothing for the software."
+   },
+   {
+    "id": "d3-s017",
+    "speaker": "CFO",
+    "start": 119.59,
+    "text": "I'd want that in writing, a pilot first with a clean opt-out after 30 days."
+   },
+   {
+    "id": "d3-s018",
+    "speaker": "AE",
+    "start": 124.69,
+    "text": "We can do that, and to protect your timeline, I can probably get the installation waived."
+   },
+   {
+    "id": "d3-s019",
+    "speaker": "OPS",
+    "start": 126.89,
+    "text": "Oh, that helps."
+   },
+   {
+    "id": "d3-s020",
+    "speaker": "CFO",
+    "start": 130.77,
+    "text": "That would help, and after the pilot, is the software month to month, or are we signing up for a year?"
+   },
+   {
+    "id": "d3-s021",
+    "speaker": "AE",
+    "start": 136.51,
+    "text": "It's an annual agreement billed monthly."
+   },
+   {
+    "id": "d3-s022",
+    "speaker": "CFO",
+    "start": 139.53,
+    "text": "Okay, and the two trucks in the shop. I'm not paying for hardware on trucks that aren't running."
+   },
+   {
+    "id": "d3-s023",
+    "speaker": "AE",
+    "start": 144.99,
+    "text": "You won't. The price covers the $38 on the road, and the other two get sensors when they're back."
+   },
+   {
+    "id": "d3-s024",
+    "speaker": "CFO",
+    "start": 151.43,
+    "text": "Good, what does the paperwork look like?"
+   },
+   {
+    "id": "d3-s025",
+    "speaker": "AE",
+    "start": 153.67,
+    "text": "Our master agreement and an order form. Your counsel would review the agreement and then you'd issue a purchase order."
+   },
+   {
+    "id": "d3-s026",
+    "speaker": "CFO",
+    "start": 161.55,
+    "text": "Our outside counsel usually takes about a week, then purchasing needs a couple of days, and we pay everything net 45, so I'll need that in the order form."
+   },
+   {
+    "id": "d3-s027",
+    "speaker": "AE",
+    "start": 171.35,
+    "text": "Net 45 is fine."
+   },
+   {
+    "id": "d3-s028",
+    "speaker": "OPS",
+    "start": 173.61,
+    "text": "So if we want the whole fleet installed before the audit, we'd need a signature by October 2nd. Installs take about four days at 10 trucks a day."
+   },
+   {
+    "id": "d3-s029",
+    "speaker": "AE",
+    "start": 183.05,
+    "text": "That works on our side. Here's what I'd suggest. I'll send a revised proposal with the pilot clause in the net 45 terms by Thursday, and Linda, you'd let us know by Wednesday the 30th."
+   },
+   {
+    "id": "d3-s030",
+    "speaker": "CFO",
+    "start": 196.53,
+    "text": "That's fair, send it Thursday and I'll decide by the 30th."
+   },
+   {
+    "id": "d3-s031",
+    "speaker": "OPS",
+    "start": 200.33,
+    "text": "And I'll make sure Council has it the day it comes in."
+   },
+   {
+    "id": "d3-s032",
+    "speaker": "AE",
+    "start": 203.45,
+    "text": "Thank you both. I'll have it to you Thursday."
+   }
+  ],
+  "coaching": {
+   "talk_s": {
+    "AE": 98.5,
+    "CFO": 60.8,
+    "OPS": 34.1
+   },
+   "talk_share": {
+    "AE": 0.509,
+    "CFO": 0.314,
+    "OPS": 0.176
+   },
+   "seller_share": 0.509,
+   "longest_monologue_s": 21.6,
+   "longest_story_s": 27.8,
+   "patience_s": 0.47,
+   "interactivity": 10.0,
+   "rep_interruptions": 0,
+   "buyer_interruptions": 0,
+   "questions": 1,
+   "questions_per_10min": 2.9,
+   "open_share": 0.0
+  }
+ },
+ "reply": "{\"strengths\":[{\"text\":\"You tied the case to their actual losses and labor rather than leading with features.\",\"segment\":\"d3-s003\",\"quote\":\"Let me start with your numbers, not hours.\"},{\"text\":\"You offered a low-risk pilot that directly addressed their concern about walking away.\",\"segment\":\"d3-s016\",\"quote\":\"if the alerts don't do what we said, you walk away and owe nothing for the software.\"},{\"text\":\"You agreed on a proposal date and a clear decision deadline, which gave the deal momentum.\",\"segment\":\"d3-s029\",\"quote\":\"I'll send a revised proposal with the pilot clause in the net 45 terms by Thursday, and Linda, you'd let us know by Wednesday the 30th.\"}],\"improvements\":[{\"text\":\"With 50.9% talk share, just one question, and a 21.6-second longest monologue, pause after this recap to ask what matters most to them.\",\"segment\":\"d3-s003\",\"quote\":\"And someone in the office spends about two hours a day pulling stop sheets together, which is over 500 hours a year.\"},{\"text\":\"When the buyer raised the budget and a cheaper competitor, explore how they are comparing offers before relying on assumed savings.\",\"segment\":\"d3-s009\",\"quote\":\"And if the alerts catch even half of what you lost last year, they cover most of that on their own.\"},{\"text\":\"Clarify how the 30-day pilot opt-out works alongside the annual agreement when you explain the contract term.\",\"segment\":\"d3-s021\",\"quote\":\"It's an annual agreement billed monthly.\"}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 10260,
+ "meta": {
+  "ms": 10259,
+  "input_tokens": 2106,
+  "output_tokens": 1125,
+  "cost_usd": 0.000773,
+  "usage": {
+   "prompt_tokens": 2106,
+   "completion_tokens": 1125,
+   "total_tokens": 3231,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 2103,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 780,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

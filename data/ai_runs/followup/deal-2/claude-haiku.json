@@ -1,0 +1,343 @@
+{
+ "step": "followup",
+ "call": "deal-2",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:30:49",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "936728da6a02bed8",
+ "input": {
+  "call": "deal-2",
+  "date": "2026-09-15",
+  "rep": "Marcus Webb",
+  "company": "Brinewatch",
+  "to": [
+   "Tom Becker",
+   "Rachel Torres"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "Dispatch should know about a drifting unit within 5 minutes",
+    "number": 5,
+    "unit": "minutes"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Linda Marsh, CFO, is the final word on approval"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Tom needs no firewall hole, since one would mean a long conversation"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Tom does not want another set of passwords to manage"
+   },
+   {
+    "id": "decision_criteria-3",
+    "field": "decision_criteria",
+    "value": "Data ownership, storage location and retention decide Tom's view"
+   },
+   {
+    "id": "decision_criteria-4",
+    "field": "decision_criteria",
+    "value": "Two years of data retention matters to Rhyolite",
+    "number": 2,
+    "unit": "years"
+   },
+   {
+    "id": "decision_criteria-5",
+    "field": "decision_criteria",
+    "value": "Tom is fine starting with a nightly file rather than routing system access"
+   },
+   {
+    "id": "decision_criteria-6",
+    "field": "decision_criteria",
+    "value": "Alerts must actually show up at 2 in the morning"
+   },
+   {
+    "id": "decision_criteria-7",
+    "field": "decision_criteria",
+    "value": "The driver app must work with no signal"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Rachel makes the recommendation"
+   },
+   {
+    "id": "decision_process-2",
+    "field": "decision_process",
+    "value": "Tom must sign off on security before anything gets past him"
+   },
+   {
+    "id": "decision_process-3",
+    "field": "decision_process",
+    "value": "Rachel wants a pilot before anything goes to Linda"
+   },
+   {
+    "id": "decision_process-4",
+    "field": "decision_process",
+    "value": "Pilot of four trucks for 30 days, installed overnight at the yard",
+    "number": 4,
+    "unit": "trucks"
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "Security questionnaire must be filled out before anything is installed"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Overnight there is only one dispatcher, so drifting units need fast alerts"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Half of routes go through dead zones past the county line"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Dock Wi-Fi drops handhelds in the freezer about half the time"
+   },
+   {
+    "id": "pain-4",
+    "field": "pain",
+    "value": "Chasing vendor portal accounts whenever someone leaves"
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Rachel Torres will recommend the purchase and bring Linda Marsh to the next call"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Rhyolite is also talking to Frostgauge"
+   },
+   {
+    "id": "competition-2",
+    "field": "competition",
+    "value": "Frostgauge hardware came in about 30% cheaper",
+    "number": 30,
+    "unit": "percent"
+   },
+   {
+    "id": "competition-3",
+    "field": "competition",
+    "value": "Frostgauge has no driver app, which is a big deal for Rhyolite"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Priya sends the written pilot plan for the four trucks"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Tom sends the security questionnaire"
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Marcus sends the invite for the next call"
+   },
+   {
+    "id": "next_steps-4",
+    "field": "next_steps",
+    "value": "Rachel brings Linda Marsh to the next call"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Linda Marsh, CFO, gives final approval to anything over $25,000",
+    "number": 25000,
+    "unit": "USD"
+   },
+   {
+    "id": "stakeholders-2",
+    "field": "stakeholders",
+    "value": "Overnight dispatcher gets the first alert"
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "Trucks cannot be pulled during the week, so installs must happen at night"
+   },
+   {
+    "id": "risks-2",
+    "field": "risks",
+    "value": "The security questionnaire is long and needs time"
+   },
+   {
+    "id": "risks-3",
+    "field": "risks",
+    "value": "Tom does not want the routing system opened to anyone yet"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Rhyolite already has six vendors with their own portals",
+    "number": 6,
+    "unit": "vendors"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Rhyolite is running every truck it has right now"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "The dock Wi-Fi is a work in progress"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Brinewatch does not touch Rhyolite's network"
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Each truck gets a gateway on cellular"
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "No port has to be opened on Rhyolite's side"
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "Gateway stores readings during signal loss and sends them on reconnect"
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "Brinewatch supports single sign-on"
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "Rhyolite owns its data"
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "Data is stored in the United States"
+   },
+   {
+    "id": "seller_claims-8",
+    "field": "seller_claims",
+    "value": "Brinewatch keeps two years of history by default",
+    "number": 2,
+    "unit": "years"
+   },
+   {
+    "id": "seller_claims-9",
+    "field": "seller_claims",
+    "value": "Rhyolite can export all of its data whenever it wants"
+   },
+   {
+    "id": "seller_claims-10",
+    "field": "seller_claims",
+    "value": "Routing integration pushes readings to the stop record through an API"
+   },
+   {
+    "id": "seller_claims-11",
+    "field": "seller_claims",
+    "value": "Unacknowledged alerts escalate to the next person after 5 minutes",
+    "number": 5,
+    "unit": "minutes"
+   },
+   {
+    "id": "seller_claims-12",
+    "field": "seller_claims",
+    "value": "Driver app keeps logging without signal and syncs later"
+   },
+   {
+    "id": "seller_claims-13",
+    "field": "seller_claims",
+    "value": "Installs happen overnight at the yard, so no truck comes off the road"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send a written pilot plan for the four trucks"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Send the security questionnaire"
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Send the invite for the next call"
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Bring Linda Marsh to the next call"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Brinewatch pilot next steps\", \"sentences\": [{\"text\": \"Hi Tom and Rachel, thank you for your time on today's call.\", \"facts\": []}, {\"text\": \"Overnight there is only one dispatcher, so drifting units need alerts within 5 minutes, and half of your routes go through dead zones past the county line.\", \"facts\": [\"pain-1\", \"metrics-1\", \"pain-2\"]}, {\"text\": \"Tom, on data, Rhyolite owns its data, it is stored in the United States, and two years of history is kept by default.\", \"facts\": [\"decision_criteria-3\", \"seller_claims-6\", \"seller_claims-7\", \"seller_claims-8\"]}, {\"text\": \"The pilot is four trucks for 30 days, installed overnight at the yard so no truck comes off the road.\", \"facts\": [\"decision_process-4\", \"seller_claims-13\"]}, {\"text\": \"Rachel wants that pilot before anything goes to Linda Marsh, and Rachel will bring Linda to the next call.\", \"facts\": [\"decision_process-3\", \"next_steps-4\"]}, {\"text\": \"Priya sends the written pilot plan for the four trucks, and Tom sends the security questionnaire, which must be filled out before anything is installed.\", \"facts\": [\"next_steps-1\", \"next_steps-2\", \"paper_process-1\"]}, {\"text\": \"Marcus sends the invite for the next call.\", \"facts\": [\"next_steps-3\"]}, {\"text\": \"Thanks, Marcus Webb, Brinewatch.\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 12273,
+ "meta": {
+  "ms": 10787,
+  "api_ms": 10677,
+  "input_tokens": 7870,
+  "output_tokens": 2623,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7868,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 2623,
+   "output_tokens_details": {
+    "thinking_tokens": 2101
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7868,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2623,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7868,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7868
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0028853,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

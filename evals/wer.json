@@ -1,0 +1,266 @@
+{
+ "calls": {
+  "deal-1": {
+   "rows": {
+    "AE": {
+     "side": "seller",
+     "words": 565,
+     "errors": 6
+    },
+    "OPS": {
+     "side": "buyer",
+     "words": 348,
+     "errors": 5,
+     "clean_errors": 5
+    }
+   },
+   "overall": 0.012,
+   "seller": 0.0106,
+   "buyer_phone": 0.0144,
+   "buyer_clean": 0.0144,
+   "words": 913
+  },
+  "deal-2": {
+   "rows": {
+    "AE": {
+     "side": "seller",
+     "words": 123,
+     "errors": 0
+    },
+    "SE": {
+     "side": "seller",
+     "words": 207,
+     "errors": 0
+    },
+    "IT": {
+     "side": "buyer",
+     "words": 197,
+     "errors": 6,
+     "clean_errors": 6
+    },
+    "OPS": {
+     "side": "buyer",
+     "words": 215,
+     "errors": 1,
+     "clean_errors": 1
+    }
+   },
+   "overall": 0.0094,
+   "seller": 0.0,
+   "buyer_phone": 0.017,
+   "buyer_clean": 0.017,
+   "words": 742
+  },
+  "deal-3": {
+   "rows": {
+    "AE": {
+     "side": "seller",
+     "words": 270,
+     "errors": 5
+    },
+    "CFO": {
+     "side": "buyer",
+     "words": 206,
+     "errors": 23,
+     "clean_errors": 12
+    },
+    "OPS": {
+     "side": "buyer",
+     "words": 119,
+     "errors": 1,
+     "clean_errors": 1
+    }
+   },
+   "overall": 0.0487,
+   "seller": 0.0185,
+   "buyer_phone": 0.0738,
+   "buyer_clean": 0.04,
+   "words": 595
+  },
+  "s01": {
+   "rows": {
+    "REP": {
+     "side": "seller",
+     "words": 180,
+     "errors": 0
+    },
+    "BUY": {
+     "side": "buyer",
+     "words": 264,
+     "errors": 2,
+     "clean_errors": 2
+    }
+   },
+   "overall": 0.0045,
+   "seller": 0.0,
+   "buyer_phone": 0.0076,
+   "buyer_clean": 0.0076,
+   "words": 444
+  },
+  "s02": {
+   "rows": {
+    "REP": {
+     "side": "seller",
+     "words": 244,
+     "errors": 6
+    },
+    "BUY": {
+     "side": "buyer",
+     "words": 113,
+     "errors": 0,
+     "clean_errors": 2
+    }
+   },
+   "overall": 0.0168,
+   "seller": 0.0246,
+   "buyer_phone": 0.0,
+   "buyer_clean": 0.0177,
+   "words": 357
+  },
+  "s03": {
+   "rows": {
+    "REP": {
+     "side": "seller",
+     "words": 167,
+     "errors": 0
+    },
+    "BUY": {
+     "side": "buyer",
+     "words": 198,
+     "errors": 1,
+     "clean_errors": 1
+    }
+   },
+   "overall": 0.0027,
+   "seller": 0.0,
+   "buyer_phone": 0.0051,
+   "buyer_clean": 0.0051,
+   "words": 365
+  },
+  "s04": {
+   "rows": {
+    "REP": {
+     "side": "seller",
+     "words": 182,
+     "errors": 0
+    },
+    "BUY": {
+     "side": "buyer",
+     "words": 127,
+     "errors": 3,
+     "clean_errors": 5
+    }
+   },
+   "overall": 0.0097,
+   "seller": 0.0,
+   "buyer_phone": 0.0236,
+   "buyer_clean": 0.0394,
+   "words": 309
+  },
+  "s05": {
+   "rows": {
+    "REP": {
+     "side": "seller",
+     "words": 137,
+     "errors": 1
+    },
+    "BUY": {
+     "side": "buyer",
+     "words": 199,
+     "errors": 1,
+     "clean_errors": 1
+    }
+   },
+   "overall": 0.006,
+   "seller": 0.0073,
+   "buyer_phone": 0.005,
+   "buyer_clean": 0.005,
+   "words": 336
+  },
+  "s06": {
+   "rows": {
+    "REP": {
+     "side": "seller",
+     "words": 148,
+     "errors": 3
+    },
+    "BUY": {
+     "side": "buyer",
+     "words": 105,
+     "errors": 1,
+     "clean_errors": 1
+    }
+   },
+   "overall": 0.0158,
+   "seller": 0.0203,
+   "buyer_phone": 0.0095,
+   "buyer_clean": 0.0095,
+   "words": 253
+  },
+  "s07": {
+   "rows": {
+    "REP": {
+     "side": "seller",
+     "words": 131,
+     "errors": 0
+    },
+    "BUY": {
+     "side": "buyer",
+     "words": 158,
+     "errors": 1,
+     "clean_errors": 1
+    }
+   },
+   "overall": 0.0035,
+   "seller": 0.0,
+   "buyer_phone": 0.0063,
+   "buyer_clean": 0.0063,
+   "words": 289
+  },
+  "s08": {
+   "rows": {
+    "REP": {
+     "side": "seller",
+     "words": 130,
+     "errors": 4
+    },
+    "BUY": {
+     "side": "buyer",
+     "words": 137,
+     "errors": 2,
+     "clean_errors": 3
+    }
+   },
+   "overall": 0.0225,
+   "seller": 0.0308,
+   "buyer_phone": 0.0146,
+   "buyer_clean": 0.0219,
+   "words": 267
+  },
+  "s09": {
+   "rows": {
+    "REP": {
+     "side": "seller",
+     "words": 130,
+     "errors": 0
+    },
+    "BUY": {
+     "side": "buyer",
+     "words": 189,
+     "errors": 1,
+     "clean_errors": 1
+    }
+   },
+   "overall": 0.0031,
+   "seller": 0.0,
+   "buyer_phone": 0.0053,
+   "buyer_clean": 0.0053,
+   "words": 319
+  }
+ },
+ "overall": 0.0141,
+ "seller": 0.0096,
+ "buyer_phone": 0.0186,
+ "buyer_clean": 0.0163,
+ "words": 5189
+}

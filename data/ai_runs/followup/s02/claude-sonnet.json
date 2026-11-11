@@ -1,0 +1,153 @@
+{
+ "step": "followup",
+ "call": "s02",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:13:26",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "584edff38d909fed",
+ "input": {
+  "call": "s02",
+  "date": "2026-09-10",
+  "rep": "Derek Shaw",
+  "company": "Brinewatch",
+  "to": [
+   "Paul Henning"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "Lost a whole cooler of patient meals after a walk-in alarm went unheard"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Solution must not put devices on the hospital network because IT is strict"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Walk-in alarms only beep in the kitchen, and last month one went off at night and nobody heard it until the morning shift"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Accreditation survey is coming up and they always pull the temperature logs"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Seller sends the standard proposal for the walk-ins and reach-ins, and the buyer will look at it"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Hospital IT department is strict about devices on the network"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "The buyer has no trucks, only the hospital kitchen"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "4 walk-ins",
+    "number": 4
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "About 20 reach-ins across the kitchen and the patient floors",
+    "number": 20
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Wireless sensors text the right person as soon as a temperature drifts"
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Reports are timestamped automatically and export with one click"
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "Alerts escalate to the next person if the first does not respond"
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "Setup takes about a day and the seller handles everything"
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "The system is all cellular and does not touch the hospital network"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send the standard proposal for the 4 walk-ins and 20 reach-ins"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Look at the proposal once it is sent"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Next steps after our call: Brinewatch proposal\", \"sentences\": [{\"text\": \"Hi Paul, thank you for the time on our call.\", \"facts\": []}, {\"text\": \"I heard that your walk-in alarms only beep in the kitchen, and last month one went off at night and nobody heard it until the morning shift.\", \"facts\": [\"pain-1\"]}, {\"text\": \"That cost you a whole cooler of patient meals, and with the accreditation survey coming up and the temperature logs always pulled, the stakes are clear.\", \"facts\": [\"metrics-1\", \"critical_event-1\"]}, {\"text\": \"You also need a solution that stays off the hospital network because IT is strict, and our system is all cellular and does not touch the hospital network.\", \"facts\": [\"decision_criteria-1\", \"stakeholders-1\", \"seller_claims-5\"]}, {\"text\": \"Our wireless sensors text the right person as soon as a temperature drifts, and alerts escalate to the next person if the first does not respond.\", \"facts\": [\"seller_claims-1\", \"seller_claims-3\"]}, {\"text\": \"Reports are timestamped automatically and export with one click.\", \"facts\": [\"seller_claims-2\"]}, {\"text\": \"I will send the standard proposal for the 4 walk-ins and 20 reach-ins, and you will look at it once it is sent.\", \"facts\": [\"commitments-1\", \"commitments-2\", \"next_steps-1\", \"account-2\", \"account-3\"]}, {\"text\": \"Best, Derek Shaw, Brinewatch\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 10595,
+ "meta": {
+  "ms": 9376,
+  "api_ms": 9252,
+  "input_tokens": 6197,
+  "output_tokens": 1378,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6195,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1378,
+   "output_tokens_details": {
+    "thinking_tokens": 859
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6195,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1378,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6195,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6195
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.038564,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

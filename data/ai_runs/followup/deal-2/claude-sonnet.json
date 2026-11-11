@@ -1,0 +1,272 @@
+{
+ "step": "followup",
+ "call": "deal-2",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:23:34",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "5e4090cf2b914c42",
+ "input": {
+  "call": "deal-2",
+  "date": "2026-09-15",
+  "rep": "Marcus Webb",
+  "company": "Brinewatch",
+  "to": [
+   "Tom Becker",
+   "Rachel Torres"
+  ],
+  "facts": [
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Linda Marsh, the CFO, has the final word on approval."
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Dispatch must know about a drifting unit within five minutes.",
+    "number": 5,
+    "unit": "minutes"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "The driver app has to work with no signal."
+   },
+   {
+    "id": "decision_criteria-3",
+    "field": "decision_criteria",
+    "value": "Rachel wants a pilot with a few trucks on real routes before this goes to Linda."
+   },
+   {
+    "id": "decision_criteria-4",
+    "field": "decision_criteria",
+    "value": "Tom does not want a solution that needs a hole in the firewall."
+   },
+   {
+    "id": "decision_criteria-5",
+    "field": "decision_criteria",
+    "value": "Two years of data history matters because some customers ask for a full year of records.",
+    "number": 2,
+    "unit": "years"
+   },
+   {
+    "id": "decision_criteria-6",
+    "field": "decision_criteria",
+    "value": "A nightly file is fine to start for the routing software."
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Rachel makes the recommendation, Tom signs off on security, and anything over $25,000 goes to Linda Marsh for approval.",
+    "number": 25000,
+    "unit": "USD"
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "Tom needs the security questionnaire filled out before anything gets installed."
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Dock Wi-Fi is unreliable, and handhelds drop off it in the freezer half the time."
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Tom already has six vendor portals with separate logins and chases down accounts every time someone leaves.",
+    "number": 6,
+    "unit": "vendors"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Half of the routes go through dead zones, and drivers can't wait around for service."
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Rachel agreed to bring Linda to a call next week."
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Rhyolite is also talking to Frostgauge, whose hardware came in about 30% cheaper.",
+    "number": 30,
+    "unit": "percent"
+   },
+   {
+    "id": "competition-2",
+    "field": "competition",
+    "value": "Frostgauge has no driver app, which is a big deal for Rhyolite."
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Tom will send the security questionnaire."
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Priya will send a written pilot plan for the four trucks."
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Rachel will bring Linda to a call, and Marcus will send the invite."
+   },
+   {
+    "id": "next_steps-4",
+    "field": "next_steps",
+    "value": "Pilot proposed on four trucks, installed at the yard overnight.",
+    "number": 4,
+    "unit": "trucks"
+   },
+   {
+    "id": "next_steps-5",
+    "field": "next_steps",
+    "value": "Pilot proposed to run for 30 days.",
+    "number": 30,
+    "unit": "days"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Overnight there is only one dispatcher.",
+    "number": 1,
+    "unit": "dispatcher"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Every truck is running right now, so trucks can't be pulled during the week."
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "The system doesn't touch the customer's network, and nothing on their side has to open a port."
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Each truck gets a cellular gateway, and the warehouse gateway also uses cellular."
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "If a truck loses signal, the gateway stores readings and sends them when it reconnects."
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "Single sign-on is supported, so someone can be turned off in one place."
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "The customer owns the data, and it is stored in the United States."
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "Two years of history are kept by default.",
+    "number": 2,
+    "unit": "years"
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "The customer can export all of the data whenever they want."
+   },
+   {
+    "id": "seller_claims-8",
+    "field": "seller_claims",
+    "value": "It connects to the routing software by a nightly file or an API push to the stop record."
+   },
+   {
+    "id": "seller_claims-9",
+    "field": "seller_claims",
+    "value": "If nobody acknowledges an alert in five minutes, it goes to the next person on the list.",
+    "number": 5,
+    "unit": "minutes"
+   },
+   {
+    "id": "seller_claims-10",
+    "field": "seller_claims",
+    "value": "The driver app keeps logging without signal and syncs later."
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send the security questionnaire"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Send a written pilot plan for the four trucks"
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Bring Linda to a call"
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Send the calendar invite for the call with Linda"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Next steps after our call: pilot, security questionnaire and Linda\", \"sentences\": [{\"text\": \"Hi Tom and Rachel, thank you for the time on the call.\", \"facts\": []}, {\"text\": \"We heard that dispatch must know about a drifting unit within five minutes, and that the driver app has to work with no signal.\", \"facts\": [\"decision_criteria-1\", \"decision_criteria-2\"]}, {\"text\": \"The driver app keeps logging without signal and syncs later, and the system doesn't touch your network, so nothing on your side has to open a port.\", \"facts\": [\"seller_claims-10\", \"seller_claims-1\"]}, {\"text\": \"Rachel, you want a pilot on real routes before this goes to Linda, so the proposal is four trucks installed at the yard overnight, running for 30 days.\", \"facts\": [\"decision_criteria-3\", \"next_steps-4\", \"next_steps-5\"]}, {\"text\": \"Tom will send the security questionnaire, and Priya will send a written pilot plan for the four trucks.\", \"facts\": [\"next_steps-1\", \"next_steps-2\"]}, {\"text\": \"Rachel will bring Linda to a call, and I will send the invite.\", \"facts\": [\"next_steps-3\"]}, {\"text\": \"Best, Marcus Webb, Brinewatch\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 8878,
+ "meta": {
+  "ms": 7711,
+  "api_ms": 7570,
+  "input_tokens": 7342,
+  "output_tokens": 1182,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7340,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1182,
+   "output_tokens_details": {
+    "thinking_tokens": 735
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7340,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1182,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7340,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7340
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.041184,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

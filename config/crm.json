@@ -1,0 +1,49 @@
+{
+  "note": "How the checked facts become the seller's CRM record, and the plain rules that set the stage. Each field shows a readable label and a Salesforce-style API name for the payload view. The stage is the furthest one whose rules, and every earlier stage's rules, are met, and the visitor can switch any rule off and watch the stage recompute. On the deal the record builds across the three calls. On a scored call it comes from that call alone.",
+  "object": "Opportunity",
+  "fields": [
+    {"key": "stage", "label": "Stage", "api": "StageName", "kind": "stage"},
+    {"key": "amount", "label": "Amount", "api": "Amount", "from": ["amount"], "kind": "money"},
+    {"key": "close_date", "label": "Close date", "api": "CloseDate", "from": ["close_date"], "kind": "date"},
+    {"key": "next_step", "label": "Next step", "api": "NextStep", "from": ["next_steps"], "kind": "next"},
+    {"key": "metrics", "label": "Metrics", "api": "MEDDPICC_Metrics__c", "from": ["metrics"]},
+    {"key": "economic_buyer", "label": "Economic buyer", "api": "MEDDPICC_Economic_Buyer__c", "from": ["economic_buyer"]},
+    {"key": "decision_criteria", "label": "Decision criteria", "api": "MEDDPICC_Decision_Criteria__c", "from": ["decision_criteria"]},
+    {"key": "decision_process", "label": "Decision process", "api": "MEDDPICC_Decision_Process__c", "from": ["decision_process"]},
+    {"key": "paper_process", "label": "Paper process", "api": "MEDDPICC_Paper_Process__c", "from": ["paper_process"]},
+    {"key": "pain", "label": "Identified pain", "api": "MEDDPICC_Identify_Pain__c", "from": ["pain"]},
+    {"key": "champion", "label": "Champion", "api": "MEDDPICC_Champion__c", "from": ["champion"]},
+    {"key": "competition", "label": "Competition", "api": "MEDDPICC_Competition__c", "from": ["competition"]},
+    {"key": "critical_event", "label": "Critical event", "api": "Critical_Event__c", "from": ["critical_event"]},
+    {"key": "budget", "label": "Budget", "api": "Budget__c", "from": ["budget"]},
+    {"key": "pricing", "label": "Pricing", "api": "Pricing_Notes__c", "from": ["pricing"]},
+    {"key": "risks", "label": "Risks", "api": "Deal_Risks__c", "from": ["risks"]},
+    {"key": "account", "label": "Account notes", "api": "Account_Notes__c", "from": ["account"]},
+    {"key": "seller_claims", "label": "What we told them", "api": "Seller_Claims__c", "from": ["seller_claims"]},
+    {"key": "stakeholders", "label": "Contact roles", "api": "OpportunityContactRoles", "from": ["stakeholders"], "kind": "contacts"},
+    {"key": "next_steps", "label": "Next steps", "api": "Tasks", "from": ["next_steps"], "kind": "list"},
+    {"key": "commitments", "label": "Commitments", "api": "Commitments__c", "from": ["commitments"], "kind": "list"}
+  ],
+  "stages": [
+    {"name": "Discovery", "rules": []},
+    {"name": "Qualified", "rules": [
+      {"id": "pain", "label": "A pain is known", "needs": "pain"},
+      {"id": "metric", "label": "A metric puts a number on it", "needs": "metrics"},
+      {"id": "champion", "label": "A champion is pushing for it", "needs": "champion"}]},
+    {"name": "Technical validation", "rules": [
+      {"id": "criteria", "label": "The decision criteria are known", "needs": "decision_criteria"},
+      {"id": "process", "label": "The decision process is known", "needs": "decision_process"},
+      {"id": "dated_step", "label": "A next step has an owner and a date", "needs": "dated_next_step"}]},
+    {"name": "Business case", "rules": [
+      {"id": "eb", "label": "The economic buyer is known", "needs": "economic_buyer"},
+      {"id": "budget", "label": "The budget is known", "needs": "budget"},
+      {"id": "paper", "label": "The paper process is known", "needs": "paper_process"}]},
+    {"name": "Proposal", "rules": [
+      {"id": "pricing", "label": "Pricing has been stated", "needs": "pricing"},
+      {"id": "amount", "label": "The amount is stated", "needs": "amount"},
+      {"id": "close", "label": "A close date is set", "needs": "close_date"}]},
+    {"name": "Negotiation", "rules": [
+      {"id": "terms", "label": "Payment terms are agreed", "needs": "terms"},
+      {"id": "approved", "label": "Every concession is approved", "needs": "concessions_approved"}]}
+  ]
+}

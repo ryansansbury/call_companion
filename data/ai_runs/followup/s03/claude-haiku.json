@@ -1,0 +1,212 @@
+{
+ "step": "followup",
+ "call": "s03",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:36:33",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "7dafe4cfc898cdfb",
+ "input": {
+  "call": "s03",
+  "date": "2026-09-16",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Sam Okoye"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "About $6,000 of prepped food lost in the walk-in failure",
+    "number": 6000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "2 restaurants ran out of prep and had to cut half the brunch menu",
+    "number": 2
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Sam Okoye, the owner, controls the money"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Must call or text Sam when something is wrong"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Must not need a computer person to set up"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Sam decides alone, with no one else weighing in"
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "Seller sends a quote today for Sam to sign"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "The commissary walk-in died on a Saturday night and was not found until Sunday morning"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Nobody is at the commissary overnight on weekends to catch temperature problems"
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Sam Okoye is pushing for an alert system, saying he would rather get a midnight call than lose more food"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Chef wants to buy cheap Bluetooth loggers, about $30 each",
+    "number": 30,
+    "unit": "USD"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "Sam wants to keep the first year under $8,000, trucks included",
+    "number": 8000,
+    "unit": "USD"
+   },
+   {
+    "id": "close_date-1",
+    "field": "close_date",
+    "value": "Sam will sign Friday if the install can happen Monday"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Seller sends Sam a quote"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Seller installs the commissary walk-ins if Sam signs by Friday"
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Sam signs the quote by Friday"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Chef wants to buy cheap Bluetooth loggers off the internet"
+   },
+   {
+    "id": "stakeholders-2",
+    "field": "stakeholders",
+    "value": "Kitchen manager would get the alerts along with Sam"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Commissary has 1 walk-in cooler",
+    "number": 1
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Commissary has 1 walk-in freezer",
+    "number": 1
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "3 trucks run prep out to the restaurants every morning",
+    "number": 3
+   },
+   {
+    "id": "account-4",
+    "field": "account",
+    "value": "8 restaurants receive prep every morning",
+    "number": 8
+   },
+   {
+    "id": "account-5",
+    "field": "account",
+    "value": "The kitchen manager checks the walk-ins when she opens and closes"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send Sam a quote"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Install the commissary walk-ins on Monday if Sam signs by Friday"
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Sign Friday if the install can happen Monday"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Next steps for the commissary walk-in alerts\", \"sentences\": [{\"text\": \"Hi Sam,\", \"facts\": []}, {\"text\": \"Nobody is at the commissary overnight on weekends, so the walk-in died on a Saturday night and was not found until Sunday morning.\", \"facts\": [\"pain-1\", \"pain-2\"]}, {\"text\": \"Two restaurants ran out of prep and had to cut half the brunch menu, and about $6,000 of prepped food was lost.\", \"facts\": [\"metrics-1\", \"metrics-2\"]}, {\"text\": \"You would rather get a midnight call than lose more food, and the kitchen manager should get the alerts along with you since she checks the walk-ins when she opens and closes.\", \"facts\": [\"champion-1\", \"stakeholders-2\", \"account-5\"]}, {\"text\": \"The alert has to call or text you when something is wrong, and it cannot need a computer person to set it up.\", \"facts\": [\"decision_criteria-1\", \"decision_criteria-2\"]}, {\"text\": \"I will send you a quote today for you to sign.\", \"facts\": [\"commitments-1\", \"next_steps-1\", \"paper_process-1\"]}, {\"text\": \"If you sign the quote by Friday, we install the commissary walk-ins on Monday.\", \"facts\": [\"next_steps-3\", \"commitments-2\", \"next_steps-2\"]}, {\"text\": \"Thanks,\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 15471,
+ "meta": {
+  "ms": 14187,
+  "api_ms": 14042,
+  "input_tokens": 6678,
+  "output_tokens": 3217,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6676,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 3217,
+   "output_tokens_details": {
+    "thinking_tokens": 2742
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6676,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3217,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6676,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6676
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0029438999999999997,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

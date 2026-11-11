@@ -1,0 +1,32 @@
+{
+  "id": "s01", "kind": "scored", "split": "dev", "title": "School district nutrition services", "date": "2026-09-09", "length_s": 210,
+  "speakers": ["REP", "BUY"],
+  "cast": {
+    "REP": {"name": "Jenna Cole", "role": "Account executive", "company": "Brinewatch", "side": "seller", "voice": "af_alloy", "speed": 1.0},
+    "BUY": {"name": "Angela Ruiz", "role": "Director of nutrition services", "company": "a school district", "side": "buyer", "voice": "af_sky", "speed": 1.0}
+  },
+  "rep": {"talk_share": 0.40, "quality": "strong", "misses": []},
+  "facts": [
+    {"id": "s01f01", "field": "account", "value": "Twelve vans deliver from a central kitchen every morning", "line": "s01-004", "number": 12, "unit": "vans", "terms": ["central kitchen"]},
+    {"id": "s01f02", "field": "pain", "value": "No real way to know carts stay cold: drivers write thermometer readings on a clipboard, and problems surface when a cafeteria manager calls", "line": "s01-006", "terms": ["clipboard", "cafeteria manager"]},
+    {"id": "s01f03", "field": "metrics", "value": "About $3,000 a month lost in warm milk", "line": "s01-008", "number": 3000, "unit": "USD per month", "terms": ["milk"]},
+    {"id": "s01f04", "field": "pain", "value": "Warm milk came in twice last month and had to be thrown out", "line": "s01-008", "terms": ["Twice last month", "throw it out"]},
+    {"id": "s01f05", "field": "pain", "value": "Kids go without milk, parents hear about it, and the state inspector finds messy clipboard logs", "line": "s01-010", "terms": ["parents", "state inspector"]},
+    {"id": "s01f06", "field": "critical_event", "value": "The state inspection in March, with something in place by winter break for clean records", "lines": ["s01-011", "s01-012"], "terms": ["March", "winter break"]},
+    {"id": "s01f07", "field": "economic_buyer", "value": "Mark Feldman, assistant superintendent for operations, controls the equipment budget", "line": "s01-014", "terms": ["Mark Feldman", "equipment budget"]},
+    {"id": "s01f08", "field": "decision_process", "value": "Angela brings it to Mark, and anything over $50,000 also needs a school board vote", "line": "s01-014", "number": 50000, "unit": "USD", "terms": ["school board vote"]},
+    {"id": "s01f09", "field": "stakeholders", "value": "Mark Feldman, assistant superintendent for operations", "line": "s01-014", "terms": ["assistant superintendent"]},
+    {"id": "s01f10", "field": "champion", "value": "Angela will take it to Mark herself", "line": "s01-014", "terms": ["bring it to"]},
+    {"id": "s01f11", "field": "budget", "value": "Nothing in this year's budget, but a nutrition equipment grant in January covers up to $20,000", "line": "s01-016", "number": 20000, "unit": "USD", "terms": ["grant", "January"]},
+    {"id": "s01f12", "field": "risks", "value": "The money depends on the grant, since it isn't in this year's budget", "line": "s01-016", "terms": ["Not in this year's budget"]},
+    {"id": "s01f13", "field": "decision_criteria", "value": "Keeping it under $20,000 makes Mark's decision easier", "line": "s01-020", "number": 20000, "unit": "USD", "terms": ["under twenty thousand"]},
+    {"id": "s01f14", "field": "next_steps", "value": "Jenna sends a quote for the twelve vans and the walk-in, with grant language, by Friday", "line": "s01-019", "date": "2026-09-11", "owner": "seller", "terms": ["quote", "by Friday"]},
+    {"id": "s01f15", "field": "next_steps", "value": "Fifteen minutes with Mark the week after next", "lines": ["s01-021", "s01-022"], "owner": "seller", "terms": ["week after next"]}
+  ],
+  "commitments": [
+    {"id": "s01k01", "by": "seller", "who": "REP", "what": "Send a quote with grant language by Friday", "kind": "deliverable", "due": "2026-09-11", "line": "s01-019", "terms": ["by Friday"]},
+    {"id": "s01k02", "by": "seller", "who": "REP", "what": "Follow up about a time with Mark", "kind": "meeting", "line": "s01-023", "terms": ["follow up"]},
+    {"id": "s01k03", "by": "buyer", "who": "BUY", "what": "Meet with Mark the week after next", "kind": "meeting", "line": "s01-022", "terms": ["week after next"]}
+  ],
+  "absent": ["competition", "paper_process", "pricing", "amount", "close_date", "seller_claims"]
+}

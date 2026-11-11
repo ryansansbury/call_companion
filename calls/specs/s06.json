@@ -1,0 +1,26 @@
+{
+  "id": "s06", "kind": "scored", "split": "test", "title": "Meal-kit company", "date": "2026-09-24", "length_s": 130,
+  "speakers": ["REP", "BUY"],
+  "cast": {
+    "REP": {"name": "Derek Shaw", "role": "Account executive", "company": "Brinewatch", "side": "seller", "voice": "am_fenrir", "speed": 1.05},
+    "BUY": {"name": "Tara Quinn", "role": "Fulfillment operations lead", "company": "a meal-kit company", "side": "buyer", "voice": "bf_emma", "speed": 1.0}
+  },
+  "rep": {"talk_share": 0.55, "quality": "weak", "misses": ["economic_buyer", "decision_process", "budget", "competition"]},
+  "facts": [
+    {"id": "s06f01", "field": "account", "value": "Most boxes ship by parcel, with only six vans for local delivery", "line": "s06-002", "number": 6, "unit": "vans", "terms": ["parcel"]},
+    {"id": "s06f02", "field": "pain", "value": "Boxes sit on porches in the summer and customers open them warm", "line": "s06-004", "terms": ["porches"]},
+    {"id": "s06f03", "field": "metrics", "value": "Refunds on warm boxes hit about 3% of boxes this summer", "line": "s06-006", "number": 3, "unit": "percent", "terms": ["refund rate"]},
+    {"id": "s06f04", "field": "pain", "value": "The complaints hurt more than the refunds", "line": "s06-006", "terms": ["complaints"]},
+    {"id": "s06f05", "field": "decision_criteria", "value": "A few dollars a box won't work at thousands of boxes a week", "line": "s06-008", "terms": ["few dollars a box", "thousands of boxes"]},
+    {"id": "s06f06", "field": "account", "value": "They ship thousands of boxes a week", "line": "s06-008", "terms": ["thousands of boxes a week"]},
+    {"id": "s06f07", "field": "risks", "value": "The vans aren't where they lose boxes, the porch is", "line": "s06-010", "terms": ["vans aren't really"]},
+    {"id": "s06f08", "field": "seller_claims", "value": "Sensors can go right inside the boxes", "line": "s06-007", "terms": ["right in the boxes"]},
+    {"id": "s06f09", "field": "seller_claims", "value": "Every van gets a sensor on one dashboard", "line": "s06-009", "terms": ["one dashboard"]},
+    {"id": "s06f10", "field": "next_steps", "value": "Derek sends a deck with case studies today", "lines": ["s06-011", "s06-013"], "date": "2026-09-24", "owner": "seller", "terms": ["deck"]}
+  ],
+  "commitments": [
+    {"id": "s06k01", "by": "seller", "who": "REP", "what": "Send a deck with case studies today", "kind": "deliverable", "due": "2026-09-24", "line": "s06-013", "terms": ["today"]},
+    {"id": "s06k02", "by": "seller", "who": "REP", "what": "Figure out the pricing for sensors in boxes", "kind": "deliverable", "line": "s06-009", "terms": ["figure out the pricing"]}
+  ],
+  "absent": ["economic_buyer", "decision_process", "paper_process", "champion", "competition", "critical_event", "budget", "pricing", "amount", "close_date", "stakeholders"]
+}

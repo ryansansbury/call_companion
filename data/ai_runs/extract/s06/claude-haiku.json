@@ -1,0 +1,161 @@
+{
+ "step": "extract",
+ "call": "s06",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:39:08",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "306880b1e2e43ad0",
+ "input": {
+  "call": "s06",
+  "date": "2026-09-24",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "REP",
+    "name": "Derek Shaw",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "BUY",
+    "name": "Tara Quinn",
+    "role": "Fulfillment operations lead",
+    "company": "a meal-kit company",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "s06-s001",
+    "speaker": "REP",
+    "start": 0.29,
+    "text": "Hey Tara, Derek Shaw from Brinewatch. So I took a look at your site and with a fleet like yours I think we can save you a ton on spoilage. We put sensors on every truck, alerts go out the second something drifts and the reporting basically runs itself."
+   },
+   {
+    "id": "s06-s002",
+    "speaker": "BUY",
+    "start": 15.61,
+    "text": "We actually don't have much of a fleet. Most of our boxes ship by parcel. We only run six vans for local delivery."
+   },
+   {
+    "id": "s06-s003",
+    "speaker": "REP",
+    "start": 22.61,
+    "text": "Oh okay, sure, well six vans is a great place to start, how do the boxes stay cold?"
+   },
+   {
+    "id": "s06-s004",
+    "speaker": "BUY",
+    "start": 28.55,
+    "text": "Ice packs and insulated liners. The problem is the summer. Boxes sit on porches and customers open them warm."
+   },
+   {
+    "id": "s06-s005",
+    "speaker": "REP",
+    "start": 35.35,
+    "text": "Yeah, so our sensors can actually go right inside."
+   },
+   {
+    "id": "s06-s006",
+    "speaker": "BUY",
+    "start": 37.19,
+    "text": "Our refund rate on warm boxes hit about 3% of boxes this summer, and the complaints hurt more than the refunds."
+   },
+   {
+    "id": "s06-s007",
+    "speaker": "REP",
+    "start": 43.79,
+    "text": "Totally and honestly our sensors can go right in the boxes so you'd know exactly when they warmed up, customers would see that you care."
+   },
+   {
+    "id": "s06-s008",
+    "speaker": "BUY",
+    "start": 52.15,
+    "text": "Hmm, at a few dollars a box, that's not going to work for us. We ship thousands of boxes a week."
+   },
+   {
+    "id": "s06-s009",
+    "speaker": "REP",
+    "start": 57.61,
+    "text": "Right, right, we'd figure out the pricing. The vans are easy though, every van gets a sensor and you'd see them on one dashboard."
+   },
+   {
+    "id": "s06-s010",
+    "speaker": "BUY",
+    "start": 65.71,
+    "text": "The vans aren't really where we lose boxes. It's the last few hours on the porch."
+   },
+   {
+    "id": "s06-s011",
+    "speaker": "REP",
+    "start": 70.27,
+    "text": "Gotcha, well let me send you a deck with some case studies and you can see what fits."
+   },
+   {
+    "id": "s06-s012",
+    "speaker": "BUY",
+    "start": 75.27,
+    "text": "Shaw, send it over."
+   },
+   {
+    "id": "s06-s013",
+    "speaker": "REP",
+    "start": 77.01,
+    "text": "Perfect, I'll shoot that over today, thanks Tara."
+   }
+  ]
+ },
+ "reply": "{\"fields\": {\"metrics\": [{\"value\": \"Refund rate on warm boxes hit about 3% of boxes this summer\", \"number\": 3, \"unit\": \"%\", \"evidence\": [{\"segment\": \"s06-s006\", \"quote\": \"Our refund rate on warm boxes hit about 3% of boxes this summer\"}]}], \"economic_buyer\": [], \"decision_criteria\": [], \"decision_process\": [], \"paper_process\": [], \"pain\": [{\"value\": \"Boxes sit on porches in summer and customers open them warm\", \"evidence\": [{\"segment\": \"s06-s004\", \"quote\": \"Boxes sit on porches and customers open them warm.\"}]}, {\"value\": \"Complaints about warm boxes hurt more than the refunds\", \"evidence\": [{\"segment\": \"s06-s006\", \"quote\": \"the complaints hurt more than the refunds\"}]}, {\"value\": \"Boxes are lost in the last few hours on the porch\", \"evidence\": [{\"segment\": \"s06-s010\", \"quote\": \"It's the last few hours on the porch.\"}]}], \"champion\": [], \"competition\": [], \"critical_event\": [], \"budget\": [], \"pricing\": [], \"amount\": [], \"close_date\": [], \"next_steps\": [{\"value\": \"Derek sends Tara the deck with case studies\", \"owner\": \"seller\", \"due\": \"today\", \"evidence\": [{\"segment\": \"s06-s011\", \"quote\": \"let me send you a deck with some case studies\"}, {\"segment\": \"s06-s013\", \"quote\": \"I'll shoot that over today\"}]}], \"stakeholders\": [], \"risks\": [{\"value\": \"A few dollars a box is too expensive for their volume\", \"evidence\": [{\"segment\": \"s06-s008\", \"quote\": \"at a few dollars a box, that's not going to work for us\"}]}, {\"value\": \"Buyer says the vans are not where they lose boxes, so van sensors may miss the problem\", \"evidence\": [{\"segment\": \"s06-s010\", \"quote\": \"The vans aren't really where we lose boxes.\"}]}], \"account\": [{\"value\": \"Runs six vans for local delivery\", \"number\": 6, \"unit\": \"vans\", \"evidence\": [{\"segment\": \"s06-s002\", \"quote\": \"We only run six vans for local delivery\"}]}, {\"value\": \"Most boxes ship by parcel\", \"evidence\": [{\"segment\": \"s06-s002\", \"quote\": \"Most of our boxes ship by parcel\"}]}, {\"value\": \"Ships thousands of boxes a week\", \"evidence\": [{\"segment\": \"s06-s008\", \"quote\": \"We ship thousands of boxes a week\"}]}], \"seller_claims\": [{\"value\": \"Sensors go on every truck and alert when something drifts\", \"evidence\": [{\"segment\": \"s06-s001\", \"quote\": \"We put sensors on every truck\"}, {\"segment\": \"s06-s001\", \"quote\": \"alerts go out the second something drifts\"}]}, {\"value\": \"Reporting runs itself\", \"evidence\": [{\"segment\": \"s06-s001\", \"quote\": \"the reporting basically runs itself\"}]}, {\"value\": \"Can save a lot on spoilage\", \"evidence\": [{\"segment\": \"s06-s001\", \"quote\": \"we can save you a ton on spoilage\"}]}, {\"value\": \"Sensors can go inside the boxes to show when they warmed up\", \"evidence\": [{\"segment\": \"s06-s007\", \"quote\": \"our sensors can go right in the boxes so you'd know exactly when they warmed up\"}]}, {\"value\": \"Every van gets a sensor, all visible on one dashboard\", \"evidence\": [{\"segment\": \"s06-s009\", \"quote\": \"every van gets a sensor\"}, {\"segment\": \"s06-s009\", \"quote\": \"you'd see them on one dashboard\"}]}]}, \"commitments\": [{\"by\": \"seller\", \"who\": \"Derek Shaw\", \"what\": \"Figure out the pricing\", \"kind\": \"deliverable\", \"evidence\": [{\"segment\": \"s06-s009\", \"quote\": \"we'd figure out the pricing\"}]}, {\"by\": \"seller\", \"who\": \"Derek Shaw\", \"what\": \"Send Tara the deck with case studies\", \"kind\": \"deliverable\", \"due\": \"today\", \"evidence\": [{\"segment\": \"s06-s011\", \"quote\": \"let me send you a deck with some case studies\"}, {\"segment\": \"s06-s013\", \"quote\": \"I'll shoot that over today\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": 17,
+ "ms": 26345,
+ "meta": {
+  "ms": 25319,
+  "api_ms": 25183,
+  "input_tokens": 7726,
+  "output_tokens": 6442,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5951,
+   "cache_read_input_tokens": 1773,
+   "output_tokens": 6442,
+   "output_tokens_details": {
+    "thinking_tokens": 4997
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5951,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 6442,
+     "cache_read_input_tokens": 1773,
+     "cache_creation_input_tokens": 5951,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5951
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.00442913,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

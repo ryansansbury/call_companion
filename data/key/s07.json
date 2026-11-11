@@ -1,0 +1,311 @@
+{
+ "call": "s07",
+ "facts": [
+  {
+   "id": "s07f01",
+   "field": "pain",
+   "value": "A guest got sick after a corporate lunch last spring, and the client didn't renew",
+   "lines": [
+    "s07-002"
+   ],
+   "terms": [
+    "guest got sick",
+    "didn't renew"
+   ],
+   "segments": [
+    "s07-s002"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s07f02",
+   "field": "metrics",
+   "value": "The lost client was worth about $40,000 a year",
+   "lines": [
+    "s07-002"
+   ],
+   "terms": [
+    "a year"
+   ],
+   "segments": [
+    "s07-s002"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 40000,
+   "unit": "USD per year"
+  },
+  {
+   "id": "s07f03",
+   "field": "pain",
+   "value": "Food sits in the vans at venues during setup, sometimes for a couple of hours, with nobody watching the temperature",
+   "lines": [
+    "s07-004"
+   ],
+   "terms": [
+    "couple of hours",
+    "nobody's really watching"
+   ],
+   "segments": [
+    "s07-s004"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s07f04",
+   "field": "account",
+   "value": "Five vans plus two walk-ins at the kitchen",
+   "lines": [
+    "s07-006"
+   ],
+   "terms": [
+    "two walk-ins"
+   ],
+   "segments": [
+    "s07-s006"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 5,
+   "unit": "vans"
+  },
+  {
+   "id": "s07f05",
+   "field": "pain",
+   "value": "Paper logs kept only when people remember",
+   "lines": [
+    "s07-008"
+   ],
+   "terms": [
+    "Paper logs"
+   ],
+   "segments": [
+    "s07-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s07f06",
+   "field": "decision_criteria",
+   "value": "Mostly seasonal event staff, so it has to be dead simple",
+   "lines": [
+    "s07-008"
+   ],
+   "terms": [
+    "seasonal",
+    "dead simple"
+   ],
+   "segments": [
+    "s07-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s07f07",
+   "field": "critical_event",
+   "value": "Holiday party season starts in mid-November, half the year in six weeks",
+   "lines": [
+    "s07-010"
+   ],
+   "terms": [
+    "Holiday party season"
+   ],
+   "segments": [
+    "s07-s010"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s07f08",
+   "field": "stakeholders",
+   "value": "Kim, the operations manager, runs the events and has to like it",
+   "lines": [
+    "s07-012"
+   ],
+   "terms": [
+    "Kim",
+    "operations manager"
+   ],
+   "segments": [
+    "s07-s012"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s07f09",
+   "field": "decision_process",
+   "value": "Kim has to like it, but Luis makes the call",
+   "lines": [
+    "s07-012"
+   ],
+   "terms": [
+    "my call"
+   ],
+   "segments": [
+    "s07-s012"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s07f10",
+   "field": "economic_buyer",
+   "value": "Luis, the owner, makes the final call",
+   "lines": [
+    "s07-012"
+   ],
+   "terms": [
+    "my call"
+   ],
+   "segments": [
+    "s07-s012"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s07f11",
+   "field": "budget",
+   "value": "About $500 a month, all in",
+   "lines": [
+    "s07-014"
+   ],
+   "terms": [
+    "all in"
+   ],
+   "segments": [
+    "s07-s014"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 500,
+   "unit": "USD per month"
+  },
+  {
+   "id": "s07f12",
+   "field": "seller_claims",
+   "value": "The budget fits five vans and two walk-ins",
+   "lines": [
+    "s07-015"
+   ],
+   "terms": [
+    "fits five vans"
+   ],
+   "segments": [
+    "s07-s015"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s07f13",
+   "field": "next_steps",
+   "value": "A demo for Kim next Monday at nine",
+   "lines": [
+    "s07-016",
+    "s07-017"
+   ],
+   "terms": [
+    "Monday at nine"
+   ],
+   "segments": [
+    "s07-s016",
+    "s07-s017"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-10-05"
+  },
+  {
+   "id": "s07f14",
+   "field": "close_date",
+   "value": "Installed before November 1 if Kim likes it",
+   "lines": [
+    "s07-017",
+    "s07-018"
+   ],
+   "terms": [
+    "first of November"
+   ],
+   "segments": [
+    "s07-s017",
+    "s07-s018"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-11-01"
+  },
+  {
+   "id": "s07f15",
+   "field": "champion",
+   "value": "Luis wants it in before the season and agrees to aim for the date",
+   "lines": [
+    "s07-018"
+   ],
+   "terms": [
+    "aim for that"
+   ],
+   "segments": [
+    "s07-s018"
+   ],
+   "heard": true,
+   "missing": []
+  }
+ ],
+ "commitments": [
+  {
+   "id": "s07k01",
+   "field": "commitments",
+   "value": "Send the invite for the Monday demo at nine",
+   "lines": [
+    "s07-019"
+   ],
+   "terms": [
+    "Monday at nine"
+   ],
+   "segments": [
+    "s07-s019"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "meeting",
+   "by": "seller",
+   "who": "REP",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "s07k02",
+   "field": "commitments",
+   "value": "Bring Kim to the Monday demo",
+   "lines": [
+    "s07-016"
+   ],
+   "terms": [
+    "next Monday"
+   ],
+   "segments": [
+    "s07-s016"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "meeting",
+   "by": "buyer",
+   "who": "BUY",
+   "date": "2026-10-05"
+  }
+ ],
+ "absent": [
+  "competition",
+  "paper_process",
+  "pricing",
+  "amount",
+  "risks"
+ ],
+ "source": "transcript"
+}

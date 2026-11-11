@@ -1,0 +1,32 @@
+{
+  "id": "s05", "kind": "scored", "split": "test", "title": "Grocery chain distribution center", "date": "2026-09-23", "length_s": 190,
+  "speakers": ["REP", "BUY"],
+  "cast": {
+    "REP": {"name": "Jenna Cole", "role": "Account executive", "company": "Brinewatch", "side": "seller", "voice": "af_alloy", "speed": 1.0},
+    "BUY": {"name": "Victor Hale", "role": "Transportation manager", "company": "a regional grocery chain", "side": "buyer", "voice": "bm_daniel", "speed": 1.0}
+  },
+  "rep": {"talk_share": 0.40, "quality": "strong", "misses": []},
+  "facts": [
+    {"id": "s05f01", "field": "account", "value": "Twenty-five reefer trailers serve forty stores", "line": "s05-002", "number": 25, "unit": "trailers", "terms": ["forty stores"]},
+    {"id": "s05f02", "field": "pain", "value": "Temperature creeps while a trailer waits at a store's dock to be unloaded", "line": "s05-002", "terms": ["temperature creeps"]},
+    {"id": "s05f03", "field": "metrics", "value": "About $8,000 a month in rejected product", "line": "s05-004", "number": 8000, "unit": "USD per month", "terms": ["rejected product"]},
+    {"id": "s05f04", "field": "pain", "value": "They find out after the fact, when someone downloads the reefer data after the trailer is back", "line": "s05-006", "terms": ["After the fact"]},
+    {"id": "s05f05", "field": "competition", "value": "The trailer telematics vendor's temperature add-on is cheap on the existing contract, but reports every thirty minutes and alerts no one at the stores", "line": "s05-008", "number": 30, "unit": "minutes", "terms": ["temperature add-on"]},
+    {"id": "s05f06", "field": "risks", "value": "The incumbent's add-on is cheap because they're already on its contract", "line": "s05-008", "terms": ["already on their contract"]},
+    {"id": "s05f07", "field": "decision_process", "value": "Victor recommends, the VP of supply chain approves, and IT runs a security review on anything sending data to the cloud", "line": "s05-010", "terms": ["recommend", "security review"]},
+    {"id": "s05f08", "field": "economic_buyer", "value": "Ellen Ford, VP of supply chain, approves it", "line": "s05-010", "terms": ["Ellen Ford"]},
+    {"id": "s05f09", "field": "stakeholders", "value": "Ellen Ford, VP of supply chain, and IT security", "line": "s05-010", "terms": ["VP of supply chain", "IT"]},
+    {"id": "s05f10", "field": "paper_process", "value": "The security review takes about three weeks, and vendor onboarding needs a certificate of insurance before any install", "lines": ["s05-011", "s05-012"], "number": 3, "unit": "weeks", "terms": ["certificate of insurance"]},
+    {"id": "s05f11", "field": "budget", "value": "It goes in next year's capital plan, with capital requests due October 15", "line": "s05-014", "date": "2026-10-15", "terms": ["capital plan", "October fifteenth"]},
+    {"id": "s05f12", "field": "critical_event", "value": "The capital request deadline of October 15", "line": "s05-014", "date": "2026-10-15", "terms": ["October fifteenth"]},
+    {"id": "s05f13", "field": "decision_criteria", "value": "Proof it works on their routes, with alerts reaching the store and the night dispatcher within ten minutes", "line": "s05-016", "number": 10, "unit": "minutes", "terms": ["our routes", "night dispatcher"]},
+    {"id": "s05f14", "field": "next_steps", "value": "Jenna sends the security packet and a five-trailer pilot proposal by next Wednesday", "lines": ["s05-017", "s05-019"], "date": "2026-09-30", "owner": "seller", "number": 5, "unit": "trailers", "terms": ["security packet"]},
+    {"id": "s05f15", "field": "next_steps", "value": "Victor sets thirty minutes with Ellen the week after", "line": "s05-018", "owner": "buyer", "terms": ["Ellen on the calendar"]},
+    {"id": "s05f16", "field": "champion", "value": "Victor will recommend it and bring in Ellen", "lines": ["s05-010", "s05-018"], "terms": ["recommend", "get Ellen"]}
+  ],
+  "commitments": [
+    {"id": "s05k01", "by": "seller", "who": "REP", "what": "Send the security packet and a five-trailer pilot proposal by next Wednesday", "kind": "deliverable", "due": "2026-09-30", "line": "s05-017", "terms": ["security packet"]},
+    {"id": "s05k02", "by": "buyer", "who": "BUY", "what": "Get Ellen on the calendar for the week after", "kind": "meeting", "line": "s05-018", "terms": ["Ellen on the calendar"]}
+  ],
+  "absent": ["pricing", "amount", "close_date", "seller_claims"]
+}

@@ -1,0 +1,301 @@
+{
+ "step": "extract",
+ "call": "deal-2",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:44:52",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "f84a6d627e2abd0a",
+ "input": {
+  "call": "deal-2",
+  "date": "2026-09-15",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "AE",
+    "name": "Marcus Webb",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "SE",
+    "name": "Priya Natarajan",
+    "role": "Sales engineer",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "IT",
+    "name": "Tom Becker",
+    "role": "IT manager",
+    "company": "Rhyolite Foodservice",
+    "side": "buyer"
+   },
+   {
+    "code": "OPS",
+    "name": "Rachel Torres",
+    "role": "Director of operations",
+    "company": "Rhyolite Foodservice",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "d2-s001",
+    "speaker": "AE",
+    "start": 0.29,
+    "text": "Morning, everyone. Thanks for joining. Rachel, Tom, this is Priya Natarajan, our sales engineer. Priya, over to you."
+   },
+   {
+    "id": "d2-s002",
+    "speaker": "SE",
+    "start": 8.33,
+    "text": "Thanks, Marcus. Tom, Rachel mentioned you'd rather skip the slides, so I'd love to start with your questions."
+   },
+   {
+    "id": "d2-s003",
+    "speaker": "IT",
+    "start": 15.69,
+    "text": "Good, my first question is what this has to touch. If it needs a hole in the firewall, we're going to have a long conversation. We've had vendors promise nothing touches our network and then ask for a VPN two weeks in."
+   },
+   {
+    "id": "d2-s004",
+    "speaker": "SE",
+    "start": 27.29,
+    "text": "It doesn't touch your network at all. Each truck gets a gateway on cellular. The warehouse gateway uses cellular, too. And nothing on your side has to open a port."
+   },
+   {
+    "id": "d2-s005",
+    "speaker": "IT",
+    "start": 30.29,
+    "text": "Low K."
+   },
+   {
+    "id": "d2-s006",
+    "speaker": "IT",
+    "start": 37.55,
+    "text": "So the dock Wi-Fi never comes into it, because the dock Wi-Fi is, let's say, a work in progress. Half the time the handhelds drop off it in the freezer."
+   },
+   {
+    "id": "d2-s007",
+    "speaker": "SE",
+    "start": 45.81,
+    "text": "Never, if a truck loses signal, the gateway stores the readings and sends them when it reconnects."
+   },
+   {
+    "id": "d2-s008",
+    "speaker": "IT",
+    "start": 52.25,
+    "text": "What about logins? I'm not managing another set of passwords. We already have six vendors with their own portals, and every time someone leaves, I'm the one chasing those accounts down."
+   },
+   {
+    "id": "d2-s009",
+    "speaker": "SE",
+    "start": 62.03,
+    "text": "We support single sign-on, so your people use the accounts they already have, and you turn someone off in one place."
+   },
+   {
+    "id": "d2-s010",
+    "speaker": "IT",
+    "start": 69.45,
+    "text": "And the data, who owns it, where does it live, and how long do you keep it? Those three answers decide a lot for me."
+   },
+   {
+    "id": "d2-s011",
+    "speaker": "SE",
+    "start": 75.45,
+    "text": "You own it. It's stored in the United States. We keep two years of history by default, and you can export all of it whenever you want."
+   },
+   {
+    "id": "d2-s012",
+    "speaker": "OPS",
+    "start": 83.91,
+    "text": "Two years matters to us. Some customers ask for a full year of records, and I'd rather not be at the edge."
+   },
+   {
+    "id": "d2-s013",
+    "speaker": "IT",
+    "start": 90.47,
+    "text": "Okay, then my other question is the routing software. Does this talk to it or is it?"
+   },
+   {
+    "id": "d2-s014",
+    "speaker": "SE",
+    "start": 94.33,
+    "text": "It does. We send a nightly file, or we push each delivery's readings to the stop record through an API."
+   },
+   {
+    "id": "d2-s015",
+    "speaker": "IT",
+    "start": 101.39,
+    "text": "The nightly file is fine to start. I'd rather not open up the routing system to anyone until we've lived with this for a while."
+   },
+   {
+    "id": "d2-s016",
+    "speaker": "AE",
+    "start": 108.39,
+    "text": "Rachel, last week you said the alerts have to reach the right person fast. What does fast mean for you?"
+   },
+   {
+    "id": "d2-s017",
+    "speaker": "OPS",
+    "start": 115.39,
+    "text": "Five minutes. Overnight we've only got one dispatcher, so if a unit drifts at two in the morning, dispatch should know within five minutes, and if nobody acknowledges it, it comes to me."
+   },
+   {
+    "id": "d2-s018",
+    "speaker": "SE",
+    "start": 126.65,
+    "text": "That's how escalation works. Dispatch and the driver get the first text, and if nobody acknowledges it in five minutes, it goes to the next person on the list."
+   },
+   {
+    "id": "d2-s019",
+    "speaker": "OPS",
+    "start": 136.71,
+    "text": "And the driver app has to work with no signal. Half our routes go through dead zones out past the county line, and the drivers can't sit around waiting for a bar of service."
+   },
+   {
+    "id": "d2-s020",
+    "speaker": "SE",
+    "start": 146.95,
+    "text": "It does. The app keeps logging and syncs later."
+   },
+   {
+    "id": "d2-s021",
+    "speaker": "AE",
+    "start": 150.53,
+    "text": "Can I ask how a decision like this gets made at Rhyolite? Who else weighs in besides the two of you?"
+   },
+   {
+    "id": "d2-s022",
+    "speaker": "OPS",
+    "start": 157.59,
+    "text": "I make the recommendation. Tom has to sign off on security, and nothing gets past him without that. And anything over $25,000 goes to Linda Marsh, our CFO, for approval."
+   },
+   {
+    "id": "d2-s023",
+    "speaker": "AE",
+    "start": 169.67,
+    "text": "And the board."
+   },
+   {
+    "id": "d2-s024",
+    "speaker": "OPS",
+    "start": 171.19,
+    "text": "No, it doesn't go that far. Linda's the final word."
+   },
+   {
+    "id": "d2-s025",
+    "speaker": "AE",
+    "start": 174.81,
+    "text": "Got it, and is Brinewatch the only option you're looking at?"
+   },
+   {
+    "id": "d2-s026",
+    "speaker": "OPS",
+    "start": 179.07,
+    "text": "We're also talking to Frostgauge. Their hardware came in about 30% cheaper, but they don't have a driver app, and that's a big deal for us."
+   },
+   {
+    "id": "d2-s027",
+    "speaker": "IT",
+    "start": 181.49,
+    "text": "Right."
+   },
+   {
+    "id": "d2-s028",
+    "speaker": "AE",
+    "start": 187.81,
+    "text": "That's helpful to know. So before any of this goes to Linda, what would you need to see?"
+   },
+   {
+    "id": "d2-s029",
+    "speaker": "OPS",
+    "start": 193.67,
+    "text": "A pilot, a few trucks on real routes, ideally the ones with the worst dead zones, and alerts that actually show up at 2 in the morning."
+   },
+   {
+    "id": "d2-s030",
+    "speaker": "SE",
+    "start": 202.23,
+    "text": "We could do four trucks for 30 days, installed at your yard overnight, so no truck comes off the road."
+   },
+   {
+    "id": "d2-s031",
+    "speaker": "OPS",
+    "start": 208.89,
+    "text": "That works. Installs at night matter because we can't pull trucks during the week. We're running every truck we have right now."
+   },
+   {
+    "id": "d2-s032",
+    "speaker": "IT",
+    "start": 216.11,
+    "text": "I'll need your security questionnaire filled out before anything gets installed. I can send hours over by Friday. It's long, so give yourselves some time."
+   },
+   {
+    "id": "d2-s033",
+    "speaker": "SE",
+    "start": 224.79,
+    "text": "Perfect, and I'll send you a written pilot plan for the four trucks by Thursday."
+   },
+   {
+    "id": "d2-s034",
+    "speaker": "AE",
+    "start": 229.87,
+    "text": "And Rachel, would you be up for bringing Linda to a call next week, once she's seen the plan?"
+   },
+   {
+    "id": "d2-s035",
+    "speaker": "OPS",
+    "start": 235.79,
+    "text": "Yes, next Tuesday at 10 again. I'll bring Linda."
+   },
+   {
+    "id": "d2-s036",
+    "speaker": "AE",
+    "start": 238.97,
+    "text": "Great, I'll send the invite. Thanks, both of you. This was really useful."
+   },
+   {
+    "id": "d2-s037",
+    "speaker": "IT",
+    "start": 243.73,
+    "text": "Thanks."
+   }
+  ]
+ },
+ "reply": "{\"fields\":{\"metrics\":[{\"value\":\"Dispatch should know within 5 minutes\",\"number\":5,\"unit\":\"minutes\",\"evidence\":[{\"segment\":\"d2-s017\",\"quote\":\"dispatch should know within five minutes\"}]}],\"economic_buyer\":[{\"value\":\"Linda Marsh, the CFO, has the final word\",\"name\":\"Linda Marsh\",\"role\":\"CFO\",\"evidence\":[{\"segment\":\"d2-s024\",\"quote\":\"Linda's the final word\"}]}],\"decision_criteria\":[{\"value\":\"The solution must not touch the network or require opening a port\",\"evidence\":[{\"segment\":\"d2-s003\",\"quote\":\"If it needs a hole in the firewall, we're going to have a long conversation.\"},{\"segment\":\"d2-s003\",\"quote\":\"We've had vendors promise nothing touches our network and then ask for a VPN two weeks in.\"}]},{\"value\":\"The solution must not require another set of passwords\",\"evidence\":[{\"segment\":\"d2-s008\",\"quote\":\"I'm not managing another set of passwords.\"}]},{\"value\":\"Data ownership, location, and retention answers matter to the decision\",\"evidence\":[{\"segment\":\"d2-s010\",\"quote\":\"Those three answers decide a lot for me.\"}]},{\"value\":\"Two years of records matters to them\",\"number\":2,\"unit\":\"years\",\"evidence\":[{\"segment\":\"d2-s012\",\"quote\":\"Two years matters to us.\"}]},{\"value\":\"A nightly file is acceptable to start, and they would rather not open up the routing system yet\",\"evidence\":[{\"segment\":\"d2-s015\",\"quote\":\"The nightly file is fine to start. I'd rather not open up the routing system to anyone until we've lived with this for a while.\"}]},{\"value\":\"If nobody acknowledges an alert, it should come to Rachel\",\"evidence\":[{\"segment\":\"d2-s017\",\"quote\":\"if nobody acknowledges it, it comes to me\"}]},{\"value\":\"The driver app has to work with no signal\",\"evidence\":[{\"segment\":\"d2-s019\",\"quote\":\"the driver app has to work with no signal\"}]},{\"value\":\"Before Linda sees it, they need a pilot on real routes, ideally routes with the worst dead zones, and alerts that show up at 2 in the morning\",\"number\":2,\"unit\":\"AM\",\"evidence\":[{\"segment\":\"d2-s029\",\"quote\":\"A pilot, a few trucks on real routes, ideally the ones with the worst dead zones, and alerts that actually show up at 2 in the morning.\"}]},{\"value\":\"Installs need to happen at night because they cannot pull trucks during the week\",\"evidence\":[{\"segment\":\"d2-s031\",\"quote\":\"Installs at night matter because we can't pull trucks during the week.\"}]}],\"decision_process\":[{\"value\":\"Rachel makes the recommendation\",\"evidence\":[{\"segment\":\"d2-s022\",\"quote\":\"I make the recommendation.\"}]},{\"value\":\"Tom must sign off on security\",\"evidence\":[{\"segment\":\"d2-s022\",\"quote\":\"Tom has to sign off on security\"}]},{\"value\":\"Anything over $25,000 goes to Linda for approval\",\"number\":25000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"d2-s022\",\"quote\":\"anything over $25,000 goes to Linda Marsh, our CFO, for approval\"}]}],\"paper_process\":[{\"value\":\"Tom needs the security questionnaire filled out before anything gets installed\",\"evidence\":[{\"segment\":\"d2-s032\",\"quote\":\"I'll need your security questionnaire filled out before anything gets installed.\"}]}],\"pain\":[{\"value\":\"Vendors have promised not to touch the network and later asked for a VPN\",\"evidence\":[{\"segment\":\"d2-s003\",\"quote\":\"We've had vendors promise nothing touches our network and then ask for a VPN two weeks in.\"}]},{\"value\":\"Dock Wi-Fi is unreliable, and handhelds drop off it in the freezer\",\"evidence\":[{\"segment\":\"d2-s006\",\"quote\":\"Half the time the handhelds drop off it in the freezer.\"}]},{\"value\":\"Managing vendor portals creates account-chasing work when someone leaves\",\"number\":6,\"unit\":\"vendors\",\"evidence\":[{\"segment\":\"d2-s008\",\"quote\":\"We already have six vendors with their own portals, and every time someone leaves, I'm the one chasing those accounts down.\"}]},{\"value\":\"Routes go through dead zones, so drivers cannot wait for service\",\"evidence\":[{\"segment\":\"d2-s019\",\"quote\":\"Half our routes go through dead zones out past the county line, and the drivers can't sit around waiting for a bar of service.\"}]},{\"value\":\"They cannot pull trucks during the week because every truck is running\",\"evidence\":[{\"segment\":\"d2-s031\",\"quote\":\"we can't pull trucks during the week. We're running every truck we have right now.\"}]}],\"champion\":[{\"value\":\"Rachel makes the recommendation\",\"evidence\":[{\"segment\":\"d2-s022\",\"quote\":\"I make the recommendation.\"}]}],\"competition\":[{\"value\":\"They are also talking to Frostgauge\",\"evidence\":[{\"segment\":\"d2-s026\",\"quote\":\"We're also talking to Frostgauge.\"}]},{\"value\":\"Frostgauge's hardware came in about 30% cheaper\",\"number\":30,\"unit\":\"percent\",\"evidence\":[{\"segment\":\"d2-s026\",\"quote\":\"Their hardware came in about 30% cheaper\"}]},{\"value\":\"Frostgauge does not have a driver app, which is a big deal for them\",\"evidence\":[{\"segment\":\"d2-s026\",\"quote\":\"they don't have a driver app, and that's a big deal for us.\"}]}],\"critical_event\":[],\"budget\":[],\"pricing\":[],\"amount\":[],\"close_date\":[],\"next_steps\":[{\"value\":\"Send Tom hours for the security questionnaire\",\"owner\":\"buyer\",\"due\":\"by Friday\",\"evidence\":[{\"segment\":\"d2-s032\",\"quote\":\"I can send hours over by Friday.\"}]},{\"value\":\"Send Tom a written pilot plan for 4 trucks\",\"owner\":\"seller\",\"due\":\"by Thursday\",\"evidence\":[{\"segment\":\"d2-s033\",\"quote\":\"I'll send you a written pilot plan for the four trucks by Thursday.\"}]},{\"value\":\"Bring Linda to the call\",\"owner\":\"buyer\",\"due\":\"next Tuesday at 10 again\",\"evidence\":[{\"segment\":\"d2-s035\",\"quote\":\"I'll bring Linda.\"}]},{\"value\":\"Send the call invite\",\"owner\":\"seller\",\"evidence\":[{\"segment\":\"d2-s036\",\"quote\":\"I'll send the invite.\"}]}],\"stakeholders\":[{\"name\":\"Linda Marsh\",\"role\":\"CFO\",\"value\":\"Linda Marsh is the CFO\",\"evidence\":[{\"segment\":\"d2-s022\",\"quote\":\"Linda Marsh, our CFO\"}]}],\"risks\":[{\"value\":\"The security questionnaire is long and may take time\",\"evidence\":[{\"segment\":\"d2-s032\",\"quote\":\"It's long, so give yourselves some time.\"}]}],\"account\":[{\"value\":\"Half the routes go through dead zones past the county line\",\"evidence\":[{\"segment\":\"d2-s019\",\"quote\":\"Half our routes go through dead zones out past the county line\"}]},{\"value\":\"There is one overnight dispatcher\",\"number\":1,\"unit\":\"dispatcher\",\"evidence\":[{\"segment\":\"d2-s017\",\"quote\":\"Overnight we've only got one dispatcher\"}]},{\"value\":\"They are running every truck they have\",\"evidence\":[{\"segment\":\"d2-s031\",\"quote\":\"We're running every truck we have right now.\"}]}],\"seller_claims\":[{\"value\":\"The solution does not touch the network, and nothing on the buyer's side has to open a port\",\"evidence\":[{\"segment\":\"d2-s004\",\"quote\":\"It doesn't touch your network at all.\"},{\"segment\":\"d2-s004\",\"quote\":\"nothing on your side has to open a port.\"}]},{\"value\":\"Each truck and the warehouse gateway use cellular\",\"evidence\":[{\"segment\":\"d2-s004\",\"quote\":\"Each truck gets a gateway on cellular. The warehouse gateway uses cellular, too.\"}]},{\"value\":\"If a truck loses signal, the gateway stores readings and sends them when it reconnects\",\"evidence\":[{\"segment\":\"d2-s007\",\"quote\":\"the gateway stores the readings and sends them when it reconnects.\"}]},{\"value\":\"The solution supports single sign-on and lets them turn someone off in one place\",\"evidence\":[{\"segment\":\"d2-s009\",\"quote\":\"We support single sign-on, so your people use the accounts they already have, and you turn someone off in one place.\"}]},{\"value\":\"The buyer owns the data, it is stored in the United States, and 2 years of history are kept by default\",\"number\":2,\"unit\":\"years\",\"evidence\":[{\"segment\":\"d2-s011\",\"quote\":\"You own it. It's stored in the United States. We keep two years of history by default\"}]},{\"value\":\"They can export all of the data whenever they want\",\"evidence\":[{\"segment\":\"d2-s011\",\"quote\":\"you can export all of it whenever you want.\"}]},{\"value\":\"The solution can send a nightly file or push each delivery's readings to the stop record through an API\",\"evidence\":[{\"segment\":\"d2-s014\",\"quote\":\"We send a nightly file, or we push each delivery's readings to the stop record through an API.\"}]},{\"value\":\"If nobody acknowledges an alert in 5 minutes, it goes to the next person on the list\",\"number\":5,\"unit\":\"minutes\",\"evidence\":[{\"segment\":\"d2-s018\",\"quote\":\"if nobody acknowledges it in five minutes, it goes to the next person on the list.\"}]},{\"value\":\"The driver app keeps logging without signal and syncs later\",\"evidence\":[{\"segment\":\"d2-s020\",\"quote\":\"The app keeps logging and syncs later.\"}]}]},\"commitments\":[{\"by\":\"buyer\",\"who\":\"IT\",\"what\":\"Send hours for the security questionnaire\",\"kind\":\"deliverable\",\"due\":\"by Friday\",\"evidence\":[{\"segment\":\"d2-s032\",\"quote\":\"I can send hours over by Friday.\"}]},{\"by\":\"seller\",\"who\":\"SE\",\"what\":\"Send a written pilot plan for the four trucks\",\"kind\":\"deliverable\",\"due\":\"by Thursday\",\"evidence\":[{\"segment\":\"d2-s033\",\"quote\":\"I'll send you a written pilot plan for the four trucks by Thursday.\"}]},{\"by\":\"buyer\",\"who\":\"OPS\",\"what\":\"Bring Linda to the call\",\"kind\":\"meeting\",\"due\":\"next Tuesday at 10 again\",\"evidence\":[{\"segment\":\"d2-s035\",\"quote\":\"I'll bring Linda.\"}]},{\"by\":\"seller\",\"who\":\"AE\",\"what\":\"Send the invite\",\"kind\":\"deliverable\",\"evidence\":[{\"segment\":\"d2-s036\",\"quote\":\"I'll send the invite.\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": 46,
+ "ms": 36992,
+ "meta": {
+  "ms": 36989,
+  "input_tokens": 3357,
+  "output_tokens": 4925,
+  "cost_usd": 0.002798,
+  "usage": {
+   "prompt_tokens": 3357,
+   "completion_tokens": 4925,
+   "total_tokens": 8282,
+   "prompt_tokens_details": {
+    "cached_tokens": 1236,
+    "cache_write_tokens": 2118,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2642,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

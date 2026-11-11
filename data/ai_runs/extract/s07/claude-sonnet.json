@@ -1,0 +1,197 @@
+{
+ "step": "extract",
+ "call": "s07",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:26:24",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "1ef386179fd33dc5",
+ "input": {
+  "call": "s07",
+  "date": "2026-09-29",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "REP",
+    "name": "Jenna Cole",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "BUY",
+    "name": "Luis Ortega",
+    "role": "Owner",
+    "company": "an event catering company",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "s07-s001",
+    "speaker": "REP",
+    "start": 0.29,
+    "text": "Hi, Luis, Jenna Cole from Brinewatch. Thanks for calling back. What prompted it?"
+   },
+   {
+    "id": "s07-s002",
+    "speaker": "BUY",
+    "start": 5.39,
+    "text": "Last spring a guest got sick after one of our corporate lunches. It turned out fine, but the client didn't renew and they were worth about $40,000 a year to us."
+   },
+   {
+    "id": "s07-s003",
+    "speaker": "REP",
+    "start": 16.61,
+    "text": "I'm sorry, that's a hard way to lose an account. Where do you think the food got warm?"
+   },
+   {
+    "id": "s07-s004",
+    "speaker": "BUY",
+    "start": 21.85,
+    "text": "Probably in the van at the venue. We hold food in the vans while we set up, sometimes for a couple of hours, and nobody's really watching the temperature."
+   },
+   {
+    "id": "s07-s005",
+    "speaker": "REP",
+    "start": 31.57,
+    "text": "How many vans do you run?"
+   },
+   {
+    "id": "s07-s006",
+    "speaker": "BUY",
+    "start": 33.85,
+    "text": "Five vans plus two walk-ins at our kitchen."
+   },
+   {
+    "id": "s07-s007",
+    "speaker": "REP",
+    "start": 37.07,
+    "text": "And how do you log temperatures today?"
+   },
+   {
+    "id": "s07-s008",
+    "speaker": "BUY",
+    "start": 39.89,
+    "text": "Paper logs when people remember. Most of our event staff is seasonal, so anything we use has to be dead simple."
+   },
+   {
+    "id": "s07-s009",
+    "speaker": "REP",
+    "start": 47.59,
+    "text": "Is there anything coming up that makes this more urgent?"
+   },
+   {
+    "id": "s07-s010",
+    "speaker": "BUY",
+    "start": 51.51,
+    "text": "Holiday party season starts in the middle of November. That's half our year in six weeks, and I don't want to go into it blind."
+   },
+   {
+    "id": "s07-s011",
+    "speaker": "REP",
+    "start": 59.53,
+    "text": "Who else would be part of choosing something?"
+   },
+   {
+    "id": "s07-s012",
+    "speaker": "BUY",
+    "start": 62.59,
+    "text": "Kim, my operations manager. She runs the events so she'd have to like it, but it's my call in the end."
+   },
+   {
+    "id": "s07-s013",
+    "speaker": "REP",
+    "start": 69.73,
+    "text": "And did you have a budget in mind?"
+   },
+   {
+    "id": "s07-s014",
+    "speaker": "BUY",
+    "start": 72.29,
+    "text": "About 500 a month, all in."
+   },
+   {
+    "id": "s07-s015",
+    "speaker": "REP",
+    "start": 75.09,
+    "text": "That fits five vans and two walk-ins. Would it make sense to show Kim a demo since she'd be the one living with it?"
+   },
+   {
+    "id": "s07-s016",
+    "speaker": "BUY",
+    "start": 81.67,
+    "text": "Yes, she's free next Monday morning."
+   },
+   {
+    "id": "s07-s017",
+    "speaker": "REP",
+    "start": 84.27,
+    "text": "Let's do Monday at 9. If Kim likes it, could we have it installed before the 1st of November so you're set for the season?"
+   },
+   {
+    "id": "s07-s018",
+    "speaker": "BUY",
+    "start": 91.47,
+    "text": "If she likes it, yes. Let's aim for that."
+   },
+   {
+    "id": "s07-s019",
+    "speaker": "REP",
+    "start": 94.33,
+    "text": "Great, I'll send the invite for Monday at 9. Thanks, Luis."
+   }
+  ]
+ },
+ "reply": "{\"fields\":{\"metrics\":[{\"value\":\"The client that left was worth about $40,000 a year\",\"number\":40000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s07-s002\",\"quote\":\"they were worth about $40,000 a year to us\"}]}],\"economic_buyer\":[{\"value\":\"Luis makes the final call\",\"name\":\"Luis Ortega\",\"role\":\"Owner\",\"evidence\":[{\"segment\":\"s07-s012\",\"quote\":\"it's my call in the end\"}]}],\"decision_criteria\":[{\"value\":\"Whatever they use has to be very simple because most event staff is seasonal\",\"evidence\":[{\"segment\":\"s07-s008\",\"quote\":\"anything we use has to be dead simple\"}]},{\"value\":\"Kim, who runs the events, has to like it\",\"evidence\":[{\"segment\":\"s07-s012\",\"quote\":\"She runs the events so she'd have to like it\"}]}],\"decision_process\":[{\"value\":\"Kim has to like it, and then Luis decides\",\"evidence\":[{\"segment\":\"s07-s012\",\"quote\":\"she'd have to like it, but it's my call in the end\"}]}],\"paper_process\":[],\"pain\":[{\"value\":\"A guest got sick after a corporate lunch and that client did not renew\",\"evidence\":[{\"segment\":\"s07-s002\",\"quote\":\"a guest got sick after one of our corporate lunches\"},{\"segment\":\"s07-s002\",\"quote\":\"the client didn't renew\"}]},{\"value\":\"Food is held in the vans for a couple of hours during setup and nobody watches the temperature\",\"evidence\":[{\"segment\":\"s07-s004\",\"quote\":\"nobody's really watching the temperature\"}]},{\"value\":\"Temperatures are logged on paper only when people remember\",\"evidence\":[{\"segment\":\"s07-s008\",\"quote\":\"Paper logs when people remember.\"}]}],\"champion\":[],\"competition\":[],\"critical_event\":[{\"value\":\"Holiday party season starts in the middle of November and is half their year\",\"evidence\":[{\"segment\":\"s07-s010\",\"quote\":\"Holiday party season starts in the middle of November.\"}]}],\"budget\":[{\"value\":\"About $500 a month, all in\",\"number\":500,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s07-s014\",\"quote\":\"About 500 a month, all in.\"}]}],\"pricing\":[],\"amount\":[],\"close_date\":[],\"next_steps\":[{\"value\":\"Demo for Kim on Monday at 9\",\"owner\":\"seller\",\"due\":\"Monday at 9\",\"evidence\":[{\"segment\":\"s07-s017\",\"quote\":\"Let's do Monday at 9.\"}]},{\"value\":\"Aim to have it installed before the 1st of November if Kim likes it\",\"owner\":\"seller\",\"due\":\"before the 1st of November\",\"evidence\":[{\"segment\":\"s07-s017\",\"quote\":\"could we have it installed before the 1st of November\"},{\"segment\":\"s07-s018\",\"quote\":\"If she likes it, yes.\"}]}],\"stakeholders\":[{\"value\":\"Kim runs the events and has to like the solution\",\"name\":\"Kim\",\"role\":\"Operations manager\",\"evidence\":[{\"segment\":\"s07-s012\",\"quote\":\"Kim, my operations manager.\"}]}],\"risks\":[],\"account\":[{\"value\":\"They run 5 vans\",\"number\":5,\"unit\":\"vans\",\"evidence\":[{\"segment\":\"s07-s006\",\"quote\":\"Five vans\"}]},{\"value\":\"They have 2 walk-ins at the kitchen\",\"number\":2,\"unit\":\"walk-ins\",\"evidence\":[{\"segment\":\"s07-s006\",\"quote\":\"two walk-ins at our kitchen\"}]},{\"value\":\"Most of the event staff is seasonal\",\"evidence\":[{\"segment\":\"s07-s008\",\"quote\":\"Most of our event staff is seasonal\"}]}],\"seller_claims\":[]},\"commitments\":[{\"by\":\"seller\",\"who\":\"REP\",\"what\":\"Send the invite for the Monday at 9 demo\",\"kind\":\"meeting\",\"due\":\"Monday at 9\",\"evidence\":[{\"segment\":\"s07-s019\",\"quote\":\"I'll send the invite for Monday at 9.\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": 17,
+ "ms": 16181,
+ "meta": {
+  "ms": 15219,
+  "api_ms": 15105,
+  "input_tokens": 7953,
+  "output_tokens": 2365,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6178,
+   "cache_read_input_tokens": 1773,
+   "output_tokens": 2365,
+   "output_tokens_details": {
+    "thinking_tokens": 1025
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6178,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2365,
+     "cache_read_input_tokens": 1773,
+     "cache_creation_input_tokens": 6178,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6178
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0485433,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

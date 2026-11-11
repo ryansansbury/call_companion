@@ -1,0 +1,231 @@
+{
+ "step": "coach",
+ "call": "s03",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:36:47",
+ "prompt_hash": "9f68caf76add4c2c",
+ "input_hash": "c622ca69a8920494",
+ "input": {
+  "call": "s03",
+  "date": "2026-09-16",
+  "rep": "REP",
+  "segments": [
+   {
+    "id": "s03-s001",
+    "speaker": "REP",
+    "start": 0.29,
+    "text": "Hi Sam, Jenna Cole from Brinewatch. Thanks for making time between services."
+   },
+   {
+    "id": "s03-s002",
+    "speaker": "BUY",
+    "start": 5.59,
+    "text": "No problem, I've got about 15 minutes before lunch prep."
+   },
+   {
+    "id": "s03-s003",
+    "speaker": "REP",
+    "start": 9.75,
+    "text": "Then I'll keep it quick. What made you fill out the form on our site?"
+   },
+   {
+    "id": "s03-s004",
+    "speaker": "BUY",
+    "start": 13.97,
+    "text": "We had a bad weekend. The walk-in at our commissary died on a Saturday night, and we didn't find out until Sunday morning."
+   },
+   {
+    "id": "s03-s005",
+    "speaker": "REP",
+    "start": 22.23,
+    "text": "What did that cost you?"
+   },
+   {
+    "id": "s03-s006",
+    "speaker": "BUY",
+    "start": 24.49,
+    "text": "About $6,000 in prepped food, and two restaurants ran out of their prep and had to cut half the menu for brunch."
+   },
+   {
+    "id": "s03-s007",
+    "speaker": "REP",
+    "start": 32.79,
+    "text": "Ouch, how is the commissary set up today?"
+   },
+   {
+    "id": "s03-s008",
+    "speaker": "BUY",
+    "start": 35.91,
+    "text": "One big walk-in cooler, one walk-in freezer, and three trucks that run prep out to the eight restaurants every morning."
+   },
+   {
+    "id": "s03-s009",
+    "speaker": "REP",
+    "start": 43.71,
+    "text": "And who keeps an eye on the temperatures right now?"
+   },
+   {
+    "id": "s03-s010",
+    "speaker": "BUY",
+    "start": 47.07,
+    "text": "The kitchen manager checks the walk-ins when she opens and closes. On the weekends, nobody's there overnight."
+   },
+   {
+    "id": "s03-s011",
+    "speaker": "REP",
+    "start": 54.51,
+    "text": "So the gap is overnight and weekends, if you had alerts who should get them."
+   },
+   {
+    "id": "s03-s012",
+    "speaker": "BUY",
+    "start": 59.35,
+    "text": "Me and the kitchen manager. I'd rather get a call at midnight than lose another six grand."
+   },
+   {
+    "id": "s03-s013",
+    "speaker": "REP",
+    "start": 65.69,
+    "text": "Makes sense, have you looked at anything else?"
+   },
+   {
+    "id": "s03-s014",
+    "speaker": "BUY",
+    "start": 68.81,
+    "text": "My chef wants to buy those cheap Bluetooth loggers off the internet. They're like 30 bucks each, but you have to be standing next to them to see anything."
+   },
+   {
+    "id": "s03-s015",
+    "speaker": "REP",
+    "start": 78.73,
+    "text": "That's a common starting point. What would make you choose one over the other?"
+   },
+   {
+    "id": "s03-s016",
+    "speaker": "BUY",
+    "start": 83.31,
+    "text": "It has to call or text me when something's wrong, and it can't need a computer person to set up. We don't have one."
+   },
+   {
+    "id": "s03-s017",
+    "speaker": "REP",
+    "start": 90.69,
+    "text": "Got it and is this your decision or does someone else weigh in?"
+   },
+   {
+    "id": "s03-s018",
+    "speaker": "BUY",
+    "start": 94.35,
+    "text": "It's mine. It's my money."
+   },
+   {
+    "id": "s03-s019",
+    "speaker": "REP",
+    "start": 96.77,
+    "text": "What were you thinking of spending?"
+   },
+   {
+    "id": "s03-s020",
+    "speaker": "BUY",
+    "start": 99.37,
+    "text": "I'd like to keep it under 8,000 for the first year, trucks and all."
+   },
+   {
+    "id": "s03-s021",
+    "speaker": "REP",
+    "start": 104.25,
+    "text": "That's doable for two walk-ins and three trucks. Here's what I'd suggest. Let's start with the commissary walk-ins this week, since that's where you got burned, and add the trucks once you've seen it work. I'll send you a quote today, and if you sign by Friday, we can install on Monday."
+   },
+   {
+    "id": "s03-s022",
+    "speaker": "BUY",
+    "start": 118.17,
+    "text": "If you can install Monday, I'll sign Friday."
+   },
+   {
+    "id": "s03-s023",
+    "speaker": "REP",
+    "start": 121.67,
+    "text": "Deal, I'll send the quote this afternoon."
+   },
+   {
+    "id": "s03-s024",
+    "speaker": "BUY",
+    "start": 124.41,
+    "text": "Sounds good, thanks Jenna."
+   }
+  ],
+  "coaching": {
+   "talk_s": {
+    "BUY": 66.8,
+    "REP": 46.3
+   },
+   "talk_share": {
+    "BUY": 0.591,
+    "REP": 0.409
+   },
+   "seller_share": 0.409,
+   "longest_monologue_s": 13.4,
+   "longest_story_s": 18.4,
+   "patience_s": 0.49,
+   "interactivity": 10.0,
+   "rep_interruptions": 0,
+   "buyer_interruptions": 0,
+   "questions": 8,
+   "questions_per_10min": 37.9,
+   "open_share": 0.5
+  }
+ },
+ "reply": "{\"strengths\": [{\"text\": \"You asked what the failure cost Sam before pitching anything, which gave you a concrete number to tie the solution to.\", \"segment\": \"s03-s005\", \"quote\": \"What did that cost you?\"}, {\"text\": \"You confirmed early that Sam makes the buying decision alone, so you knew who you were actually persuading.\", \"segment\": \"s03-s017\", \"quote\": \"Got it and is this your decision or does someone else weigh in?\"}, {\"text\": \"Your proposal started with the commissary walk-ins because that is where Sam got burned, and it fit the stated budget, which made the recommendation feel built around Sam's situation.\", \"segment\": \"s03-s021\", \"quote\": \"Let's start with the commissary walk-ins this week, since that's where you got burned\"}], \"improvements\": [{\"text\": \"Your proposal ran about 13 seconds without a pause for Sam to react, so ask a question or check the fit before laying out the full plan.\", \"segment\": \"s03-s021\", \"quote\": \"Here's what I'd suggest.\"}, {\"text\": \"When Sam said there is no one to set up a system, you said \\\"Got it\\\" and moved on, so confirm that the install needs no in-house IT before you promise a Monday start.\", \"segment\": \"s03-s017\", \"quote\": \"Got it and is this your decision or does someone else weigh in?\"}, {\"text\": \"Sam said a midnight call matters more than the six thousand dollars lost, but you moved straight to other options, so ask what a missed alert would have cost to dig into that urgency.\", \"segment\": \"s03-s013\", \"quote\": \"Makes sense, have you looked at anything else?\"}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 14504,
+ "meta": {
+  "ms": 13240,
+  "api_ms": 13119,
+  "input_tokens": 6981,
+  "output_tokens": 2653,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6979,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 2653,
+   "output_tokens_details": {
+    "thinking_tokens": 2114
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6979,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2653,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6979,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6979
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0027225,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "step": "extract",
+ "call": "s03",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:49:10",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "7b042402e38fa542",
+ "input": {
+  "call": "s03",
+  "date": "2026-09-16",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "REP",
+    "name": "Jenna Cole",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "BUY",
+    "name": "Sam Okoye",
+    "role": "Owner",
+    "company": "a restaurant group",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "s03-s001",
+    "speaker": "REP",
+    "start": 0.29,
+    "text": "Hi Sam, Jenna Cole from Brinewatch. Thanks for making time between services."
+   },
+   {
+    "id": "s03-s002",
+    "speaker": "BUY",
+    "start": 5.59,
+    "text": "No problem, I've got about 15 minutes before lunch prep."
+   },
+   {
+    "id": "s03-s003",
+    "speaker": "REP",
+    "start": 9.75,
+    "text": "Then I'll keep it quick. What made you fill out the form on our site?"
+   },
+   {
+    "id": "s03-s004",
+    "speaker": "BUY",
+    "start": 13.97,
+    "text": "We had a bad weekend. The walk-in at our commissary died on a Saturday night, and we didn't find out until Sunday morning."
+   },
+   {
+    "id": "s03-s005",
+    "speaker": "REP",
+    "start": 22.23,
+    "text": "What did that cost you?"
+   },
+   {
+    "id": "s03-s006",
+    "speaker": "BUY",
+    "start": 24.49,
+    "text": "About $6,000 in prepped food, and two restaurants ran out of their prep and had to cut half the menu for brunch."
+   },
+   {
+    "id": "s03-s007",
+    "speaker": "REP",
+    "start": 32.79,
+    "text": "Ouch, how is the commissary set up today?"
+   },
+   {
+    "id": "s03-s008",
+    "speaker": "BUY",
+    "start": 35.91,
+    "text": "One big walk-in cooler, one walk-in freezer, and three trucks that run prep out to the eight restaurants every morning."
+   },
+   {
+    "id": "s03-s009",
+    "speaker": "REP",
+    "start": 43.71,
+    "text": "And who keeps an eye on the temperatures right now?"
+   },
+   {
+    "id": "s03-s010",
+    "speaker": "BUY",
+    "start": 47.07,
+    "text": "The kitchen manager checks the walk-ins when she opens and closes. On the weekends, nobody's there overnight."
+   },
+   {
+    "id": "s03-s011",
+    "speaker": "REP",
+    "start": 54.51,
+    "text": "So the gap is overnight and weekends, if you had alerts who should get them."
+   },
+   {
+    "id": "s03-s012",
+    "speaker": "BUY",
+    "start": 59.35,
+    "text": "Me and the kitchen manager. I'd rather get a call at midnight than lose another six grand."
+   },
+   {
+    "id": "s03-s013",
+    "speaker": "REP",
+    "start": 65.69,
+    "text": "Makes sense, have you looked at anything else?"
+   },
+   {
+    "id": "s03-s014",
+    "speaker": "BUY",
+    "start": 68.81,
+    "text": "My chef wants to buy those cheap Bluetooth loggers off the internet. They're like 30 bucks each, but you have to be standing next to them to see anything."
+   },
+   {
+    "id": "s03-s015",
+    "speaker": "REP",
+    "start": 78.73,
+    "text": "That's a common starting point. What would make you choose one over the other?"
+   },
+   {
+    "id": "s03-s016",
+    "speaker": "BUY",
+    "start": 83.31,
+    "text": "It has to call or text me when something's wrong, and it can't need a computer person to set up. We don't have one."
+   },
+   {
+    "id": "s03-s017",
+    "speaker": "REP",
+    "start": 90.69,
+    "text": "Got it and is this your decision or does someone else weigh in?"
+   },
+   {
+    "id": "s03-s018",
+    "speaker": "BUY",
+    "start": 94.35,
+    "text": "It's mine. It's my money."
+   },
+   {
+    "id": "s03-s019",
+    "speaker": "REP",
+    "start": 96.77,
+    "text": "What were you thinking of spending?"
+   },
+   {
+    "id": "s03-s020",
+    "speaker": "BUY",
+    "start": 99.37,
+    "text": "I'd like to keep it under 8,000 for the first year, trucks and all."
+   },
+   {
+    "id": "s03-s021",
+    "speaker": "REP",
+    "start": 104.25,
+    "text": "That's doable for two walk-ins and three trucks. Here's what I'd suggest. Let's start with the commissary walk-ins this week, since that's where you got burned, and add the trucks once you've seen it work. I'll send you a quote today, and if you sign by Friday, we can install on Monday."
+   },
+   {
+    "id": "s03-s022",
+    "speaker": "BUY",
+    "start": 118.17,
+    "text": "If you can install Monday, I'll sign Friday."
+   },
+   {
+    "id": "s03-s023",
+    "speaker": "REP",
+    "start": 121.67,
+    "text": "Deal, I'll send the quote this afternoon."
+   },
+   {
+    "id": "s03-s024",
+    "speaker": "BUY",
+    "start": 124.41,
+    "text": "Sounds good, thanks Jenna."
+   }
+  ]
+ },
+ "reply": "{\"fields\":{\"metrics\":[{\"value\":\"About $6,000 in prepped food was lost.\",\"number\":6000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s03-s006\",\"quote\":\"About $6,000 in prepped food\"}]},{\"value\":\"Two restaurants ran out of their prep.\",\"number\":2,\"unit\":\"restaurants\",\"evidence\":[{\"segment\":\"s03-s006\",\"quote\":\"two restaurants ran out of their prep\"}]},{\"value\":\"Half the menu had to be cut for brunch.\",\"evidence\":[{\"segment\":\"s03-s006\",\"quote\":\"had to cut half the menu for brunch\"}]}],\"economic_buyer\":[{\"value\":\"Sam says the money is his.\",\"evidence\":[{\"segment\":\"s03-s018\",\"quote\":\"It's my money.\"}]}],\"decision_criteria\":[{\"value\":\"It has to call or text Sam when something is wrong.\",\"evidence\":[{\"segment\":\"s03-s016\",\"quote\":\"It has to call or text me when something's wrong\"}]},{\"value\":\"It can't need a computer person to set up.\",\"evidence\":[{\"segment\":\"s03-s016\",\"quote\":\"it can't need a computer person to set up\"}]},{\"value\":\"Alerts should go to Sam and the kitchen manager.\",\"evidence\":[{\"segment\":\"s03-s012\",\"quote\":\"Me and the kitchen manager.\"}]}],\"decision_process\":[{\"value\":\"Sam says the decision is his alone.\",\"evidence\":[{\"segment\":\"s03-s018\",\"quote\":\"It's mine.\"}]}],\"paper_process\":[],\"pain\":[{\"value\":\"The commissary walk-in failed on Saturday night, and they did not find out until Sunday morning.\",\"evidence\":[{\"segment\":\"s03-s004\",\"quote\":\"The walk-in at our commissary died on a Saturday night, and we didn't find out until Sunday morning.\"}]}],\"champion\":[],\"competition\":[{\"value\":\"The chef wants cheap Bluetooth loggers that require someone to stand next to them to see anything.\",\"number\":30,\"unit\":\"USD each\",\"evidence\":[{\"segment\":\"s03-s014\",\"quote\":\"My chef wants to buy those cheap Bluetooth loggers off the internet. They're like 30 bucks each, but you have to be standing next to them to see anything.\"}]}],\"critical_event\":[],\"budget\":[{\"value\":\"Sam would like to keep the first year under $8,000, trucks and all.\",\"number\":8000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s03-s020\",\"quote\":\"I'd like to keep it under 8,000 for the first year, trucks and all.\"}]}],\"pricing\":[],\"amount\":[],\"close_date\":[{\"value\":\"Sam says he will sign Friday if installation can happen Monday.\",\"due\":\"Friday\",\"evidence\":[{\"segment\":\"s03-s022\",\"quote\":\"If you can install Monday, I'll sign Friday.\"}]}],\"next_steps\":[{\"value\":\"Jenna will send Sam a quote.\",\"owner\":\"seller\",\"due\":\"today\",\"evidence\":[{\"segment\":\"s03-s021\",\"quote\":\"I'll send you a quote today\"}]},{\"value\":\"Install the commissary walk-ins Monday if Sam signs by Friday.\",\"owner\":\"seller\",\"due\":\"Monday\",\"evidence\":[{\"segment\":\"s03-s021\",\"quote\":\"if you sign by Friday, we can install on Monday\"}]}],\"stakeholders\":[{\"value\":\"The kitchen manager checks the walk-ins when she opens and closes, and Sam wants her to receive alerts.\",\"role\":\"kitchen manager\",\"evidence\":[{\"segment\":\"s03-s010\",\"quote\":\"The kitchen manager checks the walk-ins when she opens and closes.\"},{\"segment\":\"s03-s012\",\"quote\":\"Me and the kitchen manager.\"}]},{\"value\":\"The chef wants to buy cheap Bluetooth loggers.\",\"role\":\"chef\",\"evidence\":[{\"segment\":\"s03-s014\",\"quote\":\"My chef wants to buy those cheap Bluetooth loggers\"}]}],\"risks\":[],\"account\":[{\"value\":\"The commissary has one big walk-in cooler.\",\"number\":1,\"unit\":\"walk-in cooler\",\"evidence\":[{\"segment\":\"s03-s008\",\"quote\":\"One big walk-in cooler\"}]},{\"value\":\"The commissary has one walk-in freezer.\",\"number\":1,\"unit\":\"walk-in freezer\",\"evidence\":[{\"segment\":\"s03-s008\",\"quote\":\"one walk-in freezer\"}]},{\"value\":\"Three trucks run prep out to the restaurants every morning.\",\"number\":3,\"unit\":\"trucks\",\"evidence\":[{\"segment\":\"s03-s008\",\"quote\":\"three trucks that run prep out to the eight restaurants every morning\"}]},{\"value\":\"The trucks run prep out to eight restaurants every morning.\",\"number\":8,\"unit\":\"restaurants\",\"evidence\":[{\"segment\":\"s03-s008\",\"quote\":\"eight restaurants every morning\"}]},{\"value\":\"On weekends, nobody is at the commissary overnight.\",\"evidence\":[{\"segment\":\"s03-s010\",\"quote\":\"On the weekends, nobody's there overnight.\"}]}],\"seller_claims\":[]},\"commitments\":[{\"by\":\"seller\",\"who\":\"REP\",\"what\":\"Send Sam a quote.\",\"kind\":\"deliverable\",\"due\":\"today\",\"evidence\":[{\"segment\":\"s03-s021\",\"quote\":\"I'll send you a quote today\"}]},{\"by\":\"seller\",\"who\":\"REP\",\"what\":\"Install on Monday if Sam signs by Friday.\",\"kind\":\"deliverable\",\"due\":\"Monday\",\"evidence\":[{\"segment\":\"s03-s021\",\"quote\":\"if you sign by Friday, we can install on Monday\"}]},{\"by\":\"buyer\",\"who\":\"BUY\",\"what\":\"Sign Friday if installation can happen Monday.\",\"kind\":\"decision\",\"due\":\"Friday\",\"evidence\":[{\"segment\":\"s03-s022\",\"quote\":\"If you can install Monday, I'll sign Friday.\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": 24,
+ "ms": 31619,
+ "meta": {
+  "ms": 31617,
+  "input_tokens": 2456,
+  "output_tokens": 4029,
+  "cost_usd": 0.00226,
+  "usage": {
+   "prompt_tokens": 2456,
+   "completion_tokens": 4029,
+   "total_tokens": 6485,
+   "prompt_tokens_details": {
+    "cached_tokens": 1236,
+    "cache_write_tokens": 1217,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2801,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

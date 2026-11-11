@@ -1,0 +1,62 @@
+{
+  "note": "Which promises a rep can make on his own and which need a manager's approval. A concession in a call stays out of the follow-up until it's approved. The claim checker reads this file, and so does the page's approval toggle.",
+  "needs_approval": {
+    "waived_fees": {
+      "label": "Waived fees",
+      "words": [
+        "waive",
+        "waived",
+        "waiving",
+        "free installation",
+        "no charge",
+        "at no cost",
+        "no extra cost",
+        "for free",
+        "free",
+        "complimentary",
+        "on us",
+        "throw in"
+      ],
+      "except": [
+        "feel free",
+        "free to",
+        "hands-free",
+        "count on us",
+        "rely on us",
+        "depend on us",
+        "on us to"
+      ]
+    },
+    "discounts": {
+      "label": "Discounts",
+      "words": [
+        "discount",
+        "discounted",
+        "percent off",
+        "% off",
+        "price break",
+        "cut the price",
+        "knock off",
+        "take off"
+      ],
+      "except": []
+    },
+    "guarantees": {
+      "label": "Guarantees",
+      "words": [
+        "guarantee",
+        "guaranteed",
+        "money back",
+        "money-back",
+        "full refund",
+        "we'll refund",
+        "we will refund"
+      ],
+      "except": []
+    }
+  },
+  "allowed_terms": {
+    "note": "Payment terms up to net 60 and a pilot opt-out are standard, so a rep can agree to them.",
+    "net_days_max": 60
+  }
+}

@@ -1,0 +1,168 @@
+{
+ "step": "followup",
+ "call": "s01",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:47:37",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "0a7f4ad4a074c067",
+ "input": {
+  "call": "s01",
+  "date": "2026-09-09",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Angela Ruiz"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "They are losing about $3,000 a month in milk alone.",
+    "number": 3000,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Mark Feldman controls the equipment budget."
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Keeping it under $20,000 would make Mark's decision a lot easier.",
+    "number": 20000,
+    "unit": "USD"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Angela would bring the purchase to Mark Feldman."
+   },
+   {
+    "id": "decision_process-2",
+    "field": "decision_process",
+    "value": "Purchases over $50,000 also need a school board vote.",
+    "number": 50000,
+    "unit": "USD"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Kids go without milk that day, and parents hear about it."
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "They do not really know whether food stays cold along the way, and learn of traffic problems when a cafeteria manager calls."
+   },
+   {
+    "id": "pain-4",
+    "field": "pain",
+    "value": "The clipboards are a mess when the state inspector reviews the temperature logs."
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "They are not looking at anyone else; Brinewatch is the first call."
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "The next inspection is in March."
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "There is no money in this year's budget."
+   },
+   {
+    "id": "budget-2",
+    "field": "budget",
+    "value": "They can apply for a nutrition equipment grant in January, and it covers up to $20,000.",
+    "number": 20000,
+    "unit": "USD"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Jenna will send a quote for the 12 vans and kitchen walk-in cooler, including language for the grant application."
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Jenna will follow up about a time to meet with Mark."
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Mark Feldman is the assistant superintendent for operations."
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "They cook everything at a central kitchen."
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "They send meals out on 12 vans every morning.",
+    "number": 12,
+    "unit": "vans"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "Milk, yogurt, and cold lunches ride in insulated carts."
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Prepare a quote for the 12 vans and kitchen walk-in cooler, including language for the grant application."
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Follow up about a time to meet with Mark."
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Plan a 15-minute meeting with Mark."
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Follow-up on the quote and grant\",\"sentences\":[{\"text\":\"Angela, thanks for speaking with me.\",\"facts\":[]},{\"text\":\"You shared that milk losses are about $3,000 a month; kids go without milk that day, and parents hear about it.\",\"facts\":[\"metrics-1\",\"pain-2\"]},{\"text\":\"You also said you do not know whether food stays cold along the way, and the temperature logs are a mess when the state inspector reviews them.\",\"facts\":[\"pain-3\",\"pain-4\"]},{\"text\":\"There is no money in this year's budget, and you can apply for a nutrition equipment grant in January that covers up to $20,000.\",\"facts\":[\"budget-1\",\"budget-2\"]},{\"text\":\"You'll bring the purchase to Mark Feldman, who controls the equipment budget, and keeping it under $20,000 would make his decision easier.\",\"facts\":[\"decision_process-1\",\"economic_buyer-1\",\"decision_criteria-1\"]},{\"text\":\"I'll send a quote for the 12 vans and kitchen walk-in cooler, including language for the grant application.\",\"facts\":[\"next_steps-1\"]},{\"text\":\"I'll follow up about a time to meet with Mark and plan a 15-minute meeting.\",\"facts\":[\"next_steps-2\",\"commitments-3\"]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 10766,
+ "meta": {
+  "ms": 10758,
+  "input_tokens": 1143,
+  "output_tokens": 1165,
+  "cost_usd": 0.000697,
+  "usage": {
+   "prompt_tokens": 1143,
+   "completion_tokens": 1165,
+   "total_tokens": 2308,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1140,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 881,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

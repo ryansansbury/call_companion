@@ -1,0 +1,58 @@
+{
+ "rows": [
+  {
+   "model": "claude-haiku",
+   "label": "Claude Haiku 5.5",
+   "vendor": "Anthropic",
+   "local": false,
+   "calls": 12,
+   "f1": {
+    "dev": 0.78,
+    "test": 0.797,
+    "deal": 0.763
+   },
+   "held_rate": 0.0,
+   "flagged": 1,
+   "cost_per_call": 0.0127,
+   "per_month_estimate": 12.7,
+   "seconds_per_call": 77.3
+  },
+  {
+   "model": "claude-sonnet",
+   "label": "Claude Sonnet 5.5",
+   "vendor": "Anthropic",
+   "local": false,
+   "calls": 12,
+   "f1": {
+    "dev": 0.812,
+    "test": 0.808,
+    "deal": 0.813
+   },
+   "held_rate": 0.007,
+   "flagged": 1,
+   "cost_per_call": 0.1378,
+   "per_month_estimate": 137.8,
+   "seconds_per_call": 38.4
+  },
+  {
+   "model": "openai-luna",
+   "label": "GPT-6 Luna",
+   "vendor": "OpenAI",
+   "local": false,
+   "calls": 12,
+   "f1": {
+    "dev": 0.758,
+    "test": 0.778,
+    "deal": 0.755
+   },
+   "held_rate": 0.023,
+   "flagged": 0,
+   "cost_per_call": 0.00396,
+   "per_month_estimate": 3.96,
+   "seconds_per_call": 57.2
+  }
+ ],
+ "route": "claude-sonnet",
+ "route_reason": "best_dev",
+ "f1_bar": 0.85
+}

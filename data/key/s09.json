@@ -1,0 +1,331 @@
+{
+ "call": "s09",
+ "facts": [
+  {
+   "id": "s09f01",
+   "field": "account",
+   "value": "Six cold rooms",
+   "lines": [
+    "s09-002"
+   ],
+   "terms": [
+    "cold rooms"
+   ],
+   "segments": [
+    "s09-s002"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 6,
+   "unit": "rooms"
+  },
+  {
+   "id": "s09f02",
+   "field": "competition",
+   "value": "The monitoring screen that came with the refrigeration controls only shows temperatures on an office panel",
+   "lines": [
+    "s09-002"
+   ],
+   "terms": [
+    "refrigeration controls",
+    "panel"
+   ],
+   "segments": [
+    "s09-s002"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s09f03",
+   "field": "pain",
+   "value": "The crew logs readings twice a day, and customers' auditors want continuous records they don't have",
+   "lines": [
+    "s09-004"
+   ],
+   "terms": [
+    "twice a day",
+    "continuous records"
+   ],
+   "segments": [
+    "s09-s004"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s09f04",
+   "field": "pain",
+   "value": "A compressor failed on a Sunday last spring and wasn't caught until Monday",
+   "lines": [
+    "s09-006"
+   ],
+   "terms": [
+    "compressor failed"
+   ],
+   "segments": [
+    "s09-s006"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s09f05",
+   "field": "metrics",
+   "value": "A customer filed a $22,000 claim for spoiled product",
+   "lines": [
+    "s09-006"
+   ],
+   "terms": [
+    "claim"
+   ],
+   "segments": [
+    "s09-s006"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 22000,
+   "unit": "USD"
+  },
+  {
+   "id": "s09f06",
+   "field": "decision_criteria",
+   "value": "Continuous records customers can see and alerts to whoever's on call at night",
+   "lines": [
+    "s09-008"
+   ],
+   "terms": [
+    "customers can see",
+    "on call"
+   ],
+   "segments": [
+    "s09-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s09f07",
+   "field": "decision_process",
+   "value": "Owen runs it, but anything over $15,000 goes to the partners' monthly meeting",
+   "lines": [
+    "s09-010"
+   ],
+   "terms": [
+    "partners"
+   ],
+   "segments": [
+    "s09-s010"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 15000,
+   "unit": "USD"
+  },
+  {
+   "id": "s09f08",
+   "field": "economic_buyer",
+   "value": "The partners approve anything over $15,000",
+   "lines": [
+    "s09-010"
+   ],
+   "terms": [
+    "goes to the partners"
+   ],
+   "segments": [
+    "s09-s010"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s09f09",
+   "field": "close_date",
+   "value": "The partners' next meeting on October 20",
+   "lines": [
+    "s09-010",
+    "s09-018"
+   ],
+   "terms": [
+    "October twentieth"
+   ],
+   "segments": [
+    "s09-s010",
+    "s09-s018"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-10-20"
+  },
+  {
+   "id": "s09f10",
+   "field": "budget",
+   "value": "About $20,000 set aside for upgrades",
+   "lines": [
+    "s09-012"
+   ],
+   "terms": [
+    "set aside"
+   ],
+   "segments": [
+    "s09-s012"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 20000,
+   "unit": "USD"
+  },
+  {
+   "id": "s09f11",
+   "field": "critical_event",
+   "value": "The biggest customer's audit in December, with a few weeks of clean data wanted first",
+   "lines": [
+    "s09-014"
+   ],
+   "terms": [
+    "December",
+    "clean data"
+   ],
+   "segments": [
+    "s09-s014"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s09f12",
+   "field": "paper_process",
+   "value": "Their own vendor agreement and a certificate of insurance",
+   "lines": [
+    "s09-016"
+   ],
+   "terms": [
+    "vendor agreement",
+    "certificate of insurance"
+   ],
+   "segments": [
+    "s09-s016"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s09f13",
+   "field": "stakeholders",
+   "value": "The partners, who meet monthly",
+   "lines": [
+    "s09-010"
+   ],
+   "terms": [
+    "partners"
+   ],
+   "segments": [
+    "s09-s010"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s09f14",
+   "field": "champion",
+   "value": "Owen will put it on the partners' agenda",
+   "lines": [
+    "s09-018"
+   ],
+   "terms": [
+    "on the agenda"
+   ],
+   "segments": [
+    "s09-s018"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s09f15",
+   "field": "next_steps",
+   "value": "Jenna sends a proposal for the six rooms, a one-page summary for the partners and the insurance certificate by Friday",
+   "lines": [
+    "s09-015",
+    "s09-017"
+   ],
+   "terms": [
+    "by Friday",
+    "one-pager"
+   ],
+   "segments": [
+    "s09-s015",
+    "s09-s017"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-10-09"
+  },
+  {
+   "id": "s09f16",
+   "field": "next_steps",
+   "value": "Owen puts it on the partners' agenda for the 20th",
+   "lines": [
+    "s09-018"
+   ],
+   "terms": [
+    "agenda"
+   ],
+   "segments": [
+    "s09-s018"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-10-20"
+  }
+ ],
+ "commitments": [
+  {
+   "id": "s09k01",
+   "field": "commitments",
+   "value": "Send the proposal, the one-pager and the insurance certificate by Friday",
+   "lines": [
+    "s09-017"
+   ],
+   "terms": [
+    "by Friday"
+   ],
+   "segments": [
+    "s09-s017"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "REP",
+   "date": "2026-10-09"
+  },
+  {
+   "id": "s09k02",
+   "field": "commitments",
+   "value": "Put it on the partners' agenda for the 20th",
+   "lines": [
+    "s09-018"
+   ],
+   "terms": [
+    "agenda"
+   ],
+   "segments": [
+    "s09-s018"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "meeting",
+   "by": "buyer",
+   "who": "BUY",
+   "date": "2026-10-20"
+  }
+ ],
+ "absent": [
+  "pricing",
+  "amount",
+  "risks",
+  "seller_claims"
+ ],
+ "source": "transcript"
+}

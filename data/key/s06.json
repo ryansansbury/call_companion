@@ -1,0 +1,229 @@
+{
+ "call": "s06",
+ "facts": [
+  {
+   "id": "s06f01",
+   "field": "account",
+   "value": "Most boxes ship by parcel, with only six vans for local delivery",
+   "lines": [
+    "s06-002"
+   ],
+   "terms": [
+    "parcel"
+   ],
+   "segments": [
+    "s06-s002"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 6,
+   "unit": "vans"
+  },
+  {
+   "id": "s06f02",
+   "field": "pain",
+   "value": "Boxes sit on porches in the summer and customers open them warm",
+   "lines": [
+    "s06-004"
+   ],
+   "terms": [
+    "porches"
+   ],
+   "segments": [
+    "s06-s004"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s06f03",
+   "field": "metrics",
+   "value": "Refunds on warm boxes hit about 3% of boxes this summer",
+   "lines": [
+    "s06-006"
+   ],
+   "terms": [
+    "refund rate"
+   ],
+   "segments": [
+    "s06-s006"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 3,
+   "unit": "percent"
+  },
+  {
+   "id": "s06f04",
+   "field": "pain",
+   "value": "The complaints hurt more than the refunds",
+   "lines": [
+    "s06-006"
+   ],
+   "terms": [
+    "complaints"
+   ],
+   "segments": [
+    "s06-s006"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s06f05",
+   "field": "decision_criteria",
+   "value": "A few dollars a box won't work at thousands of boxes a week",
+   "lines": [
+    "s06-008"
+   ],
+   "terms": [
+    "few dollars a box",
+    "thousands of boxes"
+   ],
+   "segments": [
+    "s06-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s06f06",
+   "field": "account",
+   "value": "They ship thousands of boxes a week",
+   "lines": [
+    "s06-008"
+   ],
+   "terms": [
+    "thousands of boxes a week"
+   ],
+   "segments": [
+    "s06-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s06f07",
+   "field": "risks",
+   "value": "The vans aren't where they lose boxes, the porch is",
+   "lines": [
+    "s06-010"
+   ],
+   "terms": [
+    "vans aren't really"
+   ],
+   "segments": [
+    "s06-s010"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s06f08",
+   "field": "seller_claims",
+   "value": "Sensors can go right inside the boxes",
+   "lines": [
+    "s06-007"
+   ],
+   "terms": [
+    "right in the boxes"
+   ],
+   "segments": [
+    "s06-s007"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s06f09",
+   "field": "seller_claims",
+   "value": "Every van gets a sensor on one dashboard",
+   "lines": [
+    "s06-009"
+   ],
+   "terms": [
+    "one dashboard"
+   ],
+   "segments": [
+    "s06-s009"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s06f10",
+   "field": "next_steps",
+   "value": "Derek sends a deck with case studies today",
+   "lines": [
+    "s06-011",
+    "s06-013"
+   ],
+   "terms": [
+    "deck"
+   ],
+   "segments": [
+    "s06-s011",
+    "s06-s013"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-24"
+  }
+ ],
+ "commitments": [
+  {
+   "id": "s06k01",
+   "field": "commitments",
+   "value": "Send a deck with case studies today",
+   "lines": [
+    "s06-013"
+   ],
+   "terms": [
+    "today"
+   ],
+   "segments": [
+    "s06-s013"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "REP",
+   "date": "2026-09-24"
+  },
+  {
+   "id": "s06k02",
+   "field": "commitments",
+   "value": "Figure out the pricing for sensors in boxes",
+   "lines": [
+    "s06-009"
+   ],
+   "terms": [
+    "figure out the pricing"
+   ],
+   "segments": [
+    "s06-s009"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "REP",
+   "date": null
+  }
+ ],
+ "absent": [
+  "economic_buyer",
+  "decision_process",
+  "paper_process",
+  "champion",
+  "competition",
+  "critical_event",
+  "budget",
+  "pricing",
+  "amount",
+  "close_date",
+  "stakeholders"
+ ],
+ "source": "transcript"
+}

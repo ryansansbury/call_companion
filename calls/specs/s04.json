@@ -1,0 +1,29 @@
+{
+  "id": "s04", "kind": "scored", "split": "dev", "title": "Seafood wholesaler", "date": "2026-09-17", "length_s": 160,
+  "speakers": ["REP", "BUY"],
+  "cast": {
+    "REP": {"name": "Derek Shaw", "role": "Account executive", "company": "Brinewatch", "side": "seller", "voice": "am_fenrir", "speed": 1.05},
+    "BUY": {"name": "Nina Park", "role": "Operations manager", "company": "a seafood wholesaler", "side": "buyer", "voice": "bf_isabella", "speed": 1.0}
+  },
+  "rep": {"talk_share": 0.55, "quality": "weak", "misses": ["budget", "close_date", "paper_process", "critical_event"]},
+  "facts": [
+    {"id": "s04f01", "field": "account", "value": "Fresh and frozen seafood, mostly to restaurants, on twelve trucks", "line": "s04-002", "number": 12, "unit": "trucks", "terms": ["Twelve trucks"]},
+    {"id": "s04f02", "field": "pain", "value": "Fresh fish has to stay around 32 degrees, and warm deliveries get sent back", "line": "s04-004", "number": 32, "unit": "degrees F", "terms": ["send it back"]},
+    {"id": "s04f03", "field": "metrics", "value": "Two or three rejected deliveries a week", "line": "s04-006", "terms": ["rejected deliveries a week"]},
+    {"id": "s04f04", "field": "metrics", "value": "Each rejected delivery costs about $1,200", "line": "s04-008", "number": 1200, "unit": "USD", "terms": ["rejected delivery"]},
+    {"id": "s04f05", "field": "pain", "value": "The cab display doesn't record anything", "line": "s04-008", "terms": ["doesn't record"]},
+    {"id": "s04f06", "field": "competition", "value": "Frostgauge quoted cheaper last month, but the drivers didn't like its app", "line": "s04-010", "terms": ["Frostgauge", "didn't like the app"]},
+    {"id": "s04f07", "field": "account", "value": "Airport pickups twice a week are the worst runs for temperature", "line": "s04-012", "terms": ["airport pickups"]},
+    {"id": "s04f08", "field": "economic_buyer", "value": "Frank, the owner, signs everything", "line": "s04-014", "terms": ["Frank", "signs everything"]},
+    {"id": "s04f09", "field": "decision_process", "value": "Nina has to run it by Frank, the owner", "line": "s04-014", "terms": ["run it by"]},
+    {"id": "s04f10", "field": "stakeholders", "value": "Frank, the owner", "line": "s04-014", "terms": ["owner"]},
+    {"id": "s04f11", "field": "decision_criteria", "value": "Price decides how fast Frank moves", "lines": ["s04-015", "s04-016"], "terms": ["price"]},
+    {"id": "s04f12", "field": "seller_claims", "value": "Sensors track every compartment and text the moment something drifts", "line": "s04-005", "terms": ["every compartment"]},
+    {"id": "s04f13", "field": "seller_claims", "value": "The app is easier, the drivers barely touch it, and it works without a signal", "line": "s04-011", "terms": ["way easier", "without a signal"]},
+    {"id": "s04f14", "field": "next_steps", "value": "Derek sends info and a few demo times for Nina to share with Frank", "line": "s04-017", "owner": "seller", "terms": ["demo"]}
+  ],
+  "commitments": [
+    {"id": "s04k01", "by": "seller", "who": "REP", "what": "Send info and a few demo times", "kind": "deliverable", "line": "s04-017", "terms": ["send over some info"]}
+  ],
+  "absent": ["paper_process", "champion", "budget", "pricing", "amount", "close_date", "critical_event", "risks"]
+}

@@ -1,0 +1,296 @@
+{
+ "call": "deal-3",
+ "rate": 24000,
+ "length_s": 207.014,
+ "version": "v1",
+ "turns": [
+  {
+   "id": "d3-001",
+   "speaker": "AE",
+   "start": 0.6,
+   "end": 7.31,
+   "voiced_end": 7.31,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-002",
+   "speaker": "CFO",
+   "start": 7.883,
+   "end": 16.733,
+   "voiced_end": 16.733,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-003",
+   "speaker": "AE",
+   "start": 17.262,
+   "end": 31.092,
+   "voiced_end": 31.092,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-004",
+   "speaker": "OPS",
+   "start": 20.462,
+   "end": 21.282,
+   "voiced_end": 21.282,
+   "bc": true,
+   "cut": null
+  },
+  {
+   "id": "d3-005",
+   "speaker": "AE",
+   "start": 31.422,
+   "end": 38.902,
+   "voiced_end": 38.902,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-006",
+   "speaker": "OPS",
+   "start": 39.371,
+   "end": 45.771,
+   "voiced_end": 45.771,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-007",
+   "speaker": "CFO",
+   "start": 46.532,
+   "end": 47.872,
+   "voiced_end": 47.872,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-008",
+   "speaker": "AE",
+   "start": 48.292,
+   "end": 64.442,
+   "voiced_end": 64.442,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-009",
+   "speaker": "CFO",
+   "start": 65.763,
+   "end": 73.603,
+   "voiced_end": 73.603,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-010",
+   "speaker": "AE",
+   "start": 74.138,
+   "end": 80.938,
+   "voiced_end": 80.938,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-011",
+   "speaker": "CFO",
+   "start": 81.546,
+   "end": 85.485,
+   "voiced_end": 86.356,
+   "bc": false,
+   "cut": 12
+  },
+  {
+   "id": "d3-012",
+   "speaker": "OPS",
+   "start": 84.935,
+   "end": 91.795,
+   "voiced_end": 91.795,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-013",
+   "speaker": "CFO",
+   "start": 92.621,
+   "end": 101.321,
+   "voiced_end": 101.321,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-014",
+   "speaker": "OPS",
+   "start": 101.779,
+   "end": 109.349,
+   "voiced_end": 109.349,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-015",
+   "speaker": "CFO",
+   "start": 103.579,
+   "end": 104.059,
+   "voiced_end": 104.059,
+   "bc": true,
+   "cut": null
+  },
+  {
+   "id": "d3-016",
+   "speaker": "AE",
+   "start": 110.006,
+   "end": 119.196,
+   "voiced_end": 119.196,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-017",
+   "speaker": "CFO",
+   "start": 119.882,
+   "end": 124.542,
+   "voiced_end": 124.542,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-018",
+   "speaker": "AE",
+   "start": 124.995,
+   "end": 130.395,
+   "voiced_end": 130.395,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-019",
+   "speaker": "OPS",
+   "start": 127.195,
+   "end": 128.095,
+   "voiced_end": 128.095,
+   "bc": true,
+   "cut": null
+  },
+  {
+   "id": "d3-020",
+   "speaker": "CFO",
+   "start": 131.069,
+   "end": 136.409,
+   "voiced_end": 136.409,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-021",
+   "speaker": "AE",
+   "start": 136.807,
+   "end": 139.277,
+   "voiced_end": 139.277,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-022",
+   "speaker": "CFO",
+   "start": 139.828,
+   "end": 144.928,
+   "voiced_end": 144.928,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-023",
+   "speaker": "AE",
+   "start": 145.297,
+   "end": 151.307,
+   "voiced_end": 151.307,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-024",
+   "speaker": "CFO",
+   "start": 151.734,
+   "end": 153.604,
+   "voiced_end": 153.604,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-025",
+   "speaker": "AE",
+   "start": 153.966,
+   "end": 161.236,
+   "voiced_end": 161.236,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-026",
+   "speaker": "CFO",
+   "start": 161.866,
+   "end": 171.326,
+   "voiced_end": 171.326,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-027",
+   "speaker": "AE",
+   "start": 171.655,
+   "end": 173.255,
+   "voiced_end": 173.255,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-028",
+   "speaker": "OPS",
+   "start": 173.843,
+   "end": 182.833,
+   "voiced_end": 182.833,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-029",
+   "speaker": "AE",
+   "start": 183.35,
+   "end": 196.17,
+   "voiced_end": 196.17,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-030",
+   "speaker": "CFO",
+   "start": 196.83,
+   "end": 200.2,
+   "voiced_end": 200.2,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-031",
+   "speaker": "OPS",
+   "start": 200.635,
+   "end": 203.305,
+   "voiced_end": 203.305,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "d3-032",
+   "speaker": "AE",
+   "start": 203.754,
+   "end": 206.214,
+   "voiced_end": 206.214,
+   "bc": false,
+   "cut": null
+  }
+ ]
+}

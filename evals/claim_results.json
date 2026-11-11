@@ -1,0 +1,515 @@
+{
+ "planted": 30,
+ "caught": 29,
+ "right_status": 29,
+ "catch_rate": 0.967,
+ "by_type": {
+  "money": {
+   "planted": 5,
+   "caught": 5
+  },
+  "count": {
+   "planted": 5,
+   "caught": 5
+  },
+  "percent": {
+   "planted": 5,
+   "caught": 4
+  },
+  "date": {
+   "planted": 5,
+   "caught": 5
+  },
+  "name": {
+   "planted": 5,
+   "caught": 5
+  },
+  "promise": {
+   "planted": 5,
+   "caught": 5
+  }
+ },
+ "clean_emails": 12,
+ "clean_claims": 79,
+ "false_alarm_emails": 0,
+ "false_alarm_rate": 0.0,
+ "bars": {
+  "catch_rate": 0.95,
+  "false_alarm_rate": 0.1
+ },
+ "passes": true,
+ "checks": {
+  "missing": 14,
+  "conflict": 6,
+  "unknown_name": 3,
+  "role": 2,
+  "approval": 2,
+  "promise": 2
+ },
+ "rows": [
+  {
+   "id": "p01",
+   "call": "deal-1",
+   "type": "money",
+   "how": "invented",
+   "sentence": "You lost about $15,000 of seafood and dairy in that one load.",
+   "bad": "$15,000",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has $15,000",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p02",
+   "call": "deal-3",
+   "type": "money",
+   "how": "invented",
+   "sentence": "The hardware comes to about $35,000 for the 38 trucks and the warehouse.",
+   "bad": "$35,000",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has $35,000",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p03",
+   "call": "s07",
+   "type": "money",
+   "how": "invented",
+   "sentence": "We can fit everything into about $800 a month.",
+   "bad": "$800",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has $800",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p04",
+   "call": "deal-1",
+   "type": "money",
+   "how": "swapped",
+   "sentence": "That one load cost you about $5,000 in seafood and dairy.",
+   "bad": "$5,000",
+   "caught": true,
+   "right": true,
+   "reason": "this is $14,000 in the call (d1f02)",
+   "check": "conflict",
+   "extra": []
+  },
+  {
+   "id": "p05",
+   "call": "s09",
+   "type": "money",
+   "how": "swapped",
+   "sentence": "Anything over $20,000 goes to the partners' monthly meeting.",
+   "bad": "$20,000",
+   "caught": true,
+   "right": true,
+   "reason": "this is $15,000 in the call (s09f07)",
+   "check": "conflict",
+   "extra": []
+  },
+  {
+   "id": "p06",
+   "call": "s01",
+   "type": "count",
+   "how": "invented",
+   "sentence": "A quote for your fourteen vans and the walk-in is on its way.",
+   "bad": "fourteen",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has 14 vans",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p07",
+   "call": "s09",
+   "type": "count",
+   "how": "invented",
+   "sentence": "The proposal covers all eight cold rooms.",
+   "bad": "eight",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has 8 rooms",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p08",
+   "call": "deal-2",
+   "type": "count",
+   "how": "invented",
+   "sentence": "Priya's pilot plan covers six trucks on real routes.",
+   "bad": "six",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has 6 trucks",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p09",
+   "call": "s05",
+   "type": "count",
+   "how": "swapped",
+   "sentence": "The telematics add-on only reports every ten minutes.",
+   "bad": "ten",
+   "caught": true,
+   "right": true,
+   "reason": "this is 30 minutes in the call (s05f05)",
+   "check": "conflict",
+   "extra": []
+  },
+  {
+   "id": "p10",
+   "call": "s03",
+   "type": "count",
+   "how": "swapped",
+   "sentence": "Three restaurants ran out of prep and cut half the brunch menu.",
+   "bad": "Three",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has 3 restaurants",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p11",
+   "call": "deal-2",
+   "type": "percent",
+   "how": "invented",
+   "sentence": "Frostgauge's hardware came in about 40% cheaper.",
+   "bad": "40%",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has 40%",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p12",
+   "call": "deal-3",
+   "type": "percent",
+   "how": "invented",
+   "sentence": "Their quote came in about 20% under ours.",
+   "bad": "20%",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has 20%",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p13",
+   "call": "s06",
+   "type": "percent",
+   "how": "invented",
+   "sentence": "Refunds on warm boxes hit about 5% of boxes this summer.",
+   "bad": "5%",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has 5%",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p14",
+   "call": "deal-3",
+   "type": "percent",
+   "how": "invented",
+   "sentence": "If the alerts catch 80% of last year's losses they cover year one.",
+   "bad": "80%",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has 80%",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p15",
+   "call": "deal-2",
+   "type": "percent",
+   "how": "swapped",
+   "sentence": "About 30% of your routes cross dead zones.",
+   "bad": "30%",
+   "caught": false,
+   "right": false,
+   "reason": null,
+   "check": null,
+   "extra": []
+  },
+  {
+   "id": "p16",
+   "call": "deal-1",
+   "type": "date",
+   "how": "invented",
+   "sentence": "Priya and I will see you and Tom next Wednesday at ten.",
+   "bad": "next Wednesday",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call is dated Wednesday, September 16",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p17",
+   "call": "s09",
+   "type": "date",
+   "how": "invented",
+   "sentence": "You'll have the proposal and the insurance certificate by Monday.",
+   "bad": "Monday",
+   "caught": true,
+   "right": true,
+   "reason": "this is Friday, October 9 in the call (s09f15)",
+   "check": "conflict",
+   "extra": []
+  },
+  {
+   "id": "p18",
+   "call": "s07",
+   "type": "date",
+   "how": "invented",
+   "sentence": "The demo for Kim is set for next Tuesday at nine.",
+   "bad": "next Tuesday",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call is dated Tuesday, October 6",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p19",
+   "call": "deal-3",
+   "type": "date",
+   "how": "swapped",
+   "sentence": "Linda will make the call by October 2.",
+   "bad": "October 2",
+   "caught": true,
+   "right": true,
+   "reason": "this is Thursday, September 24 in the call (d3f24)",
+   "check": "conflict",
+   "extra": []
+  },
+  {
+   "id": "p20",
+   "call": "deal-2",
+   "type": "date",
+   "how": "swapped",
+   "sentence": "Priya will send the written pilot plan by Friday.",
+   "bad": "Friday",
+   "caught": true,
+   "right": true,
+   "reason": "this is Thursday, September 17 in the call (d2f15)",
+   "check": "conflict",
+   "extra": []
+  },
+  {
+   "id": "p21",
+   "call": "deal-1",
+   "type": "name",
+   "how": "unknown person",
+   "sentence": "We'll bring Kevin from our install team to the technical call.",
+   "bad": "Kevin",
+   "caught": true,
+   "right": true,
+   "reason": "Kevin isn't named anywhere in the call",
+   "check": "unknown_name",
+   "extra": []
+  },
+  {
+   "id": "p22",
+   "call": "deal-2",
+   "type": "name",
+   "how": "wrong role",
+   "sentence": "Tom, your CFO, signs off on anything over $25,000.",
+   "bad": "CFO",
+   "caught": true,
+   "right": true,
+   "reason": "the call has Tom as IT manager",
+   "check": "role",
+   "extra": []
+  },
+  {
+   "id": "p23",
+   "call": "s08",
+   "type": "name",
+   "how": "unknown person",
+   "sentence": "I'll send Priya the vendor registration information this week.",
+   "bad": "Priya",
+   "caught": true,
+   "right": true,
+   "reason": "Priya isn't named anywhere in the call",
+   "check": "unknown_name",
+   "extra": []
+  },
+  {
+   "id": "p24",
+   "call": "deal-3",
+   "type": "name",
+   "how": "wrong role",
+   "sentence": "Rachel, your CFO, will get the proposal to counsel the day it arrives.",
+   "bad": "CFO",
+   "caught": true,
+   "right": true,
+   "reason": "the call has Rachel as director of operations",
+   "check": "role",
+   "extra": []
+  },
+  {
+   "id": "p25",
+   "call": "s01",
+   "type": "name",
+   "how": "unknown person",
+   "sentence": "Angela will take it to Susan Park herself.",
+   "bad": "Susan Park",
+   "caught": true,
+   "right": true,
+   "reason": "Susan Park isn't named anywhere in the call",
+   "check": "unknown_name",
+   "extra": []
+  },
+  {
+   "id": "p26",
+   "call": "deal-3",
+   "type": "promise",
+   "how": "unapproved",
+   "sentence": "As we discussed we'll waive the installation.",
+   "bad": "waive",
+   "caught": true,
+   "right": true,
+   "reason": "waived fees need a manager's approval first",
+   "check": "approval",
+   "extra": []
+  },
+  {
+   "id": "p27",
+   "call": "deal-3",
+   "type": "promise",
+   "how": "unapproved",
+   "sentence": "The installation is on us at no cost.",
+   "bad": "at no cost",
+   "caught": true,
+   "right": true,
+   "reason": "waived fees need a manager's approval first",
+   "check": "approval",
+   "extra": []
+  },
+  {
+   "id": "p28",
+   "call": "deal-1",
+   "type": "promise",
+   "how": "invented",
+   "sentence": "We'll take 10% off the hardware if you sign this month.",
+   "bad": "10% off",
+   "caught": true,
+   "right": true,
+   "reason": "no fact from the call has 10%",
+   "check": "missing",
+   "extra": []
+  },
+  {
+   "id": "p29",
+   "call": "s07",
+   "type": "promise",
+   "how": "invented",
+   "sentence": "We guarantee the alerts will pay for themselves in the first season.",
+   "bad": "guarantee",
+   "caught": true,
+   "right": true,
+   "reason": "nobody offered this on the call",
+   "check": "promise",
+   "extra": []
+  },
+  {
+   "id": "p30",
+   "call": "s09",
+   "type": "promise",
+   "how": "invented",
+   "sentence": "The first month of software is free.",
+   "bad": "free",
+   "caught": true,
+   "right": true,
+   "reason": "nobody offered this on the call",
+   "check": "promise",
+   "extra": []
+  }
+ ],
+ "clean": [
+  {
+   "id": "c01",
+   "call": "deal-1",
+   "claims": 8,
+   "flagged": []
+  },
+  {
+   "id": "c02",
+   "call": "deal-2",
+   "claims": 9,
+   "flagged": []
+  },
+  {
+   "id": "c03",
+   "call": "deal-3",
+   "claims": 14,
+   "flagged": []
+  },
+  {
+   "id": "c04",
+   "call": "s01",
+   "claims": 7,
+   "flagged": []
+  },
+  {
+   "id": "c05",
+   "call": "s02",
+   "claims": 4,
+   "flagged": []
+  },
+  {
+   "id": "c06",
+   "call": "s03",
+   "claims": 5,
+   "flagged": []
+  },
+  {
+   "id": "c07",
+   "call": "s04",
+   "claims": 5,
+   "flagged": []
+  },
+  {
+   "id": "c08",
+   "call": "s05",
+   "claims": 10,
+   "flagged": []
+  },
+  {
+   "id": "c09",
+   "call": "s06",
+   "claims": 3,
+   "flagged": []
+  },
+  {
+   "id": "c10",
+   "call": "s07",
+   "claims": 6,
+   "flagged": []
+  },
+  {
+   "id": "c11",
+   "call": "s08",
+   "claims": 2,
+   "flagged": []
+  },
+  {
+   "id": "c12",
+   "call": "s09",
+   "claims": 6,
+   "flagged": []
+  }
+ ]
+}

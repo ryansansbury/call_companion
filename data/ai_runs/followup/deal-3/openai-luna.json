@@ -1,0 +1,250 @@
+{
+ "step": "followup",
+ "call": "deal-3",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:46:30",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "532abe2f1f0d8d27",
+ "input": {
+  "call": "deal-3",
+  "date": "2026-09-22",
+  "rep": "Marcus Webb",
+  "company": "Brinewatch",
+  "to": [
+   "Rachel Torres",
+   "Linda Marsh"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "About $90,000 was written off last year between spoiled loads and warm delivery credits.",
+    "number": 90000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "Warm delivery credits run about $5,000 a month.",
+    "number": 5000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-3",
+    "field": "metrics",
+    "value": "Someone in the office spends about 2 hours a day pulling stop sheets together.",
+    "number": 2,
+    "unit": "hours per day"
+   },
+   {
+    "id": "metrics-4",
+    "field": "metrics",
+    "value": "Pulling stop sheets together takes over 500 hours a year.",
+    "number": 500,
+    "unit": "hours per year"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Linda Marsh will make the decision."
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Rachel needs to understand the cost of starting with a pilot and walking away."
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "The pilot should come first and have a clean opt-out after 30 days.",
+    "number": 30,
+    "unit": "days"
+   },
+   {
+    "id": "decision_criteria-3",
+    "field": "decision_criteria",
+    "value": "Without a driver app, dead-zone routes would leave the same gaps in the records."
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "The master agreement and an order form go to counsel for review, then purchasing issues a purchase order."
+   },
+   {
+    "id": "paper_process-2",
+    "field": "paper_process",
+    "value": "The pilot opt-out needs to be in writing."
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Stop-sheet work will take all day, every day during the audit, and operations cannot spare anyone for it."
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Without records for every delivery, Rhyolite could lose the account during the audit."
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Frostgauge offered a hardware quote about 30% under Brinewatch's.",
+    "number": 30,
+    "unit": "percent"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "The audit is the week of the 19th."
+   },
+   {
+    "id": "critical_event-2",
+    "field": "critical_event",
+    "value": "A signature is needed by October 2nd to install the whole fleet before the audit."
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "Rhyolite set aside about $40,000 for food safety this year, and that amount already includes other things.",
+    "number": 40000,
+    "unit": "USD"
+   },
+   {
+    "id": "pricing-1",
+    "field": "pricing",
+    "value": "Hardware comes to about $31,000.",
+    "number": 31000,
+    "unit": "USD"
+   },
+   {
+    "id": "pricing-2",
+    "field": "pricing",
+    "value": "Installation is about $4,500.",
+    "number": 4500,
+    "unit": "USD"
+   },
+   {
+    "id": "pricing-3",
+    "field": "pricing",
+    "value": "Software is $1,260 a month.",
+    "number": 1260,
+    "unit": "USD per month"
+   },
+   {
+    "id": "pricing-4",
+    "field": "pricing",
+    "value": "The software is under an annual agreement billed monthly."
+   },
+   {
+    "id": "pricing-5",
+    "field": "pricing",
+    "value": "If the alerts don't do what Brinewatch said, Rhyolite can walk away and owe nothing for the software."
+   },
+   {
+    "id": "amount-1",
+    "field": "amount",
+    "value": "Year one is right around $50,000.",
+    "number": 50000,
+    "unit": "USD"
+   },
+   {
+    "id": "close_date-1",
+    "field": "close_date",
+    "value": "Linda will decide by the 30th."
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Marcus will send a revised proposal with the pilot clause and net 45 terms."
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Linda will decide."
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Rachel will make sure Council has the proposal."
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "Linda said next quarter would be easier on the budget."
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Rhyolite has 38 trucks plus a warehouse.",
+    "number": 38,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Two trucks are in the shop.",
+    "number": 2,
+    "unit": "trucks"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "If the alerts catch even half of last year's losses, they cover most of the cost on their own."
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send a revised proposal with the pilot clause and net 45 terms."
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Accept net 45 payment terms."
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Decide on the proposal."
+   },
+   {
+    "id": "commitments-5",
+    "field": "commitments",
+    "value": "Make sure Council has the proposal."
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Rhyolite pilot proposal\",\"sentences\":[{\"text\":\"Rachel and Linda, thank you for the conversation.\",\"facts\":[]},{\"text\":\"You shared that stop-sheet work will consume operations during the audit, while missing delivery records could put the Rhyolite account at risk.\",\"facts\":[\"pain-1\",\"pain-2\"]},{\"text\":\"We discussed starting with a pilot and putting the 30-day opt-out in writing, and Rachel’s need to understand the cost of starting and walking away.\",\"facts\":[\"decision_criteria-1\",\"decision_criteria-2\",\"paper_process-2\"]},{\"text\":\"Year one is around $50,000, with hardware about $31,000, installation about $4,500, and software at $1,260 a month under an annual agreement billed monthly.\",\"facts\":[\"amount-1\",\"pricing-1\",\"pricing-2\",\"pricing-3\",\"pricing-4\"]},{\"text\":\"A signature is needed by October 2nd to install the whole fleet before the audit.\",\"facts\":[\"critical_event-2\"]},{\"text\":\"I’ll send a revised proposal with the pilot clause and net 45 terms; Rachel will make sure Council has it, and Linda will decide by the 30th.\",\"facts\":[\"next_steps-1\",\"next_steps-3\",\"close_date-1\"]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 8204,
+ "meta": {
+  "ms": 8202,
+  "input_tokens": 1673,
+  "output_tokens": 902,
+  "cost_usd": 0.000618,
+  "usage": {
+   "prompt_tokens": 1673,
+   "completion_tokens": 902,
+   "total_tokens": 2575,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1670,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 618,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

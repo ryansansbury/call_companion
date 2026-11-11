@@ -1,0 +1,264 @@
+{
+ "step": "extract",
+ "call": "deal-3",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:46:21",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "a8c0684ebae12c7b",
+ "input": {
+  "call": "deal-3",
+  "date": "2026-09-22",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "AE",
+    "name": "Marcus Webb",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "OPS",
+    "name": "Rachel Torres",
+    "role": "Director of operations",
+    "company": "Rhyolite Foodservice",
+    "side": "buyer"
+   },
+   {
+    "code": "CFO",
+    "name": "Linda Marsh",
+    "role": "Chief financial officer",
+    "company": "Rhyolite Foodservice",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "d3-s001",
+    "speaker": "AE",
+    "start": 0.29,
+    "text": "Hi Rachel, hi Linda. Thanks for making the time. Linda, I know Rachel's filled you in so I'll keep this tight."
+   },
+   {
+    "id": "d3-s002",
+    "speaker": "CFO",
+    "start": 7.57,
+    "text": "Please do. I've seen the numbers Rachel sent over. What I need to understand is what this costs and what it costs if we start with a pilot and walk away."
+   },
+   {
+    "id": "d3-s003",
+    "speaker": "AE",
+    "start": 16.95,
+    "text": "Fair. Let me start with your numbers, not hours. Rachel told us you wrote off about $90,000 last year between spoiled loads and warm delivery credits, with the credits running about $5,000 a month. And someone in the office spends about two hours a day pulling stop sheets together, which is over 500 hours a year."
+   },
+   {
+    "id": "d3-s004",
+    "speaker": "OPS",
+    "start": 20.17,
+    "text": "That's right."
+   },
+   {
+    "id": "d3-s005",
+    "speaker": "OPS",
+    "start": 39.07,
+    "text": "And that's a normal week. During the audit, it's going to be all day, every day, and I can't spare anybody for that."
+   },
+   {
+    "id": "d3-s006",
+    "speaker": "CFO",
+    "start": 46.23,
+    "text": "OK and on your side."
+   },
+   {
+    "id": "d3-s007",
+    "speaker": "AE",
+    "start": 47.99,
+    "text": "For 38 trucks plus the warehouse, the hardware comes to about $31,000. Installation is about $4,500. Software is $1,260 a month. All in, year one is right around $50,000."
+   },
+   {
+    "id": "d3-s008",
+    "speaker": "CFO",
+    "start": 65.49,
+    "text": "That's more than we planned. We set aside about 40,000 for food safety this year, and that number already had some other things in it."
+   },
+   {
+    "id": "d3-s009",
+    "speaker": "AE",
+    "start": 73.83,
+    "text": "Understood. And if the alerts catch even half of what you lost last year, they cover most of that on their own."
+   },
+   {
+    "id": "d3-s010",
+    "speaker": "CFO",
+    "start": 81.25,
+    "text": "Maybe, but Frostgauge came in a lot cheaper, and honestly, if we waited in..."
+   },
+   {
+    "id": "d3-s011",
+    "speaker": "OPS",
+    "start": 84.63,
+    "text": "We can't wait, Linda. The audit's the week of the 19th, and without records for every delivery, we could lose the account."
+   },
+   {
+    "id": "d3-s012",
+    "speaker": "CFO",
+    "start": 92.31,
+    "text": "I know, next quarter would just be easier on the budget, and their hardware quote was about 30% under yours, so I have to ask why we'd pay more."
+   },
+   {
+    "id": "d3-s013",
+    "speaker": "OPS",
+    "start": 101.47,
+    "text": "Because they don't have a driver app, and half our"
+   },
+   {
+    "id": "d3-s014",
+    "speaker": "CFO",
+    "start": 103.75,
+    "text": "Besarentave как играет East Coast im trapped inside of St edges of light inside of state road safety and gamma Koala currency."
+   },
+   {
+    "id": "d3-s015",
+    "speaker": "OPS",
+    "start": 104.11,
+    "text": "routes are in dead zones. Without the app, we'd have the same gaps in the records we have now."
+   },
+   {
+    "id": "d3-s016",
+    "speaker": "AE",
+    "start": 109.71,
+    "text": "What if we start with the pilot? Four trucks for 30 days, and if the alerts don't do what we said, you walk away and owe nothing for the software."
+   },
+   {
+    "id": "d3-s017",
+    "speaker": "CFO",
+    "start": 119.59,
+    "text": "I'd want that in writing, a pilot first with a clean opt-out after 30 days."
+   },
+   {
+    "id": "d3-s018",
+    "speaker": "AE",
+    "start": 124.69,
+    "text": "We can do that, and to protect your timeline, I can probably get the installation waived."
+   },
+   {
+    "id": "d3-s019",
+    "speaker": "OPS",
+    "start": 126.89,
+    "text": "Oh, that helps."
+   },
+   {
+    "id": "d3-s020",
+    "speaker": "CFO",
+    "start": 130.77,
+    "text": "That would help, and after the pilot, is the software month to month, or are we signing up for a year?"
+   },
+   {
+    "id": "d3-s021",
+    "speaker": "AE",
+    "start": 136.51,
+    "text": "It's an annual agreement billed monthly."
+   },
+   {
+    "id": "d3-s022",
+    "speaker": "CFO",
+    "start": 139.53,
+    "text": "Okay, and the two trucks in the shop. I'm not paying for hardware on trucks that aren't running."
+   },
+   {
+    "id": "d3-s023",
+    "speaker": "AE",
+    "start": 144.99,
+    "text": "You won't. The price covers the $38 on the road, and the other two get sensors when they're back."
+   },
+   {
+    "id": "d3-s024",
+    "speaker": "CFO",
+    "start": 151.43,
+    "text": "Good, what does the paperwork look like?"
+   },
+   {
+    "id": "d3-s025",
+    "speaker": "AE",
+    "start": 153.67,
+    "text": "Our master agreement and an order form. Your counsel would review the agreement and then you'd issue a purchase order."
+   },
+   {
+    "id": "d3-s026",
+    "speaker": "CFO",
+    "start": 161.55,
+    "text": "Our outside counsel usually takes about a week, then purchasing needs a couple of days, and we pay everything net 45, so I'll need that in the order form."
+   },
+   {
+    "id": "d3-s027",
+    "speaker": "AE",
+    "start": 171.35,
+    "text": "Net 45 is fine."
+   },
+   {
+    "id": "d3-s028",
+    "speaker": "OPS",
+    "start": 173.61,
+    "text": "So if we want the whole fleet installed before the audit, we'd need a signature by October 2nd. Installs take about four days at 10 trucks a day."
+   },
+   {
+    "id": "d3-s029",
+    "speaker": "AE",
+    "start": 183.05,
+    "text": "That works on our side. Here's what I'd suggest. I'll send a revised proposal with the pilot clause in the net 45 terms by Thursday, and Linda, you'd let us know by Wednesday the 30th."
+   },
+   {
+    "id": "d3-s030",
+    "speaker": "CFO",
+    "start": 196.53,
+    "text": "That's fair, send it Thursday and I'll decide by the 30th."
+   },
+   {
+    "id": "d3-s031",
+    "speaker": "OPS",
+    "start": 200.33,
+    "text": "And I'll make sure Council has it the day it comes in."
+   },
+   {
+    "id": "d3-s032",
+    "speaker": "AE",
+    "start": 203.45,
+    "text": "Thank you both. I'll have it to you Thursday."
+   }
+  ]
+ },
+ "reply": "{\"fields\":{\"metrics\":[{\"value\":\"About $90,000 was written off last year between spoiled loads and warm delivery credits.\",\"number\":90000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"d3-s003\",\"quote\":\"about $90,000 last year between spoiled loads and warm delivery credits\"}]},{\"value\":\"Warm delivery credits run about $5,000 a month.\",\"number\":5000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"d3-s003\",\"quote\":\"the credits running about $5,000 a month\"}]},{\"value\":\"Someone in the office spends about 2 hours a day pulling stop sheets together.\",\"number\":2,\"unit\":\"hours per day\",\"evidence\":[{\"segment\":\"d3-s003\",\"quote\":\"about two hours a day pulling stop sheets together\"}]},{\"value\":\"Pulling stop sheets together takes over 500 hours a year.\",\"number\":500,\"unit\":\"hours per year\",\"evidence\":[{\"segment\":\"d3-s003\",\"quote\":\"which is over 500 hours a year\"}]}],\"economic_buyer\":[{\"value\":\"Linda Marsh will make the decision.\",\"name\":\"Linda Marsh\",\"role\":\"Chief financial officer\",\"evidence\":[{\"segment\":\"d3-s030\",\"quote\":\"I'll decide by the 30th\"}]}],\"decision_criteria\":[{\"value\":\"Rachel needs to understand the cost of starting with a pilot and walking away.\",\"evidence\":[{\"segment\":\"d3-s002\",\"quote\":\"what it costs if we start with a pilot and walk away\"}]},{\"value\":\"The pilot should come first and have a clean opt-out after 30 days.\",\"number\":30,\"unit\":\"days\",\"evidence\":[{\"segment\":\"d3-s017\",\"quote\":\"a pilot first with a clean opt-out after 30 days\"}]},{\"value\":\"Without a driver app, dead-zone routes would leave the same gaps in the records.\",\"evidence\":[{\"segment\":\"d3-s015\",\"quote\":\"Without the app, we'd have the same gaps in the records we have now.\"}]}],\"decision_process\":[],\"paper_process\":[{\"value\":\"The master agreement and an order form go to counsel for review, then purchasing issues a purchase order.\",\"evidence\":[{\"segment\":\"d3-s025\",\"quote\":\"Your counsel would review the agreement and then you'd issue a purchase order.\"}]},{\"value\":\"The pilot opt-out needs to be in writing.\",\"evidence\":[{\"segment\":\"d3-s017\",\"quote\":\"I'd want that in writing\"}]},{\"value\":\"The order form needs to include net 45 payment terms.\",\"evidence\":[{\"segment\":\"d3-s026\",\"quote\":\"I'll need that in the order form\"}]}],\"pain\":[{\"value\":\"Stop-sheet work will take all day, every day during the audit, and operations cannot spare anyone for it.\",\"evidence\":[{\"segment\":\"d3-s003\",\"quote\":\"pulling stop sheets together\"},{\"segment\":\"d3-s005\",\"quote\":\"it's going to be all day, every day, and I can't spare anybody for that.\"}]},{\"value\":\"Without records for every delivery, Rhyolite could lose the account during the audit.\",\"evidence\":[{\"segment\":\"d3-s011\",\"quote\":\"without records for every delivery, we could lose the account\"}]}],\"champion\":[],\"competition\":[{\"value\":\"Frostgauge offered a hardware quote about 30% under Brinewatch's.\",\"number\":30,\"unit\":\"percent\",\"evidence\":[{\"segment\":\"d3-s010\",\"quote\":\"Frostgauge came in a lot cheaper\"},{\"segment\":\"d3-s012\",\"quote\":\"their hardware quote was about 30% under yours\"}]}],\"critical_event\":[{\"value\":\"The audit is the week of the 19th.\",\"due\":\"the week of the 19th\",\"evidence\":[{\"segment\":\"d3-s011\",\"quote\":\"The audit's the week of the 19th\"}]},{\"value\":\"A signature is needed by October 2nd to install the whole fleet before the audit.\",\"due\":\"by October 2nd\",\"evidence\":[{\"segment\":\"d3-s028\",\"quote\":\"we'd need a signature by October 2nd\"}]}],\"budget\":[{\"value\":\"Rhyolite set aside about $40,000 for food safety this year, and that amount already includes other things.\",\"number\":40000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"d3-s008\",\"quote\":\"We set aside about 40,000 for food safety this year, and that number already had some other things in it.\"}]}],\"pricing\":[{\"value\":\"Hardware comes to about $31,000.\",\"number\":31000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"d3-s007\",\"quote\":\"the hardware comes to about $31,000\"}]},{\"value\":\"Installation is about $4,500.\",\"number\":4500,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"d3-s007\",\"quote\":\"Installation is about $4,500\"}]},{\"value\":\"Software is $1,260 a month.\",\"number\":1260,\"unit\":\"USD per month\",\"evidence\":[{\"segment\":\"d3-s007\",\"quote\":\"Software is $1,260 a month\"}]},{\"value\":\"The software is under an annual agreement billed monthly.\",\"evidence\":[{\"segment\":\"d3-s021\",\"quote\":\"It's an annual agreement billed monthly.\"}]},{\"value\":\"If the alerts don't do what Brinewatch said, Rhyolite can walk away and owe nothing for the software.\",\"evidence\":[{\"segment\":\"d3-s016\",\"quote\":\"if the alerts don't do what we said, you walk away and owe nothing for the software\"}]}],\"amount\":[{\"value\":\"Year one is right around $50,000.\",\"number\":50000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"d3-s007\",\"quote\":\"All in, year one is right around $50,000.\"}]}],\"close_date\":[{\"value\":\"Linda will decide by the 30th.\",\"due\":\"by the 30th\",\"evidence\":[{\"segment\":\"d3-s030\",\"quote\":\"I'll decide by the 30th\"}]}],\"next_steps\":[{\"value\":\"Marcus will send a revised proposal with the pilot clause and net 45 terms.\",\"owner\":\"seller\",\"due\":\"by Thursday\",\"evidence\":[{\"segment\":\"d3-s029\",\"quote\":\"I'll send a revised proposal with the pilot clause in the net 45 terms by Thursday\"}]},{\"value\":\"Linda will decide.\",\"owner\":\"buyer\",\"due\":\"by the 30th\",\"evidence\":[{\"segment\":\"d3-s030\",\"quote\":\"I'll decide by the 30th\"}]},{\"value\":\"Rachel will make sure Council has the proposal.\",\"owner\":\"buyer\",\"due\":\"the day it comes in\",\"evidence\":[{\"segment\":\"d3-s031\",\"quote\":\"I'll make sure Council has it the day it comes in\"}]}],\"stakeholders\":[],\"risks\":[{\"value\":\"Linda said next quarter would be easier on the budget.\",\"evidence\":[{\"segment\":\"d3-s012\",\"quote\":\"next quarter would just be easier on the budget\"}]}],\"account\":[{\"value\":\"Rhyolite has 38 trucks plus a warehouse.\",\"number\":38,\"unit\":\"trucks\",\"evidence\":[{\"segment\":\"d3-s007\",\"quote\":\"For 38 trucks plus the warehouse\"}]},{\"value\":\"Two trucks are in the shop.\",\"number\":2,\"unit\":\"trucks\",\"evidence\":[{\"segment\":\"d3-s022\",\"quote\":\"the two trucks in the shop\"}]}],\"seller_claims\":[{\"value\":\"If the alerts catch even half of last year's losses, they cover most of the cost on their own.\",\"evidence\":[{\"segment\":\"d3-s009\",\"quote\":\"if the alerts catch even half of what you lost last year, they cover most of that on their own\"}]}]},\"commitments\":[{\"by\":\"seller\",\"who\":\"AE\",\"what\":\"Send a revised proposal with the pilot clause and net 45 terms.\",\"kind\":\"deliverable\",\"due\":\"by Thursday\",\"evidence\":[{\"segment\":\"d3-s029\",\"quote\":\"I'll send a revised proposal with the pilot clause in the net 45 terms by Thursday\"}]},{\"by\":\"seller\",\"who\":\"AE\",\"what\":\"Get the installation waived.\",\"kind\":\"concession\",\"evidence\":[{\"segment\":\"d3-s018\",\"quote\":\"I can probably get the installation waived\"}]},{\"by\":\"seller\",\"who\":\"AE\",\"what\":\"Accept net 45 payment terms.\",\"kind\":\"terms\",\"evidence\":[{\"segment\":\"d3-s027\",\"quote\":\"Net 45 is fine.\"}]},{\"by\":\"buyer\",\"who\":\"CFO\",\"what\":\"Decide on the proposal.\",\"kind\":\"decision\",\"due\":\"by the 30th\",\"evidence\":[{\"segment\":\"d3-s030\",\"quote\":\"I'll decide by the 30th\"}]},{\"by\":\"buyer\",\"who\":\"OPS\",\"what\":\"Make sure Council has the proposal.\",\"kind\":\"deliverable\",\"due\":\"the day it comes in\",\"evidence\":[{\"segment\":\"d3-s031\",\"quote\":\"I'll make sure Council has it the day it comes in\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 1,
+ "kept": 35,
+ "ms": 63395,
+ "meta": {
+  "ms": 63392,
+  "input_tokens": 3055,
+  "output_tokens": 8337,
+  "cost_usd": 0.004474,
+  "usage": {
+   "prompt_tokens": 3055,
+   "completion_tokens": 8337,
+   "total_tokens": 11392,
+   "prompt_tokens_details": {
+    "cached_tokens": 1236,
+    "cache_write_tokens": 1816,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6372,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

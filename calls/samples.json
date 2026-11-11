@@ -1,0 +1,16 @@
+{
+ "note": "The sentences behind the Email tab's buttons, one for each kind of bad claim. A call uses its own planted claims where evals/planted_claims.json has one, chosen here for the deal, and the generic sentence otherwise. The build checks that every sample the page offers really gets flagged on that call, and drops any that doesn't.",
+ "generic": {
+  "money": "That works out to about $2,500 a month.",
+  "count": "We'll start with nine sensors.",
+  "percent": "That should cut your losses by about 40%.",
+  "date": "I'll have the proposal to you by next Friday.",
+  "name": "We'll bring Nolan from our install team to the next call.",
+  "promise": "We can take 15% off the first year."
+ },
+ "pick": {
+  "deal-1": {"money": "p04", "date": "p16", "name": "p21", "promise": "p28"},
+  "deal-2": {"count": "p08", "percent": "p11", "date": "p20", "name": "p22"},
+  "deal-3": {"money": "p02", "percent": "p12", "date": "p19", "name": "p24", "promise": "p26"}
+ }
+}

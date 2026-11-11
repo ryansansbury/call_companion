@@ -1,0 +1,32 @@
+{
+  "id": "s09", "kind": "scored", "split": "test", "title": "Cold storage warehouse", "date": "2026-10-06", "length_s": 180,
+  "speakers": ["REP", "BUY"],
+  "cast": {
+    "REP": {"name": "Jenna Cole", "role": "Account executive", "company": "Brinewatch", "side": "seller", "voice": "af_alloy", "speed": 1.0},
+    "BUY": {"name": "Owen Barrett", "role": "General manager", "company": "a third-party cold storage warehouse", "side": "buyer", "voice": "bm_fable", "speed": 1.0}
+  },
+  "rep": {"talk_share": 0.38, "quality": "strong", "misses": []},
+  "facts": [
+    {"id": "s09f01", "field": "account", "value": "Six cold rooms", "line": "s09-002", "number": 6, "unit": "rooms", "terms": ["cold rooms"]},
+    {"id": "s09f02", "field": "competition", "value": "The monitoring screen that came with the refrigeration controls only shows temperatures on an office panel", "line": "s09-002", "terms": ["refrigeration controls", "panel"]},
+    {"id": "s09f03", "field": "pain", "value": "The crew logs readings twice a day, and customers' auditors want continuous records they don't have", "line": "s09-004", "terms": ["twice a day", "continuous records"]},
+    {"id": "s09f04", "field": "pain", "value": "A compressor failed on a Sunday last spring and wasn't caught until Monday", "line": "s09-006", "terms": ["compressor failed"]},
+    {"id": "s09f05", "field": "metrics", "value": "A customer filed a $22,000 claim for spoiled product", "line": "s09-006", "number": 22000, "unit": "USD", "terms": ["claim"]},
+    {"id": "s09f06", "field": "decision_criteria", "value": "Continuous records customers can see and alerts to whoever's on call at night", "line": "s09-008", "terms": ["customers can see", "on call"]},
+    {"id": "s09f07", "field": "decision_process", "value": "Owen runs it, but anything over $15,000 goes to the partners' monthly meeting", "line": "s09-010", "number": 15000, "unit": "USD", "terms": ["partners"]},
+    {"id": "s09f08", "field": "economic_buyer", "value": "The partners approve anything over $15,000", "line": "s09-010", "terms": ["goes to the partners"]},
+    {"id": "s09f09", "field": "close_date", "value": "The partners' next meeting on October 20", "lines": ["s09-010", "s09-018"], "date": "2026-10-20", "terms": ["October twentieth"]},
+    {"id": "s09f10", "field": "budget", "value": "About $20,000 set aside for upgrades", "line": "s09-012", "number": 20000, "unit": "USD", "terms": ["set aside"]},
+    {"id": "s09f11", "field": "critical_event", "value": "The biggest customer's audit in December, with a few weeks of clean data wanted first", "line": "s09-014", "terms": ["December", "clean data"]},
+    {"id": "s09f12", "field": "paper_process", "value": "Their own vendor agreement and a certificate of insurance", "line": "s09-016", "terms": ["vendor agreement", "certificate of insurance"]},
+    {"id": "s09f13", "field": "stakeholders", "value": "The partners, who meet monthly", "line": "s09-010", "terms": ["partners"]},
+    {"id": "s09f14", "field": "champion", "value": "Owen will put it on the partners' agenda", "line": "s09-018", "terms": ["on the agenda"]},
+    {"id": "s09f15", "field": "next_steps", "value": "Jenna sends a proposal for the six rooms, a one-page summary for the partners and the insurance certificate by Friday", "lines": ["s09-015", "s09-017"], "date": "2026-10-09", "owner": "seller", "terms": ["by Friday", "one-pager"]},
+    {"id": "s09f16", "field": "next_steps", "value": "Owen puts it on the partners' agenda for the 20th", "line": "s09-018", "date": "2026-10-20", "owner": "buyer", "terms": ["agenda"]}
+  ],
+  "commitments": [
+    {"id": "s09k01", "by": "seller", "who": "REP", "what": "Send the proposal, the one-pager and the insurance certificate by Friday", "kind": "deliverable", "due": "2026-10-09", "line": "s09-017", "terms": ["by Friday"]},
+    {"id": "s09k02", "by": "buyer", "who": "BUY", "what": "Put it on the partners' agenda for the 20th", "kind": "meeting", "due": "2026-10-20", "line": "s09-018", "terms": ["agenda"]}
+  ],
+  "absent": ["pricing", "amount", "risks", "seller_claims"]
+}

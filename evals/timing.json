@@ -1,0 +1,228 @@
+{
+ "calls": {
+  "deal-1": {
+   "vad": {
+    "seconds": {
+     "AE": 198.28,
+     "OPS": 109.28
+    },
+    "seller_share": 0.6447
+   },
+   "truth": {
+    "seconds": {
+     "AE": 197.42,
+     "OPS": 109.04
+    },
+    "seller_share": 0.6442
+   },
+   "points_off": 0.05
+  },
+  "deal-2": {
+   "vad": {
+    "seconds": {
+     "AE": 39.06,
+     "IT": 54.66,
+     "OPS": 66.91,
+     "SE": 65.84
+    },
+    "seller_share": 0.4632
+   },
+   "truth": {
+    "seconds": {
+     "AE": 39.07,
+     "SE": 65.77,
+     "IT": 54.89,
+     "OPS": 67.19
+    },
+    "seller_share": 0.462
+   },
+   "points_off": 0.12
+  },
+  "deal-3": {
+   "vad": {
+    "seconds": {
+     "AE": 98.48,
+     "CFO": 60.84,
+     "OPS": 34.09
+    },
+    "seller_share": 0.5092
+   },
+   "truth": {
+    "seconds": {
+     "AE": 98.19,
+     "CFO": 60.95,
+     "OPS": 34.21
+    },
+    "seller_share": 0.5078
+   },
+   "points_off": 0.14
+  },
+  "s01": {
+   "vad": {
+    "seconds": {
+     "BUY": 79.24,
+     "REP": 52.96
+    },
+    "seller_share": 0.4006
+   },
+   "truth": {
+    "seconds": {
+     "REP": 52.92,
+     "BUY": 80.35
+    },
+    "seller_share": 0.3971
+   },
+   "points_off": 0.35
+  },
+  "s02": {
+   "vad": {
+    "seconds": {
+     "BUY": 31.38,
+     "REP": 69.5
+    },
+    "seller_share": 0.6889
+   },
+   "truth": {
+    "seconds": {
+     "REP": 69.38,
+     "BUY": 33.55
+    },
+    "seller_share": 0.674
+   },
+   "points_off": 1.49
+  },
+  "s03": {
+   "vad": {
+    "seconds": {
+     "BUY": 66.82,
+     "REP": 46.28
+    },
+    "seller_share": 0.4092
+   },
+   "truth": {
+    "seconds": {
+     "REP": 46.28,
+     "BUY": 67.11
+    },
+    "seller_share": 0.4081
+   },
+   "points_off": 0.11
+  },
+  "s04": {
+   "vad": {
+    "seconds": {
+     "BUY": 39.33,
+     "REP": 50.86
+    },
+    "seller_share": 0.5639
+   },
+   "truth": {
+    "seconds": {
+     "REP": 50.86,
+     "BUY": 39.34
+    },
+    "seller_share": 0.5639
+   },
+   "points_off": 0.0
+  },
+  "s05": {
+   "vad": {
+    "seconds": {
+     "BUY": 61.68,
+     "REP": 41.24
+    },
+    "seller_share": 0.4007
+   },
+   "truth": {
+    "seconds": {
+     "REP": 41.21,
+     "BUY": 61.73
+    },
+    "seller_share": 0.4003
+   },
+   "points_off": 0.04
+  },
+  "s06": {
+   "vad": {
+    "seconds": {
+     "BUY": 30.42,
+     "REP": 43.95
+    },
+    "seller_share": 0.591
+   },
+   "truth": {
+    "seconds": {
+     "REP": 43.83,
+     "BUY": 30.41
+    },
+    "seller_share": 0.5904
+   },
+   "points_off": 0.06
+  },
+  "s07": {
+   "vad": {
+    "seconds": {
+     "BUY": 50.49,
+     "REP": 36.9
+    },
+    "seller_share": 0.4222
+   },
+   "truth": {
+    "seconds": {
+     "REP": 36.84,
+     "BUY": 50.54
+    },
+    "seller_share": 0.4216
+   },
+   "points_off": 0.06
+  },
+  "s08": {
+   "vad": {
+    "seconds": {
+     "BUY": 47.16,
+     "REP": 39.63
+    },
+    "seller_share": 0.4566
+   },
+   "truth": {
+    "seconds": {
+     "REP": 39.51,
+     "BUY": 47.12
+    },
+    "seller_share": 0.4561
+   },
+   "points_off": 0.05
+  },
+  "s09": {
+   "vad": {
+    "seconds": {
+     "BUY": 54.17,
+     "REP": 38.04
+    },
+    "seller_share": 0.4125
+   },
+   "truth": {
+    "seconds": {
+     "REP": 37.95,
+     "BUY": 59.81
+    },
+    "seller_share": 0.3882
+   },
+   "points_off": 2.43
+  }
+ },
+ "worst_points_off": 2.43,
+ "bar_points": 2.0,
+ "passes": false,
+ "tuned_on": [
+  "s01",
+  "s02",
+  "s03",
+  "s04"
+ ],
+ "worst_tuning": 1.49,
+ "misses": [
+  "s09"
+ ],
+ "within": 11
+}

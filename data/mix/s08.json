@@ -1,0 +1,125 @@
+{
+ "call": "s08",
+ "rate": 24000,
+ "length_s": 92.875,
+ "version": "v1",
+ "turns": [
+  {
+   "id": "s08-001",
+   "speaker": "REP",
+   "start": 0.6,
+   "end": 10.91,
+   "voiced_end": 10.91,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-002",
+   "speaker": "BUY",
+   "start": 11.748,
+   "end": 22.188,
+   "voiced_end": 22.188,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-003",
+   "speaker": "REP",
+   "start": 22.424,
+   "end": 29.784,
+   "voiced_end": 29.784,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-004",
+   "speaker": "BUY",
+   "start": 30.548,
+   "end": 38.988,
+   "voiced_end": 38.988,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-005",
+   "speaker": "REP",
+   "start": 39.213,
+   "end": 41.175,
+   "voiced_end": 41.983,
+   "bc": false,
+   "cut": 6
+  },
+  {
+   "id": "s08-006",
+   "speaker": "BUY",
+   "start": 40.625,
+   "end": 47.625,
+   "voiced_end": 47.625,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-007",
+   "speaker": "REP",
+   "start": 47.982,
+   "end": 57.542,
+   "voiced_end": 57.542,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-008",
+   "speaker": "BUY",
+   "start": 58.349,
+   "end": 66.939,
+   "voiced_end": 66.939,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-009",
+   "speaker": "REP",
+   "start": 67.214,
+   "end": 69.864,
+   "voiced_end": 69.864,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-010",
+   "speaker": "BUY",
+   "start": 70.532,
+   "end": 77.252,
+   "voiced_end": 77.252,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-011",
+   "speaker": "REP",
+   "start": 77.476,
+   "end": 82.386,
+   "voiced_end": 82.386,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-012",
+   "speaker": "BUY",
+   "start": 83.161,
+   "end": 89.091,
+   "voiced_end": 89.091,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s08-013",
+   "speaker": "REP",
+   "start": 89.315,
+   "end": 92.075,
+   "voiced_end": 92.075,
+   "bc": false,
+   "cut": null
+  }
+ ]
+}

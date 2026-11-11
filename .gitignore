@@ -1,0 +1,9 @@
+.venv/
+.cache/
+node_modules/
+data/raw/
+owner/out/
+__pycache__/
+.env
+.env.*
+*.wav

@@ -1,0 +1,189 @@
+{
+ "step": "coach",
+ "call": "s02",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T19:58:09",
+ "prompt_hash": "9f68caf76add4c2c",
+ "input_hash": "b2177042f5be10d9",
+ "input": {
+  "call": "s02",
+  "date": "2026-09-10",
+  "rep": "REP",
+  "segments": [
+   {
+    "id": "s02-s001",
+    "speaker": "REP",
+    "start": 0.31,
+    "text": "Hi Paul, Derek Shaw from Brinewatch, thanks for jumping on. So um, I'll just give you the quick rundown of what we do because I think you're going to love it. We put wireless temperature sensors in coolers, freezers and trucks and the second anything drifts, the right person gets a text. We've got dashboards, reports, a mobile app, the works and our customers tell us it pays for itself in the first year."
+   },
+   {
+    "id": "s02-s002",
+    "speaker": "BUY",
+    "start": 19.13,
+    "text": "Okay, we don't have trucks though. It's just the hospital kitchen."
+   },
+   {
+    "id": "s02-s003",
+    "speaker": "REP",
+    "start": 23.21,
+    "text": "Totally totally that's fine, the kitchen's actually our sweet spot, how many coolers and freezers."
+   },
+   {
+    "id": "s02-s004",
+    "speaker": "BUY",
+    "start": 29.47,
+    "text": "Four walk-ins and about twenty reach-ins across the kitchen and the patient floors."
+   },
+   {
+    "id": "s02-s005",
+    "speaker": "REP",
+    "start": 33.97,
+    "text": "Perfect. So every one of those gets a sensor and you'd see them all on one screen, and the reports are great for inspections because everything's timestamped automatically and you can export it with one click, plus the alerts escalate so if the first person doesn't respond it goes to the next."
+   },
+   {
+    "id": "s02-s006",
+    "speaker": "BUY",
+    "start": 50.49,
+    "text": "That would help right now the walk-in alarms only beep in the kitchen. Last month one went off at night and nobody heard it until the morning shift."
+   },
+   {
+    "id": "s02-s007",
+    "speaker": "REP",
+    "start": 58.09,
+    "text": "Oh yeah, that's exactly the kind of thing we fix all"
+   },
+   {
+    "id": "s02-s008",
+    "speaker": "BUY",
+    "start": 59.89,
+    "text": "And we lost a whole cooler of patient meals. Our accreditation survey is coming up too, and they always pull the temperature logs."
+   },
+   {
+    "id": "s02-s009",
+    "speaker": "REP",
+    "start": 60.77,
+    "text": "the time."
+   },
+   {
+    "id": "s02-s010",
+    "speaker": "REP",
+    "start": 67.19,
+    "text": "Right, right, well, the logs would be automatic so that's covered. Our setup takes about a day and we handle everything. We also have a great integration with most facility systems and you can set up as many users as you want."
+   },
+   {
+    "id": "s02-s011",
+    "speaker": "BUY",
+    "start": 80.89,
+    "text": "How does it connect? Our IT department is pretty strict about devices on the hospital network."
+   },
+   {
+    "id": "s02-s012",
+    "speaker": "REP",
+    "start": 86.35,
+    "text": "It's all cellular so it doesn't touch your network at all. It usually loves that part."
+   },
+   {
+    "id": "s02-s013",
+    "speaker": "BUY",
+    "start": 91.63,
+    "text": "Good, because that would have been the first question."
+   },
+   {
+    "id": "s02-s014",
+    "speaker": "REP",
+    "start": 94.79,
+    "text": "So what I'll do is send over our standard proposal for the 4 walk-ins and the 20 reach-ins and you can take a look. Sound good?"
+   },
+   {
+    "id": "s02-s015",
+    "speaker": "BUY",
+    "start": 102.77,
+    "text": "Sure, send it over and I'll look at it."
+   },
+   {
+    "id": "s02-s016",
+    "speaker": "REP",
+    "start": 105.61,
+    "text": "Awesome I'll get that to you today, great talking Paul."
+   },
+   {
+    "id": "s02-s017",
+    "speaker": "BUY",
+    "start": 108.67,
+    "text": "Thanks."
+   }
+  ],
+  "coaching": {
+   "talk_s": {
+    "BUY": 31.4,
+    "REP": 69.5
+   },
+   "talk_share": {
+    "BUY": 0.311,
+    "REP": 0.689
+   },
+   "seller_share": 0.689,
+   "longest_monologue_s": 18.0,
+   "longest_story_s": 7.2,
+   "patience_s": 0.41,
+   "interactivity": 10.0,
+   "rep_interruptions": 0,
+   "buyer_interruptions": 1,
+   "questions": 1,
+   "questions_per_10min": 5.5,
+   "open_share": 0.0
+  }
+ },
+ "reply": "{\"strengths\": [{\"text\": \"He asked a direct sizing question right after learning it was only a kitchen, which got the buyer to give the exact count of walk-ins and reach-ins.\", \"segment\": \"s02-s003\", \"quote\": \"how many coolers and freezers\"}, {\"text\": \"He adjusted quickly when the buyer said they had no trucks and steered to the kitchen as the right fit instead of pushing the truck pitch.\", \"segment\": \"s02-s003\", \"quote\": \"the kitchen's actually our sweet spot\"}, {\"text\": \"He gave a clear, concrete answer to the IT concern, saying the sensors run on cellular and never touch the hospital network, which removed the buyer's likely first objection.\", \"segment\": \"s02-s012\", \"quote\": \"It's all cellular so it doesn't touch your network at all.\"}],\n\"improvements\": [{\"text\": \"He opened with a feature-heavy pitch before asking anything, so the buyer's first reply was correcting him about trucks and the rep talked for 18 seconds straight.\", \"segment\": \"s02-s001\", \"quote\": \"the second anything drifts, the right person gets a text\"}, {\"text\": \"The buyer shared real pain (a lost cooler of patient meals, overnight alarms nobody heard, an upcoming accreditation survey) and the rep talked over it and never asked about cost, who gets alerted at night, or the survey date.\", \"segment\": \"s02-s007\", \"quote\": \"that's exactly the kind of thing we fix all\"}, {\"text\": \"He closed with a generic proposal and a soft 'Sound good?' without confirming who else decides, IT's approval, the survey timeline, or a next meeting, so the call ended with no committed next step.\", \"segment\": \"s02-s014\", \"quote\": \"send over our standard proposal for the 4 walk-ins and the 20 reach-ins\"}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 6334,
+ "meta": {
+  "ms": 5180,
+  "api_ms": 5071,
+  "input_tokens": 6693,
+  "output_tokens": 609,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6691,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 609,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6691,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 609,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6691,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6691
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.032858,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

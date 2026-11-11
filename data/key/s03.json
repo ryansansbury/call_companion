@@ -1,0 +1,368 @@
+{
+ "call": "s03",
+ "facts": [
+  {
+   "id": "s03f01",
+   "field": "pain",
+   "value": "The commissary walk-in died on a Saturday night, and nobody found out until Sunday morning",
+   "lines": [
+    "s03-004"
+   ],
+   "terms": [
+    "Saturday night",
+    "Sunday morning"
+   ],
+   "segments": [
+    "s03-s004"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f02",
+   "field": "metrics",
+   "value": "About $6,000 in prepped food lost",
+   "lines": [
+    "s03-006"
+   ],
+   "terms": [
+    "prepped food"
+   ],
+   "segments": [
+    "s03-s006"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 6000,
+   "unit": "USD"
+  },
+  {
+   "id": "s03f03",
+   "field": "pain",
+   "value": "Two restaurants ran out of prep and cut half the brunch menu",
+   "lines": [
+    "s03-006"
+   ],
+   "terms": [
+    "half the menu"
+   ],
+   "segments": [
+    "s03-s006"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f04",
+   "field": "account",
+   "value": "Three trucks run prep from the commissary every morning",
+   "lines": [
+    "s03-008"
+   ],
+   "terms": [
+    "three trucks"
+   ],
+   "segments": [
+    "s03-s008"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 3,
+   "unit": "trucks"
+  },
+  {
+   "id": "s03f05",
+   "field": "account",
+   "value": "Eight restaurants, with one walk-in cooler and one walk-in freezer at the commissary",
+   "lines": [
+    "s03-008"
+   ],
+   "terms": [
+    "eight restaurants",
+    "walk-in freezer"
+   ],
+   "segments": [
+    "s03-s008"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 8,
+   "unit": "restaurants"
+  },
+  {
+   "id": "s03f06",
+   "field": "pain",
+   "value": "The kitchen manager checks only at open and close, and nobody's there overnight on weekends",
+   "lines": [
+    "s03-010"
+   ],
+   "terms": [
+    "opens and closes",
+    "overnight"
+   ],
+   "segments": [
+    "s03-s010"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f07",
+   "field": "decision_criteria",
+   "value": "Alerts should reach Sam and the kitchen manager, even at midnight",
+   "lines": [
+    "s03-012"
+   ],
+   "terms": [
+    "midnight"
+   ],
+   "segments": [
+    "s03-s012"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f08",
+   "field": "competition",
+   "value": "The chef wants cheap Bluetooth loggers at about $30 each that only show readings up close",
+   "lines": [
+    "s03-014"
+   ],
+   "terms": [
+    "Bluetooth loggers"
+   ],
+   "segments": [
+    "s03-s014"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 30,
+   "unit": "USD each"
+  },
+  {
+   "id": "s03f09",
+   "field": "decision_criteria",
+   "value": "It has to call or text when something's wrong, and it can't need a computer person to set up",
+   "lines": [
+    "s03-016"
+   ],
+   "terms": [
+    "call or text",
+    "computer person"
+   ],
+   "segments": [
+    "s03-s016"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f10",
+   "field": "economic_buyer",
+   "value": "Sam, the owner, decides, since it's his money",
+   "lines": [
+    "s03-018"
+   ],
+   "terms": [
+    "my money"
+   ],
+   "segments": [
+    "s03-s018"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f11",
+   "field": "decision_process",
+   "value": "Sam decides alone",
+   "lines": [
+    "s03-018"
+   ],
+   "terms": [
+    "It's mine"
+   ],
+   "segments": [
+    "s03-s018"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f12",
+   "field": "budget",
+   "value": "Under $8,000 for the first year, trucks included",
+   "lines": [
+    "s03-020"
+   ],
+   "terms": [
+    "first year"
+   ],
+   "segments": [
+    "s03-s020"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 8000,
+   "unit": "USD"
+  },
+  {
+   "id": "s03f13",
+   "field": "stakeholders",
+   "value": "The kitchen manager checks temperatures, and the chef favors cheap loggers",
+   "lines": [
+    "s03-010",
+    "s03-014"
+   ],
+   "terms": [
+    "kitchen manager",
+    "chef"
+   ],
+   "segments": [
+    "s03-s010",
+    "s03-s014"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f14",
+   "field": "champion",
+   "value": "Sam wants it in after the bad weekend and offers to sign Friday",
+   "lines": [
+    "s03-022"
+   ],
+   "terms": [
+    "sign Friday"
+   ],
+   "segments": [
+    "s03-s022"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f15",
+   "field": "seller_claims",
+   "value": "Start with the commissary walk-ins and add the trucks once it's proven, within the budget",
+   "lines": [
+    "s03-021"
+   ],
+   "terms": [
+    "add the trucks"
+   ],
+   "segments": [
+    "s03-s021"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s03f16",
+   "field": "next_steps",
+   "value": "Jenna sends a quote this afternoon",
+   "lines": [
+    "s03-021",
+    "s03-023"
+   ],
+   "terms": [
+    "quote"
+   ],
+   "segments": [
+    "s03-s021",
+    "s03-s023"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-16"
+  },
+  {
+   "id": "s03f17",
+   "field": "close_date",
+   "value": "Sam signs Friday for a Monday install",
+   "lines": [
+    "s03-022"
+   ],
+   "terms": [
+    "sign Friday"
+   ],
+   "segments": [
+    "s03-s022"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-18"
+  }
+ ],
+ "commitments": [
+  {
+   "id": "s03k01",
+   "field": "commitments",
+   "value": "Send the quote this afternoon",
+   "lines": [
+    "s03-023"
+   ],
+   "terms": [
+    "this afternoon"
+   ],
+   "segments": [
+    "s03-s023"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "REP",
+   "date": "2026-09-16"
+  },
+  {
+   "id": "s03k02",
+   "field": "commitments",
+   "value": "Install on Monday if signed by Friday",
+   "lines": [
+    "s03-021"
+   ],
+   "terms": [
+    "install on Monday"
+   ],
+   "segments": [
+    "s03-s021"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "REP",
+   "date": "2026-09-21"
+  },
+  {
+   "id": "s03k03",
+   "field": "commitments",
+   "value": "Sign Friday if the install is Monday",
+   "lines": [
+    "s03-022"
+   ],
+   "terms": [
+    "sign Friday"
+   ],
+   "segments": [
+    "s03-s022"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "decision",
+   "by": "buyer",
+   "who": "BUY",
+   "date": "2026-09-18"
+  }
+ ],
+ "absent": [
+  "paper_process",
+  "pricing",
+  "amount",
+  "critical_event",
+  "risks"
+ ],
+ "source": "transcript"
+}

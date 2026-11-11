@@ -1,0 +1,167 @@
+{
+ "step": "extract",
+ "call": "s02",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:48:23",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "b7ee7c7d5e2b3aca",
+ "input": {
+  "call": "s02",
+  "date": "2026-09-10",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "REP",
+    "name": "Derek Shaw",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "BUY",
+    "name": "Paul Henning",
+    "role": "Food and nutrition services manager",
+    "company": "a hospital",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "s02-s001",
+    "speaker": "REP",
+    "start": 0.31,
+    "text": "Hi Paul, Derek Shaw from Brinewatch, thanks for jumping on. So um, I'll just give you the quick rundown of what we do because I think you're going to love it. We put wireless temperature sensors in coolers, freezers and trucks and the second anything drifts, the right person gets a text. We've got dashboards, reports, a mobile app, the works and our customers tell us it pays for itself in the first year."
+   },
+   {
+    "id": "s02-s002",
+    "speaker": "BUY",
+    "start": 19.13,
+    "text": "Okay, we don't have trucks though. It's just the hospital kitchen."
+   },
+   {
+    "id": "s02-s003",
+    "speaker": "REP",
+    "start": 23.21,
+    "text": "Totally totally that's fine, the kitchen's actually our sweet spot, how many coolers and freezers."
+   },
+   {
+    "id": "s02-s004",
+    "speaker": "BUY",
+    "start": 29.47,
+    "text": "Four walk-ins and about twenty reach-ins across the kitchen and the patient floors."
+   },
+   {
+    "id": "s02-s005",
+    "speaker": "REP",
+    "start": 33.97,
+    "text": "Perfect. So every one of those gets a sensor and you'd see them all on one screen, and the reports are great for inspections because everything's timestamped automatically and you can export it with one click, plus the alerts escalate so if the first person doesn't respond it goes to the next."
+   },
+   {
+    "id": "s02-s006",
+    "speaker": "BUY",
+    "start": 50.49,
+    "text": "That would help right now the walk-in alarms only beep in the kitchen. Last month one went off at night and nobody heard it until the morning shift."
+   },
+   {
+    "id": "s02-s007",
+    "speaker": "REP",
+    "start": 58.09,
+    "text": "Oh yeah, that's exactly the kind of thing we fix all"
+   },
+   {
+    "id": "s02-s008",
+    "speaker": "BUY",
+    "start": 59.89,
+    "text": "And we lost a whole cooler of patient meals. Our accreditation survey is coming up too, and they always pull the temperature logs."
+   },
+   {
+    "id": "s02-s009",
+    "speaker": "REP",
+    "start": 60.77,
+    "text": "the time."
+   },
+   {
+    "id": "s02-s010",
+    "speaker": "REP",
+    "start": 67.19,
+    "text": "Right, right, well, the logs would be automatic so that's covered. Our setup takes about a day and we handle everything. We also have a great integration with most facility systems and you can set up as many users as you want."
+   },
+   {
+    "id": "s02-s011",
+    "speaker": "BUY",
+    "start": 80.89,
+    "text": "How does it connect? Our IT department is pretty strict about devices on the hospital network."
+   },
+   {
+    "id": "s02-s012",
+    "speaker": "REP",
+    "start": 86.35,
+    "text": "It's all cellular so it doesn't touch your network at all. It usually loves that part."
+   },
+   {
+    "id": "s02-s013",
+    "speaker": "BUY",
+    "start": 91.63,
+    "text": "Good, because that would have been the first question."
+   },
+   {
+    "id": "s02-s014",
+    "speaker": "REP",
+    "start": 94.79,
+    "text": "So what I'll do is send over our standard proposal for the 4 walk-ins and the 20 reach-ins and you can take a look. Sound good?"
+   },
+   {
+    "id": "s02-s015",
+    "speaker": "BUY",
+    "start": 102.77,
+    "text": "Sure, send it over and I'll look at it."
+   },
+   {
+    "id": "s02-s016",
+    "speaker": "REP",
+    "start": 105.61,
+    "text": "Awesome I'll get that to you today, great talking Paul."
+   },
+   {
+    "id": "s02-s017",
+    "speaker": "BUY",
+    "start": 108.67,
+    "text": "Thanks."
+   }
+  ]
+ },
+ "reply": "{\"fields\":{\"metrics\":[],\"economic_buyer\":[],\"decision_criteria\":[],\"decision_process\":[],\"paper_process\":[],\"pain\":[{\"value\":\"The walk-in alarms only beep in the kitchen; one went off at night and nobody heard it until the morning shift, and a whole cooler of patient meals was lost.\",\"evidence\":[{\"segment\":\"s02-s006\",\"quote\":\"the walk-in alarms only beep in the kitchen. Last month one went off at night and nobody heard it until the morning shift.\"},{\"segment\":\"s02-s008\",\"quote\":\"And we lost a whole cooler of patient meals.\"}]}],\"champion\":[],\"competition\":[],\"critical_event\":[{\"value\":\"The accreditation survey is coming up, and they always pull the temperature logs.\",\"due\":\"coming up\",\"evidence\":[{\"segment\":\"s02-s008\",\"quote\":\"Our accreditation survey is coming up too, and they always pull the temperature logs.\"}]}],\"budget\":[],\"pricing\":[],\"amount\":[],\"close_date\":[],\"next_steps\":[{\"value\":\"Derek will send over the standard proposal.\",\"owner\":\"seller\",\"due\":\"today\",\"evidence\":[{\"segment\":\"s02-s014\",\"quote\":\"send over our standard proposal\"},{\"segment\":\"s02-s016\",\"quote\":\"I'll get that to you today\"}]},{\"value\":\"Paul will look at the proposal.\",\"owner\":\"buyer\",\"evidence\":[{\"segment\":\"s02-s015\",\"quote\":\"I'll look at it.\"}]}],\"stakeholders\":[],\"risks\":[{\"value\":\"The IT department is pretty strict about devices on the hospital network.\",\"evidence\":[{\"segment\":\"s02-s011\",\"quote\":\"Our IT department is pretty strict about devices on the hospital network.\"}]}],\"account\":[{\"value\":\"The operation is just the hospital kitchen and has no trucks.\",\"evidence\":[{\"segment\":\"s02-s002\",\"quote\":\"we don't have trucks though. It's just the hospital kitchen.\"}]},{\"value\":\"There are 4 walk-ins across the kitchen and patient floors.\",\"number\":4,\"unit\":\"walk-ins\",\"evidence\":[{\"segment\":\"s02-s004\",\"quote\":\"Four walk-ins\"}]},{\"value\":\"There are about 20 reach-ins across the kitchen and patient floors.\",\"number\":20,\"unit\":\"reach-ins\",\"evidence\":[{\"segment\":\"s02-s004\",\"quote\":\"about twenty reach-ins across the kitchen and the patient floors.\"}]}],\"seller_claims\":[{\"value\":\"Brinewatch puts wireless temperature sensors in coolers, freezers, and trucks, and a temperature drift sends a text to the right person.\",\"evidence\":[{\"segment\":\"s02-s001\",\"quote\":\"We put wireless temperature sensors in coolers, freezers and trucks and the second anything drifts, the right person gets a text.\"}]},{\"value\":\"Brinewatch has dashboards, reports, and a mobile app.\",\"evidence\":[{\"segment\":\"s02-s001\",\"quote\":\"We've got dashboards, reports, a mobile app\"}]},{\"value\":\"Brinewatch customers say it pays for itself in the first year.\",\"number\":1,\"unit\":\"year\",\"evidence\":[{\"segment\":\"s02-s001\",\"quote\":\"it pays for itself in the first year\"}]},{\"value\":\"Every cooler and freezer gets a sensor, and they all appear on one screen.\",\"number\":1,\"unit\":\"screen\",\"evidence\":[{\"segment\":\"s02-s005\",\"quote\":\"every one of those gets a sensor and you'd see them all on one screen\"}]},{\"value\":\"Brinewatch reports are timestamped automatically.\",\"evidence\":[{\"segment\":\"s02-s005\",\"quote\":\"everything's timestamped automatically\"}]},{\"value\":\"Brinewatch reports can be exported with one click.\",\"number\":1,\"unit\":\"click\",\"evidence\":[{\"segment\":\"s02-s005\",\"quote\":\"you can export it with one click\"}]},{\"value\":\"Brinewatch alerts escalate to the next person if the first person does not respond.\",\"evidence\":[{\"segment\":\"s02-s005\",\"quote\":\"the alerts escalate so if the first person doesn't respond it goes to the next.\"}]},{\"value\":\"Brinewatch logs would be automatic.\",\"evidence\":[{\"segment\":\"s02-s010\",\"quote\":\"the logs would be automatic\"}]},{\"value\":\"Brinewatch setup takes about 1 day.\",\"number\":1,\"unit\":\"day\",\"evidence\":[{\"segment\":\"s02-s010\",\"quote\":\"Our setup takes about a day\"}]},{\"value\":\"Brinewatch handles everything for setup.\",\"evidence\":[{\"segment\":\"s02-s010\",\"quote\":\"we handle everything\"}]},{\"value\":\"Brinewatch integrates with most facility systems.\",\"evidence\":[{\"segment\":\"s02-s010\",\"quote\":\"a great integration with most facility systems\"}]},{\"value\":\"Brinewatch lets customers set up as many users as they want.\",\"evidence\":[{\"segment\":\"s02-s010\",\"quote\":\"you can set up as many users as you want\"}]},{\"value\":\"Brinewatch is all cellular and does not touch the hospital network.\",\"evidence\":[{\"segment\":\"s02-s012\",\"quote\":\"It's all cellular so it doesn't touch your network at all.\"}]}]},\"commitments\":[{\"by\":\"seller\",\"who\":\"REP\",\"what\":\"Send Paul the standard proposal.\",\"kind\":\"deliverable\",\"due\":\"today\",\"evidence\":[{\"segment\":\"s02-s014\",\"quote\":\"send over our standard proposal\"},{\"segment\":\"s02-s016\",\"quote\":\"I'll get that to you today\"}]},{\"by\":\"buyer\",\"who\":\"BUY\",\"what\":\"Look at the proposal.\",\"kind\":\"deliverable\",\"evidence\":[{\"segment\":\"s02-s015\",\"quote\":\"I'll look at it.\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 2,
+ "kept": 21,
+ "ms": 32181,
+ "meta": {
+  "ms": 32178,
+  "input_tokens": 2250,
+  "output_tokens": 4115,
+  "cost_usd": 0.002282,
+  "usage": {
+   "prompt_tokens": 2250,
+   "completion_tokens": 4115,
+   "total_tokens": 6365,
+   "prompt_tokens_details": {
+    "cached_tokens": 1236,
+    "cache_write_tokens": 1011,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2907,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

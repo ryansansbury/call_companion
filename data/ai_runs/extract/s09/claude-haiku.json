@@ -1,0 +1,197 @@
+{
+ "step": "extract",
+ "call": "s09",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:42:41",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "437c639afd1cc62b",
+ "input": {
+  "call": "s09",
+  "date": "2026-10-06",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "REP",
+    "name": "Jenna Cole",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "BUY",
+    "name": "Owen Barrett",
+    "role": "General manager",
+    "company": "a third-party cold storage warehouse",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "s09-s001",
+    "speaker": "REP",
+    "start": 0.31,
+    "text": "Hi Owen, Jenna Cole from Brinewatch. Thanks for making the time. How are you monitoring the rooms today?"
+   },
+   {
+    "id": "s09-s002",
+    "speaker": "BUY",
+    "start": 6.63,
+    "text": "We've got six cold rooms and the refrigeration controls came with a monitoring screen. It shows the temperature on a panel in the office and that's about it."
+   },
+   {
+    "id": "s09-s003",
+    "speaker": "REP",
+    "start": 15.75,
+    "text": "So it doesn't alert anyone or keep records."
+   },
+   {
+    "id": "s09-s004",
+    "speaker": "BUY",
+    "start": 19.03,
+    "text": "No, my crew writes the readings in a log twice a day, and our customers' auditors keep asking for continuous records, which we don't have."
+   },
+   {
+    "id": "s09-s005",
+    "speaker": "REP",
+    "start": 27.31,
+    "text": "Has the gap ever cost you anything?"
+   },
+   {
+    "id": "s09-s006",
+    "speaker": "BUY",
+    "start": 30.65,
+    "text": "Last spring a compressor failed on a Sunday and we didn't catch it until Monday. One of our customers filed a claim for $22,000 of product."
+   },
+   {
+    "id": "s09-s007",
+    "speaker": "REP",
+    "start": 39.95,
+    "text": "That's a big claim what would have to be true for you to fix this."
+   },
+   {
+    "id": "s09-s008",
+    "speaker": "BUY",
+    "start": 44.15,
+    "text": "Continuous records our customers can see and alerts to whoever's on call at night. We're not big enough to have someone in the building around the clock."
+   },
+   {
+    "id": "s09-s009",
+    "speaker": "REP",
+    "start": 52.59,
+    "text": "Who would make the call on something like this?"
+   },
+   {
+    "id": "s09-s010",
+    "speaker": "BUY",
+    "start": 55.81,
+    "text": "I run the place, but anything over 15,000 goes to the partners. They meet once a month, and the next meeting is October 20th."
+   },
+   {
+    "id": "s09-s011",
+    "speaker": "REP",
+    "start": 64.15,
+    "text": "And is there money for it this year?"
+   },
+   {
+    "id": "s09-s012",
+    "speaker": "BUY",
+    "start": 66.87,
+    "text": "About 20,000 set aside for upgrades."
+   },
+   {
+    "id": "s09-s013",
+    "speaker": "REP",
+    "start": 70.57,
+    "text": "Anything coming up on the customer side."
+   },
+   {
+    "id": "s09-s014",
+    "speaker": "BUY",
+    "start": 73.75,
+    "text": "Our biggest customer audits us in December. I'd like to walk in with a few weeks of clean data."
+   },
+   {
+    "id": "s09-s015",
+    "speaker": "REP",
+    "start": 79.93,
+    "text": "Then let's work back from the 20th. I'll send a proposal for the six rooms by Friday, and if it helps, I can put together a one-page summary for the partners. What does your paperwork usually look like?"
+   },
+   {
+    "id": "s09-s016",
+    "speaker": "BUY",
+    "start": 91.33,
+    "text": "We use our own vendor agreement and we need a certificate of insurance. A one-pager for the partners would help a lot."
+   },
+   {
+    "id": "s09-s017",
+    "speaker": "REP",
+    "start": 98.49,
+    "text": "Done, proposal, and one-pager by Friday, and I'll send our insurance certificate with it."
+   },
+   {
+    "id": "s09-s018",
+    "speaker": "BUY",
+    "start": 104.31,
+    "text": "Great, I'll put it on the agenda for the 20th."
+   },
+   {
+    "id": "s09-s019",
+    "speaker": "REP",
+    "start": 107.35,
+    "text": "Thanks, Owen. Talk soon."
+   }
+  ]
+ },
+ "reply": "{\"fields\": {\"metrics\": [{\"value\": \"Customer filed a claim for $22,000 of product after a compressor failure\", \"number\": 22000, \"unit\": \"USD\", \"evidence\": [{\"segment\": \"s09-s006\", \"quote\": \"One of our customers filed a claim for $22,000 of product\"}]}, {\"value\": \"Wants a few weeks of clean data before the December audit\", \"evidence\": [{\"segment\": \"s09-s014\", \"quote\": \"I'd like to walk in with a few weeks of clean data\"}]}], \"economic_buyer\": [{\"value\": \"The partners approve anything over $15,000\", \"number\": 15000, \"unit\": \"USD\", \"evidence\": [{\"segment\": \"s09-s010\", \"quote\": \"anything over 15,000 goes to the partners\"}]}], \"decision_criteria\": [{\"value\": \"Continuous records the customers can see\", \"evidence\": [{\"segment\": \"s09-s008\", \"quote\": \"Continuous records our customers can see\"}]}, {\"value\": \"Alerts go to whoever is on call at night\", \"evidence\": [{\"segment\": \"s09-s008\", \"quote\": \"alerts to whoever's on call at night\"}]}], \"decision_process\": [{\"value\": \"Partners meet once a month, and the next meeting is October 20th\", \"due\": \"October 20th\", \"evidence\": [{\"segment\": \"s09-s010\", \"quote\": \"They meet once a month, and the next meeting is October 20th\"}]}], \"paper_process\": [{\"value\": \"They use their own vendor agreement\", \"evidence\": [{\"segment\": \"s09-s016\", \"quote\": \"We use our own vendor agreement\"}]}, {\"value\": \"They need a certificate of insurance\", \"evidence\": [{\"segment\": \"s09-s016\", \"quote\": \"we need a certificate of insurance\"}]}], \"pain\": [{\"value\": \"Last spring a compressor failed on a Sunday and went unnoticed until Monday\", \"evidence\": [{\"segment\": \"s09-s006\", \"quote\": \"Last spring a compressor failed on a Sunday and we didn't catch it until Monday\"}]}, {\"value\": \"Current monitoring shows only temperature, with no alerts or records\", \"evidence\": [{\"segment\": \"s09-s002\", \"quote\": \"and that's about it\"}]}, {\"value\": \"Crew writes readings in a log twice a day\", \"evidence\": [{\"segment\": \"s09-s004\", \"quote\": \"my crew writes the readings in a log twice a day\"}]}, {\"value\": \"Customers' auditors keep asking for continuous records they don't have\", \"evidence\": [{\"segment\": \"s09-s004\", \"quote\": \"our customers' auditors keep asking for continuous records\"}]}], \"champion\": [{\"value\": \"Owen will put the proposal on the partners' agenda for the 20th\", \"name\": \"Owen Barrett\", \"role\": \"General manager\", \"evidence\": [{\"segment\": \"s09-s018\", \"quote\": \"I'll put it on the agenda for the 20th\"}]}], \"competition\": [], \"critical_event\": [{\"value\": \"Biggest customer audits them in December\", \"evidence\": [{\"segment\": \"s09-s014\", \"quote\": \"Our biggest customer audits us in December\"}]}], \"budget\": [{\"value\": \"About $20,000 set aside for upgrades\", \"number\": 20000, \"unit\": \"USD\", \"evidence\": [{\"segment\": \"s09-s012\", \"quote\": \"About 20,000 set aside for upgrades\"}]}], \"pricing\": [], \"amount\": [], \"close_date\": [{\"value\": \"Working back from the 20th partners meeting\", \"evidence\": [{\"segment\": \"s09-s015\", \"quote\": \"Then let's work back from the 20th\"}]}], \"next_steps\": [{\"value\": \"Send a proposal for the six rooms\", \"owner\": \"seller\", \"due\": \"by Friday\", \"evidence\": [{\"segment\": \"s09-s015\", \"quote\": \"I'll send a proposal for the six rooms by Friday\"}]}, {\"value\": \"Send a one-page summary for the partners\", \"owner\": \"seller\", \"due\": \"by Friday\", \"evidence\": [{\"segment\": \"s09-s017\", \"quote\": \"Done, proposal, and one-pager by Friday\"}]}, {\"value\": \"Send the insurance certificate with the proposal\", \"owner\": \"seller\", \"due\": \"with it\", \"evidence\": [{\"segment\": \"s09-s017\", \"quote\": \"I'll send our insurance certificate with it\"}]}, {\"value\": \"Put the proposal on the partners' agenda\", \"owner\": \"buyer\", \"due\": \"the 20th\", \"evidence\": [{\"segment\": \"s09-s018\", \"quote\": \"I'll put it on the agenda for the 20th\"}]}], \"stakeholders\": [], \"risks\": [], \"account\": [{\"value\": \"6 cold rooms\", \"number\": 6, \"unit\": \"rooms\", \"evidence\": [{\"segment\": \"s09-s002\", \"quote\": \"We've got six cold rooms\"}]}, {\"value\": \"Refrigeration controls came with a monitoring screen\", \"evidence\": [{\"segment\": \"s09-s002\", \"quote\": \"the refrigeration controls came with a monitoring screen\"}]}, {\"value\": \"Not big enough to have someone in the building around the clock\", \"evidence\": [{\"segment\": \"s09-s008\", \"quote\": \"We're not big enough to have someone in the building around the clock\"}]}], \"seller_claims\": []}, \"commitments\": [{\"by\": \"seller\", \"who\": \"AE\", \"what\": \"Send a proposal for the six rooms\", \"kind\": \"deliverable\", \"due\": \"by Friday\", \"evidence\": [{\"segment\": \"s09-s015\", \"quote\": \"I'll send a proposal for the six rooms by Friday\"}]}, {\"by\": \"seller\", \"who\": \"AE\", \"what\": \"Send a one-page summary for the partners\", \"kind\": \"deliverable\", \"due\": \"by Friday\", \"evidence\": [{\"segment\": \"s09-s015\", \"quote\": \"I can put together a one-page summary for the partners\"}, {\"segment\": \"s09-s017\", \"quote\": \"Done, proposal, and one-pager by Friday\"}]}, {\"by\": \"seller\", \"who\": \"AE\", \"what\": \"Send the insurance certificate with the proposal\", \"kind\": \"deliverable\", \"due\": \"with it\", \"evidence\": [{\"segment\": \"s09-s017\", \"quote\": \"I'll send our insurance certificate with it\"}]}, {\"by\": \"buyer\", \"who\": \"GM\", \"what\": \"Put the proposal on the partners' agenda\", \"kind\": \"meeting\", \"due\": \"the 20th\", \"evidence\": [{\"segment\": \"s09-s018\", \"quote\": \"I'll put it on the agenda for the 20th\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": 27,
+ "ms": 49669,
+ "meta": {
+  "ms": 48787,
+  "api_ms": 48655,
+  "input_tokens": 8032,
+  "output_tokens": 12559,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6257,
+   "cache_read_input_tokens": 1773,
+   "output_tokens": 12559,
+   "output_tokens_details": {
+    "thinking_tokens": 10391
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6257,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 12559,
+     "cache_read_input_tokens": 1773,
+     "cache_creation_input_tokens": 6257,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6257
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.007548829999999999,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

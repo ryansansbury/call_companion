@@ -1,0 +1,174 @@
+{
+ "step": "followup",
+ "call": "s09",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:54:22",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "fff3d92ecc598ed8",
+ "input": {
+  "call": "s09",
+  "date": "2026-10-06",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Owen Barrett"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "A customer filed a claim for $22,000 of product.",
+    "number": 22000,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "The partners decide on anything over 15,000.",
+    "number": 15000
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "The records should be continuous and visible to customers."
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Alerts should go to whoever is on call at night."
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Anything over 15,000 goes to the partners.",
+    "number": 15000
+   },
+   {
+    "id": "decision_process-2",
+    "field": "decision_process",
+    "value": "The partners meet once a month, and their next meeting is October 20th."
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "They use their own vendor agreement."
+   },
+   {
+    "id": "paper_process-2",
+    "field": "paper_process",
+    "value": "They need a certificate of insurance."
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Their customers' auditors ask for continuous records, which they do not have, and the crew logs readings twice a day."
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "A compressor failed on Sunday and they did not catch it until Monday."
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "They are not big enough to have someone in the building around the clock."
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Their biggest customer audits them in December, and Owen wants a few weeks of clean data beforehand."
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "About 20,000 is set aside for upgrades.",
+    "number": 20000
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Send a proposal for the six rooms."
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Put together a one-page summary for the partners."
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Send the insurance certificate."
+   },
+   {
+    "id": "next_steps-4",
+    "field": "next_steps",
+    "value": "Put it on the agenda for the partners' meeting."
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "The partners are involved in the decision."
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "They have six cold rooms.",
+    "number": 6
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send a proposal for the six rooms."
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Put together a one-page summary for the partners."
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Send the insurance certificate."
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Put it on the agenda for the partners' meeting."
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Follow-up\",\"sentences\":[{\"text\":\"Hi Owen, thanks for speaking with me.\",\"facts\":[]},{\"text\":\"You said your customers' auditors ask for continuous records, while the crew currently logs readings twice a day, and the compressor failure on Sunday wasn't caught until Monday.\",\"facts\":[\"pain-1\",\"pain-2\"]},{\"text\":\"Your key requirements are continuous records visible to customers and alerts to whoever is on call at night.\",\"facts\":[\"decision_criteria-1\",\"decision_criteria-2\"]},{\"text\":\"You want a few weeks of clean data before your biggest customer's audit in December.\",\"facts\":[\"critical_event-1\"]},{\"text\":\"Anything over 15,000 goes to the partners, and their next meeting is October 20th.\",\"facts\":[\"decision_process-1\",\"decision_process-2\"]},{\"text\":\"I'll send you a proposal for the six rooms, a one-page summary for the partners, and the insurance certificate.\",\"facts\":[\"commitments-1\",\"commitments-2\",\"commitments-3\"]},{\"text\":\"I'll put it on the agenda for the partners' meeting.\",\"facts\":[\"commitments-4\"]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 12485,
+ "meta": {
+  "ms": 12479,
+  "input_tokens": 1138,
+  "output_tokens": 923,
+  "cost_usd": 0.000575,
+  "usage": {
+   "prompt_tokens": 1138,
+   "completion_tokens": 923,
+   "total_tokens": 2061,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1135,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 675,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

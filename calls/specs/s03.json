@@ -1,0 +1,34 @@
+{
+  "id": "s03", "kind": "scored", "split": "dev", "title": "Restaurant group commissary", "date": "2026-09-16", "length_s": 190,
+  "speakers": ["REP", "BUY"],
+  "cast": {
+    "REP": {"name": "Jenna Cole", "role": "Account executive", "company": "Brinewatch", "side": "seller", "voice": "af_alloy", "speed": 1.0},
+    "BUY": {"name": "Sam Okoye", "role": "Owner", "company": "a restaurant group", "side": "buyer", "voice": "bm_george", "speed": 1.0}
+  },
+  "rep": {"talk_share": 0.45, "quality": "strong", "misses": []},
+  "facts": [
+    {"id": "s03f01", "field": "pain", "value": "The commissary walk-in died on a Saturday night, and nobody found out until Sunday morning", "line": "s03-004", "terms": ["Saturday night", "Sunday morning"]},
+    {"id": "s03f02", "field": "metrics", "value": "About $6,000 in prepped food lost", "line": "s03-006", "number": 6000, "unit": "USD", "terms": ["prepped food"]},
+    {"id": "s03f03", "field": "pain", "value": "Two restaurants ran out of prep and cut half the brunch menu", "line": "s03-006", "terms": ["half the menu"]},
+    {"id": "s03f04", "field": "account", "value": "Three trucks run prep from the commissary every morning", "line": "s03-008", "number": 3, "unit": "trucks", "terms": ["three trucks"]},
+    {"id": "s03f05", "field": "account", "value": "Eight restaurants, with one walk-in cooler and one walk-in freezer at the commissary", "line": "s03-008", "number": 8, "unit": "restaurants", "terms": ["eight restaurants", "walk-in freezer"]},
+    {"id": "s03f06", "field": "pain", "value": "The kitchen manager checks only at open and close, and nobody's there overnight on weekends", "line": "s03-010", "terms": ["opens and closes", "overnight"]},
+    {"id": "s03f07", "field": "decision_criteria", "value": "Alerts should reach Sam and the kitchen manager, even at midnight", "line": "s03-012", "terms": ["midnight"]},
+    {"id": "s03f08", "field": "competition", "value": "The chef wants cheap Bluetooth loggers at about $30 each that only show readings up close", "line": "s03-014", "number": 30, "unit": "USD each", "terms": ["Bluetooth loggers"]},
+    {"id": "s03f09", "field": "decision_criteria", "value": "It has to call or text when something's wrong, and it can't need a computer person to set up", "line": "s03-016", "terms": ["call or text", "computer person"]},
+    {"id": "s03f10", "field": "economic_buyer", "value": "Sam, the owner, decides, since it's his money", "line": "s03-018", "terms": ["my money"]},
+    {"id": "s03f11", "field": "decision_process", "value": "Sam decides alone", "line": "s03-018", "terms": ["It's mine"]},
+    {"id": "s03f12", "field": "budget", "value": "Under $8,000 for the first year, trucks included", "line": "s03-020", "number": 8000, "unit": "USD", "terms": ["first year"]},
+    {"id": "s03f13", "field": "stakeholders", "value": "The kitchen manager checks temperatures, and the chef favors cheap loggers", "lines": ["s03-010", "s03-014"], "terms": ["kitchen manager", "chef"]},
+    {"id": "s03f14", "field": "champion", "value": "Sam wants it in after the bad weekend and offers to sign Friday", "line": "s03-022", "terms": ["sign Friday"]},
+    {"id": "s03f15", "field": "seller_claims", "value": "Start with the commissary walk-ins and add the trucks once it's proven, within the budget", "line": "s03-021", "terms": ["add the trucks"]},
+    {"id": "s03f16", "field": "next_steps", "value": "Jenna sends a quote this afternoon", "lines": ["s03-021", "s03-023"], "date": "2026-09-16", "owner": "seller", "terms": ["quote"]},
+    {"id": "s03f17", "field": "close_date", "value": "Sam signs Friday for a Monday install", "line": "s03-022", "date": "2026-09-18", "terms": ["sign Friday"]}
+  ],
+  "commitments": [
+    {"id": "s03k01", "by": "seller", "who": "REP", "what": "Send the quote this afternoon", "kind": "deliverable", "due": "2026-09-16", "line": "s03-023", "terms": ["this afternoon"]},
+    {"id": "s03k02", "by": "seller", "who": "REP", "what": "Install on Monday if signed by Friday", "kind": "deliverable", "due": "2026-09-21", "line": "s03-021", "terms": ["install on Monday"]},
+    {"id": "s03k03", "by": "buyer", "who": "BUY", "what": "Sign Friday if the install is Monday", "kind": "decision", "due": "2026-09-18", "line": "s03-022", "terms": ["sign Friday"]}
+  ],
+  "absent": ["paper_process", "pricing", "amount", "critical_event", "risks"]
+}

@@ -1,0 +1,361 @@
+{
+ "step": "followup-approved",
+ "call": "deal-3",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:33:14",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "36d750b1f9dd8368",
+ "input": {
+  "call": "deal-3",
+  "date": "2026-09-22",
+  "rep": "Marcus Webb",
+  "company": "Brinewatch",
+  "to": [
+   "Rachel Torres",
+   "Linda Marsh"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "About $90,000 written off last year",
+    "number": 90000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "Delivery credits running about $5,000 a month",
+    "number": 5000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-3",
+    "field": "metrics",
+    "value": "Stop sheets take about 2 hours a day of office staff time",
+    "number": 2,
+    "unit": "hours per day"
+   },
+   {
+    "id": "metrics-4",
+    "field": "metrics",
+    "value": "Stop sheets take over 500 hours a year",
+    "number": 500,
+    "unit": "hours per year"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Linda Marsh makes the final decision, by the 30th"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Needs a driver app, which the competing vendor lacks"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Pilot first, with a clean opt-out after 30 days, in writing"
+   },
+   {
+    "id": "decision_criteria-3",
+    "field": "decision_criteria",
+    "value": "Wants to understand the cost of a pilot and of walking away"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Revised proposal goes out first, then Linda Marsh decides"
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "Master agreement and an order form"
+   },
+   {
+    "id": "paper_process-2",
+    "field": "paper_process",
+    "value": "Buyer's counsel reviews the agreement, then the buyer issues a purchase order"
+   },
+   {
+    "id": "paper_process-3",
+    "field": "paper_process",
+    "value": "Outside counsel usually takes about a week"
+   },
+   {
+    "id": "paper_process-4",
+    "field": "paper_process",
+    "value": "Purchasing needs a couple of days after counsel"
+   },
+   {
+    "id": "paper_process-5",
+    "field": "paper_process",
+    "value": "Payment terms are net 45, which must appear in the order form",
+    "number": 45,
+    "unit": "days"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Staff cannot be spared for stop sheets during the audit"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Without records for every delivery, the account could be lost"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Without the driver app, dead-zone routes leave gaps in delivery records"
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Rachel Torres says they cannot wait on the purchase"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Frostgauge came in a lot cheaper"
+   },
+   {
+    "id": "competition-2",
+    "field": "competition",
+    "value": "Frostgauge's hardware quote is about 30% under Brinewatch's",
+    "number": 30,
+    "unit": "percent"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Audit the week of the 19th, needing records for every delivery"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "About 40,000 set aside for food safety this year, already partly committed to other things",
+    "number": 40000
+   },
+   {
+    "id": "pricing-1",
+    "field": "pricing",
+    "value": "Hardware comes to about $31,000",
+    "number": 31000,
+    "unit": "USD"
+   },
+   {
+    "id": "pricing-2",
+    "field": "pricing",
+    "value": "Installation is about $4,500",
+    "number": 4500,
+    "unit": "USD"
+   },
+   {
+    "id": "pricing-3",
+    "field": "pricing",
+    "value": "Software is $1,260 a month",
+    "number": 1260,
+    "unit": "USD per month"
+   },
+   {
+    "id": "pricing-4",
+    "field": "pricing",
+    "value": "Software is an annual agreement billed monthly"
+   },
+   {
+    "id": "pricing-5",
+    "field": "pricing",
+    "value": "Pilot covers 4 trucks",
+    "number": 4,
+    "unit": "trucks"
+   },
+   {
+    "id": "pricing-6",
+    "field": "pricing",
+    "value": "Pilot runs 30 days",
+    "number": 30,
+    "unit": "days"
+   },
+   {
+    "id": "pricing-7",
+    "field": "pricing",
+    "value": "Two trucks in the shop get sensors when they are back, with no hardware charge until then"
+   },
+   {
+    "id": "amount-1",
+    "field": "amount",
+    "value": "Year one all-in is right around $50,000",
+    "number": 50000,
+    "unit": "USD"
+   },
+   {
+    "id": "close_date-1",
+    "field": "close_date",
+    "value": "Linda Marsh decides by the 30th"
+   },
+   {
+    "id": "close_date-2",
+    "field": "close_date",
+    "value": "Signature needed by October 2nd to install the whole fleet before the audit"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Send revised proposal with the pilot clause and net 45 terms"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Linda Marsh decides on the proposal"
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Council receives the proposal as soon as it arrives"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Council will receive the proposal"
+   },
+   {
+    "id": "stakeholders-2",
+    "field": "stakeholders",
+    "value": "Outside counsel reviews the agreement"
+   },
+   {
+    "id": "stakeholders-3",
+    "field": "stakeholders",
+    "value": "Purchasing issues the purchase order"
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "Price is more than planned for the year"
+   },
+   {
+    "id": "risks-2",
+    "field": "risks",
+    "value": "Buyer would prefer to delay until next quarter for budget reasons"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Fleet of 38 trucks plus the warehouse",
+    "number": 38,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Two trucks are in the shop",
+    "number": 2,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "Half of their routes are in dead zones"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Alerts could cover most of the losses if they catch half of last year's losses"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send revised proposal with the pilot clause and net 45 terms"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Decide on the proposal"
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Make sure Council has the proposal the day it comes in"
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Agree to net 45 payment terms"
+   },
+   {
+    "id": "commitments-5",
+    "field": "commitments",
+    "value": "Agree to a pilot with a clean opt-out after 30 days, in writing"
+   },
+   {
+    "id": "commitments-6",
+    "field": "commitments",
+    "value": "Owe nothing for the software if the buyer walks away after the pilot"
+   },
+   {
+    "id": "commitments-7",
+    "field": "commitments",
+    "value": "Try to get the installation fee waived"
+   },
+   {
+    "id": "commitments-8",
+    "field": "commitments",
+    "value": "Give the two shop trucks sensors when they are back, with no hardware charge until then"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Brinewatch pilot proposal and next steps\", \"sentences\": [{\"text\": \"Hi Rachel and Linda, thank you for the call on September 22; here is what I heard and what we agreed.\", \"facts\": []}, {\"text\": \"Brinewatch wrote off about $90,000 last year, and delivery credits run about $5,000 a month.\", \"facts\": [\"metrics-1\", \"metrics-2\"]}, {\"text\": \"Stop sheets take about 2 hours a day of office staff time, and staff cannot be spared for them during the audit.\", \"facts\": [\"metrics-3\", \"pain-1\"]}, {\"text\": \"Half your routes are in dead zones, so you need the driver app, because without it those routes leave gaps in delivery records.\", \"facts\": [\"account-3\", \"decision_criteria-1\", \"pain-3\"]}, {\"text\": \"We propose a pilot on 4 trucks for 30 days with a clean opt-out after 30 days in writing, and if you walk away after the pilot, you owe nothing for the software.\", \"facts\": [\"pricing-5\", \"pricing-6\", \"commitments-5\", \"commitments-6\"]}, {\"text\": \"Year one all-in comes to about $50,000: hardware about $31,000, installation about $4,500, and software at $1,260 a month on an annual agreement billed monthly, with net 45 payment terms in the order form.\", \"facts\": [\"amount-1\", \"pricing-1\", \"pricing-2\", \"pricing-3\", \"pricing-4\", \"paper_process-5\", \"commitments-4\"]}, {\"text\": \"I will send the revised proposal, and I will make sure Council has it the day it comes in, so Linda Marsh can decide on it.\", \"facts\": [\"commitments-1\", \"commitments-3\", \"next_steps-1\", \"next_steps-2\", \"next_steps-3\"]}, {\"text\": \"After that, outside counsel reviews the agreement, which usually takes about a week, and purchasing issues the purchase order a couple of days after counsel.\", \"facts\": [\"stakeholders-2\", \"paper_process-2\", \"paper_process-3\", \"paper_process-4\", \"stakeholders-3\"]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 24506,
+ "meta": {
+  "ms": 23455,
+  "api_ms": 23320,
+  "input_tokens": 7915,
+  "output_tokens": 5356,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7913,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 5356,
+   "output_tokens_details": {
+    "thinking_tokens": 4648
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7913,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 5356,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7913,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7913
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0042608,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

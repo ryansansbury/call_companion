@@ -1,0 +1,28 @@
+{
+  "id": "s02", "kind": "scored", "split": "dev", "title": "Hospital kitchen", "date": "2026-09-10", "length_s": 180,
+  "speakers": ["REP", "BUY"],
+  "cast": {
+    "REP": {"name": "Derek Shaw", "role": "Account executive", "company": "Brinewatch", "side": "seller", "voice": "am_fenrir", "speed": 1.05},
+    "BUY": {"name": "Paul Henning", "role": "Food and nutrition services manager", "company": "a hospital", "side": "buyer", "voice": "am_onyx", "speed": 1.0}
+  },
+  "rep": {"talk_share": 0.65, "quality": "weak", "misses": ["metrics", "economic_buyer", "decision_process", "budget", "critical_event date"]},
+  "facts": [
+    {"id": "s02f01", "field": "account", "value": "Only the hospital kitchen, with no trucks", "line": "s02-002", "terms": ["don't have trucks", "hospital kitchen"]},
+    {"id": "s02f02", "field": "account", "value": "Four walk-in coolers", "line": "s02-004", "number": 4, "unit": "walk-ins", "terms": ["walk-ins"]},
+    {"id": "s02f03", "field": "account", "value": "About twenty reach-ins across the kitchen and the patient floors", "line": "s02-004", "number": 20, "unit": "reach-ins", "terms": ["reach-ins", "patient floors"]},
+    {"id": "s02f04", "field": "pain", "value": "Walk-in alarms only beep in the kitchen, and one went off at night with nobody to hear it until the morning shift", "line": "s02-006", "terms": ["only beep", "nobody heard"]},
+    {"id": "s02f05", "field": "pain", "value": "They lost a whole cooler of patient meals", "line": "s02-008", "terms": ["patient meals"]},
+    {"id": "s02f06", "field": "critical_event", "value": "An accreditation survey is coming up, and it always pulls the temperature logs", "line": "s02-008", "terms": ["accreditation survey"]},
+    {"id": "s02f07", "field": "decision_criteria", "value": "IT is strict about devices on the hospital network", "line": "s02-010", "terms": ["hospital network"]},
+    {"id": "s02f08", "field": "stakeholders", "value": "The hospital's IT department", "line": "s02-010", "terms": ["IT department"]},
+    {"id": "s02f09", "field": "seller_claims", "value": "Wireless sensors text the right person the second anything drifts, and customers say it pays for itself in the first year", "line": "s02-001", "terms": ["pays for itself"]},
+    {"id": "s02f10", "field": "seller_claims", "value": "Setup takes about a day, and Brinewatch handles everything", "line": "s02-009", "terms": ["about a day"]},
+    {"id": "s02f11", "field": "seller_claims", "value": "It's all cellular and doesn't touch the network", "line": "s02-011", "terms": ["cellular"]},
+    {"id": "s02f12", "field": "next_steps", "value": "Derek sends the standard proposal for the four walk-ins and twenty reach-ins today", "lines": ["s02-013", "s02-015"], "date": "2026-09-10", "owner": "seller", "terms": ["proposal", "today"]}
+  ],
+  "commitments": [
+    {"id": "s02k01", "by": "seller", "who": "REP", "what": "Send the standard proposal today", "kind": "deliverable", "due": "2026-09-10", "line": "s02-015", "terms": ["today"]},
+    {"id": "s02k02", "by": "buyer", "who": "BUY", "what": "Look at the proposal", "kind": "deliverable", "line": "s02-014", "terms": ["look at it"]}
+  ],
+  "absent": ["metrics", "economic_buyer", "decision_process", "paper_process", "champion", "competition", "budget", "pricing", "amount", "close_date", "risks"]
+}

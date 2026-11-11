@@ -1,0 +1,273 @@
+{
+ "call": "s04",
+ "facts": [
+  {
+   "id": "s04f01",
+   "field": "account",
+   "value": "Fresh and frozen seafood, mostly to restaurants, on twelve trucks",
+   "lines": [
+    "s04-002"
+   ],
+   "terms": [
+    "Twelve trucks"
+   ],
+   "segments": [
+    "s04-s002"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 12,
+   "unit": "trucks"
+  },
+  {
+   "id": "s04f02",
+   "field": "pain",
+   "value": "Fresh fish has to stay around 32 degrees, and warm deliveries get sent back",
+   "lines": [
+    "s04-004"
+   ],
+   "terms": [
+    "send it back"
+   ],
+   "segments": [
+    "s04-s004"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 32,
+   "unit": "degrees F"
+  },
+  {
+   "id": "s04f03",
+   "field": "metrics",
+   "value": "Two or three rejected deliveries a week",
+   "lines": [
+    "s04-006"
+   ],
+   "terms": [
+    "rejected deliveries a week"
+   ],
+   "segments": [
+    "s04-s006"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f04",
+   "field": "metrics",
+   "value": "Each rejected delivery costs about $1,200",
+   "lines": [
+    "s04-008"
+   ],
+   "terms": [
+    "rejected delivery"
+   ],
+   "segments": [
+    "s04-s008"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 1200,
+   "unit": "USD"
+  },
+  {
+   "id": "s04f05",
+   "field": "pain",
+   "value": "The cab display doesn't record anything",
+   "lines": [
+    "s04-008"
+   ],
+   "terms": [
+    "doesn't record"
+   ],
+   "segments": [
+    "s04-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f06",
+   "field": "competition",
+   "value": "Frostgauge quoted cheaper last month, but the drivers didn't like its app",
+   "lines": [
+    "s04-010"
+   ],
+   "terms": [
+    "Frostgauge",
+    "didn't like the app"
+   ],
+   "segments": [
+    "s04-s010"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f07",
+   "field": "account",
+   "value": "Airport pickups twice a week are the worst runs for temperature",
+   "lines": [
+    "s04-012"
+   ],
+   "terms": [
+    "airport pickups"
+   ],
+   "segments": [
+    "s04-s012"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f08",
+   "field": "economic_buyer",
+   "value": "Frank, the owner, signs everything",
+   "lines": [
+    "s04-014"
+   ],
+   "terms": [
+    "Frank",
+    "signs everything"
+   ],
+   "segments": [
+    "s04-s014"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f09",
+   "field": "decision_process",
+   "value": "Nina has to run it by Frank, the owner",
+   "lines": [
+    "s04-014"
+   ],
+   "terms": [
+    "run it by"
+   ],
+   "segments": [
+    "s04-s014"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f10",
+   "field": "stakeholders",
+   "value": "Frank, the owner",
+   "lines": [
+    "s04-014"
+   ],
+   "terms": [
+    "owner"
+   ],
+   "segments": [
+    "s04-s014"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f11",
+   "field": "decision_criteria",
+   "value": "Price decides how fast Frank moves",
+   "lines": [
+    "s04-015",
+    "s04-016"
+   ],
+   "terms": [
+    "price"
+   ],
+   "segments": [
+    "s04-s015",
+    "s04-s016"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f12",
+   "field": "seller_claims",
+   "value": "Sensors track every compartment and text the moment something drifts",
+   "lines": [
+    "s04-005"
+   ],
+   "terms": [
+    "every compartment"
+   ],
+   "segments": [
+    "s04-s005"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f13",
+   "field": "seller_claims",
+   "value": "The app is easier, the drivers barely touch it, and it works without a signal",
+   "lines": [
+    "s04-011"
+   ],
+   "terms": [
+    "way easier",
+    "without a signal"
+   ],
+   "segments": [
+    "s04-s011"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s04f14",
+   "field": "next_steps",
+   "value": "Derek sends info and a few demo times for Nina to share with Frank",
+   "lines": [
+    "s04-017"
+   ],
+   "terms": [
+    "demo"
+   ],
+   "segments": [
+    "s04-s017"
+   ],
+   "heard": true,
+   "missing": []
+  }
+ ],
+ "commitments": [
+  {
+   "id": "s04k01",
+   "field": "commitments",
+   "value": "Send info and a few demo times",
+   "lines": [
+    "s04-017"
+   ],
+   "terms": [
+    "send over some info"
+   ],
+   "segments": [
+    "s04-s017"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "REP",
+   "date": null
+  }
+ ],
+ "absent": [
+  "paper_process",
+  "champion",
+  "budget",
+  "pricing",
+  "amount",
+  "close_date",
+  "critical_event",
+  "risks"
+ ],
+ "source": "transcript"
+}

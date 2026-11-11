@@ -1,0 +1,162 @@
+{
+ "step": "followup",
+ "call": "s08",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:53:29",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "3dfc4dc13d7a82a1",
+ "input": {
+  "call": "s08",
+  "date": "2026-10-01",
+  "rep": "Derek Shaw",
+  "company": "Brinewatch",
+  "to": [
+   "Grace Liu"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "Logged 41 temperature excursions last quarter",
+    "number": 41
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Raj Maita, the COO, makes the final decision"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "The system needs to support integration with their warehouse management system"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Frozen dough has to stay at zero degrees or below",
+    "number": 0,
+    "unit": "degrees"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "They are running a formal RFP for temperature monitoring in November"
+   },
+   {
+    "id": "decision_process-2",
+    "field": "decision_process",
+    "value": "They will invite 3 vendors",
+    "number": 3,
+    "unit": "vendors"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Each temperature excursion means a product hold while quality checks it"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Vendor registration information is needed by the end of next week to get on the invite list"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "The approved budget is $60,000 for the year",
+    "number": 60000,
+    "unit": "USD"
+   },
+   {
+    "id": "close_date-1",
+    "field": "close_date",
+    "value": "They will pick one by December 15th"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Derek will send the company information for vendor registration"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "They run 15 trucks carrying frozen dough",
+    "number": 15,
+    "unit": "trucks"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "The platform covers trucks and warehouses"
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "The seller says their customers love the app"
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "The platform uses sensors in every truck"
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "The platform sends alerts by text"
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "The platform provides a dashboard for the whole fleet"
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "Setup is super fast"
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "The seller says they integrate with pretty much everything"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send Grace the company information for vendor registration"
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Vendor registration and temperature-monitoring RFP\",\"sentences\":[{\"text\":\"Thanks for the conversation, Grace.\",\"facts\":[]},{\"text\":\"You logged 41 temperature excursions last quarter, each leading to a product hold while quality checks it.\",\"facts\":[\"metrics-1\",\"pain-1\"]},{\"text\":\"Frozen dough needs to stay at zero degrees or below, and the system needs to integrate with your warehouse management system.\",\"facts\":[\"decision_criteria-1\",\"decision_criteria-2\"]},{\"text\":\"You are running a formal temperature-monitoring RFP in November, inviting 3 vendors, and will pick one by December 15th.\",\"facts\":[\"decision_process-1\",\"decision_process-2\",\"close_date-1\"]},{\"text\":\"Vendor registration information is needed by the end of next week for the invite list; I’ll send the company information for registration.\",\"facts\":[\"critical_event-1\",\"next_steps-1\",\"commitments-1\"]},{\"text\":\"Raj Maita, the COO, makes the final decision.\",\"facts\":[\"economic_buyer-1\"]},{\"text\":\"Regards, Derek Shaw\",\"facts\":[]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 10061,
+ "meta": {
+  "ms": 10055,
+  "input_tokens": 1041,
+  "output_tokens": 1098,
+  "cost_usd": 0.000653,
+  "usage": {
+   "prompt_tokens": 1041,
+   "completion_tokens": 1098,
+   "total_tokens": 2139,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1038,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 855,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

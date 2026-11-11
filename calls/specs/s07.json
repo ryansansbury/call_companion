@@ -1,0 +1,31 @@
+{
+  "id": "s07", "kind": "scored", "split": "test", "title": "Event caterer", "date": "2026-09-29", "length_s": 130,
+  "speakers": ["REP", "BUY"],
+  "cast": {
+    "REP": {"name": "Jenna Cole", "role": "Account executive", "company": "Brinewatch", "side": "seller", "voice": "af_alloy", "speed": 1.0},
+    "BUY": {"name": "Luis Ortega", "role": "Owner", "company": "an event catering company", "side": "buyer", "voice": "bm_lewis", "speed": 1.0}
+  },
+  "rep": {"talk_share": 0.45, "quality": "strong", "misses": []},
+  "facts": [
+    {"id": "s07f01", "field": "pain", "value": "A guest got sick after a corporate lunch last spring, and the client didn't renew", "line": "s07-002", "terms": ["guest got sick", "didn't renew"]},
+    {"id": "s07f02", "field": "metrics", "value": "The lost client was worth about $40,000 a year", "line": "s07-002", "number": 40000, "unit": "USD per year", "terms": ["a year"]},
+    {"id": "s07f03", "field": "pain", "value": "Food sits in the vans at venues during setup, sometimes for a couple of hours, with nobody watching the temperature", "line": "s07-004", "terms": ["couple of hours", "nobody's really watching"]},
+    {"id": "s07f04", "field": "account", "value": "Five vans plus two walk-ins at the kitchen", "line": "s07-006", "number": 5, "unit": "vans", "terms": ["two walk-ins"]},
+    {"id": "s07f05", "field": "pain", "value": "Paper logs kept only when people remember", "line": "s07-008", "terms": ["Paper logs"]},
+    {"id": "s07f06", "field": "decision_criteria", "value": "Mostly seasonal event staff, so it has to be dead simple", "line": "s07-008", "terms": ["seasonal", "dead simple"]},
+    {"id": "s07f07", "field": "critical_event", "value": "Holiday party season starts in mid-November, half the year in six weeks", "line": "s07-010", "terms": ["Holiday party season"]},
+    {"id": "s07f08", "field": "stakeholders", "value": "Kim, the operations manager, runs the events and has to like it", "line": "s07-012", "terms": ["Kim", "operations manager"]},
+    {"id": "s07f09", "field": "decision_process", "value": "Kim has to like it, but Luis makes the call", "line": "s07-012", "terms": ["my call"]},
+    {"id": "s07f10", "field": "economic_buyer", "value": "Luis, the owner, makes the final call", "line": "s07-012", "terms": ["my call"]},
+    {"id": "s07f11", "field": "budget", "value": "About $500 a month, all in", "line": "s07-014", "number": 500, "unit": "USD per month", "terms": ["all in"]},
+    {"id": "s07f12", "field": "seller_claims", "value": "The budget fits five vans and two walk-ins", "line": "s07-015", "terms": ["fits five vans"]},
+    {"id": "s07f13", "field": "next_steps", "value": "A demo for Kim next Monday at nine", "lines": ["s07-016", "s07-017"], "date": "2026-10-05", "owner": "seller", "terms": ["Monday at nine"]},
+    {"id": "s07f14", "field": "close_date", "value": "Installed before November 1 if Kim likes it", "lines": ["s07-017", "s07-018"], "date": "2026-11-01", "terms": ["first of November"]},
+    {"id": "s07f15", "field": "champion", "value": "Luis wants it in before the season and agrees to aim for the date", "line": "s07-018", "terms": ["aim for that"]}
+  ],
+  "commitments": [
+    {"id": "s07k01", "by": "seller", "who": "REP", "what": "Send the invite for the Monday demo at nine", "kind": "meeting", "due": "2026-10-05", "line": "s07-019", "terms": ["Monday at nine"]},
+    {"id": "s07k02", "by": "buyer", "who": "BUY", "what": "Bring Kim to the Monday demo", "kind": "meeting", "due": "2026-10-05", "line": "s07-016", "terms": ["next Monday"]}
+  ],
+  "absent": ["competition", "paper_process", "pricing", "amount", "risks"]
+}

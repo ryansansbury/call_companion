@@ -1,0 +1,185 @@
+{
+ "step": "extract",
+ "call": "s05",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:50:58",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "e45b0517eb50c921",
+ "input": {
+  "call": "s05",
+  "date": "2026-09-23",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "REP",
+    "name": "Jenna Cole",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "BUY",
+    "name": "Victor Hale",
+    "role": "Transportation manager",
+    "company": "a regional grocery chain",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "s05-s001",
+    "speaker": "REP",
+    "start": 0.29,
+    "text": "Hi Victor, Jenna Cole from Brinewatch. Thanks for the time. What's going on with temperature on your side?"
+   },
+   {
+    "id": "s05-s002",
+    "speaker": "BUY",
+    "start": 6.71,
+    "text": "The trailers are the problem. We run 25 reefer trailers out to 40 stores, and when a trailer sits at a store's dock waiting to be unloaded, the temperature creeps."
+   },
+   {
+    "id": "s05-s003",
+    "speaker": "REP",
+    "start": 16.13,
+    "text": "What happens when it creeps?"
+   },
+   {
+    "id": "s05-s004",
+    "speaker": "BUY",
+    "start": 18.51,
+    "text": "The store rejects the dairy or the produce and it comes back to us. We're eating about $8,000 a month in rejected product."
+   },
+   {
+    "id": "s05-s005",
+    "speaker": "REP",
+    "start": 26.39,
+    "text": "And how do you find out a trailer drifted?"
+   },
+   {
+    "id": "s05-s006",
+    "speaker": "BUY",
+    "start": 29.51,
+    "text": "After the fact, somebody downloads the reefer data when the trailer gets back, and by then the product's already been refused."
+   },
+   {
+    "id": "s05-s007",
+    "speaker": "REP",
+    "start": 36.67,
+    "text": "So you have data, it's just late. Are you looking at anything to fix that?"
+   },
+   {
+    "id": "s05-s008",
+    "speaker": "BUY",
+    "start": 41.77,
+    "text": "Our trailer telematics vendor has a temperature add-on. It's cheap because we're already on their contract, but it only reports every 30 minutes, and it doesn't alert anybody at the stores."
+   },
+   {
+    "id": "s05-s009",
+    "speaker": "REP",
+    "start": 52.55,
+    "text": "If you pick something, how would that decision get made?"
+   },
+   {
+    "id": "s05-s010",
+    "speaker": "BUY",
+    "start": 56.55,
+    "text": "I'd recommend it. Ellen Ford, our VP of supply chain, approves it, and it does a security review on anything that sends data to the cloud."
+   },
+   {
+    "id": "s05-s011",
+    "speaker": "REP",
+    "start": 64.99,
+    "text": "How long does that review usually take?"
+   },
+   {
+    "id": "s05-s012",
+    "speaker": "BUY",
+    "start": 68.31,
+    "text": "About three weeks, and Vendor onboarding needs a certificate of insurance before anything gets installed."
+   },
+   {
+    "id": "s05-s013",
+    "speaker": "REP",
+    "start": 74.43,
+    "text": "Is there budget for this year or would it be next year?"
+   },
+   {
+    "id": "s05-s014",
+    "speaker": "BUY",
+    "start": 78.13,
+    "text": "Next year, it would go in the capital plan, and capital requests are due October 15th."
+   },
+   {
+    "id": "s05-s015",
+    "speaker": "REP",
+    "start": 83.67,
+    "text": "So to make that plan, Ellen would need to see something before the 15th. What would she need?"
+   },
+   {
+    "id": "s05-s016",
+    "speaker": "BUY",
+    "start": 89.69,
+    "text": "Proof it works on our routes and alerts that reach the store and the night dispatcher within 10 minutes."
+   },
+   {
+    "id": "s05-s017",
+    "speaker": "REP",
+    "start": 95.39,
+    "text": "Here's what I'd suggest. I'll send our security packet and a proposal for a five-trailer pilot by next Wednesday so it can start early. Could you set up 30 minutes with Ellen after that?"
+   },
+   {
+    "id": "s05-s018",
+    "speaker": "BUY",
+    "start": 106.11,
+    "text": "I can do that. I'll get Ellen on the calendar for the week after."
+   },
+   {
+    "id": "s05-s019",
+    "speaker": "REP",
+    "start": 109.97,
+    "text": "Great, I'll send everything by Wednesday. Thanks, Victor."
+   },
+   {
+    "id": "s05-s020",
+    "speaker": "BUY",
+    "start": 113.87,
+    "text": "Thanks, Jenna."
+   }
+  ]
+ },
+ "reply": "{\"fields\":{\"metrics\":[{\"value\":\"They are eating about $8,000 a month in rejected product.\",\"number\":8000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s05-s004\",\"quote\":\"We're eating about $8,000 a month in rejected product.\"}]}],\"economic_buyer\":[{\"value\":\"Ellen Ford approves it.\",\"name\":\"Ellen Ford\",\"role\":\"VP of supply chain\",\"evidence\":[{\"segment\":\"s05-s010\",\"quote\":\"Ellen Ford, our VP of supply chain, approves it\"}]}],\"decision_criteria\":[{\"value\":\"It must be proven to work on their routes.\",\"evidence\":[{\"segment\":\"s05-s016\",\"quote\":\"Proof it works on our routes\"}]},{\"value\":\"Alerts must reach the store and night dispatcher within 10 minutes.\",\"number\":10,\"unit\":\"minutes\",\"evidence\":[{\"segment\":\"s05-s016\",\"quote\":\"alerts that reach the store and the night dispatcher within 10 minutes\"}]}],\"decision_process\":[{\"value\":\"Ellen Ford approves the decision.\",\"evidence\":[{\"segment\":\"s05-s010\",\"quote\":\"Ellen Ford, our VP of supply chain, approves it\"}]},{\"value\":\"A security review is required for anything that sends data to the cloud and takes about 3 weeks.\",\"number\":3,\"unit\":\"weeks\",\"evidence\":[{\"segment\":\"s05-s010\",\"quote\":\"it does a security review on anything that sends data to the cloud\"},{\"segment\":\"s05-s012\",\"quote\":\"About three weeks\"}]}],\"paper_process\":[{\"value\":\"Vendor onboarding needs a certificate of insurance before anything gets installed.\",\"evidence\":[{\"segment\":\"s05-s012\",\"quote\":\"Vendor onboarding needs a certificate of insurance before anything gets installed.\"}]}],\"pain\":[{\"value\":\"When trailers sit at a store dock waiting to be unloaded, the temperature creeps and the store rejects dairy or produce that comes back to them.\",\"evidence\":[{\"segment\":\"s05-s002\",\"quote\":\"when a trailer sits at a store's dock waiting to be unloaded, the temperature creeps\"},{\"segment\":\"s05-s004\",\"quote\":\"The store rejects the dairy or the produce and it comes back to us.\"}]},{\"value\":\"They find out a trailer drifted after the fact, when the product has already been refused.\",\"evidence\":[{\"segment\":\"s05-s006\",\"quote\":\"After the fact, somebody downloads the reefer data when the trailer gets back, and by then the product's already been refused.\"}]}],\"champion\":[{\"value\":\"Victor says he would recommend it.\",\"evidence\":[{\"segment\":\"s05-s010\",\"quote\":\"I'd recommend it.\"}]}],\"competition\":[{\"value\":\"Their trailer telematics vendor's temperature add-on is cheap but reports every 30 minutes and does not alert anyone at the stores.\",\"number\":30,\"unit\":\"minutes\",\"evidence\":[{\"segment\":\"s05-s008\",\"quote\":\"Our trailer telematics vendor has a temperature add-on. It's cheap because we're already on their contract, but it only reports every 30 minutes, and it doesn't alert anybody at the stores.\"}]}],\"critical_event\":[{\"value\":\"Capital requests are due October 15th.\",\"due\":\"October 15th\",\"evidence\":[{\"segment\":\"s05-s014\",\"quote\":\"capital requests are due October 15th\"}]}],\"budget\":[{\"value\":\"It would go in the capital plan next year.\",\"evidence\":[{\"segment\":\"s05-s014\",\"quote\":\"Next year, it would go in the capital plan\"}]}],\"pricing\":[],\"amount\":[],\"close_date\":[],\"next_steps\":[{\"value\":\"Send the security packet and a proposal for a 5-trailer pilot.\",\"number\":5,\"unit\":\"trailers\",\"owner\":\"seller\",\"due\":\"by next Wednesday\",\"evidence\":[{\"segment\":\"s05-s017\",\"quote\":\"I'll send our security packet and a proposal for a five-trailer pilot by next Wednesday\"}]},{\"value\":\"Get Ellen on the calendar for a 30-minute meeting.\",\"number\":30,\"unit\":\"minutes\",\"owner\":\"buyer\",\"due\":\"the week after\",\"evidence\":[{\"segment\":\"s05-s017\",\"quote\":\"Could you set up 30 minutes with Ellen after that?\"},{\"segment\":\"s05-s018\",\"quote\":\"I'll get Ellen on the calendar for the week after.\"}]}],\"stakeholders\":[],\"risks\":[],\"account\":[{\"value\":\"They run 25 reefer trailers.\",\"number\":25,\"unit\":\"trailers\",\"evidence\":[{\"segment\":\"s05-s002\",\"quote\":\"We run 25 reefer trailers\"}]},{\"value\":\"They serve 40 stores.\",\"number\":40,\"unit\":\"stores\",\"evidence\":[{\"segment\":\"s05-s002\",\"quote\":\"out to 40 stores\"}]}],\"seller_claims\":[]},\"commitments\":[{\"by\":\"seller\",\"who\":\"REP\",\"what\":\"Send the security packet and a proposal for a 5-trailer pilot.\",\"kind\":\"deliverable\",\"due\":\"by next Wednesday\",\"evidence\":[{\"segment\":\"s05-s017\",\"quote\":\"I'll send our security packet and a proposal for a five-trailer pilot by next Wednesday\"}]},{\"by\":\"buyer\",\"who\":\"BUY\",\"what\":\"Get Ellen on the calendar for a meeting.\",\"kind\":\"meeting\",\"due\":\"the week after\",\"evidence\":[{\"segment\":\"s05-s018\",\"quote\":\"I'll get Ellen on the calendar for the week after.\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": 19,
+ "ms": 29123,
+ "meta": {
+  "ms": 29120,
+  "input_tokens": 2316,
+  "output_tokens": 3714,
+  "cost_usd": 0.002089,
+  "usage": {
+   "prompt_tokens": 2316,
+   "completion_tokens": 3714,
+   "total_tokens": 6030,
+   "prompt_tokens_details": {
+    "cached_tokens": 1236,
+    "cache_write_tokens": 1077,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2560,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "note": "The coaching score. Each measure scores 1 inside its good range and falls to 0 at its bad edge, then the weights combine them into a score out of 100. The page's sliders change the weights, never the measures. The good ranges follow common norms for discovery calls, and the page's benchmarks come from the strong reps in the scored set.",
+  "components": {
+    "talk_share": {"label": "Rep's share of the talking", "good": [0.35, 0.50], "bad": [0.15, 0.75], "weight": 25, "format": "percent"},
+    "longest_monologue_s": {"label": "Rep's longest monologue", "good": [0, 90], "bad": [0, 180], "weight": 20, "format": "seconds"},
+    "patience_s": {"label": "Patience before answering", "good": [0.6, 1.2], "bad": [0.1, 2.5], "weight": 15, "format": "seconds"},
+    "questions_per_10min": {"label": "Questions per ten minutes", "good": [8, 22], "bad": [0, 35], "weight": 15, "format": "number"},
+    "open_share": {"label": "Share of open questions", "good": [0.5, 1.0], "bad": [0.0, 1.0], "weight": 15, "format": "percent"},
+    "rep_interruptions": {"label": "Times the rep talked over the buyer", "good": [0, 0], "bad": [0, 3], "weight": 10, "format": "number"}
+  }
+}

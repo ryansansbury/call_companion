@@ -1,0 +1,338 @@
+{
+ "call": "s01",
+ "facts": [
+  {
+   "id": "s01f01",
+   "field": "account",
+   "value": "Twelve vans deliver from a central kitchen every morning",
+   "lines": [
+    "s01-004"
+   ],
+   "terms": [
+    "central kitchen"
+   ],
+   "segments": [
+    "s01-s004"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 12,
+   "unit": "vans"
+  },
+  {
+   "id": "s01f02",
+   "field": "pain",
+   "value": "No real way to know carts stay cold: drivers write thermometer readings on a clipboard, and problems surface when a cafeteria manager calls",
+   "lines": [
+    "s01-006"
+   ],
+   "terms": [
+    "clipboard",
+    "cafeteria manager"
+   ],
+   "segments": [
+    "s01-s006"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s01f03",
+   "field": "metrics",
+   "value": "About $3,000 a month lost in warm milk",
+   "lines": [
+    "s01-008"
+   ],
+   "terms": [
+    "milk"
+   ],
+   "segments": [
+    "s01-s008"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 3000,
+   "unit": "USD per month"
+  },
+  {
+   "id": "s01f04",
+   "field": "pain",
+   "value": "Warm milk came in twice last month and had to be thrown out",
+   "lines": [
+    "s01-008"
+   ],
+   "terms": [
+    "Twice last month",
+    "throw it out"
+   ],
+   "segments": [
+    "s01-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s01f05",
+   "field": "pain",
+   "value": "Kids go without milk, parents hear about it, and the state inspector finds messy clipboard logs",
+   "lines": [
+    "s01-010"
+   ],
+   "terms": [
+    "parents",
+    "state inspector"
+   ],
+   "segments": [
+    "s01-s010"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s01f06",
+   "field": "critical_event",
+   "value": "The state inspection in March, with something in place by winter break for clean records",
+   "lines": [
+    "s01-011",
+    "s01-012"
+   ],
+   "terms": [
+    "March",
+    "winter break"
+   ],
+   "segments": [
+    "s01-s011",
+    "s01-s012"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s01f07",
+   "field": "economic_buyer",
+   "value": "Mark Feldman, assistant superintendent for operations, controls the equipment budget",
+   "lines": [
+    "s01-014"
+   ],
+   "terms": [
+    "Mark Feldman",
+    "equipment budget"
+   ],
+   "segments": [
+    "s01-s014"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s01f08",
+   "field": "decision_process",
+   "value": "Angela brings it to Mark, and anything over $50,000 also needs a school board vote",
+   "lines": [
+    "s01-014"
+   ],
+   "terms": [
+    "school board vote"
+   ],
+   "segments": [
+    "s01-s014"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 50000,
+   "unit": "USD"
+  },
+  {
+   "id": "s01f09",
+   "field": "stakeholders",
+   "value": "Mark Feldman, assistant superintendent for operations",
+   "lines": [
+    "s01-014"
+   ],
+   "terms": [
+    "assistant superintendent"
+   ],
+   "segments": [
+    "s01-s014"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s01f10",
+   "field": "champion",
+   "value": "Angela will take it to Mark herself",
+   "lines": [
+    "s01-014"
+   ],
+   "terms": [
+    "bring it to"
+   ],
+   "segments": [
+    "s01-s014"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s01f11",
+   "field": "budget",
+   "value": "Nothing in this year's budget, but a nutrition equipment grant in January covers up to $20,000",
+   "lines": [
+    "s01-016"
+   ],
+   "terms": [
+    "grant",
+    "January"
+   ],
+   "segments": [
+    "s01-s016"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 20000,
+   "unit": "USD"
+  },
+  {
+   "id": "s01f12",
+   "field": "risks",
+   "value": "The money depends on the grant, since it isn't in this year's budget",
+   "lines": [
+    "s01-016"
+   ],
+   "terms": [
+    "Not in this year's budget"
+   ],
+   "segments": [
+    "s01-s016"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "s01f13",
+   "field": "decision_criteria",
+   "value": "Keeping it under $20,000 makes Mark's decision easier",
+   "lines": [
+    "s01-020"
+   ],
+   "terms": [
+    "under twenty thousand"
+   ],
+   "segments": [
+    "s01-s020"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 20000,
+   "unit": "USD"
+  },
+  {
+   "id": "s01f14",
+   "field": "next_steps",
+   "value": "Jenna sends a quote for the twelve vans and the walk-in, with grant language, by Friday",
+   "lines": [
+    "s01-019"
+   ],
+   "terms": [
+    "quote",
+    "by Friday"
+   ],
+   "segments": [
+    "s01-s019"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-11"
+  },
+  {
+   "id": "s01f15",
+   "field": "next_steps",
+   "value": "Fifteen minutes with Mark the week after next",
+   "lines": [
+    "s01-021",
+    "s01-022"
+   ],
+   "terms": [
+    "week after next"
+   ],
+   "segments": [
+    "s01-s021",
+    "s01-s022"
+   ],
+   "heard": true,
+   "missing": []
+  }
+ ],
+ "commitments": [
+  {
+   "id": "s01k01",
+   "field": "commitments",
+   "value": "Send a quote with grant language by Friday",
+   "lines": [
+    "s01-019"
+   ],
+   "terms": [
+    "by Friday"
+   ],
+   "segments": [
+    "s01-s019"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "REP",
+   "date": "2026-09-11"
+  },
+  {
+   "id": "s01k02",
+   "field": "commitments",
+   "value": "Follow up about a time with Mark",
+   "lines": [
+    "s01-023"
+   ],
+   "terms": [
+    "follow up"
+   ],
+   "segments": [
+    "s01-s023"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "meeting",
+   "by": "seller",
+   "who": "REP",
+   "date": null
+  },
+  {
+   "id": "s01k03",
+   "field": "commitments",
+   "value": "Meet with Mark the week after next",
+   "lines": [
+    "s01-022"
+   ],
+   "terms": [
+    "week after next"
+   ],
+   "segments": [
+    "s01-s022"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "meeting",
+   "by": "buyer",
+   "who": "BUY",
+   "date": null
+  }
+ ],
+ "absent": [
+  "competition",
+  "paper_process",
+  "pricing",
+  "amount",
+  "close_date",
+  "seller_claims"
+ ],
+ "source": "transcript"
+}

@@ -1,0 +1,177 @@
+{
+ "step": "followup",
+ "call": "s04",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:37:23",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "88d819b75b4145e6",
+ "input": {
+  "call": "s04",
+  "date": "2026-09-17",
+  "rep": "Derek Shaw",
+  "company": "Brinewatch",
+  "to": [
+   "Nina Park"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "Two or three rejected deliveries a week"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "Each rejected delivery costs about $1200",
+    "number": 1200,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Frank, the owner, signs everything"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Fresh fish must stay right around 32 degrees",
+    "number": 32,
+    "unit": "degrees"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Nina must run it by the owner, Frank, before deciding"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Restaurants send back fish that gets warm"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Cab display shows temperature but records nothing"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Airport pickup runs are the worst for temperature, with fish sitting on the tarmac"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Frostgauge quoted last month, cheaper but drivers disliked its app"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Derek sends info and demo times for Nina to share with Frank"
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "Frank's speed on this depends on the price"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Fleet of 12 trucks",
+    "number": 12,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Sells fresh and frozen mostly to restaurants"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "Airport pickups twice a week"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Sensors track every compartment"
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Customers get a text when something drifts"
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "Most seafood customers see the difference in the first month"
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "The app works without a signal"
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "Drivers basically don't have to touch the app"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send info and a few demo times for Frank"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Next steps from our call\", \"sentences\": [{\"text\": \"Hi Nina, thanks for talking with me today.\", \"facts\": []}, {\"text\": \"You said Brinewatch is seeing two or three rejected deliveries a week, and each one costs about $1200.\", \"facts\": [\"metrics-1\", \"metrics-2\"]}, {\"text\": \"The cab display shows temperature but records nothing, and airport pickup runs are the hardest, with fish sitting on the tarmac.\", \"facts\": [\"pain-2\", \"pain-3\"]}, {\"text\": \"Fresh fish needs to stay right around 32 degrees, and our sensors track every compartment, with a text going out when something drifts.\", \"facts\": [\"decision_criteria-1\", \"seller_claims-1\", \"seller_claims-2\"]}, {\"text\": \"Frank, the owner, signs everything, so you will need to run this by him before deciding.\", \"facts\": [\"economic_buyer-1\", \"decision_process-1\"]}, {\"text\": \"I will send you information and a few demo times for Frank to look at.\", \"facts\": [\"next_steps-1\", \"commitments-1\"]}, {\"text\": \"Best, Derek Shaw, Brinewatch\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 9728,
+ "meta": {
+  "ms": 8453,
+  "api_ms": 8326,
+  "input_tokens": 6315,
+  "output_tokens": 1750,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6313,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1750,
+   "output_tokens_details": {
+    "thinking_tokens": 1345
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6313,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1750,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6313,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6313
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0021378,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

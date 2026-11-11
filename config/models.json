@@ -1,0 +1,57 @@
+{
+  "note": "The models the comparison runs and the route chooses between. Keys never go in this file. OpenAI's key lives in the macOS Keychain under call-companion-openai, saved with bash owner/keys.sh. Claude runs through the Claude Code command line (claude -p). The local model runs through Ollama on this Mac with no key and with its thinking off, since with thinking on one step ran past ten minutes. It's switched off for the launch (docs/DECISIONS.md), and enabled true brings it back. Prices are US dollars per million tokens, from the Policy Reconciler's check on 2026-10-30.",
+  "prices_checked": "2026-10-30",
+  "compare": [
+    "claude-sonnet",
+    "claude-haiku",
+    "openai-luna"
+  ],
+  "default": "claude-sonnet",
+  "route_note": "After the dev runs, the cheapest model that clears the bars in this file answers the deal calls first on the page. Until then the default does.",
+  "models": [
+    {
+      "id": "claude-sonnet",
+      "label": "Claude Sonnet 5.5",
+      "vendor": "Anthropic",
+      "via": "claude-cli",
+      "model": "sonnet",
+      "price_in": 2.0,
+      "price_out": 10.0
+    },
+    {
+      "id": "claude-haiku",
+      "label": "Claude Haiku 5.5",
+      "vendor": "Anthropic",
+      "via": "claude-cli",
+      "model": "haiku",
+      "price_in": 0.1,
+      "price_out": 0.5
+    },
+    {
+      "id": "openai-luna",
+      "label": "GPT-6 Luna",
+      "vendor": "OpenAI",
+      "via": "openai",
+      "base_url": "https://api.openai.com/v1",
+      "model": "gpt-6-luna",
+      "keychain": "call-companion-openai",
+      "token_param": "max_completion_tokens",
+      "price_in": 0.1,
+      "price_out": 0.5
+    },
+    {
+      "id": "local",
+      "label": "Local model (qwen3.8:27b)",
+      "vendor": "Local",
+      "via": "openai",
+      "base_url": "http://localhost:11434/v1",
+      "model": "qwen3.8:27b",
+      "reasoning_effort": "none",
+      "max_tokens": 12000,
+      "timeout": 1800,
+      "price_in": 0.0,
+      "price_out": 0.0,
+      "enabled": false
+    }
+  ]
+}

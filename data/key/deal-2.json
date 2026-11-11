@@ -1,0 +1,538 @@
+{
+ "call": "deal-2",
+ "facts": [
+  {
+   "id": "d2f01",
+   "field": "decision_criteria",
+   "value": "Nothing can need a hole in the firewall",
+   "lines": [
+    "d2-003"
+   ],
+   "terms": [
+    "firewall"
+   ],
+   "segments": [
+    "d2-s003"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f02",
+   "field": "decision_criteria",
+   "value": "No new set of passwords to manage",
+   "lines": [
+    "d2-008"
+   ],
+   "terms": [
+    "passwords"
+   ],
+   "segments": [
+    "d2-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f03",
+   "field": "decision_criteria",
+   "value": "Two years of history matters, since some customers ask for a full year of records",
+   "lines": [
+    "d2-012"
+   ],
+   "terms": [
+    "two years",
+    "full year of records"
+   ],
+   "segments": [
+    "d2-s012"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 2,
+   "unit": "years"
+  },
+  {
+   "id": "d2f04",
+   "field": "decision_criteria",
+   "value": "Alerts must reach dispatch within five minutes and escalate to Rachel if nobody acknowledges them",
+   "lines": [
+    "d2-017"
+   ],
+   "terms": [
+    "five minutes",
+    "acknowledges"
+   ],
+   "segments": [
+    "d2-s017"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 5,
+   "unit": "minutes"
+  },
+  {
+   "id": "d2f05",
+   "field": "decision_criteria",
+   "value": "The driver app has to work with no signal, since half the routes cross dead zones",
+   "lines": [
+    "d2-019"
+   ],
+   "terms": [
+    "no signal",
+    "dead zones"
+   ],
+   "segments": [
+    "d2-s019"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f06",
+   "field": "decision_criteria",
+   "value": "A pilot on a few trucks on real routes, with alerts that show up",
+   "lines": [
+    "d2-029"
+   ],
+   "terms": [
+    "pilot",
+    "real routes"
+   ],
+   "segments": [
+    "d2-s029"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f07",
+   "field": "decision_criteria",
+   "value": "Installs at night, since trucks can't be pulled during the week",
+   "lines": [
+    "d2-031"
+   ],
+   "terms": [
+    "at night",
+    "pull trucks"
+   ],
+   "segments": [
+    "d2-s031"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f08",
+   "field": "decision_process",
+   "value": "Rachel recommends, Tom signs off on security, and anything over $25,000 goes to the CFO, not the board",
+   "lines": [
+    "d2-022",
+    "d2-024"
+   ],
+   "terms": [
+    "recommendation",
+    "sign off on security"
+   ],
+   "segments": [
+    "d2-s022",
+    "d2-s024"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 25000,
+   "unit": "USD"
+  },
+  {
+   "id": "d2f09",
+   "field": "economic_buyer",
+   "value": "Linda Marsh, the CFO, approves anything over $25,000 and has the final word",
+   "lines": [
+    "d2-022",
+    "d2-024"
+   ],
+   "terms": [
+    "Linda Marsh",
+    "CFO",
+    "final word"
+   ],
+   "segments": [
+    "d2-s022",
+    "d2-s024"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f10",
+   "field": "competition",
+   "value": "Frostgauge's hardware came in about 30% cheaper, but it has no driver app",
+   "lines": [
+    "d2-026"
+   ],
+   "terms": [
+    "Frostgauge",
+    "driver app"
+   ],
+   "segments": [
+    "d2-s026"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 30,
+   "unit": "percent"
+  },
+  {
+   "id": "d2f11",
+   "field": "paper_process",
+   "value": "The security questionnaire has to be filled out before anything is installed",
+   "lines": [
+    "d2-032"
+   ],
+   "terms": [
+    "security questionnaire"
+   ],
+   "segments": [
+    "d2-s032"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f12",
+   "field": "stakeholders",
+   "value": "Linda Marsh, the CFO, approves the purchase",
+   "lines": [
+    "d2-022"
+   ],
+   "terms": [
+    "Linda Marsh"
+   ],
+   "segments": [
+    "d2-s022"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f13",
+   "field": "champion",
+   "value": "Rachel makes the recommendation and will bring Linda to the next call",
+   "lines": [
+    "d2-022",
+    "d2-035"
+   ],
+   "terms": [
+    "recommendation",
+    "bring Linda"
+   ],
+   "segments": [
+    "d2-s022",
+    "d2-s035"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f14",
+   "field": "next_steps",
+   "value": "Tom sends the security questionnaire by Friday",
+   "lines": [
+    "d2-032"
+   ],
+   "terms": [
+    "by Friday"
+   ],
+   "segments": [
+    "d2-s032"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-18"
+  },
+  {
+   "id": "d2f15",
+   "field": "next_steps",
+   "value": "Priya sends a written pilot plan for the four trucks by Thursday",
+   "lines": [
+    "d2-033"
+   ],
+   "terms": [
+    "pilot plan",
+    "by Thursday"
+   ],
+   "segments": [
+    "d2-s033"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 4,
+   "unit": "trucks",
+   "date": "2026-09-17"
+  },
+  {
+   "id": "d2f16",
+   "field": "next_steps",
+   "value": "A call with Linda next Tuesday at ten",
+   "lines": [
+    "d2-035"
+   ],
+   "terms": [
+    "Next Tuesday at ten",
+    "bring Linda"
+   ],
+   "segments": [
+    "d2-s035"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-22"
+  },
+  {
+   "id": "d2f17",
+   "field": "seller_claims",
+   "value": "Gateways run on cellular, so nothing touches the network or opens a port",
+   "lines": [
+    "d2-004"
+   ],
+   "terms": [
+    "cellular",
+    "open a port"
+   ],
+   "segments": [
+    "d2-s004"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f18",
+   "field": "seller_claims",
+   "value": "Rhyolite owns the data, stored in the United States, with two years of history and full export",
+   "lines": [
+    "d2-011"
+   ],
+   "terms": [
+    "United States",
+    "two years"
+   ],
+   "segments": [
+    "d2-s011"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f19",
+   "field": "seller_claims",
+   "value": "A four-truck, thirty-day pilot, installed overnight at the yard",
+   "lines": [
+    "d2-030"
+   ],
+   "terms": [
+    "four trucks",
+    "overnight"
+   ],
+   "segments": [
+    "d2-s030"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 30,
+   "unit": "days"
+  },
+  {
+   "id": "d2f20",
+   "field": "risks",
+   "value": "Frostgauge is in the running with cheaper hardware",
+   "lines": [
+    "d2-026"
+   ],
+   "terms": [
+    "Frostgauge",
+    "cheaper"
+   ],
+   "segments": [
+    "d2-s026"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f21",
+   "field": "seller_claims",
+   "value": "Readings go to the routing software in a nightly file, or per delivery through an API",
+   "lines": [
+    "d2-014"
+   ],
+   "terms": [
+    "nightly file",
+    "API"
+   ],
+   "segments": [
+    "d2-s014"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f22",
+   "field": "decision_criteria",
+   "value": "A nightly file to the routing software is fine to start, without opening the routing system up",
+   "lines": [
+    "d2-015"
+   ],
+   "terms": [
+    "nightly file",
+    "routing system"
+   ],
+   "segments": [
+    "d2-s015"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f23",
+   "field": "account",
+   "value": "Only one dispatcher works overnight",
+   "lines": [
+    "d2-017"
+   ],
+   "terms": [
+    "one dispatcher"
+   ],
+   "segments": [
+    "d2-s017"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f24",
+   "field": "account",
+   "value": "The dock Wi-Fi is unreliable, and handhelds drop off it in the freezer",
+   "lines": [
+    "d2-006"
+   ],
+   "terms": [
+    "dock Wi-Fi"
+   ],
+   "segments": [
+    "d2-s006"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d2f25",
+   "field": "account",
+   "value": "Six vendors already have their own portals for IT to manage",
+   "lines": [
+    "d2-008"
+   ],
+   "terms": [
+    "portals"
+   ],
+   "segments": [
+    "d2-s008"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 6,
+   "unit": "vendors"
+  }
+ ],
+ "commitments": [
+  {
+   "id": "d2k01",
+   "field": "commitments",
+   "value": "Send Rhyolite's security questionnaire by Friday",
+   "lines": [
+    "d2-032"
+   ],
+   "terms": [
+    "by Friday"
+   ],
+   "segments": [
+    "d2-s032"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "buyer",
+   "who": "IT",
+   "date": "2026-09-18"
+  },
+  {
+   "id": "d2k02",
+   "field": "commitments",
+   "value": "Send a written pilot plan for the four trucks by Thursday",
+   "lines": [
+    "d2-033"
+   ],
+   "terms": [
+    "pilot plan"
+   ],
+   "segments": [
+    "d2-s033"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "SE",
+   "date": "2026-09-17"
+  },
+  {
+   "id": "d2k03",
+   "field": "commitments",
+   "value": "Bring Linda to next Tuesday's call",
+   "lines": [
+    "d2-035"
+   ],
+   "terms": [
+    "bring Linda"
+   ],
+   "segments": [
+    "d2-s035"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "meeting",
+   "by": "buyer",
+   "who": "OPS",
+   "date": "2026-09-22"
+  },
+  {
+   "id": "d2k04",
+   "field": "commitments",
+   "value": "Send the invite for next Tuesday",
+   "lines": [
+    "d2-036"
+   ],
+   "terms": [
+    "send the invite"
+   ],
+   "segments": [
+    "d2-s036"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "meeting",
+   "by": "seller",
+   "who": "AE",
+   "date": null
+  }
+ ],
+ "absent": [
+  "metrics",
+  "pain",
+  "critical_event",
+  "budget",
+  "pricing",
+  "amount",
+  "close_date"
+ ],
+ "source": "transcript"
+}

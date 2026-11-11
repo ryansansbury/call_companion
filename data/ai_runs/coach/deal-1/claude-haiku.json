@@ -1,0 +1,291 @@
+{
+ "step": "coach",
+ "call": "deal-1",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:28:56",
+ "prompt_hash": "9f68caf76add4c2c",
+ "input_hash": "527008d2ca3f4580",
+ "input": {
+  "call": "deal-1",
+  "date": "2026-09-08",
+  "rep": "AE",
+  "segments": [
+   {
+    "id": "d1-s001",
+    "speaker": "AE",
+    "start": 0.31,
+    "text": "Hi, Rachel. It's Marcus Webb from Brinewatch. Thanks for making the time this morning."
+   },
+   {
+    "id": "d1-s002",
+    "speaker": "OPS",
+    "start": 6.21,
+    "text": "Sure, Marcus. I've got about 20 minutes, so let's make it count."
+   },
+   {
+    "id": "d1-s003",
+    "speaker": "AE",
+    "start": 10.07,
+    "text": "Absolutely. So, um, I saw you downloaded our guide on overnight reefer failures, and before we dig in, let me give you 30 seconds on who we are. Brinewatch puts wireless temperature probes and door sensors on refrigerated trucks and cold rooms, and our software watches every reading around the clock. We work with distributors all over the country, and most of them come to us after a bad night, which is honestly why I wanted to talk."
+   },
+   {
+    "id": "d1-s004",
+    "speaker": "OPS",
+    "start": 38.31,
+    "text": "Yeah, you could say we had one of those."
+   },
+   {
+    "id": "d1-s005",
+    "speaker": "AE",
+    "start": 40.81,
+    "text": "What happened?"
+   },
+   {
+    "id": "d1-s006",
+    "speaker": "OPS",
+    "start": 42.59,
+    "text": "We lost a whole load two weeks ago. A reefer unit died overnight on one of our trucks, and nobody knew until load out the next morning. The driver opened the doors at 5.30, and it was warm in there. About $14,000 of seafood and dairy went straight into the dumpster."
+   },
+   {
+    "id": "d1-s007",
+    "speaker": "AE",
+    "start": 45.09,
+    "text": "Oh no."
+   },
+   {
+    "id": "d1-s008",
+    "speaker": "AE",
+    "start": 59.89,
+    "text": "That's painful. We hear that story a lot, and it's always the overnight ones because nobody's watching. I'm guessing that wasn't the first time."
+   },
+   {
+    "id": "d1-s009",
+    "speaker": "OPS",
+    "start": 69.83,
+    "text": "It's the worst one, but no. The bigger problem is the slow stuff. When a case shows up warm, the restaurant probes it. Anything over 41 degrees gets refused, and we eat the credit."
+   },
+   {
+    "id": "d1-s010",
+    "speaker": "AE",
+    "start": 81.55,
+    "text": "How often does that happen?"
+   },
+   {
+    "id": "d1-s011",
+    "speaker": "OPS",
+    "start": 84.09,
+    "text": "We're running about $5,000 a month in warm delivery credits. Add the spoiled loads, and last year we wrote off something like $90,000."
+   },
+   {
+    "id": "d1-s012",
+    "speaker": "AE",
+    "start": 85.69,
+    "text": "Wow."
+   },
+   {
+    "id": "d1-s013",
+    "speaker": "AE",
+    "start": 93.31,
+    "text": "So here's the thing, and this is exactly why we built Brinewatch. Every compartment gets a temperature probe and every door gets a sensor, and the gateway sends readings over cellular. So the second a unit starts to drift, dispatch, and the driver both get a text, you'd have caught that seafood load at 2 in the morning instead of 5.30. The Driver app keeps working with no signal, so the history never has a gap, and when a customer wants proof, you pull a report in a minute instead of digging through paper. We also flag a unit that's struggling before it fails, because the temperature curve changes days ahead. Honestly, it's the thing our distributors say they'd never give up."
+   },
+   {
+    "id": "d1-s014",
+    "speaker": "OPS",
+    "start": 138.39,
+    "text": "Okay, that's more or less the dream."
+   },
+   {
+    "id": "d1-s015",
+    "speaker": "AE",
+    "start": 140.73,
+    "text": "How are you tracking temperatures today? Are you on paper or do you have some kind of system? Most of the distributors we talk to are on a mix of both."
+   },
+   {
+    "id": "d1-s016",
+    "speaker": "OPS",
+    "start": 150.89,
+    "text": "Our newer units report to the unit maker's portal, but the older half of the fleet doesn't, and nobody's watching a portal at two in the morning. The drivers write the units reading on the stop sheet, and when a customer asks, someone in the office spends a couple of hours a day pulling those sheets together."
+   },
+   {
+    "id": "d1-s017",
+    "speaker": "AE",
+    "start": 168.21,
+    "text": "A couple of hours a day, every day."
+   },
+   {
+    "id": "d1-s018",
+    "speaker": "OPS",
+    "start": 170.99,
+    "text": "Pretty much more during an audit."
+   },
+   {
+    "id": "d1-s019",
+    "speaker": "AE",
+    "start": 173.39,
+    "text": "And how many trucks are we talking about?"
+   },
+   {
+    "id": "d1-s020",
+    "speaker": "OPS",
+    "start": 176.21,
+    "text": "We run 40 trucks, well, 38 on the road right now. Two are in the shop, plus the cooler and the freezer at the warehouse."
+   },
+   {
+    "id": "d1-s021",
+    "speaker": "AE",
+    "start": 184.07,
+    "text": "Got it, you mentioned audits. Is there one coming up?"
+   },
+   {
+    "id": "d1-s022",
+    "speaker": "OPS",
+    "start": 188.19,
+    "text": "That's the real deadline. Our biggest customer is a restaurant chain, about 60 locations, and they audit us the week of October 19th. Last time they sampled deliveries. This time they want temperature records for every delivery."
+   },
+   {
+    "id": "d1-s023",
+    "speaker": "AE",
+    "start": 203.09,
+    "text": "Every delivery with paper stop sheets, that's going to be a long week for somebody."
+   },
+   {
+    "id": "d1-s024",
+    "speaker": "OPS",
+    "start": 208.85,
+    "text": "Exactly. And if they find problems, that account could walk. They're almost a fifth of our volume."
+   },
+   {
+    "id": "d1-s025",
+    "speaker": "AE",
+    "start": 215.07,
+    "text": "That's a big deal. So with Brinewatch, every delivery already has its temperature history attached, and you'd hand them the report on day one. We connect to most routing systems, and our install team does about 10 trucks a day, so we could have the whole fleet live well before the 19th. One of our customers, a distributor about your size, caught a failing unit at 1 in the morning in their very first week. A lot of our distributors go straight to the full fleet, because once the alerts catch one bad night, the system has paid for itself. And the warehouse sensors go in the same week, so the cooler and the freezer are covered too."
+   },
+   {
+    "id": "d1-s026",
+    "speaker": "OPS",
+    "start": 256.01,
+    "text": "I hear you, but I'd want to see it work before I put it on every truck."
+   },
+   {
+    "id": "d1-s027",
+    "speaker": "AE",
+    "start": 260.19,
+    "text": "Totally fair and honestly, that's what everybody says until they see the first alert. What would you need to see?"
+   },
+   {
+    "id": "d1-s028",
+    "speaker": "OPS",
+    "start": 267.91,
+    "text": "Alerts that actually reach the right person fast. And our IT manager, Tom, is going to want to know what it touches before anything goes near our network."
+   },
+   {
+    "id": "d1-s029",
+    "speaker": "AE",
+    "start": 277.33,
+    "text": "Makes sense. Would it help to get Tom on a technical call with our sales engineer? We do these all the time, and IT folks usually come out of them more relaxed than they went in, because there's honestly not much for them to worry about."
+   },
+   {
+    "id": "d1-s030",
+    "speaker": "OPS",
+    "start": 292.55,
+    "text": "Yeah, next Tuesday works, and I'll get Tom on it."
+   },
+   {
+    "id": "d1-s031",
+    "speaker": "AE",
+    "start": 295.65,
+    "text": "Perfect. I'll send an invite for next Tuesday at 10 and I'll bring Priya, our sales engineer. She's great with IT folks. She came from a fleet telematics background and she can walk Tom through the security side, the cellular setup, and how the data gets stored. Anything else you'd want covered."
+   },
+   {
+    "id": "d1-s032",
+    "speaker": "OPS",
+    "start": 315.43,
+    "text": "Just don't make it a sales pitch. Tom hates those."
+   },
+   {
+    "id": "d1-s033",
+    "speaker": "AE",
+    "start": 318.69,
+    "text": "Hahn noted, I'll tell Priya to keep talking. Talk Tuesday. Thanks, Rachel."
+   },
+   {
+    "id": "d1-s034",
+    "speaker": "OPS",
+    "start": 320.35,
+    "text": "Good Talk Tuesday."
+   }
+  ],
+  "coaching": {
+   "talk_s": {
+    "AE": 198.3,
+    "OPS": 109.3
+   },
+   "talk_share": {
+    "AE": 0.645,
+    "OPS": 0.355
+   },
+   "seller_share": 0.645,
+   "longest_monologue_s": 56.7,
+   "longest_story_s": 23.0,
+   "patience_s": 0.47,
+   "interactivity": 10.0,
+   "rep_interruptions": 0,
+   "buyer_interruptions": 1,
+   "questions": 8,
+   "questions_per_10min": 14.8,
+   "open_share": 0.38
+  }
+ },
+ "reply": "{\"strengths\": [{\"text\": \"You opened discovery with a broad question that let Rachel describe her current process in her own words.\", \"segment\": \"d1-s015\", \"quote\": \"How are you tracking temperatures today?\"}, {\"text\": \"You followed up on her mention of audits with a timing question, which surfaced the October 19th deadline that now drives the whole conversation.\", \"segment\": \"d1-s021\", \"quote\": \"Is there one coming up?\"}, {\"text\": \"You left the call with a specific, confirmed next step, a technical call with Tom on a set date, instead of a vague promise to follow up.\", \"segment\": \"d1-s031\", \"quote\": \"I'll send an invite for next Tuesday at 10\"}], \"improvements\": [{\"text\": \"You held 65% of the talk time and gave a long feature pitch right after Rachel described her problem, so it would have landed better after you asked more about her situation.\", \"segment\": \"d1-s013\", \"quote\": \"So here's the thing, and this is exactly why we built Brinewatch.\"}, {\"text\": \"Rachel had just said she wanted to see it work on a few trucks first, but you jumped to rolling out the full fleet, so try asking what a limited pilot would need to prove before proposing a bigger scope.\", \"segment\": \"d1-s025\", \"quote\": \"A lot of our distributors go straight to the full fleet\"}, {\"text\": \"When Rachel raised IT security concerns, you waved them off instead of asking Tom's specific questions, which can make a technical buyer less willing to engage.\", \"segment\": \"d1-s029\", \"quote\": \"there's honestly not much for them to worry about\"}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 15102,
+ "meta": {
+  "ms": 13848,
+  "api_ms": 13748,
+  "input_tokens": 8314,
+  "output_tokens": 2952,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 8312,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 2952,
+   "output_tokens_details": {
+    "thinking_tokens": 2424
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8312,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2952,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 8312,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 8312
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0031386,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

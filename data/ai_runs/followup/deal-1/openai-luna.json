@@ -1,0 +1,241 @@
+{
+ "step": "followup",
+ "call": "deal-1",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:44:02",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "00afdb9c7c4c2626",
+ "input": {
+  "call": "deal-1",
+  "date": "2026-09-08",
+  "rep": "Marcus Webb",
+  "company": "Brinewatch",
+  "to": [
+   "Rachel Torres"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "About $14,000 of seafood and dairy was lost in the spoiled load.",
+    "number": 14000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "Warm delivery credits run about $5,000 a month.",
+    "number": 5000,
+    "unit": "USD/month"
+   },
+   {
+    "id": "metrics-3",
+    "field": "metrics",
+    "value": "They wrote off something like $90,000 last year.",
+    "number": 90000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-4",
+    "field": "metrics",
+    "value": "The biggest customer is almost a fifth of their volume."
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Alerts must reach the right person fast."
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "The customer wants temperature records for every delivery."
+   },
+   {
+    "id": "decision_criteria-3",
+    "field": "decision_criteria",
+    "value": "The IT manager wants to know what the system touches before it goes near their network."
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Rachel wants to see it work before putting it on every truck."
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "A reefer unit died overnight and nobody knew until the next morning; the load was warm when the driver opened the doors."
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Warm deliveries over 41 degrees get refused, and they eat the credit.",
+    "number": 41,
+    "unit": "degrees"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "The office spends a couple of hours a day pulling temperature sheets together, and more during an audit."
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Their biggest customer audits them the week of October 19th."
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Rachel will get Tom on the technical call."
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Marcus will send an invite and bring Priya, the sales engineer."
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Tom is the IT manager."
+   },
+   {
+    "id": "stakeholders-2",
+    "field": "stakeholders",
+    "value": "Priya is the seller's sales engineer."
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "If the customer finds problems, that account could walk."
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "They run 40 trucks.",
+    "number": 40,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "38 trucks are on the road right now.",
+    "number": 38,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "Two trucks are in the shop.",
+    "number": 2,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-4",
+    "field": "account",
+    "value": "They have a cooler and a freezer at the warehouse."
+   },
+   {
+    "id": "account-5",
+    "field": "account",
+    "value": "Their biggest customer is a restaurant chain with about 60 locations.",
+    "number": 60,
+    "unit": "locations"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Every compartment gets a temperature probe, every door gets a sensor, and the gateway sends readings over cellular."
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "When a unit starts to drift, dispatch and the driver both get a text."
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "The Driver app works with no signal, so the history never has a gap."
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "A customer can get a report in a minute instead of having someone dig through paper."
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "Brinewatch flags a struggling unit before it fails because the temperature curve changes days ahead."
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "Every delivery has its temperature history attached, and the report can be handed over on day one."
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "Brinewatch connects to most routing systems."
+   },
+   {
+    "id": "seller_claims-8",
+    "field": "seller_claims",
+    "value": "The install team does about 10 trucks a day.",
+    "number": 10,
+    "unit": "trucks/day"
+   },
+   {
+    "id": "seller_claims-9",
+    "field": "seller_claims",
+    "value": "The whole fleet could be live well before the 19th."
+   },
+   {
+    "id": "seller_claims-10",
+    "field": "seller_claims",
+    "value": "The warehouse sensors go in the same week, covering the cooler and freezer too."
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Get Tom on the technical call."
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Send an invite and bring Priya, the sales engineer."
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Follow-up on temperature monitoring\",\"sentences\":[{\"text\":\"Hi Rachel, thanks for the call.\",\"facts\":[]},{\"text\":\"You described a reefer failure overnight that left a load warm, with about $14,000 of seafood and dairy lost.\",\"facts\":[\"pain-1\",\"metrics-1\"]},{\"text\":\"You also said warm deliveries over 41 degrees are refused and lead to credits, while the office spends a couple of hours a day pulling temperature sheets together.\",\"facts\":[\"pain-2\",\"pain-3\"]},{\"text\":\"Before putting it on every truck, you want to see it work; alerts need to reach the right person quickly, you need temperature records for every delivery, and Tom wants to understand what the system touches before it goes near the network.\",\"facts\":[\"decision_process-1\",\"decision_criteria-1\",\"decision_criteria-2\",\"decision_criteria-3\"]},{\"text\":\"You'll get Tom on the technical call.\",\"facts\":[\"next_steps-1\",\"commitments-1\"]},{\"text\":\"I'll send an invite and bring Priya, our sales engineer.\",\"facts\":[\"next_steps-2\",\"commitments-2\",\"stakeholders-2\"]},{\"text\":\"Best, Marcus\",\"facts\":[]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 8331,
+ "meta": {
+  "ms": 8321,
+  "input_tokens": 1638,
+  "output_tokens": 864,
+  "cost_usd": 0.000596,
+  "usage": {
+   "prompt_tokens": 1638,
+   "completion_tokens": 864,
+   "total_tokens": 2502,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1635,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 600,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

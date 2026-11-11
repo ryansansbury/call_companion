@@ -1,0 +1,141 @@
+{
+ "step": "followup",
+ "call": "s07",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:52:31",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "0af17dbe1eb2e703",
+ "input": {
+  "call": "s07",
+  "date": "2026-09-29",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Luis Ortega"
+  ],
+  "facts": [
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "Holiday party season accounts for half their year in 6 weeks.",
+    "number": 6,
+    "unit": "weeks"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Luis says it's his call in the end."
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Anything they use has to be dead simple for the seasonal event staff."
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Kim would have to like it."
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Kim is involved in choosing, but Luis makes the final call."
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "A guest got sick after a corporate lunch, and food is held in vans during setup without temperature monitoring."
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Holiday party season starts in the middle of November."
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "About $500 a month, all in.",
+    "number": 500,
+    "unit": "USD/month"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Show Kim a demo Monday at 9."
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Kim is the operations manager."
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "They run 5 vans.",
+    "number": 5,
+    "unit": "vans"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "They have 2 walk-ins at the kitchen.",
+    "number": 2,
+    "unit": "walk-ins"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "Most event staff is seasonal."
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "The offering fits 5 vans and 2 walk-ins."
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Hold the demo Monday at 9."
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Send the invite."
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Follow-up: demo for Kim\",\"sentences\":[{\"text\":\"Thanks for the conversation, Luis.\",\"facts\":[]},{\"text\":\"Holiday party season accounts for half your year in 6 weeks and starts in the middle of November.\",\"facts\":[\"metrics-2\",\"critical_event-1\"]},{\"text\":\"You described the concern about food being held in vans during setup without temperature monitoring after a guest got sick following a corporate lunch.\",\"facts\":[\"pain-1\"]},{\"text\":\"Anything you use needs to be simple for the seasonal event staff, and Kim needs to like it; Kim helps choose, while you make the final call.\",\"facts\":[\"decision_criteria-1\",\"decision_criteria-2\",\"decision_process-1\"]},{\"text\":\"Your budget is about $500 a month all in, and the offering fits your 5 vans and 2 walk-ins.\",\"facts\":[\"budget-1\",\"seller_claims-1\",\"account-1\",\"account-2\"]},{\"text\":\"I'll hold the demo for Kim Monday at 9 and send the invite.\",\"facts\":[\"next_steps-1\",\"stakeholders-1\",\"commitments-1\",\"commitments-2\"]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 10440,
+ "meta": {
+  "ms": 10436,
+  "input_tokens": 909,
+  "output_tokens": 1085,
+  "cost_usd": 0.000633,
+  "usage": {
+   "prompt_tokens": 909,
+   "completion_tokens": 1085,
+   "total_tokens": 1994,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 834,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

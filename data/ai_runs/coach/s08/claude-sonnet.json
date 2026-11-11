@@ -1,0 +1,165 @@
+{
+ "step": "coach",
+ "call": "s08",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:27:13",
+ "prompt_hash": "9f68caf76add4c2c",
+ "input_hash": "36fe77a9ce6bd09b",
+ "input": {
+  "call": "s08",
+  "date": "2026-10-01",
+  "rep": "REP",
+  "segments": [
+   {
+    "id": "s08-s001",
+    "speaker": "REP",
+    "start": 0.29,
+    "text": "Hi Grace, Derek Shaw with Brinewatch. Thanks for taking the call. So I'd love to just walk you through our platform real quick because I think it's a perfect fit for a bakery distributor."
+   },
+   {
+    "id": "s08-s002",
+    "speaker": "BUY",
+    "start": 11.45,
+    "text": "Before you do, let me save us both some time. We're running a formal RFP for temperature monitoring in November. We'll invite three vendors and we'll pick one by December 15th."
+   },
+   {
+    "id": "s08-s003",
+    "speaker": "REP",
+    "start": 22.11,
+    "text": "Oh great, great, well, we'd love to be in that. Our platform covers trucks, warehouses, all of it and our customers love the app."
+   },
+   {
+    "id": "s08-s004",
+    "speaker": "BUY",
+    "start": 30.25,
+    "text": "We run 15 trucks of frozen dough and it has to stay at zero degrees or below. Last quarter we logged 41 excursions above that."
+   },
+   {
+    "id": "s08-s005",
+    "speaker": "REP",
+    "start": 38.91,
+    "text": "Well, okay, yeah, 41 is a lot, so."
+   },
+   {
+    "id": "s08-s006",
+    "speaker": "BUY",
+    "start": 40.31,
+    "text": "And each one means a product hold while quality checks it. The budget's already approved at $60,000 for the year."
+   },
+   {
+    "id": "s08-s007",
+    "speaker": "REP",
+    "start": 47.67,
+    "text": "Oh nice, well that's plenty for us, so the way it works is, sensors in every truck, alerts by text and a dashboard for the whole fleet. Setup is super fast."
+   },
+   {
+    "id": "s08-s008",
+    "speaker": "BUY",
+    "start": 58.05,
+    "text": "Our COO, Raj Maita, makes the final decision and the RFP will ask for integration with our warehouse management system. Can you do that?"
+   },
+   {
+    "id": "s08-s009",
+    "speaker": "REP",
+    "start": 66.91,
+    "text": "Yeah totally, we integrate with pretty much everything."
+   },
+   {
+    "id": "s08-s010",
+    "speaker": "BUY",
+    "start": 70.23,
+    "text": "Okay, to get on the invite list, I need your company information for vendor registration by the end of next week."
+   },
+   {
+    "id": "s08-s011",
+    "speaker": "REP",
+    "start": 77.17,
+    "text": "Sure thing I'll send that over, and hey, could we maybe do a demo before the RFP."
+   },
+   {
+    "id": "s08-s012",
+    "speaker": "BUY",
+    "start": 82.85,
+    "text": "No Demos outside the process. Everyone gets the same shot. Just send the registration information."
+   },
+   {
+    "id": "s08-s013",
+    "speaker": "REP",
+    "start": 89.01,
+    "text": "Got it I'll get that to you this week, thanks Grace."
+   }
+  ],
+  "coaching": {
+   "talk_s": {
+    "BUY": 47.2,
+    "REP": 39.6
+   },
+   "talk_share": {
+    "BUY": 0.544,
+    "REP": 0.456
+   },
+   "seller_share": 0.456,
+   "longest_monologue_s": 10.3,
+   "longest_story_s": 10.4,
+   "patience_s": 0.22,
+   "interactivity": 10.0,
+   "rep_interruptions": 0,
+   "buyer_interruptions": 1,
+   "questions": 0,
+   "questions_per_10min": 0.0,
+   "open_share": null
+  }
+ },
+ "reply": "{\"strengths\": [{\"text\": \"Derek didn't fight the buyer's redirect and kept the door open by saying he wanted a place in the RFP.\", \"segment\": \"s08-s003\", \"quote\": \"we'd love to be in that\"}, {\"text\": \"He acknowledged the 41 excursions out loud and didn't interrupt (zero rep interruptions), which let Grace keep sharing details.\", \"segment\": \"s08-s005\", \"quote\": \"41 is a lot\"}, {\"text\": \"He closed by committing to a clear deliverable and timeline for the vendor registration, which keeps him on the invite list.\", \"segment\": \"s08-s013\", \"quote\": \"I'll get that to you this week\"}], \"improvements\": [{\"text\": \"He opened by pitching a walkthrough and asked zero questions in the whole call, so Grace had to volunteer the RFP, the pain, the budget and the decision maker herself.\", \"segment\": \"s08-s001\", \"quote\": \"walk you through our platform real quick\"}, {\"text\": \"After Grace shared 41 excursions of frozen dough, he stopped at agreement instead of asking what each product hold costs, how much gets thrown out, or what happens if it continues.\", \"segment\": \"s08-s005\", \"quote\": \"41 is a lot\"}, {\"text\": \"When asked about warehouse system integration, a requirement in the RFP, he gave a vague yes without asking which system they use, and he never asked how to get time with COO Raj Maita.\", \"segment\": \"s08-s009\", \"quote\": \"we integrate with pretty much everything\"}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 13617,
+ "meta": {
+  "ms": 12482,
+  "api_ms": 12341,
+  "input_tokens": 6406,
+  "output_tokens": 1506,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6404,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1506,
+   "output_tokens_details": {
+    "thinking_tokens": 998
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6404,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1506,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6404,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6404
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.04068,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

@@ -1,0 +1,390 @@
+{
+ "call": "deal-1",
+ "facts": [
+  {
+   "id": "d1f01",
+   "field": "pain",
+   "value": "A reefer unit died overnight and nobody knew until load-out the next morning",
+   "lines": [
+    "d1-006"
+   ],
+   "terms": [
+    "reefer unit died overnight",
+    "load-out"
+   ],
+   "segments": [
+    "d1-s006"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f02",
+   "field": "metrics",
+   "value": "About $14,000 of seafood and dairy lost in that one load",
+   "lines": [
+    "d1-008"
+   ],
+   "terms": [
+    "seafood and dairy"
+   ],
+   "segments": [
+    "d1-s006"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 14000,
+   "unit": "USD"
+  },
+  {
+   "id": "d1f03",
+   "field": "pain",
+   "value": "Restaurants refuse cases over 41 degrees, and Rhyolite eats the credit",
+   "lines": [
+    "d1-010"
+   ],
+   "terms": [
+    "refused",
+    "credit"
+   ],
+   "segments": [
+    "d1-s009"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 41,
+   "unit": "degrees F"
+  },
+  {
+   "id": "d1f04",
+   "field": "metrics",
+   "value": "About $5,000 a month in warm-delivery credits",
+   "lines": [
+    "d1-012"
+   ],
+   "terms": [
+    "warm-delivery credits"
+   ],
+   "segments": [
+    "d1-s011"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 5000,
+   "unit": "USD per month"
+  },
+  {
+   "id": "d1f05",
+   "field": "metrics",
+   "value": "About $90,000 written off last year",
+   "lines": [
+    "d1-012"
+   ],
+   "terms": [
+    "last year"
+   ],
+   "segments": [
+    "d1-s011"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 90000,
+   "unit": "USD"
+  },
+  {
+   "id": "d1f06",
+   "field": "pain",
+   "value": "The older half of the fleet doesn't report, nobody watches the unit maker's portal overnight, and drivers log readings on paper stop sheets",
+   "lines": [
+    "d1-017"
+   ],
+   "terms": [
+    "portal",
+    "stop sheet"
+   ],
+   "segments": [
+    "d1-s016"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f07",
+   "field": "metrics",
+   "value": "A couple of hours a day in the office pulling stop sheets together",
+   "lines": [
+    "d1-017"
+   ],
+   "terms": [
+    "couple of hours a day"
+   ],
+   "segments": [
+    "d1-s016"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f08",
+   "field": "account",
+   "value": "38 trucks on the road, forty in all with two in the shop",
+   "lines": [
+    "d1-021"
+   ],
+   "terms": [
+    "on the road"
+   ],
+   "segments": [
+    "d1-s020"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 38,
+   "unit": "trucks"
+  },
+  {
+   "id": "d1f09",
+   "field": "account",
+   "value": "A cooler and a freezer at the warehouse",
+   "lines": [
+    "d1-021"
+   ],
+   "terms": [
+    "cooler",
+    "freezer"
+   ],
+   "segments": [
+    "d1-s020"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f10",
+   "field": "account",
+   "value": "The biggest customer is a restaurant chain with about sixty locations",
+   "lines": [
+    "d1-023"
+   ],
+   "terms": [
+    "restaurant chain"
+   ],
+   "segments": [
+    "d1-s022"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 60,
+   "unit": "locations"
+  },
+  {
+   "id": "d1f11",
+   "field": "critical_event",
+   "value": "The biggest customer audits them the week of October 19 and wants temperature records for every delivery",
+   "lines": [
+    "d1-023"
+   ],
+   "terms": [
+    "audit",
+    "every delivery"
+   ],
+   "segments": [
+    "d1-s022"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-10-19"
+  },
+  {
+   "id": "d1f12",
+   "field": "risks",
+   "value": "That customer, almost a fifth of volume, could walk if the audit finds problems",
+   "lines": [
+    "d1-025"
+   ],
+   "terms": [
+    "account could walk",
+    "fifth"
+   ],
+   "segments": [
+    "d1-s024"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f13",
+   "field": "decision_criteria",
+   "value": "Wants to see it work before putting it on every truck",
+   "lines": [
+    "d1-027"
+   ],
+   "terms": [
+    "see it work",
+    "every truck"
+   ],
+   "segments": [
+    "d1-s026"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f14",
+   "field": "decision_criteria",
+   "value": "Alerts have to reach the right person fast",
+   "lines": [
+    "d1-029"
+   ],
+   "terms": [
+    "right person",
+    "fast"
+   ],
+   "segments": [
+    "d1-s028"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f15",
+   "field": "stakeholders",
+   "value": "Tom, the IT manager, has to know what it touches before it goes near the network",
+   "lines": [
+    "d1-029"
+   ],
+   "terms": [
+    "Tom",
+    "IT manager"
+   ],
+   "segments": [
+    "d1-s028"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f16",
+   "field": "champion",
+   "value": "Rachel Torres is driving it and is bringing IT in",
+   "lines": [
+    "d1-031"
+   ],
+   "terms": [
+    "get Tom on it"
+   ],
+   "segments": [
+    "d1-s030"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f17",
+   "field": "next_steps",
+   "value": "A technical call next Tuesday at ten with Tom and Priya",
+   "lines": [
+    "d1-031",
+    "d1-032"
+   ],
+   "terms": [
+    "next Tuesday at ten"
+   ],
+   "segments": [
+    "d1-s030",
+    "d1-s031"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-15"
+  },
+  {
+   "id": "d1f18",
+   "field": "seller_claims",
+   "value": "Alerts go by text to dispatch and the driver the moment a unit drifts, over cellular",
+   "lines": [
+    "d1-014"
+   ],
+   "terms": [
+    "cellular",
+    "text"
+   ],
+   "segments": [
+    "d1-s013"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d1f19",
+   "field": "seller_claims",
+   "value": "The install team does about ten trucks a day",
+   "lines": [
+    "d1-026"
+   ],
+   "terms": [
+    "install team"
+   ],
+   "segments": [
+    "d1-s025"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 10,
+   "unit": "trucks per day"
+  }
+ ],
+ "commitments": [
+  {
+   "id": "d1k01",
+   "field": "commitments",
+   "value": "Send an invite for next Tuesday at ten and bring Priya",
+   "lines": [
+    "d1-032"
+   ],
+   "terms": [
+    "send an invite"
+   ],
+   "segments": [
+    "d1-s031"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "meeting",
+   "by": "seller",
+   "who": "AE",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "d1k02",
+   "field": "commitments",
+   "value": "Get Tom on the technical call",
+   "lines": [
+    "d1-031"
+   ],
+   "terms": [
+    "get Tom on it"
+   ],
+   "segments": [
+    "d1-s030"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "meeting",
+   "by": "buyer",
+   "who": "OPS",
+   "date": null
+  }
+ ],
+ "absent": [
+  "economic_buyer",
+  "decision_process",
+  "paper_process",
+  "competition",
+  "budget",
+  "pricing",
+  "amount",
+  "close_date"
+ ],
+ "source": "transcript"
+}

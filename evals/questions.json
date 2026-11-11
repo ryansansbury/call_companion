@@ -1,0 +1,31 @@
+{
+ "questions": 73,
+ "open": 25,
+ "agreement": 0.973,
+ "open_precision": 0.926,
+ "open_recall": 1.0,
+ "confusion": {
+  "open_open": 25,
+  "open_closed": 0,
+  "closed_open": 2,
+  "closed_closed": 46
+ },
+ "disagreements": [
+  {
+   "line": "s03-005",
+   "question": "What did that cost you?",
+   "label": "closed",
+   "rule": "open"
+  },
+  {
+   "line": "s03-019",
+   "question": "What were you thinking of spending?",
+   "label": "closed",
+   "rule": "open"
+  }
+ ],
+ "first_run": {
+  "agreement": 0.781,
+  "note": "The first rule, before the revision, on all 73 questions. The revision was written after seeing every disagreement, so the revised figures are optimistic."
+ }
+}

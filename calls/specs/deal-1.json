@@ -1,0 +1,31 @@
+{
+  "id": "deal-1", "kind": "deal", "split": "deal", "title": "Discovery", "date": "2026-09-08", "length_s": 360,
+  "speakers": ["AE", "OPS"],
+  "rep": {"talk_share": 0.62, "misses": ["decision_process", "budget"], "note": "Talks too much and pitches early, and never asks who decides or what the budget is"},
+  "facts": [
+    {"id": "d1f01", "field": "pain", "value": "A reefer unit died overnight and nobody knew until load-out the next morning", "line": "d1-006", "terms": ["reefer unit died overnight", "load-out"]},
+    {"id": "d1f02", "field": "metrics", "value": "About $14,000 of seafood and dairy lost in that one load", "line": "d1-008", "number": 14000, "unit": "USD", "terms": ["seafood and dairy"]},
+    {"id": "d1f03", "field": "pain", "value": "Restaurants refuse cases over 41 degrees, and Rhyolite eats the credit", "line": "d1-010", "number": 41, "unit": "degrees F", "terms": ["refused", "credit"]},
+    {"id": "d1f04", "field": "metrics", "value": "About $5,000 a month in warm-delivery credits", "line": "d1-012", "number": 5000, "unit": "USD per month", "terms": ["warm-delivery credits"]},
+    {"id": "d1f05", "field": "metrics", "value": "About $90,000 written off last year", "line": "d1-012", "number": 90000, "unit": "USD", "terms": ["last year"]},
+    {"id": "d1f06", "field": "pain", "value": "The older half of the fleet doesn't report, nobody watches the unit maker's portal overnight, and drivers log readings on paper stop sheets", "line": "d1-017", "terms": ["portal", "stop sheet"]},
+    {"id": "d1f07", "field": "metrics", "value": "A couple of hours a day in the office pulling stop sheets together", "line": "d1-017", "terms": ["couple of hours a day"]},
+    {"id": "d1f08", "field": "account", "value": "38 trucks on the road, forty in all with two in the shop", "line": "d1-021", "number": 38, "unit": "trucks", "terms": ["on the road"], "note": "a self-correction from forty"},
+    {"id": "d1f09", "field": "account", "value": "A cooler and a freezer at the warehouse", "line": "d1-021", "terms": ["cooler", "freezer"]},
+    {"id": "d1f10", "field": "account", "value": "The biggest customer is a restaurant chain with about sixty locations", "line": "d1-023", "number": 60, "unit": "locations", "terms": ["restaurant chain"]},
+    {"id": "d1f11", "field": "critical_event", "value": "The biggest customer audits them the week of October 19 and wants temperature records for every delivery", "line": "d1-023", "date": "2026-10-19", "terms": ["audit", "every delivery"]},
+    {"id": "d1f12", "field": "risks", "value": "That customer, almost a fifth of volume, could walk if the audit finds problems", "line": "d1-025", "terms": ["account could walk", "fifth"]},
+    {"id": "d1f13", "field": "decision_criteria", "value": "Wants to see it work before putting it on every truck", "line": "d1-027", "terms": ["see it work", "every truck"]},
+    {"id": "d1f14", "field": "decision_criteria", "value": "Alerts have to reach the right person fast", "line": "d1-029", "terms": ["right person", "fast"]},
+    {"id": "d1f15", "field": "stakeholders", "value": "Tom, the IT manager, has to know what it touches before it goes near the network", "line": "d1-029", "terms": ["Tom", "IT manager"]},
+    {"id": "d1f16", "field": "champion", "value": "Rachel Torres is driving it and is bringing IT in", "line": "d1-031", "terms": ["get Tom on it"]},
+    {"id": "d1f17", "field": "next_steps", "value": "A technical call next Tuesday at ten with Tom and Priya", "lines": ["d1-031", "d1-032"], "date": "2026-09-15", "owner": "seller", "terms": ["next Tuesday at ten"]},
+    {"id": "d1f18", "field": "seller_claims", "value": "Alerts go by text to dispatch and the driver the moment a unit drifts, over cellular", "line": "d1-014", "terms": ["cellular", "text"]},
+    {"id": "d1f19", "field": "seller_claims", "value": "The install team does about ten trucks a day", "line": "d1-026", "number": 10, "unit": "trucks per day", "terms": ["install team"]}
+  ],
+  "commitments": [
+    {"id": "d1k01", "by": "seller", "who": "AE", "what": "Send an invite for next Tuesday at ten and bring Priya", "kind": "meeting", "due": "2026-09-15", "line": "d1-032", "terms": ["send an invite"]},
+    {"id": "d1k02", "by": "buyer", "who": "OPS", "what": "Get Tom on the technical call", "kind": "meeting", "line": "d1-031", "terms": ["get Tom on it"]}
+  ],
+  "absent": ["economic_buyer", "decision_process", "paper_process", "competition", "budget", "pricing", "amount", "close_date"]
+}

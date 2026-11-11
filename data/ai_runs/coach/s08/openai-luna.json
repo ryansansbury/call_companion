@@ -1,0 +1,147 @@
+{
+ "step": "coach",
+ "call": "s08",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:53:42",
+ "prompt_hash": "9f68caf76add4c2c",
+ "input_hash": "36fe77a9ce6bd09b",
+ "input": {
+  "call": "s08",
+  "date": "2026-10-01",
+  "rep": "REP",
+  "segments": [
+   {
+    "id": "s08-s001",
+    "speaker": "REP",
+    "start": 0.29,
+    "text": "Hi Grace, Derek Shaw with Brinewatch. Thanks for taking the call. So I'd love to just walk you through our platform real quick because I think it's a perfect fit for a bakery distributor."
+   },
+   {
+    "id": "s08-s002",
+    "speaker": "BUY",
+    "start": 11.45,
+    "text": "Before you do, let me save us both some time. We're running a formal RFP for temperature monitoring in November. We'll invite three vendors and we'll pick one by December 15th."
+   },
+   {
+    "id": "s08-s003",
+    "speaker": "REP",
+    "start": 22.11,
+    "text": "Oh great, great, well, we'd love to be in that. Our platform covers trucks, warehouses, all of it and our customers love the app."
+   },
+   {
+    "id": "s08-s004",
+    "speaker": "BUY",
+    "start": 30.25,
+    "text": "We run 15 trucks of frozen dough and it has to stay at zero degrees or below. Last quarter we logged 41 excursions above that."
+   },
+   {
+    "id": "s08-s005",
+    "speaker": "REP",
+    "start": 38.91,
+    "text": "Well, okay, yeah, 41 is a lot, so."
+   },
+   {
+    "id": "s08-s006",
+    "speaker": "BUY",
+    "start": 40.31,
+    "text": "And each one means a product hold while quality checks it. The budget's already approved at $60,000 for the year."
+   },
+   {
+    "id": "s08-s007",
+    "speaker": "REP",
+    "start": 47.67,
+    "text": "Oh nice, well that's plenty for us, so the way it works is, sensors in every truck, alerts by text and a dashboard for the whole fleet. Setup is super fast."
+   },
+   {
+    "id": "s08-s008",
+    "speaker": "BUY",
+    "start": 58.05,
+    "text": "Our COO, Raj Maita, makes the final decision and the RFP will ask for integration with our warehouse management system. Can you do that?"
+   },
+   {
+    "id": "s08-s009",
+    "speaker": "REP",
+    "start": 66.91,
+    "text": "Yeah totally, we integrate with pretty much everything."
+   },
+   {
+    "id": "s08-s010",
+    "speaker": "BUY",
+    "start": 70.23,
+    "text": "Okay, to get on the invite list, I need your company information for vendor registration by the end of next week."
+   },
+   {
+    "id": "s08-s011",
+    "speaker": "REP",
+    "start": 77.17,
+    "text": "Sure thing I'll send that over, and hey, could we maybe do a demo before the RFP."
+   },
+   {
+    "id": "s08-s012",
+    "speaker": "BUY",
+    "start": 82.85,
+    "text": "No Demos outside the process. Everyone gets the same shot. Just send the registration information."
+   },
+   {
+    "id": "s08-s013",
+    "speaker": "REP",
+    "start": 89.01,
+    "text": "Got it I'll get that to you this week, thanks Grace."
+   }
+  ],
+  "coaching": {
+   "talk_s": {
+    "BUY": 47.2,
+    "REP": 39.6
+   },
+   "talk_share": {
+    "BUY": 0.544,
+    "REP": 0.456
+   },
+   "seller_share": 0.456,
+   "longest_monologue_s": 10.3,
+   "longest_story_s": 10.4,
+   "patience_s": 0.22,
+   "interactivity": 10.0,
+   "rep_interruptions": 0,
+   "buyer_interruptions": 1,
+   "questions": 0,
+   "questions_per_10min": 0.0,
+   "open_share": null
+  }
+ },
+ "reply": "{\"strengths\":[{\"text\":\"You welcomed the formal RFP and made it clear Brinewatch wants to participate.\",\"segment\":\"s08-s003\",\"quote\":\"we'd love to be in that.\"},{\"text\":\"You gave a relevant, concrete overview of how the product could cover the fleet.\",\"segment\":\"s08-s007\",\"quote\":\"sensors in every truck, alerts by text and a dashboard for the whole fleet.\"},{\"text\":\"You ended with a clear near-term commitment on the vendor paperwork.\",\"segment\":\"s08-s013\",\"quote\":\"I'll get that to you this week\"}],\"improvements\":[{\"text\":\"With zero questions on the call, you missed a chance to learn what 41 excursions and product holds cost them.\",\"segment\":\"s08-s005\",\"quote\":\"41 is a lot, so.\"},{\"text\":\"Calling the approved $60,000 budget “plenty for us” centers our price range rather than clarifying what outcomes they expect for it.\",\"segment\":\"s08-s007\",\"quote\":\"that's plenty for us\"},{\"text\":\"Avoid a blanket integration assurance; confirm the specific warehouse system and what integration will require before saying yes.\",\"segment\":\"s08-s009\",\"quote\":\"we integrate with pretty much everything.\"}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 12169,
+ "meta": {
+  "ms": 12168,
+  "input_tokens": 1112,
+  "output_tokens": 1271,
+  "cost_usd": 0.000747,
+  "usage": {
+   "prompt_tokens": 1112,
+   "completion_tokens": 1271,
+   "total_tokens": 2383,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1109,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1006,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

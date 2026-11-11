@@ -1,0 +1,199 @@
+{
+ "step": "followup",
+ "call": "s09",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:27:35",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "d1079ace14171dcf",
+ "input": {
+  "call": "s09",
+  "date": "2026-10-06",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Owen Barrett"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "A customer filed a claim for $22,000 of product after a compressor failure",
+    "number": 22000,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Owen runs the place, but anything over 15,000 goes to the partners",
+    "number": 15000,
+    "unit": "USD"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Continuous records that customers can see"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Alerts to whoever is on call at night"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Partners meet once a month and the next meeting is October 20th"
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "They use their own vendor agreement"
+   },
+   {
+    "id": "paper_process-2",
+    "field": "paper_process",
+    "value": "They need a certificate of insurance"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Customers' auditors keep asking for continuous records, which they don't have"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "A compressor failed on a Sunday and wasn't caught until Monday, leading to a customer claim"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "No one is in the building around the clock to watch the rooms"
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Owen will put the purchase on the partners' agenda for the 20th"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Biggest customer audits them in December"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "About $20,000 set aside for upgrades",
+    "number": 20000,
+    "unit": "USD"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Seller sends a proposal for the six rooms"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Seller sends a one-page summary for the partners"
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Seller sends the insurance certificate with the proposal"
+   },
+   {
+    "id": "next_steps-4",
+    "field": "next_steps",
+    "value": "Owen puts the purchase on the partners' agenda for the 20th"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "The partners approve anything over 15,000"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "They have six cold rooms",
+    "number": 6,
+    "unit": "rooms"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Current monitoring is a screen on a panel in the office showing temperature"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send a proposal for the six rooms"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Put together a one-page summary for the partners"
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Send the insurance certificate with the proposal"
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Put the purchase on the partners' agenda for the 20th"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Next steps after our call\", \"sentences\": [{\"text\": \"Hi Owen,\", \"facts\": []}, {\"text\": \"Thank you for walking me through your six cold rooms and the screen on the office panel that shows temperature today.\", \"facts\": [\"account-1\", \"account-2\"]}, {\"text\": \"I heard that customers' auditors keep asking for continuous records you don't have, and that a compressor failed on a Sunday and wasn't caught until Monday, which led to a customer claim.\", \"facts\": [\"pain-1\", \"pain-2\"]}, {\"text\": \"You need continuous records that customers can see and alerts to whoever is on call at night, and your biggest customer audits you in December.\", \"facts\": [\"decision_criteria-1\", \"decision_criteria-2\", \"critical_event-1\"]}, {\"text\": \"I will send a proposal for the six rooms with the insurance certificate, and I will put together a one-page summary for the partners.\", \"facts\": [\"next_steps-1\", \"next_steps-3\", \"next_steps-2\", \"commitments-1\", \"commitments-3\", \"commitments-2\"]}, {\"text\": \"You will put the purchase on the partners' agenda for the 20th.\", \"facts\": [\"next_steps-4\", \"champion-1\", \"commitments-4\", \"decision_process-1\"]}, {\"text\": \"Best, Jenna Cole, Brinewatch\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 10165,
+ "meta": {
+  "ms": 8769,
+  "api_ms": 8642,
+  "input_tokens": 6518,
+  "output_tokens": 1371,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6516,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1371,
+   "output_tokens_details": {
+    "thinking_tokens": 915
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6516,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1371,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6516,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6516
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.039778,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

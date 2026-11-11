@@ -1,0 +1,439 @@
+{
+ "note": "Every question the seller asks in the twelve scripts, labeled by hand before the heuristic was scored. Open means the question asks the buyer to explain in their own words. Closed means it can be answered with yes, no, a name, a number or another single fact, which includes proposals phrased as questions. evals/questions.py scores engine/coaching.py's open-question rule against these.",
+ "labels": {
+  "d1-005": [
+   [
+    "What happened?",
+    "open"
+   ]
+  ],
+  "d1-011": [
+   [
+    "How often does that happen?",
+    "closed"
+   ]
+  ],
+  "d1-016": [
+   [
+    "How are you tracking temperatures today?",
+    "open"
+   ],
+   [
+    "Are you on paper, or do you have some kind of system?",
+    "closed"
+   ]
+  ],
+  "d1-018": [
+   [
+    "A couple of hours a day, every day?",
+    "closed"
+   ]
+  ],
+  "d1-020": [
+   [
+    "And how many trucks are we talking about?",
+    "closed"
+   ]
+  ],
+  "d1-022": [
+   [
+    "Is there one coming up?",
+    "closed"
+   ]
+  ],
+  "d1-028": [
+   [
+    "What would you need to see?",
+    "open"
+   ]
+  ],
+  "d1-030": [
+   [
+    "Would it help to get Tom on a technical call with our sales engineer?",
+    "closed"
+   ]
+  ],
+  "d1-032": [
+   [
+    "Anything else you'd want covered?",
+    "closed"
+   ]
+  ],
+  "d2-016": [
+   [
+    "What does fast mean for you?",
+    "open"
+   ]
+  ],
+  "d2-021": [
+   [
+    "Can I ask how a decision like this gets made at Rhyolite?",
+    "open"
+   ],
+   [
+    "Who else weighs in besides the two of you?",
+    "closed"
+   ]
+  ],
+  "d2-023": [
+   [
+    "And the board?",
+    "closed"
+   ]
+  ],
+  "d2-025": [
+   [
+    "And is Brinewatch the only option you're looking at?",
+    "closed"
+   ]
+  ],
+  "d2-028": [
+   [
+    "So before any of this goes to Linda, what would you need to see?",
+    "open"
+   ]
+  ],
+  "d2-034": [
+   [
+    "And Rachel, would you be up for bringing Linda to a call next week, once she's seen the plan?",
+    "closed"
+   ]
+  ],
+  "d3-016": [
+   [
+    "What if we start with the pilot?",
+    "closed"
+   ]
+  ],
+  "s01-003": [
+   [
+    "How do meals get from your kitchen to the schools today?",
+    "open"
+   ]
+  ],
+  "s01-005": [
+   [
+    "And how do you know it stays cold along the way?",
+    "open"
+   ]
+  ],
+  "s01-007": [
+   [
+    "Has that happened recently?",
+    "closed"
+   ]
+  ],
+  "s01-009": [
+   [
+    "What else does it cost you, beyond the milk?",
+    "open"
+   ]
+  ],
+  "s01-011": [
+   [
+    "When's the next inspection?",
+    "closed"
+   ]
+  ],
+  "s01-013": [
+   [
+    "If you decided this was worth doing, how would a purchase like this get approved in your district?",
+    "open"
+   ]
+  ],
+  "s01-015": [
+   [
+    "Is there money set aside for something like this?",
+    "closed"
+   ]
+  ],
+  "s01-017": [
+   [
+    "Are you looking at anyone else?",
+    "closed"
+   ]
+  ],
+  "s01-019": [
+   [
+    "Could I get that to you by Friday?",
+    "closed"
+   ]
+  ],
+  "s01-021": [
+   [
+    "Would it make sense to set up fifteen minutes with Mark after he's seen it?",
+    "closed"
+   ]
+  ],
+  "s02-003": [
+   [
+    "How many coolers and freezers?",
+    "closed"
+   ]
+  ],
+  "s02-013": [
+   [
+    "Sound good?",
+    "closed"
+   ]
+  ],
+  "s03-003": [
+   [
+    "What made you fill out the form on our site?",
+    "open"
+   ]
+  ],
+  "s03-005": [
+   [
+    "What did that cost you?",
+    "closed"
+   ]
+  ],
+  "s03-007": [
+   [
+    "How is the commissary set up today?",
+    "open"
+   ]
+  ],
+  "s03-009": [
+   [
+    "And who keeps an eye on the temperatures right now?",
+    "closed"
+   ]
+  ],
+  "s03-011": [
+   [
+    "If you had alerts, who should get them?",
+    "closed"
+   ]
+  ],
+  "s03-013": [
+   [
+    "Have you looked at anything else?",
+    "closed"
+   ]
+  ],
+  "s03-015": [
+   [
+    "What would make you choose one over the other?",
+    "open"
+   ]
+  ],
+  "s03-017": [
+   [
+    "And is this your decision, or does someone else weigh in?",
+    "closed"
+   ]
+  ],
+  "s03-019": [
+   [
+    "What were you thinking of spending?",
+    "closed"
+   ]
+  ],
+  "s04-001": [
+   [
+    "You guys are a seafood wholesaler, right?",
+    "closed"
+   ]
+  ],
+  "s04-003": [
+   [
+    "So I'm guessing temperature is a big deal for you, right?",
+    "closed"
+   ]
+  ],
+  "s04-007": [
+   [
+    "Do you have any temperature monitoring today?",
+    "closed"
+   ]
+  ],
+  "s04-009": [
+   [
+    "Are you looking at other options?",
+    "closed"
+   ]
+  ],
+  "s04-013": [
+   [
+    "Would you want to see a demo?",
+    "closed"
+   ]
+  ],
+  "s04-015": [
+   [
+    "Does Frank usually move fast on stuff like this?",
+    "closed"
+   ]
+  ],
+  "s05-001": [
+   [
+    "What's going on with temperature on your side?",
+    "open"
+   ]
+  ],
+  "s05-003": [
+   [
+    "What happens when it creeps?",
+    "open"
+   ]
+  ],
+  "s05-005": [
+   [
+    "And how do you find out a trailer drifted?",
+    "open"
+   ]
+  ],
+  "s05-007": [
+   [
+    "Are you looking at anything to fix that?",
+    "closed"
+   ]
+  ],
+  "s05-009": [
+   [
+    "If you picked something, how would that decision get made?",
+    "open"
+   ]
+  ],
+  "s05-011": [
+   [
+    "How long does that review usually take?",
+    "closed"
+   ]
+  ],
+  "s05-013": [
+   [
+    "Is there budget for this year, or would it be next year?",
+    "closed"
+   ]
+  ],
+  "s05-015": [
+   [
+    "What would she need?",
+    "open"
+   ]
+  ],
+  "s05-017": [
+   [
+    "Could you set up thirty minutes with Ellen after that?",
+    "closed"
+   ]
+  ],
+  "s06-003": [
+   [
+    "How do the boxes stay cold?",
+    "open"
+   ]
+  ],
+  "s07-001": [
+   [
+    "What prompted it?",
+    "open"
+   ]
+  ],
+  "s07-003": [
+   [
+    "Where do you think the food got warm?",
+    "open"
+   ]
+  ],
+  "s07-005": [
+   [
+    "How many vans do you run?",
+    "closed"
+   ]
+  ],
+  "s07-007": [
+   [
+    "And how do you log temperatures today?",
+    "open"
+   ]
+  ],
+  "s07-009": [
+   [
+    "Is there anything coming up that makes this more urgent?",
+    "closed"
+   ]
+  ],
+  "s07-011": [
+   [
+    "Who else would be part of choosing something?",
+    "closed"
+   ]
+  ],
+  "s07-013": [
+   [
+    "And did you have a budget in mind?",
+    "closed"
+   ]
+  ],
+  "s07-015": [
+   [
+    "Would it make sense to show Kim a demo, since she'd be the one living with it?",
+    "closed"
+   ]
+  ],
+  "s07-017": [
+   [
+    "If Kim likes it, could we have it installed before the first of November, so you're set for the season?",
+    "closed"
+   ]
+  ],
+  "s08-011": [
+   [
+    "And hey, could we maybe do a demo before the RFP?",
+    "closed"
+   ]
+  ],
+  "s09-001": [
+   [
+    "How are you monitoring the rooms today?",
+    "open"
+   ]
+  ],
+  "s09-003": [
+   [
+    "So it doesn't alert anyone or keep records?",
+    "closed"
+   ]
+  ],
+  "s09-005": [
+   [
+    "Has the gap ever cost you anything?",
+    "closed"
+   ]
+  ],
+  "s09-007": [
+   [
+    "What would have to be true for you to fix this?",
+    "open"
+   ]
+  ],
+  "s09-009": [
+   [
+    "Who would make the call on something like this?",
+    "closed"
+   ]
+  ],
+  "s09-011": [
+   [
+    "And is there money for it this year?",
+    "closed"
+   ]
+  ],
+  "s09-013": [
+   [
+    "Anything coming up on the customer side?",
+    "closed"
+   ]
+  ],
+  "s09-015": [
+   [
+    "What does your paperwork usually look like?",
+    "open"
+   ]
+  ]
+ }
+}

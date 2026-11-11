@@ -1,0 +1,152 @@
+{
+ "step": "followup",
+ "call": "s08",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:26:59",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "0ecacc745fbbdb0c",
+ "input": {
+  "call": "s08",
+  "date": "2026-10-01",
+  "rep": "Derek Shaw",
+  "company": "Brinewatch",
+  "to": [
+   "Grace Liu"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "41 excursions above zero degrees last quarter",
+    "number": 41
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "COO Raj Maita makes the final decision"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "The RFP will ask for integration with their warehouse management system"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Frozen dough has to stay at zero degrees or below"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Formal RFP in November with three vendors invited, one picked by December 15th"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Each excursion means a product hold while quality checks it"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Three vendors will be invited to the RFP",
+    "number": 3
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Formal RFP for temperature monitoring in November"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "Budget already approved at $60,000 for the year",
+    "number": 60000,
+    "unit": "USD"
+   },
+   {
+    "id": "close_date-1",
+    "field": "close_date",
+    "value": "Vendor pick expected by December 15th"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Seller sends company information for vendor registration"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Runs 15 trucks of frozen dough",
+    "number": 15,
+    "unit": "trucks"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Platform has sensors in every truck, text alerts and a fleet dashboard"
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Seller says they integrate with pretty much everything"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send company information for vendor registration"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Following up on our call: vendor registration information\", \"sentences\": [{\"text\": \"Hi Grace,\", \"facts\": []}, {\"text\": \"Thank you for taking the time to talk with me.\", \"facts\": []}, {\"text\": \"I heard that you run 15 trucks of frozen dough, and that the dough has to stay at zero degrees or below.\", \"facts\": [\"account-1\", \"decision_criteria-2\"]}, {\"text\": \"You had 41 excursions above zero degrees last quarter, and each one means a product hold while quality checks it.\", \"facts\": [\"metrics-1\", \"pain-1\"]}, {\"text\": \"The formal RFP in November will invite three vendors and ask for integration with your warehouse management system, with one vendor picked by December 15th.\", \"facts\": [\"decision_process-1\", \"competition-1\", \"decision_criteria-1\"]}, {\"text\": \"Your budget is already approved at $60,000 for the year, and COO Raj Maita makes the final decision.\", \"facts\": [\"budget-1\", \"economic_buyer-1\"]}, {\"text\": \"I will send you our company information for vendor registration.\", \"facts\": [\"next_steps-1\", \"commitments-1\"]}, {\"text\": \"Best, Derek Shaw, Brinewatch\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 1,
+ "kept": null,
+ "ms": 10592,
+ "meta": {
+  "ms": 9471,
+  "api_ms": 9357,
+  "input_tokens": 6109,
+  "output_tokens": 1335,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6107,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1335,
+   "output_tokens_details": {
+    "thinking_tokens": 913
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6107,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1335,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6107,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6107
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.037781999999999996,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

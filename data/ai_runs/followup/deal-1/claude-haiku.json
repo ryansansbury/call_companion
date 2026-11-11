@@ -1,0 +1,272 @@
+{
+ "step": "followup",
+ "call": "deal-1",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:28:41",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "bffc1e345a31044e",
+ "input": {
+  "call": "deal-1",
+  "date": "2026-09-08",
+  "rep": "Marcus Webb",
+  "company": "Brinewatch",
+  "to": [
+   "Rachel Torres"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "About $14,000 of seafood and dairy lost in one overnight load",
+    "number": 14000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "About $5,000 a month in warm delivery credits",
+    "number": 5000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-3",
+    "field": "metrics",
+    "value": "Roughly $90,000 written off last year",
+    "number": 90000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-4",
+    "field": "metrics",
+    "value": "A couple of hours a day spent pulling stop sheets"
+   },
+   {
+    "id": "metrics-5",
+    "field": "metrics",
+    "value": "More than a couple of hours a day during an audit"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Alerts must reach the right person fast"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Wants to see the system work before putting it on every truck"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Technical call with IT manager Tom and sales engineer Priya"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "A reefer unit died overnight and nobody knew until load out"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Warm cases are refused at the restaurant above 41 degrees, and Rhyolite absorbs the credit",
+    "number": 41,
+    "unit": "degrees"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Older units do not report temperatures, so drivers write readings on stop sheets"
+   },
+   {
+    "id": "pain-4",
+    "field": "pain",
+    "value": "Audit requires temperature records for every delivery, not a sample"
+   },
+   {
+    "id": "pain-5",
+    "field": "pain",
+    "value": "Biggest customer could leave if the audit finds problems"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Current tracking uses the unit maker's portal for newer units and paper stop sheets for the rest"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Biggest customer audit the week of October 19th"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Send invite for technical call with Tom and Priya"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Get IT manager Tom on the technical call"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "IT manager who must review what the system touches before network access"
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "IT manager wants to know what the system touches before network access"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Runs 40 trucks in total",
+    "number": 40,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "38 trucks on the road right now",
+    "number": 38,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "2 trucks in the shop"
+   },
+   {
+    "id": "account-4",
+    "field": "account",
+    "value": "Cooler and freezer at the warehouse"
+   },
+   {
+    "id": "account-5",
+    "field": "account",
+    "value": "Biggest customer is a restaurant chain with about 60 locations",
+    "number": 60,
+    "unit": "locations"
+   },
+   {
+    "id": "account-6",
+    "field": "account",
+    "value": "Biggest customer is almost a fifth of volume"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Every compartment gets a temperature probe and every door gets a sensor"
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Gateway sends readings over cellular"
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "Dispatch and the driver get a text as soon as a unit starts to drift"
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "Driver app keeps working with no signal, so history has no gaps"
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "Customer can pull a temperature report in a minute instead of digging through paper"
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "Flags a unit that is struggling before it fails"
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "Every delivery comes with its temperature history attached"
+   },
+   {
+    "id": "seller_claims-8",
+    "field": "seller_claims",
+    "value": "Connects to most routing systems"
+   },
+   {
+    "id": "seller_claims-9",
+    "field": "seller_claims",
+    "value": "Install team does about 10 trucks a day, so the whole fleet could be live well before the 19th",
+    "number": 10,
+    "unit": "trucks per day"
+   },
+   {
+    "id": "seller_claims-10",
+    "field": "seller_claims",
+    "value": "Warehouse sensors go in the same week as the trucks"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send an invite for a technical call with IT manager Tom, bringing sales engineer Priya"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Get IT manager Tom on the technical call"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Follow-up: technical call with Tom and Priya\", \"sentences\": [{\"text\": \"Thank you for walking through your temperature tracking with us today, Rachel.\", \"facts\": []}, {\"text\": \"You described a reefer unit that died overnight, and nobody knew until load out, which cost about $14,000 of seafood and dairy in one overnight load.\", \"facts\": [\"pain-1\", \"metrics-1\"]}, {\"text\": \"Your biggest customer's audit the week of October 19th requires temperature records for every delivery, not a sample.\", \"facts\": [\"critical_event-1\", \"pain-4\"]}, {\"text\": \"Older units do not report temperatures, so drivers write readings on stop sheets, which takes a couple of hours a day and more than that during an audit.\", \"facts\": [\"pain-3\", \"metrics-4\", \"metrics-5\"]}, {\"text\": \"Tom needs to review what the system touches before any network access, so the technical call with Tom and Priya comes first.\", \"facts\": [\"stakeholders-1\", \"decision_process-1\"]}, {\"text\": \"I will send an invite for the technical call with Tom and Priya, and I would like Tom on that call.\", \"facts\": [\"commitments-1\", \"commitments-2\", \"next_steps-1\", \"next_steps-2\"]}, {\"text\": \"You also want to see the system work before it goes on every truck, and our install team does about 10 trucks a day, so your 40 trucks could be live well before the 19th.\", \"facts\": [\"decision_criteria-2\", \"seller_claims-9\", \"account-1\"]}, {\"text\": \"Marcus Webb, Brinewatch\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 13779,
+ "meta": {
+  "ms": 12409,
+  "api_ms": 12279,
+  "input_tokens": 7218,
+  "output_tokens": 2805,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7216,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 2805,
+   "output_tokens_details": {
+    "thinking_tokens": 2264
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7216,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2805,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7216,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7216
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0028459,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "step": "followup",
+ "call": "s05",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:51:05",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "63958b6bf3ead361",
+ "input": {
+  "call": "s05",
+  "date": "2026-09-23",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Victor Hale"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "They are eating about $8,000 a month in rejected product.",
+    "number": 8000,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Ellen Ford approves it."
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "It must be proven to work on their routes."
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Alerts must reach the store and night dispatcher within 10 minutes.",
+    "number": 10,
+    "unit": "minutes"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Ellen Ford approves the decision."
+   },
+   {
+    "id": "decision_process-2",
+    "field": "decision_process",
+    "value": "A security review is required for anything that sends data to the cloud and takes about 3 weeks.",
+    "number": 3,
+    "unit": "weeks"
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "Vendor onboarding needs a certificate of insurance before anything gets installed."
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "When trailers sit at a store dock waiting to be unloaded, the temperature creeps and the store rejects dairy or produce that comes back to them."
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "They find out a trailer drifted after the fact, when the product has already been refused."
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Victor says he would recommend it."
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Their trailer telematics vendor's temperature add-on is cheap but reports every 30 minutes and does not alert anyone at the stores.",
+    "number": 30,
+    "unit": "minutes"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Capital requests are due October 15th."
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "It would go in the capital plan next year."
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Send the security packet and a proposal for a 5-trailer pilot.",
+    "number": 5,
+    "unit": "trailers"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Get Ellen on the calendar for a 30-minute meeting.",
+    "number": 30,
+    "unit": "minutes"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "They run 25 reefer trailers.",
+    "number": 25,
+    "unit": "trailers"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "They serve 40 stores.",
+    "number": 40,
+    "unit": "stores"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send the security packet and a proposal for a 5-trailer pilot."
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Get Ellen on the calendar for a meeting."
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Follow-up\",\"sentences\":[{\"text\":\"Hi Victor,\",\"facts\":[]},{\"text\":\"Thanks for speaking with me.\",\"facts\":[]},{\"text\":\"I heard that dock delays can lead to rejected dairy or produce, costing about $8,000 a month, and that you often learn of temperature drift only after a store refuses the product.\",\"facts\":[\"pain-1\",\"pain-2\",\"metrics-1\"]},{\"text\":\"You need proof that it works on your routes and alerts to reach the store and night dispatcher within 10 minutes.\",\"facts\":[\"decision_criteria-1\",\"decision_criteria-2\"]},{\"text\":\"As agreed, I’ll send the security packet and a proposal for a 5-trailer pilot.\",\"facts\":[\"next_steps-1\",\"commitments-1\"]},{\"text\":\"I’ll also get Ellen on the calendar for a 30-minute meeting; she approves the decision.\",\"facts\":[\"next_steps-2\",\"commitments-2\",\"decision_process-1\"]},{\"text\":\"Best, Jenna\",\"facts\":[]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 7690,
+ "meta": {
+  "ms": 7685,
+  "input_tokens": 1102,
+  "output_tokens": 885,
+  "cost_usd": 0.000553,
+  "usage": {
+   "prompt_tokens": 1102,
+   "completion_tokens": 885,
+   "total_tokens": 1987,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1099,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 660,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

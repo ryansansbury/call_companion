@@ -1,0 +1,209 @@
+{
+ "step": "extract",
+ "call": "s01",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:47:26",
+ "prompt_hash": "819bfb52f6a5b2b3",
+ "input_hash": "7a4693d323617fda",
+ "input": {
+  "call": "s01",
+  "date": "2026-09-09",
+  "seller": "Brinewatch",
+  "people": [
+   {
+    "code": "REP",
+    "name": "Jenna Cole",
+    "role": "Account executive",
+    "company": "Brinewatch",
+    "side": "seller"
+   },
+   {
+    "code": "BUY",
+    "name": "Angela Ruiz",
+    "role": "Director of nutrition services",
+    "company": "a school district",
+    "side": "buyer"
+   }
+  ],
+  "segments": [
+   {
+    "id": "s01-s001",
+    "speaker": "REP",
+    "start": 0.31,
+    "text": "Hi, Angela. This is Jenna Cole with Brinewatch. Thanks for taking a few minutes."
+   },
+   {
+    "id": "s01-s002",
+    "speaker": "BUY",
+    "start": 5.61,
+    "text": "Of course, I'll be honest, I'm not sure what we need yet. Our facilities person sent me your way."
+   },
+   {
+    "id": "s01-s003",
+    "speaker": "REP",
+    "start": 11.31,
+    "text": "That's perfect because I'd rather understand your setup before I say anything about ours. How do meals get from your kitchen to the schools today?"
+   },
+   {
+    "id": "s01-s004",
+    "speaker": "BUY",
+    "start": 19.63,
+    "text": "We cook everything at a central kitchen and send it out on 12 vans every morning. Milk, yogurt, the cold lunches, all of it rides in insulated carts."
+   },
+   {
+    "id": "s01-s005",
+    "speaker": "REP",
+    "start": 29.19,
+    "text": "And how do you know it stays cold along the way?"
+   },
+   {
+    "id": "s01-s006",
+    "speaker": "BUY",
+    "start": 32.59,
+    "text": "Honestly, we don't, not really. The drivers check a thermometer when they load and again when they drop off, and they write it on a clipboard. If a van sits in traffic, we find out when a cafeteria manager calls."
+   },
+   {
+    "id": "s01-s007",
+    "speaker": "REP",
+    "start": 44.75,
+    "text": "Has that happened recently?"
+   },
+   {
+    "id": "s01-s008",
+    "speaker": "BUY",
+    "start": 47.33,
+    "text": "Twice last month, when the milk comes in warm, the school has to throw it out, and we're losing about $3,000 a month in milk alone."
+   },
+   {
+    "id": "s01-s009",
+    "speaker": "REP",
+    "start": 55.77,
+    "text": "$3,000 a month. What else does it cost you beyond the milk?"
+   },
+   {
+    "id": "s01-s010",
+    "speaker": "BUY",
+    "start": 60.11,
+    "text": "Kids go without milk that day, and the parents hear about it. And the state inspector reviews our temperature logs every spring, and the clipboards are a mess."
+   },
+   {
+    "id": "s01-s011",
+    "speaker": "REP",
+    "start": 69.37,
+    "text": "When's the next inspection?"
+   },
+   {
+    "id": "s01-s012",
+    "speaker": "BUY",
+    "start": 71.63,
+    "text": "March, I'd like something in place by winter break, so we have a few months of clean records first."
+   },
+   {
+    "id": "s01-s013",
+    "speaker": "REP",
+    "start": 77.39,
+    "text": "That makes sense. If you decided this was worth doing, how would a purchase like this get approved in your district?"
+   },
+   {
+    "id": "s01-s014",
+    "speaker": "BUY",
+    "start": 83.85,
+    "text": "I'd bring it to our assistant superintendent for operations, Mark Feldman. He controls the equipment budget. Anything over 50,000 would also need a school board vote, but I don't think this would be that big."
+   },
+   {
+    "id": "s01-s015",
+    "speaker": "REP",
+    "start": 95.97,
+    "text": "Is there money set aside for something like this?"
+   },
+   {
+    "id": "s01-s016",
+    "speaker": "BUY",
+    "start": 99.63,
+    "text": "Not in this year's budget, but there's a nutrition equipment grant we can apply for in January, and it covers up to $20,000."
+   },
+   {
+    "id": "s01-s017",
+    "speaker": "REP",
+    "start": 107.91,
+    "text": "That's helpful. Are you looking at anyone else?"
+   },
+   {
+    "id": "s01-s018",
+    "speaker": "BUY",
+    "start": 111.01,
+    "text": "No, you're the first call. I didn't know this kind of thing existed for Vans."
+   },
+   {
+    "id": "s01-s019",
+    "speaker": "REP",
+    "start": 115.65,
+    "text": "Okay, here's what I'd suggest. I'll put together a quote for the 12 vans and the kitchen's walk-in cooler, and I'll include some language you can drop into the grant application. Could I get that to you by Friday?"
+   },
+   {
+    "id": "s01-s020",
+    "speaker": "BUY",
+    "start": 127.33,
+    "text": "Friday works, and if you can keep it under $20,000, that would make Mark's decision a lot easier."
+   },
+   {
+    "id": "s01-s021",
+    "speaker": "REP",
+    "start": 133.53,
+    "text": "Understood would it make sense to set up 15 minutes with Mark after he's seen it."
+   },
+   {
+    "id": "s01-s022",
+    "speaker": "BUY",
+    "start": 138.53,
+    "text": "Sure, let's plan on the week after next."
+   },
+   {
+    "id": "s01-s023",
+    "speaker": "REP",
+    "start": 141.09,
+    "text": "Great, I'll send the quote Friday and follow up about a time with Mark. Thanks, Angela."
+   },
+   {
+    "id": "s01-s024",
+    "speaker": "BUY",
+    "start": 146.17,
+    "text": "Thank you, Jenna."
+   }
+  ]
+ },
+ "reply": "{\"fields\":{\"metrics\":[{\"value\":\"They are losing about $3,000 a month in milk alone.\",\"number\":3000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s01-s008\",\"quote\":\"we're losing about $3,000 a month in milk alone\"}]}],\"economic_buyer\":[{\"value\":\"Mark Feldman controls the equipment budget.\",\"name\":\"Mark Feldman\",\"role\":\"Assistant superintendent for operations\",\"evidence\":[{\"segment\":\"s01-s014\",\"quote\":\"He controls the equipment budget\"}]}],\"decision_criteria\":[{\"value\":\"Keeping it under $20,000 would make Mark's decision a lot easier.\",\"number\":20000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s01-s020\",\"quote\":\"if you can keep it under $20,000, that would make Mark's decision a lot easier\"}]}],\"decision_process\":[{\"value\":\"Angela would bring the purchase to Mark Feldman.\",\"evidence\":[{\"segment\":\"s01-s014\",\"quote\":\"I'd bring it to our assistant superintendent for operations, Mark Feldman\"}]},{\"value\":\"Purchases over $50,000 also need a school board vote.\",\"number\":50000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s01-s014\",\"quote\":\"Anything over 50,000 would also need a school board vote\"}]}],\"paper_process\":[],\"pain\":[{\"value\":\"Warm milk arrived twice last month, so the school had to throw it out.\",\"number\":2,\"unit\":\"times\",\"evidence\":[{\"segment\":\"s01-s008\",\"quote\":\"Twice last month, when the milk comes in warm, the school has to throw it out\"}]},{\"value\":\"Kids go without milk that day, and parents hear about it.\",\"evidence\":[{\"segment\":\"s01-s010\",\"quote\":\"Kids go without milk that day, and the parents hear about it\"}]},{\"value\":\"They do not really know whether food stays cold along the way, and learn of traffic problems when a cafeteria manager calls.\",\"evidence\":[{\"segment\":\"s01-s006\",\"quote\":\"we don't, not really. The drivers check a thermometer when they load and again when they drop off, and they write it on a clipboard. If a van sits in traffic, we find out when a cafeteria manager calls\"}]},{\"value\":\"The clipboards are a mess when the state inspector reviews the temperature logs.\",\"evidence\":[{\"segment\":\"s01-s010\",\"quote\":\"the state inspector reviews our temperature logs every spring, and the clipboards are a mess\"}]}],\"champion\":[],\"competition\":[{\"value\":\"They are not looking at anyone else; Brinewatch is the first call.\",\"evidence\":[{\"segment\":\"s01-s018\",\"quote\":\"No, you're the first call\"}]}],\"critical_event\":[{\"value\":\"The next inspection is in March.\",\"due\":\"March\",\"evidence\":[{\"segment\":\"s01-s012\",\"quote\":\"March\"}]}],\"budget\":[{\"value\":\"There is no money in this year's budget.\",\"evidence\":[{\"segment\":\"s01-s016\",\"quote\":\"Not in this year's budget\"}]},{\"value\":\"They can apply for a nutrition equipment grant in January, and it covers up to $20,000.\",\"number\":20000,\"unit\":\"USD\",\"evidence\":[{\"segment\":\"s01-s016\",\"quote\":\"there's a nutrition equipment grant we can apply for in January, and it covers up to $20,000\"}]}],\"pricing\":[],\"amount\":[],\"close_date\":[],\"next_steps\":[{\"value\":\"Jenna will send a quote for the 12 vans and kitchen walk-in cooler, including language for the grant application.\",\"owner\":\"seller\",\"due\":\"Friday\",\"evidence\":[{\"segment\":\"s01-s019\",\"quote\":\"I'll put together a quote for the 12 vans and the kitchen's walk-in cooler, and I'll include some language you can drop into the grant application\"}]},{\"value\":\"Jenna will follow up about a time to meet with Mark.\",\"owner\":\"seller\",\"evidence\":[{\"segment\":\"s01-s023\",\"quote\":\"I'll send the quote Friday and follow up about a time with Mark\"}]},{\"value\":\"Plan a 15-minute meeting with Mark for the week after next.\",\"owner\":\"buyer\",\"due\":\"the week after next\",\"evidence\":[{\"segment\":\"s01-s022\",\"quote\":\"Sure, let's plan on the week after next\"}]}],\"stakeholders\":[{\"value\":\"Mark Feldman is the assistant superintendent for operations.\",\"name\":\"Mark Feldman\",\"role\":\"Assistant superintendent for operations\",\"evidence\":[{\"segment\":\"s01-s014\",\"quote\":\"our assistant superintendent for operations, Mark Feldman\"}]}],\"risks\":[],\"account\":[{\"value\":\"They cook everything at a central kitchen.\",\"evidence\":[{\"segment\":\"s01-s004\",\"quote\":\"We cook everything at a central kitchen\"}]},{\"value\":\"They send meals out on 12 vans every morning.\",\"number\":12,\"unit\":\"vans\",\"evidence\":[{\"segment\":\"s01-s004\",\"quote\":\"send it out on 12 vans every morning\"}]},{\"value\":\"Milk, yogurt, and cold lunches ride in insulated carts.\",\"evidence\":[{\"segment\":\"s01-s004\",\"quote\":\"Milk, yogurt, the cold lunches, all of it rides in insulated carts\"}]}],\"seller_claims\":[]},\"commitments\":[{\"by\":\"seller\",\"who\":\"REP\",\"what\":\"Prepare a quote for the 12 vans and kitchen walk-in cooler, including language for the grant application.\",\"kind\":\"deliverable\",\"due\":\"Friday\",\"evidence\":[{\"segment\":\"s01-s019\",\"quote\":\"I'll put together a quote for the 12 vans and the kitchen's walk-in cooler, and I'll include some language you can drop into the grant application\"}]},{\"by\":\"seller\",\"who\":\"REP\",\"what\":\"Follow up about a time to meet with Mark.\",\"kind\":\"deliverable\",\"evidence\":[{\"segment\":\"s01-s023\",\"quote\":\"follow up about a time with Mark\"}]},{\"by\":\"buyer\",\"who\":\"BUY\",\"what\":\"Plan a 15-minute meeting with Mark.\",\"kind\":\"meeting\",\"due\":\"the week after next\",\"evidence\":[{\"segment\":\"s01-s022\",\"quote\":\"Sure, let's plan on the week after next\"}]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 2,
+ "kept": 21,
+ "ms": 29252,
+ "meta": {
+  "ms": 29251,
+  "input_tokens": 2560,
+  "output_tokens": 3826,
+  "cost_usd": 0.002169,
+  "usage": {
+   "prompt_tokens": 2560,
+   "completion_tokens": 3826,
+   "total_tokens": 6386,
+   "prompt_tokens_details": {
+    "cached_tokens": 1236,
+    "cache_write_tokens": 1321,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2504,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

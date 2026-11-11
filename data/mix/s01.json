@@ -1,0 +1,224 @@
+{
+ "call": "s01",
+ "rate": 24000,
+ "length_s": 148.418,
+ "version": "v1",
+ "turns": [
+  {
+   "id": "s01-001",
+   "speaker": "REP",
+   "start": 0.6,
+   "end": 5.27,
+   "voiced_end": 5.27,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-002",
+   "speaker": "BUY",
+   "start": 5.901,
+   "end": 11.121,
+   "voiced_end": 11.121,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-003",
+   "speaker": "REP",
+   "start": 11.614,
+   "end": 19.114,
+   "voiced_end": 19.114,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-004",
+   "speaker": "BUY",
+   "start": 19.938,
+   "end": 28.978,
+   "voiced_end": 28.978,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-005",
+   "speaker": "REP",
+   "start": 29.486,
+   "end": 32.066,
+   "voiced_end": 32.066,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-006",
+   "speaker": "BUY",
+   "start": 32.898,
+   "end": 44.638,
+   "voiced_end": 44.638,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-007",
+   "speaker": "REP",
+   "start": 45.058,
+   "end": 46.878,
+   "voiced_end": 46.878,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-008",
+   "speaker": "BUY",
+   "start": 47.64,
+   "end": 55.54,
+   "voiced_end": 55.54,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-009",
+   "speaker": "REP",
+   "start": 56.062,
+   "end": 59.592,
+   "voiced_end": 59.592,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-010",
+   "speaker": "BUY",
+   "start": 60.413,
+   "end": 69.243,
+   "voiced_end": 69.243,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-011",
+   "speaker": "REP",
+   "start": 69.675,
+   "end": 71.395,
+   "voiced_end": 71.395,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-012",
+   "speaker": "BUY",
+   "start": 71.927,
+   "end": 77.077,
+   "voiced_end": 77.077,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-013",
+   "speaker": "REP",
+   "start": 77.698,
+   "end": 83.318,
+   "voiced_end": 83.318,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-014",
+   "speaker": "BUY",
+   "start": 84.148,
+   "end": 95.698,
+   "voiced_end": 95.698,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-015",
+   "speaker": "REP",
+   "start": 96.264,
+   "end": 99.054,
+   "voiced_end": 99.054,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-016",
+   "speaker": "BUY",
+   "start": 99.925,
+   "end": 107.725,
+   "voiced_end": 107.725,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-017",
+   "speaker": "REP",
+   "start": 108.225,
+   "end": 110.645,
+   "voiced_end": 110.645,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-018",
+   "speaker": "BUY",
+   "start": 111.316,
+   "end": 115.396,
+   "voiced_end": 115.396,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-019",
+   "speaker": "REP",
+   "start": 115.948,
+   "end": 126.938,
+   "voiced_end": 126.938,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-020",
+   "speaker": "BUY",
+   "start": 127.593,
+   "end": 133.253,
+   "voiced_end": 133.253,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-021",
+   "speaker": "REP",
+   "start": 133.827,
+   "end": 138.267,
+   "voiced_end": 138.267,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-022",
+   "speaker": "BUY",
+   "start": 138.83,
+   "end": 141.07,
+   "voiced_end": 141.07,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-023",
+   "speaker": "REP",
+   "start": 141.4,
+   "end": 146.24,
+   "voiced_end": 146.24,
+   "bc": false,
+   "cut": null
+  },
+  {
+   "id": "s01-024",
+   "speaker": "BUY",
+   "start": 146.478,
+   "end": 147.618,
+   "voiced_end": 147.618,
+   "bc": false,
+   "cut": null
+  }
+ ]
+}

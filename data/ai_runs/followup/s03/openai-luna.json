@@ -1,0 +1,189 @@
+{
+ "step": "followup",
+ "call": "s03",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:49:19",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "f279d478db2f95ba",
+ "input": {
+  "call": "s03",
+  "date": "2026-09-16",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Sam Okoye"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "About $6,000 in prepped food was lost.",
+    "number": 6000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "Two restaurants ran out of their prep.",
+    "number": 2,
+    "unit": "restaurants"
+   },
+   {
+    "id": "metrics-3",
+    "field": "metrics",
+    "value": "Half the menu had to be cut for brunch."
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Sam says the money is his."
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "It has to call or text Sam when something is wrong."
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "It can't need a computer person to set up."
+   },
+   {
+    "id": "decision_criteria-3",
+    "field": "decision_criteria",
+    "value": "Alerts should go to Sam and the kitchen manager."
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Sam says the decision is his alone."
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "The commissary walk-in failed on Saturday night, and they did not find out until Sunday morning."
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "The chef wants cheap Bluetooth loggers that require someone to stand next to them to see anything.",
+    "number": 30,
+    "unit": "USD each"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "Sam would like to keep the first year under $8,000, trucks and all.",
+    "number": 8000,
+    "unit": "USD"
+   },
+   {
+    "id": "close_date-1",
+    "field": "close_date",
+    "value": "Sam says he will sign Friday if installation can happen Monday."
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Jenna will send Sam a quote."
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Install the commissary walk-ins Monday if Sam signs by Friday."
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "The kitchen manager checks the walk-ins when she opens and closes, and Sam wants her to receive alerts."
+   },
+   {
+    "id": "stakeholders-2",
+    "field": "stakeholders",
+    "value": "The chef wants to buy cheap Bluetooth loggers."
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "The commissary has one big walk-in cooler.",
+    "number": 1,
+    "unit": "walk-in cooler"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "The commissary has one walk-in freezer.",
+    "number": 1,
+    "unit": "walk-in freezer"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "Three trucks run prep out to the restaurants every morning.",
+    "number": 3,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-4",
+    "field": "account",
+    "value": "The trucks run prep out to eight restaurants every morning.",
+    "number": 8,
+    "unit": "restaurants"
+   },
+   {
+    "id": "account-5",
+    "field": "account",
+    "value": "On weekends, nobody is at the commissary overnight."
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send Sam a quote."
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Install on Monday if Sam signs by Friday."
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Sign Friday if installation can happen Monday."
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Follow-up on commissary walk-ins\",\"sentences\":[{\"text\":\"Hi Sam,\",\"facts\":[]},{\"text\":\"Thanks for speaking with me.\",\"facts\":[]},{\"text\":\"We discussed the commissary walk-in failure on Saturday night, which went unnoticed until Sunday morning, and the loss of about $6,000 in prepped food; two restaurants ran out of prep and half the brunch menu was cut.\",\"facts\":[\"pain-1\",\"metrics-1\",\"metrics-2\",\"metrics-3\"]},{\"text\":\"You want the system to call or text you when something is wrong, alert you and the kitchen manager, and not require a computer person to set up.\",\"facts\":[\"decision_criteria-1\",\"decision_criteria-2\",\"decision_criteria-3\",\"stakeholders-1\"]},{\"text\":\"I’ll send you a quote.\",\"facts\":[\"next_steps-1\",\"commitments-1\"]},{\"text\":\"If you sign by Friday, installation can happen Monday; you said you would sign Friday if Monday installation is possible.\",\"facts\":[\"next_steps-2\",\"commitments-2\",\"close_date-1\",\"commitments-3\"]},{\"text\":\"Best, Jenna\",\"facts\":[]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 8687,
+ "meta": {
+  "ms": 8677,
+  "input_tokens": 1232,
+  "output_tokens": 893,
+  "cost_usd": 0.00057,
+  "usage": {
+   "prompt_tokens": 1232,
+   "completion_tokens": 893,
+   "total_tokens": 2125,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1229,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 636,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "step": "coach",
+ "call": "s06",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:51:51",
+ "prompt_hash": "9f68caf76add4c2c",
+ "input_hash": "998d9c35a8941e64",
+ "input": {
+  "call": "s06",
+  "date": "2026-09-24",
+  "rep": "REP",
+  "segments": [
+   {
+    "id": "s06-s001",
+    "speaker": "REP",
+    "start": 0.29,
+    "text": "Hey Tara, Derek Shaw from Brinewatch. So I took a look at your site and with a fleet like yours I think we can save you a ton on spoilage. We put sensors on every truck, alerts go out the second something drifts and the reporting basically runs itself."
+   },
+   {
+    "id": "s06-s002",
+    "speaker": "BUY",
+    "start": 15.61,
+    "text": "We actually don't have much of a fleet. Most of our boxes ship by parcel. We only run six vans for local delivery."
+   },
+   {
+    "id": "s06-s003",
+    "speaker": "REP",
+    "start": 22.61,
+    "text": "Oh okay, sure, well six vans is a great place to start, how do the boxes stay cold?"
+   },
+   {
+    "id": "s06-s004",
+    "speaker": "BUY",
+    "start": 28.55,
+    "text": "Ice packs and insulated liners. The problem is the summer. Boxes sit on porches and customers open them warm."
+   },
+   {
+    "id": "s06-s005",
+    "speaker": "REP",
+    "start": 35.35,
+    "text": "Yeah, so our sensors can actually go right inside."
+   },
+   {
+    "id": "s06-s006",
+    "speaker": "BUY",
+    "start": 37.19,
+    "text": "Our refund rate on warm boxes hit about 3% of boxes this summer, and the complaints hurt more than the refunds."
+   },
+   {
+    "id": "s06-s007",
+    "speaker": "REP",
+    "start": 43.79,
+    "text": "Totally and honestly our sensors can go right in the boxes so you'd know exactly when they warmed up, customers would see that you care."
+   },
+   {
+    "id": "s06-s008",
+    "speaker": "BUY",
+    "start": 52.15,
+    "text": "Hmm, at a few dollars a box, that's not going to work for us. We ship thousands of boxes a week."
+   },
+   {
+    "id": "s06-s009",
+    "speaker": "REP",
+    "start": 57.61,
+    "text": "Right, right, we'd figure out the pricing. The vans are easy though, every van gets a sensor and you'd see them on one dashboard."
+   },
+   {
+    "id": "s06-s010",
+    "speaker": "BUY",
+    "start": 65.71,
+    "text": "The vans aren't really where we lose boxes. It's the last few hours on the porch."
+   },
+   {
+    "id": "s06-s011",
+    "speaker": "REP",
+    "start": 70.27,
+    "text": "Gotcha, well let me send you a deck with some case studies and you can see what fits."
+   },
+   {
+    "id": "s06-s012",
+    "speaker": "BUY",
+    "start": 75.27,
+    "text": "Shaw, send it over."
+   },
+   {
+    "id": "s06-s013",
+    "speaker": "REP",
+    "start": 77.01,
+    "text": "Perfect, I'll shoot that over today, thanks Tara."
+   }
+  ],
+  "coaching": {
+   "talk_s": {
+    "BUY": 30.4,
+    "REP": 44.0
+   },
+   "talk_share": {
+    "BUY": 0.409,
+    "REP": 0.591
+   },
+   "seller_share": 0.591,
+   "longest_monologue_s": 14.4,
+   "longest_story_s": 6.7,
+   "patience_s": 0.32,
+   "interactivity": 10.0,
+   "rep_interruptions": 0,
+   "buyer_interruptions": 1,
+   "questions": 1,
+   "questions_per_10min": 7.5,
+   "open_share": 0.0
+  }
+ },
+ "reply": "{\"strengths\":[{\"text\":\"You recovered from the fleet mismatch by asking how the boxes stay cold, which surfaced the parcel setup.\",\"segment\":\"s06-s003\",\"quote\":\"how do the boxes stay cold?\"},{\"text\":\"You connected the product to the problem she described by suggesting sensors could go inside the boxes.\",\"segment\":\"s06-s005\",\"quote\":\"our sensors can actually go right inside.\"},{\"text\":\"You stayed calm when she raised the price concern and kept the conversation moving without interrupting.\",\"segment\":\"s06-s009\",\"quote\":\"Right, right, we'd figure out the pricing.\"}],\"improvements\":[{\"text\":\"You assumed a fleet problem and promised savings before checking how Tara ships or what she needs.\",\"segment\":\"s06-s001\",\"quote\":\"with a fleet like yours I think we can save you a ton on spoilage.\"},{\"text\":\"After she described warm boxes and customer complaints, ask about the porch losses and their impact before pitching; you asked only one question on the call.\",\"segment\":\"s06-s007\",\"quote\":\"you'd know exactly when they warmed up\"},{\"text\":\"When Tara clarified that porch time—not the vans—was the problem, focus the follow-up on that and agree on a next step instead of sending a generic deck.\",\"segment\":\"s06-s011\",\"quote\":\"let me send you a deck with some case studies and you can see what fits.\"}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 9684,
+ "meta": {
+  "ms": 9683,
+  "input_tokens": 1087,
+  "output_tokens": 1048,
+  "cost_usd": 0.000633,
+  "usage": {
+   "prompt_tokens": 1087,
+   "completion_tokens": 1048,
+   "total_tokens": 2135,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1084,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 747,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "step": "followup",
+ "call": "s04",
+ "model": "openai-luna",
+ "label": "GPT-6 Luna",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:50:18",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "43f96e252884a052",
+ "input": {
+  "call": "s04",
+  "date": "2026-09-17",
+  "rep": "Derek Shaw",
+  "company": "Brinewatch",
+  "to": [
+   "Nina Park"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "They get 2 rejected deliveries a week.",
+    "number": 2,
+    "unit": "deliveries per week"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "They get 3 rejected deliveries a week.",
+    "number": 3,
+    "unit": "deliveries per week"
+   },
+   {
+    "id": "metrics-3",
+    "field": "metrics",
+    "value": "Each rejected delivery costs about $1,200.",
+    "number": 1200,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Frank is the owner and signs everything."
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Fresh fish has to stay right around 32 degrees.",
+    "number": 32,
+    "unit": "degrees"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Nina would run it by Frank."
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "The cab display doesn't record anything."
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "When fresh fish gets warm, restaurants send it back."
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Airport pickups are the worst for temperature because the fish sits on the tarmac before they get it."
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Frostgauge was cheaper."
+   },
+   {
+    "id": "competition-2",
+    "field": "competition",
+    "value": "Her drivers didn't like Frostgauge's app."
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Derek will send Nina some information and a few times for a demo."
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "Frank's decision speed depends on the price."
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "They have 12 trucks.",
+    "number": 12,
+    "unit": "trucks"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "They deliver fresh and frozen products mostly to restaurants."
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Brinewatch sensors track every compartment."
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "A text alert comes when something drifts."
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "The app is easy to use."
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "Most seafood customers see the difference in the first month."
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "Brinewatch would catch rejected deliveries before they get to the restaurant."
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "Drivers basically don't have to touch the app."
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "The app works without a signal."
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send Nina some information and a few times for a demo."
+   }
+  ]
+ },
+ "reply": "{\"subject\":\"Following up\",\"sentences\":[{\"text\":\"Hi Nina,\",\"facts\":[]},{\"text\":\"Thanks for speaking with me.\",\"facts\":[]},{\"text\":\"You said the cab display doesn't record anything, and restaurants send fresh fish back when it gets warm.\",\"facts\":[\"pain-1\",\"pain-2\"]},{\"text\":\"Airport pickups are especially difficult because the fish sits on the tarmac, and fresh fish needs to stay around 32 degrees.\",\"facts\":[\"pain-3\",\"decision_criteria-1\"]},{\"text\":\"You mentioned that each rejected delivery costs about $1,200; Frostgauge was cheaper, but your drivers didn't like its app.\",\"facts\":[\"metrics-3\",\"competition-1\",\"competition-2\"]},{\"text\":\"I shared that Brinewatch sensors track every compartment and send a text alert when something drifts.\",\"facts\":[\"seller_claims-1\",\"seller_claims-2\"]},{\"text\":\"I'll send you information and a few times for a demo, and you'll run it by Frank.\",\"facts\":[\"next_steps-1\",\"decision_process-1\",\"commitments-1\"]},{\"text\":\"Regards, Derek\",\"facts\":[]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 8897,
+ "meta": {
+  "ms": 8891,
+  "input_tokens": 1145,
+  "output_tokens": 1013,
+  "cost_usd": 0.000621,
+  "usage": {
+   "prompt_tokens": 1145,
+   "completion_tokens": 1013,
+   "total_tokens": 2158,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 1142,
+    "audio_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 766,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   }
+  },
+  "models": [
+   "gpt-6-luna"
+  ],
+  "stop_reason": "stop"
+ }
+}

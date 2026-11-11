@@ -1,0 +1,79 @@
+{
+ "note": "Fair follow-up emails, one for each call, written from the answer key in a rep's own words before the checker was scored on them. Every number, date, name and promise in them is true to the call. Any claim the checker flags in one is a false alarm. The deal-3 email repeats the waived installation, so it's checked with that concession approved.",
+ "emails": [
+  {
+   "id": "c01",
+   "call": "deal-1",
+   "approved": [],
+   "text": "Hi Rachel\n\nThanks for walking me through the night the reefer unit died and the $14,000 of seafood and dairy you lost in that one load. Between that and about $5,000 a month in warm-delivery credits it's easy to see how last year got to $90,000. Your biggest customer audits every delivery the week of October 19 and we want you to have clean records well before then. Priya and I will send an invite for the technical call with Tom next Tuesday at ten. Our install team does about ten trucks a day so the 38 trucks on the road won't take long once you're ready.\n\nBest\nMarcus"
+  },
+  {
+   "id": "c02",
+   "call": "deal-2",
+   "approved": [],
+   "text": "Hi Rachel and Tom\n\nThank you both for the time today. Our gateways run on cellular so nothing touches your network or opens a port, and Rhyolite owns the data with two years of history and full export. Alerts will reach dispatch within five minutes and escalate to Rachel if nobody acknowledges them. Priya will send a written pilot plan for the four trucks by Thursday, and Tom will send the security questionnaire by Friday. The pilot runs thirty days with installs overnight at the yard. Rachel will bring Linda to our call next Tuesday at ten.\n\nBest\nMarcus"
+  },
+  {
+   "id": "c03",
+   "call": "deal-3",
+   "approved": [
+    "d3k02"
+   ],
+   "text": "Hi Linda and Rachel\n\nThank you for walking through the numbers with me today. You wrote off about $90,000 last year between spoiled loads and warm-delivery credits, and pulling records for the audit the week of the 19th would take someone all day. Hardware comes to about $31,000 for the 38 trucks and the warehouse, the software is $1,260 a month, and year one comes to about $50,000 all in. We'll waive the $4,500 installation as discussed. You'll have a revised proposal with the pilot clause and net 45 terms by Thursday, and the pilot gives you a clean opt-out after thirty days. Linda will decide by Wednesday the 30th so we can get a signature by October 2 and install the whole fleet before the audit.\n\nBest\nMarcus"
+  },
+  {
+   "id": "c04",
+   "call": "s01",
+   "approved": [],
+   "text": "Hi Angela\n\nThanks for the time today. Twelve vans going out every morning with readings on a clipboard is a lot to keep track of, and about $3,000 a month in warm milk adds up fast. I'll send a quote for the twelve vans and the walk-in with grant language by Friday. Keeping it under $20,000 means the January grant can cover it and Mark's decision stays simple. I'd still love fifteen minutes with Mark the week after next.\n\nBest\nJenna"
+  },
+  {
+   "id": "c05",
+   "call": "s02",
+   "approved": [],
+   "text": "Hi Paul\n\nThanks for talking with me today. It sounds like the walk-in alarms only beeping in the kitchen cost you a whole cooler of patient meals. Our wireless sensors are all cellular so they don't touch the hospital network. I'll send the standard proposal for your four walk-ins and twenty reach-ins today.\n\nBest\nDerek"
+  },
+  {
+   "id": "c06",
+   "call": "s03",
+   "approved": [],
+   "text": "Hi Sam\n\nI'm sorry about the bad weekend. Losing the walk-in on a Saturday night and about $6,000 in prepped food is exactly what these alerts are for. Alerts will reach you and the kitchen manager by text even at midnight. I'll send a quote this afternoon that starts with the commissary walk-ins and adds the three trucks once it's proven, all under $8,000 for the first year. If you sign Friday we can install Monday.\n\nBest\nJenna"
+  },
+  {
+   "id": "c07",
+   "call": "s04",
+   "approved": [],
+   "text": "Hi Nina\n\nThanks for the time today. Fresh fish has to stay around 32 degrees and two or three rejected deliveries a week at about $1,200 each is real money. Our sensors track every compartment and text the moment something drifts. I'll send some info and a few demo times you can share with Frank.\n\nBest\nDerek"
+  },
+  {
+   "id": "c08",
+   "call": "s05",
+   "approved": [],
+   "text": "Hi Victor\n\nThanks for the time today. Twenty-five reefer trailers serving forty stores is a lot of dock time, and about $8,000 a month in rejected product is worth fixing. The add-on you have now reports every thirty minutes and alerts no one at the stores. I'll send the security packet and a five-trailer pilot proposal by next Wednesday so IT can start its three-week review before the October 15 capital deadline. I'd love thirty minutes with Ellen Ford the week after.\n\nBest\nJenna"
+  },
+  {
+   "id": "c09",
+   "call": "s06",
+   "approved": [],
+   "text": "Hi Tara\n\nThanks for walking me through the summer. Refunds on warm boxes hit about 3% of boxes and the complaints hurt even more than the refunds. Every one of your six vans can get a sensor on one dashboard. I'll send over a deck with case studies today.\n\nBest\nDerek"
+  },
+  {
+   "id": "c10",
+   "call": "s07",
+   "approved": [],
+   "text": "Hi Luis\n\nThanks for telling me about the client you lost after last spring. A client worth about $40,000 a year is a lot to lose, and food sitting in vans at venues for a couple of hours with nobody watching is the gap. About $500 a month all in covers your five vans and both walk-ins. I'll send an invite for the demo with Kim next Monday at nine. If Kim likes it we'll aim to have everything installed before November 1 ahead of the holiday season.\n\nBest\nJenna"
+  },
+  {
+   "id": "c11",
+   "call": "s08",
+   "approved": [],
+   "text": "Hi Grace\n\nThanks for the overview of the RFP. I understand you'll invite three vendors in November and pick one by December 15. Our sensors go in every truck with text alerts and a fleet dashboard, and setup is fast. I'll send the vendor registration information this week.\n\nBest\nDerek"
+  },
+  {
+   "id": "c12",
+   "call": "s09",
+   "approved": [],
+   "text": "Hi Owen\n\nThanks for the time today. A $22,000 claim after a compressor failed on a Sunday last spring makes a strong case for continuous records your customers can see. I'll send a proposal for the six rooms with a one-page summary for the partners and the insurance certificate by Friday. With about $20,000 set aside for upgrades the partners can take it up at their meeting on October 20.\n\nBest\nJenna"
+  }
+ ]
+}

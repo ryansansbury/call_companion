@@ -1,0 +1,212 @@
+{
+ "step": "followup",
+ "call": "s07",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:40:43",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "b9a1e2fe5604eac1",
+ "input": {
+  "call": "s07",
+  "date": "2026-09-29",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Luis Ortega"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "Lost client was worth about $40,000 a year",
+    "number": 40000,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Luis Ortega, the owner, makes the final call"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Must be dead simple to use for seasonal staff"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Operations manager Kim has to like it"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Kim reviews a demo Monday; if she likes it, Luis decides"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "A guest got sick after a corporate lunch and the client did not renew"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Food sits in vans for hours during setup with no one watching temperature; likely cause of the guest illness"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Temperatures are logged on paper, only when staff remember"
+   },
+   {
+    "id": "pain-4",
+    "field": "pain",
+    "value": "Does not want to go into holiday season blind"
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Luis set up Kim's demo for next Monday"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Holiday party season starts mid-November, about half the year's business"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "About $500 a month, all in",
+    "number": 500,
+    "unit": "USD"
+   },
+   {
+    "id": "close_date-1",
+    "field": "close_date",
+    "value": "Install before the 1st of November if Kim likes the demo"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Run demo for Kim on Monday at 9"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Send the calendar invite for Monday at 9"
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Kim attends the demo"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Kim, operations manager who runs the events, reviews the demo"
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "Installation depends on Kim liking the demo"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Runs 5 vans",
+    "number": 5
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Has 2 walk-ins at the kitchen",
+    "number": 2
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "Most event staff are seasonal"
+   },
+   {
+    "id": "account-4",
+    "field": "account",
+    "value": "Runs corporate lunches and events"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Seller said the price fits 5 vans and 2 walk-ins"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send the calendar invite for the Monday 9 a.m. demo"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Run the demo for Kim"
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Kim attends the demo"
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Aim to have it installed if Kim likes the demo"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Brinewatch next steps: Monday 9 a.m. demo for Kim\",\n \"sentences\": [{\"text\": \"Hi Luis, thanks for talking with me today.\", \"facts\": []},\n{\"text\": \"You described food sitting in vans for hours during setup with no one watching the temperature, and temperatures logged on paper only when staff remember.\", \"facts\": [\"pain-2\", \"pain-3\"]},\n{\"text\": \"You also said a guest got sick after a corporate lunch and the client did not renew, a loss worth about $40,000 a year, and you do not want to go into holiday season blind.\", \"facts\": [\"pain-1\", \"metrics-1\", \"pain-4\"]},\n{\"text\": \"Holiday party season starts in mid-November and is about half the year's business, and most of your event staff are seasonal, so the system has to be dead simple for them to use.\", \"facts\": [\"critical_event-1\", \"account-3\", \"decision_criteria-1\"]},\n{\"text\": \"Kim, your operations manager who runs the events, will review the demo on Monday, and if she likes it, you make the final call.\", \"facts\": [\"stakeholders-1\", \"decision_criteria-2\", \"decision_process-1\", \"economic_buyer-1\"]},\n{\"text\": \"I will run the demo for Kim at 9 on Monday and send the calendar invite for that time, and Kim attending the demo is the next step on your side.\", \"facts\": [\"next_steps-1\", \"next_steps-2\", \"commitments-1\", \"commitments-2\", \"next_steps-3\", \"commitments-3\"]},\n{\"text\": \"If Kim likes the demo, we aim to have it installed before the 1st of November, though that depends on her reaction.\", \"facts\": [\"close_date-1\", \"commitments-4\", \"risks-1\"]},\n{\"text\": \"The budget you gave me is about $500 a month, all in, and I said the price fits your 5 vans and 2 walk-ins.\", \"facts\": [\"budget-1\", \"seller_claims-1\", \"account-1\", \"account-2\"]}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 18420,
+ "meta": {
+  "ms": 17438,
+  "api_ms": 17297,
+  "input_tokens": 6612,
+  "output_tokens": 4264,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6610,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 4264,
+   "output_tokens_details": {
+    "thinking_tokens": 3603
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6610,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 4264,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6610,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6610
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0034542000000000006,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

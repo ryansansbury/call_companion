@@ -1,0 +1,176 @@
+{
+ "step": "followup",
+ "call": "s04",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:14:07",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "8e03969ee090383c",
+ "input": {
+  "call": "s04",
+  "date": "2026-09-17",
+  "rep": "Derek Shaw",
+  "company": "Brinewatch",
+  "to": [
+   "Nina Park"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "Two or three rejected deliveries a week"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "Each rejected delivery costs about $1,200",
+    "number": 1200,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Frank, the owner, signs everything"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Fresh fish has to stay right around 32 degrees",
+    "number": 32
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "The drivers have to like the app"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Nina would run it by the owner, Frank, who signs everything"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "If fresh fish gets warm, the restaurants send it back"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "The cab display doesn't record anything"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Airport pickup runs are the worst for temperature because the fish sits on the tarmac before pickup"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Frostgauge quoted last month, cheaper, but the drivers didn't like its app"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Derek will send info and a few demo times for Nina to share with Frank"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Frank is the owner and signs everything"
+   },
+   {
+    "id": "risks-1",
+    "field": "risks",
+    "value": "Frank's speed in deciding depends on the price"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Seafood wholesaler selling fresh and frozen mostly to restaurants"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "12 trucks",
+    "number": 12,
+    "unit": "trucks"
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Sensors track every compartment and send a text the second something drifts"
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Most seafood customers see the difference in the first month"
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "The app works without a signal and drivers basically don't have to touch it"
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "The sensors would catch the airport pickup temperature problem too"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send info and a few demo times that Nina can share with Frank"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Following up on our call about rejected deliveries\", \"sentences\": [{\"text\": \"Hi Nina, thank you for taking the time to talk with me.\", \"facts\": []}, {\"text\": \"You told me you see two or three rejected deliveries a week, and each one costs about $1,200.\", \"facts\": [\"metrics-1\", \"metrics-2\"]}, {\"text\": \"Fresh fish has to stay right around 32 degrees, and when it gets warm the restaurants send it back.\", \"facts\": [\"decision_criteria-1\", \"pain-1\"]}, {\"text\": \"You also said the cab display doesn't record anything, and that airport pickup runs are the worst for temperature because the fish sits on the tarmac before pickup.\", \"facts\": [\"pain-2\", \"pain-3\"]}, {\"text\": \"You also said the drivers have to like the app, which is where the Frostgauge quote from last month fell short.\", \"facts\": [\"decision_criteria-2\", \"competition-1\"]}, {\"text\": \"I explained that our sensors track every compartment and send a text the second something drifts, and that they would catch the airport pickup temperature problem too.\", \"facts\": [\"seller_claims-1\", \"seller_claims-4\"]}, {\"text\": \"I will send you info and a few demo times that you can share with Frank, since you plan to run this by him.\", \"facts\": [\"next_steps-1\", \"commitments-1\", \"decision_process-1\"]}, {\"text\": \"Best, Derek Shaw, Brinewatch\", \"facts\": []}]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 10905,
+ "meta": {
+  "ms": 9590,
+  "api_ms": 9458,
+  "input_tokens": 6345,
+  "output_tokens": 1332,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6343,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1332,
+   "output_tokens_details": {
+    "thinking_tokens": 837
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6343,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1332,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6343,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6343
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.038696,
+  "models": [
+   "claude-sonnet-5-5"
+  ]
+ }
+}

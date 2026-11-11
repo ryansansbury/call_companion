@@ -1,0 +1,188 @@
+{
+ "step": "followup",
+ "call": "s05",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:38:28",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "41f1abd322538378",
+ "input": {
+  "call": "s05",
+  "date": "2026-09-23",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Victor Hale"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "About $8,000 a month lost to rejected product",
+    "number": 8000,
+    "unit": "USD"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "Ellen Ford, VP of supply chain, approves the purchase"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Proof the product works on their routes"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Alerts must reach the store and the night dispatcher within 10 minutes",
+    "number": 10,
+    "unit": "minutes"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Victor recommends the add-on, then Ellen Ford approves it"
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "The security review takes about 3 weeks",
+    "number": 3,
+    "unit": "weeks"
+   },
+   {
+    "id": "paper_process-2",
+    "field": "paper_process",
+    "value": "Vendor onboarding needs a certificate of insurance before installation"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Temperature creeps while trailers wait at store docks, and stores refuse the product"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Trailer data is only downloaded after return, so the product is already refused"
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Victor says he would recommend the temperature add-on"
+   },
+   {
+    "id": "competition-1",
+    "field": "competition",
+    "value": "Current telematics vendor offers a temperature add-on that is cheap"
+   },
+   {
+    "id": "competition-2",
+    "field": "competition",
+    "value": "Vendor add-on reports only every 30 minutes",
+    "number": 30,
+    "unit": "minutes"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Capital requests are due October 15th"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "Would go in next year's capital plan"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Brinewatch sends the security packet and a five-trailer pilot proposal"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Victor gets Ellen Ford on the calendar"
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "Approves the purchase and is not on this call"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Runs 25 reefer trailers",
+    "number": 25,
+    "unit": "trailers"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Serves 40 stores",
+    "number": 40,
+    "unit": "stores"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send the security packet and a five-trailer pilot proposal"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Get Ellen Ford on the calendar for a 30-minute meeting"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Next steps after today's call on the temperature add-on\",\n \"sentences\": [\n  {\"text\": \"Hi Victor,\", \"facts\": []},\n  {\"text\": \"Thank you for walking us through the problem on today's call.\", \"facts\": []},\n  {\"text\": \"Temperature creeps while trailers wait at store docks, stores refuse the product, and the trailer data is only downloaded after return, so the product is already refused, which comes to about $8,000 a month lost to rejected product.\", \"facts\": [\"pain-1\", \"pain-2\", \"metrics-1\"]},\n  {\"text\": \"For the decision, the criteria are proof the product works on your routes and alerts that reach the store and the night dispatcher within 10 minutes.\", \"facts\": [\"decision_criteria-1\", \"decision_criteria-2\"]},\n  {\"text\": \"You would recommend the temperature add-on, Ellen Ford, VP of supply chain, approves the purchase, and capital requests are due October 15th.\", \"facts\": [\"champion-1\", \"economic_buyer-1\", \"decision_process-1\", \"critical_event-1\"]},\n  {\"text\": \"The security review takes about 3 weeks, and vendor onboarding needs a certificate of insurance before installation.\", \"facts\": [\"paper_process-1\", \"paper_process-2\"]},\n  {\"text\": \"Brinewatch will send the security packet and a five-trailer pilot proposal, and Victor will get Ellen Ford on the calendar for a 30-minute meeting.\", \"facts\": [\"next_steps-1\", \"next_steps-2\", \"commitments-2\"]},\n  {\"text\": \"Thanks, Jenna.\", \"facts\": []}\n ]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 16288,
+ "meta": {
+  "ms": 15197,
+  "api_ms": 15062,
+  "input_tokens": 6454,
+  "output_tokens": 3403,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6452,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 3403,
+   "output_tokens_details": {
+    "thinking_tokens": 2853
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6452,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3403,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6452,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6452
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0029921,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

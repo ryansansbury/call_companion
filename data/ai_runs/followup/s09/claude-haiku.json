@@ -1,0 +1,214 @@
+{
+ "step": "followup",
+ "call": "s09",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:42:54",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "390dd636fa93310d",
+ "input": {
+  "call": "s09",
+  "date": "2026-10-06",
+  "rep": "Jenna Cole",
+  "company": "Brinewatch",
+  "to": [
+   "Owen Barrett"
+  ],
+  "facts": [
+   {
+    "id": "metrics-1",
+    "field": "metrics",
+    "value": "Customer filed a claim for $22,000 of product after a compressor failure",
+    "number": 22000,
+    "unit": "USD"
+   },
+   {
+    "id": "metrics-2",
+    "field": "metrics",
+    "value": "Wants a few weeks of clean data before the December audit"
+   },
+   {
+    "id": "economic_buyer-1",
+    "field": "economic_buyer",
+    "value": "The partners approve anything over $15,000",
+    "number": 15000,
+    "unit": "USD"
+   },
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "Continuous records the customers can see"
+   },
+   {
+    "id": "decision_criteria-2",
+    "field": "decision_criteria",
+    "value": "Alerts go to whoever is on call at night"
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Partners meet once a month, and the next meeting is October 20th"
+   },
+   {
+    "id": "paper_process-1",
+    "field": "paper_process",
+    "value": "They use their own vendor agreement"
+   },
+   {
+    "id": "paper_process-2",
+    "field": "paper_process",
+    "value": "They need a certificate of insurance"
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Last spring a compressor failed on a Sunday and went unnoticed until Monday"
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "Current monitoring shows only temperature, with no alerts or records"
+   },
+   {
+    "id": "pain-3",
+    "field": "pain",
+    "value": "Crew writes readings in a log twice a day"
+   },
+   {
+    "id": "pain-4",
+    "field": "pain",
+    "value": "Customers' auditors keep asking for continuous records they don't have"
+   },
+   {
+    "id": "champion-1",
+    "field": "champion",
+    "value": "Owen will put the proposal on the partners' agenda for the 20th"
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Biggest customer audits them in December"
+   },
+   {
+    "id": "budget-1",
+    "field": "budget",
+    "value": "About $20,000 set aside for upgrades",
+    "number": 20000,
+    "unit": "USD"
+   },
+   {
+    "id": "close_date-1",
+    "field": "close_date",
+    "value": "Working back from the 20th partners meeting"
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Send a proposal for the six rooms"
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Send a one-page summary for the partners"
+   },
+   {
+    "id": "next_steps-3",
+    "field": "next_steps",
+    "value": "Send the insurance certificate with the proposal"
+   },
+   {
+    "id": "next_steps-4",
+    "field": "next_steps",
+    "value": "Put the proposal on the partners' agenda"
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "6 cold rooms",
+    "number": 6,
+    "unit": "rooms"
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "Refrigeration controls came with a monitoring screen"
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "Not big enough to have someone in the building around the clock"
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send a proposal for the six rooms"
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Send a one-page summary for the partners"
+   },
+   {
+    "id": "commitments-3",
+    "field": "commitments",
+    "value": "Send the insurance certificate with the proposal"
+   },
+   {
+    "id": "commitments-4",
+    "field": "commitments",
+    "value": "Put the proposal on the partners' agenda"
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Follow-up on Brinewatch cold room monitoring for the six rooms\",\n \"sentences\": [\n{\"text\": \"Thank you for taking the time to talk with me today, Owen.\", \"facts\": []},\n{\"text\": \"Last spring a compressor failed on a Sunday and went unnoticed until Monday, and your crew writes readings in a log twice a day.\", \"facts\": [\"pain-1\", \"pain-3\"]},\n{\"text\": \"Your current monitoring shows only temperature, with no alerts or records, and your customers' auditors keep asking for continuous records you don't have.\", \"facts\": [\"pain-2\", \"pain-4\"]},\n{\"text\": \"For the six cold rooms, you want continuous records your customers can see and alerts that go to whoever is on call at night.\", \"facts\": [\"account-1\", \"decision_criteria-1\", \"decision_criteria-2\"]},\n{\"text\": \"I will send a proposal for the six rooms with the insurance certificate, since you need one.\", \"facts\": [\"next_steps-1\", \"next_steps-3\", \"commitments-1\", \"commitments-3\", \"paper_process-2\"]},\n{\"text\": \"I will also send a one-page summary for the partners.\", \"facts\": [\"next_steps-2\", \"commitments-2\"]},\n{\"text\": \"The proposal will go on the partners' agenda for their October 20th meeting, which is the next time they meet.\", \"facts\": [\"commitments-4\", \"champion-1\", \"decision_process-1\"]},\n{\"text\": \"Best regards, Jenna Cole, Brinewatch\", \"facts\": []}\n]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 12394,
+ "meta": {
+  "ms": 11257,
+  "api_ms": 11126,
+  "input_tokens": 6611,
+  "output_tokens": 2692,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6609,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 2692,
+   "output_tokens_details": {
+    "thinking_tokens": 2176
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6609,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2692,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6609,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6609
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0026680000000000002,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

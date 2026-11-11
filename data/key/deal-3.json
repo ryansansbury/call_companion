@@ -1,0 +1,683 @@
+{
+ "call": "deal-3",
+ "facts": [
+  {
+   "id": "d3f01",
+   "field": "metrics",
+   "value": "About $90,000 written off last year between spoiled loads and warm-delivery credits",
+   "lines": [
+    "d3-003"
+   ],
+   "terms": [
+    "spoiled loads"
+   ],
+   "segments": [
+    "d3-s003"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 90000,
+   "unit": "USD"
+  },
+  {
+   "id": "d3f02",
+   "field": "metrics",
+   "value": "Credits run about $5,000 a month",
+   "lines": [
+    "d3-003"
+   ],
+   "terms": [
+    "five thousand a month"
+   ],
+   "segments": [
+    "d3-s003"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 5000,
+   "unit": "USD per month"
+  },
+  {
+   "id": "d3f03",
+   "field": "metrics",
+   "value": "Over 500 hours a year pulling stop sheets together",
+   "lines": [
+    "d3-005"
+   ],
+   "terms": [
+    "stop sheets"
+   ],
+   "segments": [
+    "d3-s003"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 500,
+   "unit": "hours per year"
+  },
+  {
+   "id": "d3f04",
+   "field": "pain",
+   "value": "During the audit, pulling records will take someone all day, every day, and Rachel can't spare anyone",
+   "lines": [
+    "d3-006"
+   ],
+   "terms": [
+    "all day",
+    "spare anybody"
+   ],
+   "segments": [
+    "d3-s005"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d3f05",
+   "field": "pricing",
+   "value": "Hardware about $31,000 for 38 trucks and the warehouse",
+   "lines": [
+    "d3-008"
+   ],
+   "terms": [
+    "hardware"
+   ],
+   "segments": [
+    "d3-s007"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 31000,
+   "unit": "USD"
+  },
+  {
+   "id": "d3f06",
+   "field": "pricing",
+   "value": "Installation about $4,500",
+   "lines": [
+    "d3-008"
+   ],
+   "terms": [
+    "Installation"
+   ],
+   "segments": [
+    "d3-s007"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 4500,
+   "unit": "USD"
+  },
+  {
+   "id": "d3f07",
+   "field": "pricing",
+   "value": "Software $1,260 a month",
+   "lines": [
+    "d3-008"
+   ],
+   "terms": [
+    "Software"
+   ],
+   "segments": [
+    "d3-s007"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 1260,
+   "unit": "USD per month"
+  },
+  {
+   "id": "d3f08",
+   "field": "amount",
+   "value": "About $50,000 all in for year one",
+   "lines": [
+    "d3-008"
+   ],
+   "terms": [
+    "year one"
+   ],
+   "segments": [
+    "d3-s007"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 50000,
+   "unit": "USD"
+  },
+  {
+   "id": "d3f09",
+   "field": "account",
+   "value": "38 trucks plus the warehouse",
+   "lines": [
+    "d3-008"
+   ],
+   "terms": [
+    "plus the warehouse"
+   ],
+   "segments": [
+    "d3-s007"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 38,
+   "unit": "trucks"
+  },
+  {
+   "id": "d3f10",
+   "field": "budget",
+   "value": "About $40,000 set aside for food safety this year, already shared with other things",
+   "lines": [
+    "d3-009"
+   ],
+   "terms": [
+    "set aside",
+    "food safety"
+   ],
+   "segments": [
+    "d3-s008"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 40000,
+   "unit": "USD"
+  },
+  {
+   "id": "d3f11",
+   "field": "risks",
+   "value": "Year one comes in above what they planned",
+   "lines": [
+    "d3-009"
+   ],
+   "terms": [
+    "more than we planned"
+   ],
+   "segments": [
+    "d3-s008"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d3f12",
+   "field": "competition",
+   "value": "Frostgauge's hardware quote came in about 30% under Brinewatch's",
+   "lines": [
+    "d3-011",
+    "d3-013"
+   ],
+   "terms": [
+    "Frostgauge",
+    "thirty percent under"
+   ],
+   "segments": [
+    "d3-s010",
+    "d3-s012"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 30,
+   "unit": "percent"
+  },
+  {
+   "id": "d3f13",
+   "field": "critical_event",
+   "value": "The audit is the week of the 19th, and without records for every delivery they could lose the account",
+   "lines": [
+    "d3-012"
+   ],
+   "terms": [
+    "audit",
+    "every delivery"
+   ],
+   "segments": [
+    "d3-s011"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-10-19"
+  },
+  {
+   "id": "d3f14",
+   "field": "risks",
+   "value": "The CFO would find next quarter easier on the budget",
+   "lines": [
+    "d3-013"
+   ],
+   "terms": [
+    "Next quarter"
+   ],
+   "segments": [
+    "d3-s012"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d3f15",
+   "field": "decision_criteria",
+   "value": "A driver app matters, since half the routes are in dead zones and without it the records keep their gaps",
+   "lines": [
+    "d3-014"
+   ],
+   "terms": [
+    "driver app",
+    "dead zones"
+   ],
+   "segments": [
+    "d3-s013",
+    "d3-s015"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d3f16",
+   "field": "decision_criteria",
+   "value": "A pilot first, in writing, with a clean opt-out after thirty days",
+   "lines": [
+    "d3-017"
+   ],
+   "terms": [
+    "in writing",
+    "opt-out"
+   ],
+   "segments": [
+    "d3-s017"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 30,
+   "unit": "days"
+  },
+  {
+   "id": "d3f17",
+   "field": "pricing",
+   "value": "After the pilot, the software is an annual agreement billed monthly",
+   "lines": [
+    "d3-021"
+   ],
+   "terms": [
+    "annual agreement",
+    "billed monthly"
+   ],
+   "segments": [
+    "d3-s021"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d3f18",
+   "field": "pricing",
+   "value": "The price covers the 38 trucks on the road, and the two in the shop get sensors when they're back",
+   "lines": [
+    "d3-023"
+   ],
+   "terms": [
+    "on the road"
+   ],
+   "segments": [
+    "d3-s023"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 38,
+   "unit": "trucks"
+  },
+  {
+   "id": "d3f19",
+   "field": "paper_process",
+   "value": "The master agreement and an order form, about a week of outside counsel review, then a purchase order after a couple of days in purchasing",
+   "lines": [
+    "d3-025",
+    "d3-026"
+   ],
+   "terms": [
+    "master agreement",
+    "purchase order",
+    "outside counsel"
+   ],
+   "segments": [
+    "d3-s025",
+    "d3-s026"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d3f20",
+   "field": "paper_process",
+   "value": "Payment terms of net 45 in the order form",
+   "lines": [
+    "d3-026"
+   ],
+   "terms": [
+    "net forty-five"
+   ],
+   "segments": [
+    "d3-s026"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 45,
+   "unit": "days"
+  },
+  {
+   "id": "d3f21",
+   "field": "stakeholders",
+   "value": "Outside counsel reviews the agreement, and purchasing issues the purchase order",
+   "lines": [
+    "d3-025",
+    "d3-026"
+   ],
+   "terms": [
+    "outside counsel",
+    "purchasing"
+   ],
+   "segments": [
+    "d3-s025",
+    "d3-s026"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d3f22",
+   "field": "close_date",
+   "value": "A signature by October 2 to install the whole fleet before the audit",
+   "lines": [
+    "d3-028"
+   ],
+   "terms": [
+    "signature",
+    "October second"
+   ],
+   "segments": [
+    "d3-s028"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-10-02"
+  },
+  {
+   "id": "d3f23",
+   "field": "close_date",
+   "value": "The CFO decides by Wednesday, September 30",
+   "lines": [
+    "d3-029",
+    "d3-030"
+   ],
+   "terms": [
+    "thirtieth"
+   ],
+   "segments": [
+    "d3-s029",
+    "d3-s030"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-30"
+  },
+  {
+   "id": "d3f24",
+   "field": "economic_buyer",
+   "value": "Linda Marsh, the CFO, makes the decision",
+   "lines": [
+    "d3-030"
+   ],
+   "terms": [
+    "I'll decide"
+   ],
+   "segments": [
+    "d3-s030"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d3f25",
+   "field": "next_steps",
+   "value": "Marcus sends a revised proposal with the pilot clause and net 45 terms by Thursday",
+   "lines": [
+    "d3-029"
+   ],
+   "terms": [
+    "revised proposal",
+    "pilot clause"
+   ],
+   "segments": [
+    "d3-s029"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-24"
+  },
+  {
+   "id": "d3f26",
+   "field": "next_steps",
+   "value": "Linda decides by Wednesday the 30th",
+   "lines": [
+    "d3-030"
+   ],
+   "terms": [
+    "decide by the thirtieth"
+   ],
+   "segments": [
+    "d3-s030"
+   ],
+   "heard": true,
+   "missing": [],
+   "date": "2026-09-30"
+  },
+  {
+   "id": "d3f27",
+   "field": "next_steps",
+   "value": "Rachel gets the proposal to counsel the day it arrives",
+   "lines": [
+    "d3-031"
+   ],
+   "terms": [
+    "counsel"
+   ],
+   "segments": [
+    "d3-s031"
+   ],
+   "heard": false,
+   "missing": [
+    "counsel"
+   ]
+  },
+  {
+   "id": "d3f28",
+   "field": "champion",
+   "value": "Rachel pushes back on waiting, defends the driver app and keeps counsel moving",
+   "lines": [
+    "d3-012",
+    "d3-014",
+    "d3-031"
+   ],
+   "terms": [
+    "We can't wait",
+    "driver app",
+    "counsel"
+   ],
+   "segments": [
+    "d3-s011",
+    "d3-s013",
+    "d3-s015",
+    "d3-s031"
+   ],
+   "heard": false,
+   "missing": [
+    "counsel"
+   ]
+  },
+  {
+   "id": "d3f29",
+   "field": "seller_claims",
+   "value": "If the alerts catch half of last year's losses, they cover most of year one",
+   "lines": [
+    "d3-010"
+   ],
+   "terms": [
+    "half of what you lost"
+   ],
+   "segments": [
+    "d3-s009"
+   ],
+   "heard": true,
+   "missing": []
+  },
+  {
+   "id": "d3f30",
+   "field": "seller_claims",
+   "value": "A four-truck, thirty-day pilot, and they owe nothing for the software if the alerts don't deliver",
+   "lines": [
+    "d3-016"
+   ],
+   "terms": [
+    "Four trucks",
+    "owe nothing"
+   ],
+   "segments": [
+    "d3-s016"
+   ],
+   "heard": true,
+   "missing": [],
+   "number": 4,
+   "unit": "trucks"
+  }
+ ],
+ "commitments": [
+  {
+   "id": "d3k01",
+   "field": "commitments",
+   "value": "A pilot first, with a clean opt-out after thirty days, in writing",
+   "lines": [
+    "d3-018"
+   ],
+   "terms": [
+    "We can do that"
+   ],
+   "segments": [
+    "d3-s018"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "AE",
+   "approved": true,
+   "date": null
+  },
+  {
+   "id": "d3k02",
+   "field": "commitments",
+   "value": "Get the installation waived",
+   "lines": [
+    "d3-018"
+   ],
+   "terms": [
+    "installation waived"
+   ],
+   "segments": [
+    "d3-s018"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "concession",
+   "by": "seller",
+   "who": "AE",
+   "approved": false,
+   "policy": "waived_fees",
+   "date": null
+  },
+  {
+   "id": "d3k03",
+   "field": "commitments",
+   "value": "Net 45 payment terms in the order form",
+   "lines": [
+    "d3-027"
+   ],
+   "terms": [
+    "Net forty-five is fine"
+   ],
+   "segments": [
+    "d3-s027"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "terms",
+   "by": "seller",
+   "who": "AE",
+   "approved": true,
+   "date": null
+  },
+  {
+   "id": "d3k04",
+   "field": "commitments",
+   "value": "Send a revised proposal with the pilot clause and net 45 terms by Thursday",
+   "lines": [
+    "d3-029"
+   ],
+   "terms": [
+    "revised proposal"
+   ],
+   "segments": [
+    "d3-s029"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "deliverable",
+   "by": "seller",
+   "who": "AE",
+   "date": "2026-09-24"
+  },
+  {
+   "id": "d3k05",
+   "field": "commitments",
+   "value": "Decide by Wednesday the 30th",
+   "lines": [
+    "d3-030"
+   ],
+   "terms": [
+    "decide by the thirtieth"
+   ],
+   "segments": [
+    "d3-s030"
+   ],
+   "heard": true,
+   "missing": [],
+   "kind": "decision",
+   "by": "buyer",
+   "who": "CFO",
+   "date": "2026-09-30"
+  },
+  {
+   "id": "d3k06",
+   "field": "commitments",
+   "value": "Get the proposal to counsel the day it comes in",
+   "lines": [
+    "d3-031"
+   ],
+   "terms": [
+    "counsel"
+   ],
+   "segments": [
+    "d3-s031"
+   ],
+   "heard": false,
+   "missing": [
+    "counsel"
+   ],
+   "kind": "deliverable",
+   "by": "buyer",
+   "who": "OPS",
+   "date": null
+  }
+ ],
+ "absent": [
+  "decision_process"
+ ],
+ "source": "transcript"
+}

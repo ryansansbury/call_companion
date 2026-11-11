@@ -1,0 +1,188 @@
+{
+ "step": "followup",
+ "call": "s02",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "date": "2026-11-07",
+ "recorded_at": "2026-11-07T20:35:29",
+ "prompt_hash": "08b52fd3c96e5f10",
+ "input_hash": "bdbac76ca341ca1a",
+ "input": {
+  "call": "s02",
+  "date": "2026-09-10",
+  "rep": "Derek Shaw",
+  "company": "Brinewatch",
+  "to": [
+   "Paul Henning"
+  ],
+  "facts": [
+   {
+    "id": "decision_criteria-1",
+    "field": "decision_criteria",
+    "value": "IT is strict about devices on the hospital network, so connection method matters."
+   },
+   {
+    "id": "decision_process-1",
+    "field": "decision_process",
+    "value": "Paul will look at the proposal after it is sent."
+   },
+   {
+    "id": "pain-1",
+    "field": "pain",
+    "value": "Walk-in alarms only beep in the kitchen, so a night alarm went unheard until morning."
+   },
+   {
+    "id": "pain-2",
+    "field": "pain",
+    "value": "A whole cooler of patient meals was lost."
+   },
+   {
+    "id": "critical_event-1",
+    "field": "critical_event",
+    "value": "Accreditation survey is coming up, and surveyors always pull the temperature logs."
+   },
+   {
+    "id": "next_steps-1",
+    "field": "next_steps",
+    "value": "Send the standard proposal for the walk-ins and reach-ins."
+   },
+   {
+    "id": "next_steps-2",
+    "field": "next_steps",
+    "value": "Paul will look at the proposal."
+   },
+   {
+    "id": "stakeholders-1",
+    "field": "stakeholders",
+    "value": "IT department reviews devices on the hospital network and is strict about them."
+   },
+   {
+    "id": "account-1",
+    "field": "account",
+    "value": "Four walk-in coolers in the hospital kitchen.",
+    "number": 4
+   },
+   {
+    "id": "account-2",
+    "field": "account",
+    "value": "About 20 reach-ins across the kitchen and patient floors.",
+    "number": 20
+   },
+   {
+    "id": "account-3",
+    "field": "account",
+    "value": "No trucks; the operation is only the hospital kitchen."
+   },
+   {
+    "id": "account-4",
+    "field": "account",
+    "value": "Coolers are spread across the kitchen and patient floors."
+   },
+   {
+    "id": "seller_claims-1",
+    "field": "seller_claims",
+    "value": "Wireless sensors text the right person as soon as temperature drifts."
+   },
+   {
+    "id": "seller_claims-2",
+    "field": "seller_claims",
+    "value": "Customers say it pays for itself in the first year."
+   },
+   {
+    "id": "seller_claims-3",
+    "field": "seller_claims",
+    "value": "Reports are timestamped automatically and can be exported with one click."
+   },
+   {
+    "id": "seller_claims-4",
+    "field": "seller_claims",
+    "value": "Alerts escalate to the next person if the first does not respond."
+   },
+   {
+    "id": "seller_claims-5",
+    "field": "seller_claims",
+    "value": "Temperature logs are generated automatically."
+   },
+   {
+    "id": "seller_claims-6",
+    "field": "seller_claims",
+    "value": "Setup takes about a day."
+   },
+   {
+    "id": "seller_claims-7",
+    "field": "seller_claims",
+    "value": "Users can be added without limit."
+   },
+   {
+    "id": "seller_claims-8",
+    "field": "seller_claims",
+    "value": "Integrates with most facility systems."
+   },
+   {
+    "id": "seller_claims-9",
+    "field": "seller_claims",
+    "value": "Connects over cellular and does not touch the hospital network."
+   },
+   {
+    "id": "commitments-1",
+    "field": "commitments",
+    "value": "Send the standard proposal for the 4 walk-ins and 20 reach-ins."
+   },
+   {
+    "id": "commitments-2",
+    "field": "commitments",
+    "value": "Look at the proposal."
+   }
+  ]
+ },
+ "reply": "{\"subject\": \"Brinewatch proposal for the hospital kitchen coolers\",\n \"sentences\": [\n{\"text\": \"Paul, thank you for taking the time to talk with me.\", \"facts\": []},\n{\"text\": \"You told me that walk-in alarms only beep in the kitchen, so a night alarm went unheard until morning, and a whole cooler of patient meals was lost.\", \"facts\": [\"pain-1\", \"pain-2\"]},\n{\"text\": \"With the accreditation survey coming up and surveyors always pulling the temperature logs, that record matters.\", \"facts\": [\"critical_event-1\"]},\n{\"text\": \"The scope covers four walk-in coolers in the hospital kitchen and about 20 reach-ins spread across the kitchen and patient floors.\", \"facts\": [\"account-1\", \"account-2\", \"account-4\"]},\n{\"text\": \"You also mentioned that IT is strict about devices on the hospital network, so how the units connect matters.\", \"facts\": [\"decision_criteria-1\", \"stakeholders-1\"]},\n{\"text\": \"I will send the standard proposal for the four walk-ins and 20 reach-ins.\", \"facts\": [\"commitments-1\", \"next_steps-1\"]},\n{\"text\": \"Paul, you will look at the proposal after it is sent.\", \"facts\": [\"decision_process-1\", \"next_steps-2\", \"commitments-2\"]},\n{\"text\": \"Best regards, Derek Shaw, Brinewatch\", \"facts\": []}\n]}",
+ "repaired": false,
+ "problems": [],
+ "held": 0,
+ "kept": null,
+ "ms": 9221,
+ "meta": {
+  "ms": 7957,
+  "api_ms": 7847,
+  "input_tokens": 6475,
+  "output_tokens": 1856,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6473,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1856,
+   "output_tokens_details": {
+    "thinking_tokens": 1371
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6473,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1856,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6473,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6473
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "cost_usd": 0.0022228,
+  "models": [
+   "claude-haiku-5-5"
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "note": "The tuning rounds on the four dev calls, kept so the prompt freeze can show what tuning did. owner/run.sh 3 records the next round and freezes the prompts only if its F1 is at least the best round before it.",
+ "model": "claude-sonnet",
+ "rounds": [
+  {
+   "round": 1,
+   "date": "2026-11-07",
+   "extract_prompt": "60eaf5b712e39726",
+   "precision": 0.704,
+   "recall": 0.851,
+   "f1": 0.77,
+   "tp": 57,
+   "fp": 24,
+   "fn": 10,
+   "seen": "Items merged two numbered facts into one or split one fact in two, put facts in a neighboring field (an inspection under pain, a self-declared champion under the decision process), cited the end-of-call recap, and added impressions of mood. The revision adds rules 8 to 10 and sharpens four field definitions."
+  },
+  {
+   "round": 2,
+   "date": "2026-11-07",
+   "extract_prompt": "819bfb52f6a5b2b3",
+   "precision": 0.753,
+   "recall": 0.881,
+   "f1": 0.812,
+   "tp": 67,
+   "fp": 22,
+   "fn": 8,
+   "first_scorer": {
+    "precision": 0.652,
+    "recall": 0.866,
+    "f1": 0.744,
+    "tp": 58,
+    "fp": 31,
+    "fn": 9
+   },
+   "found": 59,
+   "scorer": "each side on its own",
+   "seen": "Under the first scorer round 2 dropped to F1 0.744 because it wrote finer items, and the one-to-one pairing counted each split fact twice. Of its 31 unmatched items, 18 restated part of a fact the key already matched, 9 sat at a key fact's moment in a neighboring field, and 4 were true facts the key doesn't list. The scorer now judges each side on its own, and round 2 scores 0.812 under it."
+  }
+ ],
+ "decision": "Freeze round 2. Its rules answer the errors round 1 showed, its recall is higher, and its only loss came from the double count the revised scorer removes. Round 1's replies weren't kept, so it can't be rescored. Neither round reaches the plan's 0.85 bar on the tuning calls."
+}
