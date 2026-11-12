@@ -461,6 +461,9 @@ What call {n} changed
 ## ui.deal.point
 Point at one to find it in the call
 
+## ui.deal.point.touch
+Tap one to find it in the call
+
 ## ui.deal.more
 {n} more changes from this call
 

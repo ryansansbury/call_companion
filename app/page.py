@@ -37,8 +37,10 @@ def money(x):
 
 
 def table(head, rows, cls="grid"):
+    """A table. Each cell carries its column's name, so a phone can show a wide table as one card per row (app.css)."""
     th = "".join(f"<th scope='col'>{esc(h)}</th>" for h in head)
-    body = "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows)
+    body = "".join("<tr>" + "".join(f"<td data-label='{esc(h)}'>{c}</td>" for h, c in zip(head, r)) + "</tr>"
+                   for r in rows)
     return f"<div class='table-wrap'><table class='{cls}'><thead><tr>{th}</tr></thead><tbody>{body}</tbody></table></div>"
 
 

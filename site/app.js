@@ -8,6 +8,8 @@
   "use strict";
   var win = window, doc = document, CC = win.CC || {}, U = CC.ui || {};
   var CCP = win.CCP = {};
+  /* A touch screen without a mouse, which is a phone or a tablet. Its copy names taps, not pointing or keys. */
+  var TOUCH = !!(win.matchMedia && win.matchMedia("(hover: none) and (pointer: coarse)").matches);
   var checker = win.CCClaims ? win.CCClaims.make(CC.lexicon) : null;
   var CALLS = {}, FIELDS = U.fields || {}, DEAL = CC.deal || [];
   (CC.calls || []).forEach(function (c) {
@@ -396,7 +398,7 @@
     var note = $("#player-note");
     if (note) {
       note.textContent = P.loading ? word("player.loading") : !call().audio ? word("player.noaudio") :
-        S.rate > 2 ? word("player.silent") : word("player.hint");
+        S.rate > 2 ? word("player.silent") : TOUCH ? "" : word("player.hint");
     }
   }
   /* How much of the top of the transcript its sticky header covers. Lines under it are out of sight. */
@@ -711,7 +713,7 @@
     var more = rest.length ? "<details class='more'><summary>" + esc(word("deal.more", {n: rest.length})) + "</summary>" +
       "<ul class='chg'>" + rest.map(fromChange).join("") + "</ul></details>" : "";
     return "<div class='block' id='deal-changes'><div class='block-head'><h3>" + esc(word("deal.changed", {n: n})) + "</h3><span>" +
-      esc(word("deal.point")) + "</span></div><ul class='chg'>" + main.join("") + "</ul>" + more + "</div>";
+      esc(TOUCH ? word("deal.point.touch") : word("deal.point")) + "</span></div><ul class='chg'>" + main.join("") + "</ul>" + more + "</div>";
   }
   function rulesHtml(v) {
     var met = {};
@@ -794,7 +796,12 @@
   }
   function stairSvg(sel) {
     var body = $("#record-body"), wide = body && body.clientWidth >= 400;
-    var W = wide ? 420 : 360, H = 222, L = wide ? 128 : 92, R = 10, T = 30, B = 38;
+    /* On a phone the chart is drawn at the width it shows and its labels keep their size instead of shrinking with the
+       chart. Below 320px the date labels go a half size down so the close date and the audit week keep apart. */
+    var cs = body && !wide && phone() && win.getComputedStyle ? win.getComputedStyle(body) : null;
+    var fit = cs ? body.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight) : 0;
+    fit = fit >= 260 ? Math.min(360, Math.round(fit)) : 0;
+    var W = wide ? 420 : fit || 360, H = 222, L = wide ? 128 : 92, R = fit ? 6 : 10, T = 30, B = 38;
     var names = CC.crm.stages.map(function (s) { return s.name; }), n = names.length;
     var lv = DEAL.map(function (id) { return names.indexOf(stageAfter(id)); });
     var lastId = DEAL[DEAL.length - 1], lastRec = recordOf(lastId), wholeRec = recordOf(lastId, true);
@@ -860,7 +867,8 @@
       parts.push("<text class='date-lbl' x='" + f1(x(dayNum(audit) + 4)) + "' y='" + (base + 16) + "' text-anchor='end'>" +
         esc(word("stair.audit")) + "</text>");
     }
-    return "<svg class='stair-svg' viewBox='0 0 " + W + " " + H + "' role='img' aria-label='" + esc(word("stair.title")) + "'>" +
+    return "<svg class='stair-svg" + (fit && fit < 320 ? " snug" : "") + "' viewBox='0 0 " + W + " " + H + "' role='img' aria-label='" +
+      esc(word("stair.title")) + "'>" +
       parts.join("") + "</svg>";
   }
   CCP.stairLevels = function () {
@@ -1810,7 +1818,13 @@
       else { present(S.present + (act === "next" ? 1 : -1)); }
       return;
     }
-    if ((el = t.closest("[data-file]"))) { openFile(el.getAttribute("data-file")); return; }
+    if ((el = t.closest("[data-file]"))) {
+      openFile(el.getAttribute("data-file"));
+      /* On a phone the file opens below the list and the page brings it into view. */
+      var pane = phone() ? $(".code-pane") : null;
+      if (pane && pane.scrollIntoView) { pane.scrollIntoView({block: "nearest", behavior: calm() ? "auto" : "smooth"}); }
+      return;
+    }
     if (!t.closest("#pop")) { pop(null); }
   });
   doc.addEventListener("change", function (e) {
@@ -1910,6 +1924,18 @@
   if (start.panel) { S.panel = start.panel; }
   var mp = $("#pick-model");
   if (mp) { mp.value = S.model; }
+  /* On a touch screen the model list shows a face of its own at the header's size. The real list sits invisible on
+     top of the face at 16px, so a phone doesn't zoom the page when it's tapped, and takes the tap (app.css). */
+  if (mp && TOUCH && mp.parentNode) {
+    var face = doc.createElement("span");
+    face.className = "pick-face";
+    face.setAttribute("aria-hidden", "true");
+    mp.parentNode.classList.add("faced");
+    mp.parentNode.appendChild(face);
+    var showModel = function () { var o = mp.options[mp.selectedIndex]; face.textContent = o ? o.text : ""; };
+    mp.addEventListener("change", showModel);
+    showModel();
+  }
   renderAll(false);
   if (start.how) { showHow(true); }
   if (start.present) { present(start.present); }

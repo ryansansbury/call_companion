@@ -524,6 +524,75 @@ body.touring .spot { outline: none; }
   .scope-plot { height: 72px; }
   .player-note, .cutoff { display: none; }
 }
+/* ---------------------------------------------------------------- phones and touch screens (11/11)
+   Everything below reaches only a phone-sized window or a touch screen, so a desktop with a mouse looks and works
+   exactly as it did. */
+/* iPhone Safari enlarges the text of a phone turned on its side unless the page asks it not to. Desktop browsers
+   ignore this. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+@media (max-width: 900px) {
+  /* The small labels at 12px, the least a phone reads comfortably. */
+  .eyebrow, .len, .pane-foot, .seg-control .count, .field h4 .count, .confirm, .rec dt, .kind, .rules label,
+  .status-tag, .st, .qtag, .mrow, .cfeat code, .split, .api, .pipeline .kind, .ruler { font-size: 12px; }
+  /* The three calls' figures at 11px with room for the longest. */
+  .mrow { grid-template-columns: minmax(0, 1fr) 88px; }
+  .mrow .mono { font-size: 11px; }
+  /* The staircase is drawn at the width it shows on a phone (app.js), and its dates and step numbers are 11px. */
+  .stair-svg .date-lbl, .stair-svg .node text { font-size: 11px; }
+  .stair-svg.snug .date-lbl { font-size: 10.5px; }
+  /* The code's file list is short enough that the file it opens shows below it, and each file is a fingertip tall. */
+  .code-tree { max-height: 264px; }
+  .code-tree button { padding: 8px; font-size: 12.5px; }
+  .code-head code { font-size: 12px; }
+}
+@media (max-width: 640px) {
+  /* A wide table reads as one card per row on a phone. The row's first value is the card's title, and every other
+     value sits beside its column's name. The short two-column table stays a table. */
+  table.grid:not(.compact), table.grid:not(.compact) tbody, table.grid:not(.compact) tr { display: block; width: 100%; }
+  table.grid:not(.compact) thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  table.grid:not(.compact) tr { border: 1px solid var(--rule); border-radius: 10px; padding: 6px 12px; margin: 0 0 8px;
+    background: var(--sheet); }
+  table.grid:not(.compact) td { display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+    padding: 5px 0; border: 0; text-align: right; }
+  table.grid:not(.compact) td::before { content: attr(data-label); flex: 0 1 auto; text-align: left; font-size: 12.5px;
+    font-weight: 600; color: var(--muted); }
+  table.grid:not(.compact) td:first-child { display: block; padding: 4px 0 6px; text-align: left; font-weight: 650;
+    border-bottom: 1px solid var(--rule); }
+  table.grid:not(.compact) td:first-child::before { content: none; }
+}
+@media (max-width: 960px) and (max-height: 500px) {
+  /* A phone on its side: the header holds one line, so the card in view keeps most of the short screen. */
+  header.top { flex-wrap: nowrap; padding: 4px 12px; }
+  .crumbs { flex: 1 1 auto; }
+  .crumbs .up, .crumbs .up + .sep, .recorded { display: none; }
+  .pick > span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .screens { margin-bottom: 6px; }
+  .screens button { padding: 4px 0; }
+}
+@media (hover: none) and (pointer: coarse) {
+  /* Form fields at 16px, so a phone doesn't zoom the page when one is tapped. The speed list sets a size of its own,
+     so it's named here too, and it gets a taller box to tap. */
+  input:not([type="range"]):not([type="checkbox"]):not([type="radio"]), select, textarea, .speed select { font-size: 16px; }
+  .speed select { min-height: 32px; }
+  /* The model list keeps its size in the header. app.js draws its face, and the real list sits invisible on top of the
+     face at 16px and takes the tap. */
+  .pick.faced { position: relative; }
+  .pick.faced select { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; opacity: 0; font-size: 16px; }
+  .pick-face { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--rule); border-radius: 8px;
+    background: var(--sheet); padding: 4px 8px; color: var(--ink); font-size: 13px; line-height: 18px; }
+  .pick-face::after { content: ""; width: 6px; height: 6px; margin: -4px 1px 0; border-right: 1.5px solid var(--muted);
+    border-bottom: 1.5px solid var(--muted); transform: rotate(45deg); }
+  .pick.faced:focus-within .pick-face { outline: 2px solid var(--teal); outline-offset: 2px; }
+  /* The small controls keep their size on screen and take a tap about 44px tall around them. */
+  .chip { position: relative; }
+  .chip::after { content: ""; position: absolute; left: -3px; right: -3px; top: -12px; bottom: -12px; }
+  .textlink, .pane-foot a, .how-foot a { display: inline-block; padding: 11px 2px; margin: -11px -2px; }
+  .screens button { min-height: 36px; }
+  /* A box's label takes a tap about 36px tall around it, and nothing on the screen moves. */
+  .follow, .approve label, .rules label, .cutoff label { padding: 10px 0; margin: -10px 0; }
+  /* A slider is a fingertip tall. Its track and its handle stay as they look. */
+  .weights input, .cutoff input { height: 28px; }
+}
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
