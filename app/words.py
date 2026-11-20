@@ -3,7 +3,7 @@
 Each `## key` heading starts an entry, and the text under it, up to the next heading, is its value. Lines inside a
 paragraph join with spaces and paragraphs stay apart. A key the page asks for that the file doesn't have fails the
 build, so nothing ships blank. {name} fields are filled by fill(), and entries whose keys start with "ui." go to the
-page's script as they are. Adapted from the Policy Reconciler's reader, without its profiles.
+page's script as they are.
 """
 import re
 import string

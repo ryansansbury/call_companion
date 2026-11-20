@@ -7,7 +7,7 @@
 - AnthropicAPI calls the Anthropic Messages API with an API key, as an alternative to the CLI.
 - WithFallback tries the models of a route in turn and answers with the first one whose call succeeds.
 
-Adapted from the Policy Reconciler's model layer, without its embeddings. They all sit behind the same prompts,
+They all sit behind the same prompts,
 validation and single repair request in owner/record_ai_runs.py, so a model from any vendor faces the same checks.
 The caller hands each API key in, since keys live in the macOS Keychain and never in the repo. The build calls none
 of them. It replays what they recorded and validates each run again.
@@ -81,7 +81,7 @@ class AnthropicAPI:
                 return text, meta
             if status == 401:
                 raise RuntimeError("The Anthropic API refused the key (401). Save it in the Keychain again with security "
-                                   "add-generic-password -U -a \"$USER\" -s policy-reconciler-anthropic -w \"$(pbpaste)\" after copying the key")
+                                   "add-generic-password -U -a \"$USER\" -s call-companion-anthropic -w \"$(pbpaste)\" after copying the key")
             if status in RETRY_STATUS and attempt < self.retries:
                 self.sleep(2 * 3 ** attempt)        # 2 seconds, then 6
                 continue

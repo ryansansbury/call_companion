@@ -1,8 +1,8 @@
 # Call Companion
 
 A recorded sales call becomes CRM notes, a coaching scorecard, and a follow-up email. Every field the AI fills cites
-the words it came from and the second they were said. Code confirms each quote and each number before anything is
-shown, and a claim checker reads every number, date, name, and promise in the follow-up against the call.
+the words it came from with the second they were said. Code confirms each quote and each number before anything is
+shown. A claim checker reads every number, date, name, and promise in the follow-up against the call.
 
 [Open the demo](https://www.ryansansbury.com/call-companion/)
 
@@ -16,16 +16,16 @@ stock text to speech voices. The answer key existed before any AI step ran.
 - **Every output is tied to its source line.** A thread runs from each field, change, email claim, and coaching
   measure to the transcript line it came from. Point at either end to light it.
 - **Replay a call and watch the record build itself.**
-  Each fact lands the moment its quote has been said, the stage steps up when its rules are met, and the email and
-  scorecard fill in when the call ends.
+  Each fact lands the moment its quote has been said and the stage steps up when its rules are met. The email
+  fills in with the scorecard when the call ends.
 - **Click a CRM field and hear the buyer say it.** Each fact carries chips that play its moment in the call.
 - **Type a promise into the follow-up and watch it caught.** The checker runs in the browser as you type.
 - **The deal changes call by call.** Three calls move one opportunity through plain stage rules you can switch
-  off, and a staircase shows the stage after each call against the close date.
+  off. A staircase shows the stage after each call against the close date.
 - **Coaching from the audio's own timing.** Talk time, monologues, patience, and questions come from each person's
-  track, and the weights are yours to set.
-- **An honest scoreboard.** Every model is scored against the answer key on calls it never saw during tuning, and
-  the misses are listed.
+  track. The weights are yours to set.
+- **An honest scoreboard.** Every model is scored against the answer key on calls it never saw during tuning with
+  the misses listed.
 
 ## Screens
 
@@ -79,11 +79,11 @@ The claim checker caught 29 of 30 planted bad claims and raised a false alarm in
 
 ## How the calls were made
 
-Each call began as a list of the facts it has to hold, and the script came second. A validator confirms every fact's
-words are actually spoken before anything is voiced. Kokoro-82M voices each line on its own speaker's track, and the
+Each call began as a list of the facts it has to hold. The script came second. A validator confirms every fact's
+words are actually spoken before anything is voiced. Kokoro-82M voices each line on its own speaker's track. The
 buyer's side runs through a simulated phone line with light noise. The deal is three calls between
-Brinewatch and Rhyolite Foodservice. Brinewatch sells cold-chain monitoring, and Rhyolite is a regional food
-distributor. The nine scored calls pair two reps with nine buyers, and five of them stayed unseen until the prompts
+Brinewatch and Rhyolite Foodservice. Brinewatch sells cold-chain monitoring. Rhyolite is a regional food
+distributor. The nine scored calls pair two reps with nine buyers. Five of them stayed unseen until the prompts
 were frozen.
 
 Synthetic audio is easier than a real call. These scores are an upper bound on what the same pipeline would do on
@@ -92,7 +92,7 @@ real recordings.
 ## Privacy
 
 Transcription runs locally and the audio never leaves the machine. The text steps ran on cloud models through my own
-accounts, and the page replays those recorded runs without calling any service.
+accounts. The page replays those recorded runs without calling any service.
 
 ## Running it
 

@@ -3,7 +3,6 @@
 An allowlist picks the folders. The planning files, the references, the recordings, the transcripts and the
 writing-rules tool never go in, and the never-word scan reads the code with the rest of the page. The files go to
 site/code.js as data apart from the page's script, and the page loads that file only when the code view opens.
-Adapted from the Policy Reconciler's code view.
 """
 import json
 from pathlib import Path

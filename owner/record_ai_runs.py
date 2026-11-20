@@ -33,7 +33,7 @@ RUNS = HERE.joinpath("data", "ai_runs")
 def key_for(service):
     done = subprocess.run(["security", "find-generic-password", "-s", service, "-w"], capture_output=True, text=True)
     if done.returncode != 0:
-        raise SystemExit(f"No key saved as {service}. Run: bash owner/keys.sh openai --from policy-reconciler-openai")
+        raise SystemExit(f"No key saved as {service}. Copy the key, then run: bash owner/keys.sh openai")
     return done.stdout.strip()
 
 

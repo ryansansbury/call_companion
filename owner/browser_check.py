@@ -1,5 +1,5 @@
 """The owner's machine only. Look at the page in real Chrome: screenshots, the line rule, overlaps, console errors,
-network requests and a seek test. Adapted from the Analyst Desk's browser check.
+network requests and a seek test.
 
     bash owner/screenshots.sh            (from the build folder)
 

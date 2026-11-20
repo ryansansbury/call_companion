@@ -1,7 +1,7 @@
 #!/bin/bash
 # Saves one vendor's API key in the macOS Keychain under this project's own service name. Keys never go in a file.
 #
-#   bash owner/keys.sh openai --from policy-reconciler-openai    copies the key the Policy Reconciler already saved
+#   bash owner/keys.sh openai --from SERVICE                      copies a key another Keychain item already holds
 #   bash owner/keys.sh openai                                     after copying the OpenAI key to the clipboard
 #   bash owner/keys.sh google                                     only if Gemini joins the comparison
 #

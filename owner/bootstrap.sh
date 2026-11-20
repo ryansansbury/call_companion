@@ -45,4 +45,4 @@ echo "Warming up the transcription model (it downloads once, about 1.6 GB)..."
 .venv/bin/python3 transcribe/stt.py --warmup
 
 .venv/bin/python3 -c 'import sys, kokoro, mlx_whisper, numpy, soundfile; print("Ready: Python", sys.version.split()[0], "with kokoro, mlx-whisper, numpy and soundfile")'
-echo "Next: bash owner/keys.sh openai --from policy-reconciler-openai"
+echo "Next: copy the OpenAI key, then bash owner/keys.sh openai"

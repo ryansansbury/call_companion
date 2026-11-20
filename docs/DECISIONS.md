@@ -1,14 +1,13 @@
 # Decisions
 
-What was decided and why, and every place a number was tuned after it was seen.
+What was decided and why. Every place a number was tuned after it was seen.
 
 ## The method
 
-- **The answer key comes first.** Each call spec lists its facts before its script exists, and a validator proves
+- **The answer key comes first.** Each call spec lists its facts before its script exists and a validator proves
   every fact's words are spoken. Without that order there's no honest way to score extraction.
 - **Three freezes.** The key, the planted claims, the clean emails, and the configs freeze before any model runs. The
-  key lined up with the transcripts freezes next. The prompts and the scoring code freeze after the tuning calls, and
-  the recorder refuses the test and deal calls until they do. `evals/freeze.py --check` shows any change since.
+  key lined up with the transcripts freezes next. The prompts and the scoring code freeze after the tuning calls. The recorder refuses the test and deal calls until they do. `evals/freeze.py --check` shows any change since.
 - **One refreeze after the runs, for wording only (11/10).** The note in `calls/cast.json` was reworded to say only
   what the cast holds. No voice, line, or fact changed, and `evals/frozen.json` keeps the old hashes in its history.
 - **Tuning calls and test calls.** Four scored calls tune the prompts and five stay unseen until the freeze. The
@@ -52,7 +51,7 @@ What was decided and why, and every place a number was tuned after it was seen.
 
 ## The checks
 
-- **Values carry numbers as digits.** The extraction prompt asks for digits in each value, and the evidence check
+- **Values carry numbers as digits.** The extraction prompt asks for digits in each value and the evidence check
   reads only digits there. A dry run showed number words in a value ("year one" and "no one") read as the number 1
   and holding good items.
 - **"Next Wednesday" means the following week.** On a Tuesday it's eight days out. Every date in the twelve keys
@@ -86,7 +85,7 @@ What was decided and why, and every place a number was tuned after it was seen.
 ## The page
 
 - **The light theme** uses the site's paper, ink, and teal. The speaker lanes use a teal and an orange that pass the
-  palette validator on both surfaces, and every lane carries its name.
+  palette validator on both surfaces. Every lane carries its name.
 - **Everything visible lives in WORDS.md.** The build fails on a missing entry or a never-word.
 - **The claim checker builds its own table in the browser** from the facts, the people, and the transcript, the
   same way the Python one does. That keeps the page light, and the parity test compares the tables as well as the
@@ -96,11 +95,11 @@ What was decided and why, and every place a number was tuned after it was seen.
 
 - **Three cards in place of tabs.** Five mockups tried other shapes because the first page shared its layout with my
   other two demos. The one kept puts the calls, the call, and the record side by side on the paper with the same width
-  and the same gap on either side. Below 1360 pixels the calls narrow to a strip of numbers, and below 901 pixels the
+  and the same gap on either side. Below 1360 pixels the calls narrow to a strip of numbers and below 901 pixels the
   three cards become screens to swipe between.
 - **Threads tie every output to its line.** A curve runs from each item that has evidence to the transcript line it
-  quotes. A line out of view gets a dashed end at the pane's edge, and those ends fan out in order. Pointing at either
-  end lights both, and a phone uses the time chips the same way.
+  quotes. A line out of view gets a dashed end at the pane's edge and those ends fan out in order. Pointing at either
+  end lights both and a phone uses the time chips the same way.
 - **The replay never shows a fact early.** A fact counts as said once its first quote has ended in its line. Checks
   and fields the call met wait for their fact, a field the call hasn't set shows what the last call left, and the
   email and the scorecard wait for the end. The page says the model read each whole call after it ended.

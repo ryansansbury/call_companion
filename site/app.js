@@ -11,7 +11,7 @@
   /* A touch screen without a mouse, which is a phone or a tablet. Its copy names taps, not pointing or keys. */
   var TOUCH = !!(win.matchMedia && win.matchMedia("(hover: none) and (pointer: coarse)").matches);
   var checker = win.CCClaims ? win.CCClaims.make(CC.lexicon) : null;
-  var CALLS = {}, FIELDS = U.fields || {}, DEAL = CC.deal || [];
+  var CALLS = Object.create(null), FIELDS = U.fields || {}, DEAL = CC.deal || [];
   (CC.calls || []).forEach(function (c) {
     CALLS[c.id] = c;
     c.segIndex = {};

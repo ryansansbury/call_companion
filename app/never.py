@@ -2,7 +2,7 @@
 
 The list comes from tools/lint_copy.py's NEVER tuple and reference/private_words.txt (a line written rot13:... is
 decoded first). Neither file ships, and both are optional, so the public copy still builds without them. A match is a
-whole word or phrase without regard to case, so "cat" never matches "category." Adapted from the Policy Reconciler.
+whole word or phrase without regard to case, so "cat" never matches "category."
 """
 import codecs
 import importlib.util

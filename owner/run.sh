@@ -34,8 +34,6 @@ one() {
   say "The OpenAI key"
   if security find-generic-password -s call-companion-openai >/dev/null 2>&1; then
     echo "Already saved as call-companion-openai."
-  elif security find-generic-password -s policy-reconciler-openai >/dev/null 2>&1; then
-    bash owner/keys.sh openai --from policy-reconciler-openai
   else
     echo "No OpenAI key in the Keychain. Take GPT-6 Luna out of the comparison in config/models.json."
   fi

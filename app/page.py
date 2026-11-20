@@ -201,6 +201,24 @@ def how(w, data):
             f"</section>{how_code(w)}</div>")
 
 
+LIVE = "https://www.ryansansbury.com/call-companion/"
+# The link preview's image is the top 838 rows of the homepage card, which is 1.91 to 1 and needs no crop.
+SHARE = "https://www.ryansansbury.com/images/share/call-companion.png?v=1"
+
+
+def share(w):
+    """The description, the canonical address and the tags a shared link reads for its preview."""
+    title, text, alt = esc(w["page.title"]), esc(w["page.description"]), esc(w["page.share_alt"])
+    return (f"<meta name='description' content='{text}'><link rel='canonical' href='{LIVE}'>"
+            f"<meta property='og:type' content='website'><meta property='og:url' content='{LIVE}'>"
+            "<meta property='og:site_name' content='ryansansbury.com'>"
+            f"<meta property='og:title' content='{title}'><meta property='og:description' content='{text}'>"
+            f"<meta property='og:image' content='{SHARE}'><meta property='og:image:width' content='1600'>"
+            f"<meta property='og:image:height' content='838'><meta property='og:image:alt' content='{alt}'>"
+            f"<meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='{title}'>"
+            f"<meta name='twitter:description' content='{text}'><meta name='twitter:image' content='{SHARE}'>")
+
+
 def render(w, data):
     """The shell. Three cards sit under a quiet top bar: the calls, the call, and what the call produced, with an SVG
     layer over them for the threads. How it works is a view of its own. The script fills every card."""
@@ -213,14 +231,14 @@ def render(w, data):
                   for k, v in panels.items())
     icon = "data:image/svg+xml;base64," + base64.b64encode(MARK.encode()).decode()
     links = w.table("page.links")
-    byline = (f"<p>{esc(w['page.byline'])} · <a href='https://ryansansbury.com/'>{esc(links['site'])}</a> · "
+    byline = (f"<p><a href='https://www.ryansansbury.com/'>{esc(links['site'])}</a> · "
               f"<a href='https://github.com/ryansansbury/call_companion'>{esc(links['code'])}</a></p>")
     preview = (f"<div class='preview' role='status'><strong>{esc(w['page.preview'])}</strong></div>"
                if data["preview"] else "")
     return ("<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             "<meta name='viewport' content='width=device-width, initial-scale=1'>"
             "<meta name='robots' content='index, follow'><meta name='referrer' content='no-referrer'>"
-            f"<title>{esc(w['page.title'])}</title><link rel='icon' href='{icon}'>"
+            f"<title>{esc(w['page.title'])}</title>{share(w)}<link rel='icon' href='{icon}'>"
             "<link rel='stylesheet' href='app.css'></head><body class='mode-work'>"
             "<a class='skip' href='#main'>Skip to the content</a>"
             f"{preview}<header class='top'><div class='crumbs'><a class='brand' href='#' id='home'>"
