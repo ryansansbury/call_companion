@@ -1,6 +1,6 @@
 {
-  "note": "The models the comparison runs and the route chooses between. Keys never go in this file. OpenAI's key lives in the macOS Keychain under call-companion-openai, saved with bash owner/keys.sh. Claude runs through the Claude Code command line (claude -p). The local model runs through Ollama on this Mac with no key and with its thinking off, since with thinking on one step ran past ten minutes. It's switched off for the launch (docs/DECISIONS.md), and enabled true brings it back. Prices are US dollars per million tokens, from a check of the vendors' published prices on 2026-10-30.",
-  "prices_checked": "2026-10-30",
+  "note": "The models the comparison runs and the route chooses between. Keys never go in this file. OpenAI's key lives in the macOS Keychain under call-companion-openai, saved with bash owner/keys.sh. Claude runs through the Claude Code command line (claude -p). The local model runs through Ollama on this Mac with no key and with its thinking off, since with thinking on one step ran past ten minutes. It's switched off for the launch (docs/DECISIONS.md), and enabled true brings it back. Prices are US dollars per million tokens from a check of the vendors' published prices on 2026-11-19. GPT-6 Luna bills cached input at cached_mult times its input price. A Claude call costs what the command line reported for it.",
+  "prices_checked": "2026-11-19",
   "compare": [
     "claude-sonnet",
     "claude-haiku",
@@ -37,7 +37,8 @@
       "keychain": "call-companion-openai",
       "token_param": "max_completion_tokens",
       "price_in": 0.1,
-      "price_out": 0.5
+      "price_out": 0.5,
+      "cached_mult": 0.1
     },
     {
       "id": "local",

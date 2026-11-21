@@ -7,12 +7,13 @@ current prompt file is refused, so an old run can't stand in for the prompts the
 import json
 from pathlib import Path
 
-from agents import inputs, validate
+from agents import inputs, llm, validate
 from engine import claims
 
 HERE = Path(__file__).resolve().parent.parent
 RUNS = HERE.joinpath("data", "ai_runs")
 STEPS = ("extract", "followup", "followup-approved", "coach")
+ENTRIES = {m["id"]: m for m in json.loads(HERE.joinpath("config", "models.json").read_text(encoding="utf-8"))["models"]}
 
 
 class Stale(Exception):
@@ -51,7 +52,8 @@ def view(call, model, segs, strict=True):
     for step, rec in recs.items():
         if not rec:
             continue
-        meta = rec.get("meta") or {}
+        # The cost at today's prices, from the vendor's own usage report where the recording kept one.
+        meta = llm.repriced(rec.get("meta") or {}, ENTRIES.get(model, {}))
         out["cost_usd"] += meta.get("cost_usd") or 0.0
         out["tokens_in"] += meta.get("input_tokens") or 0
         out["tokens_out"] += meta.get("output_tokens") or 0

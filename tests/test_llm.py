@@ -43,3 +43,23 @@ class Local(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CachedInput(unittest.TestCase):
+    """OpenAI bills cached input at its own price (11/20), and a recorded call is priced again from its usage report."""
+    USAGE = {"prompt_tokens": 2000, "completion_tokens": 500, "total_tokens": 2500,
+             "prompt_tokens_details": {"cached_tokens": 1500}}
+
+    def test_cached_input_costs_its_multiple(self):
+        full = llm.openai_cost(self.USAGE, 0.1, 0.5)
+        cheap = llm.openai_cost(self.USAGE, 0.1, 0.5, 0.1)
+        self.assertAlmostEqual(full, (2000 * 0.1 + 500 * 0.5) / 1e6)
+        self.assertAlmostEqual(cheap, (500 * 0.1 + 1500 * 0.01 + 500 * 0.5) / 1e6)
+
+    def test_a_recorded_call_is_priced_again_and_a_claude_call_keeps_its_cost(self):
+        meta = {"cost_usd": 1.0, "usage": self.USAGE}
+        luna = {"via": "openai", "price_in": 0.1, "price_out": 0.5, "cached_mult": 0.1}
+        self.assertAlmostEqual(llm.repriced(meta, luna)["cost_usd"], llm.openai_cost(self.USAGE, 0.1, 0.5, 0.1))
+        self.assertEqual(meta["cost_usd"], 1.0, "the recording itself stays as it was")
+        cli = {"cost_usd": 0.05, "usage": {"input_tokens": 3, "output_tokens": 9}}
+        self.assertEqual(llm.repriced(cli, {"via": "claude-cli"})["cost_usd"], 0.05)

@@ -73,7 +73,7 @@ The coaching scorecard from the call's own timing.
 |---|---|---|---|
 | Claude Sonnet 5.5 | $0.1378 | $137.80 | 38.4 |
 | Claude Haiku 5.5 | $0.0127 | $12.70 | 77.3 |
-| GPT-6 Luna | $0.0040 | $3.96 | 57.2 |
+| GPT-6 Luna | $0.0039 | $3.86 | 57.2 |
 
 The claim checker caught 29 of 30 planted bad claims and raised a false alarm in 0 of 12 fair emails. Word error rate was 1.4% overall. Buyers came to 1.9% on the phone line and 1.6% before it.
 

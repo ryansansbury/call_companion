@@ -111,7 +111,7 @@ class OpenAICompatible:
 
     def __init__(self, key, model, base_url, vendor="", label="", keychain="", token_param="max_tokens",
                  max_tokens=REASONING_MAX_TOKENS, timeout=REASONING_TIMEOUT, retries=4, transport=None, sleep=time.sleep,
-                 price_in=None, price_out=None, notify=None, reasoning_effort=None):
+                 price_in=None, price_out=None, notify=None, reasoning_effort=None, cached_mult=1.0):
         if not key:
             raise ValueError(f"{vendor or 'This vendor'} needs an API key in the Keychain under {keychain or 'its service'}.")
         if not model or not base_url:
@@ -120,7 +120,7 @@ class OpenAICompatible:
         self.vendor, self.label, self.keychain, self.token_param = vendor, label, keychain, token_param
         self.max_tokens, self.timeout, self.retries = max_tokens, timeout, retries
         self.transport, self.sleep = transport or urllib_transport, sleep
-        self.price_in, self.price_out = price_in, price_out
+        self.price_in, self.price_out, self.cached_mult = price_in, price_out, cached_mult
         self.reasoning_effort = reasoning_effort
         self.notify = notify or (lambda line: print(line, file=sys.stderr, flush=True))
 
@@ -138,7 +138,8 @@ class OpenAICompatible:
         for attempt in range(self.retries + 1):
             status, raw = self.transport(self.url, headers, body, self.timeout)
             if status == 200:
-                text, meta = parse_openai(raw, (time.time() - t0) * 1000, self.price_in, self.price_out)
+                text, meta = parse_openai(raw, (time.time() - t0) * 1000, self.price_in, self.price_out,
+                                          self.cached_mult)
                 if self.reasoning_effort:
                     meta["reasoning_effort"] = self.reasoning_effort
                 return text, meta
@@ -168,7 +169,28 @@ def billed(usage):
     return tokens_in, tokens_out
 
 
-def parse_openai(raw, ms, price_in=None, price_out=None):
+def openai_cost(usage, price_in, price_out, cached_mult=1.0):
+    """An OpenAI call's cost from its usage report: fresh input at the input price, cached input at cached_mult times
+    it, and output (reasoning included) at the output price. None when a count or a price is missing."""
+    tokens_in, tokens_out = billed(usage)
+    if None in (tokens_in, tokens_out, price_in, price_out):
+        return None
+    cached = min((usage.get("prompt_tokens_details") or {}).get("cached_tokens") or 0, tokens_in)
+    return round(((tokens_in - cached) * price_in + cached * price_in * cached_mult + tokens_out * price_out) / 1e6, 6)
+
+
+def repriced(meta, entry):
+    """A recorded call's meta with its cost worked out again at the entry's prices, for a call whose vendor's usage
+    report was kept (OpenAI's and the local server's). A call through the Claude command line keeps the cost the
+    command line reported."""
+    usage = meta.get("usage")
+    if entry.get("via") not in ("openai", "local") or not isinstance(usage, dict) or "prompt_tokens" not in usage:
+        return meta
+    again = openai_cost(usage, entry.get("price_in"), entry.get("price_out"), entry.get("cached_mult", 1.0))
+    return dict(meta, cost_usd=again) if again is not None else meta
+
+
+def parse_openai(raw, ms, price_in=None, price_out=None, cached_mult=1.0):
     """The reply's text, its tokens, and its cost at the given list prices. A model that thinks before it answers
     sends its thinking apart from the reply when the server separates them, as Ollama does, and reasoning_chars
     counts it. The thinking itself isn't kept."""
@@ -183,7 +205,7 @@ def parse_openai(raw, ms, price_in=None, price_out=None):
     tokens_in, tokens_out = billed(usage)
     # The vendor's whole usage report is kept, so a cost can be audited where reasoning is counted apart from output.
     return content, {"ms": round(ms), "input_tokens": tokens_in, "output_tokens": tokens_out,
-                     "cost_usd": cost(tokens_in, tokens_out, price_in, price_out), "usage": usage,
+                     "cost_usd": openai_cost(usage, price_in, price_out, cached_mult), "usage": usage,
                      "models": [data["model"]] if data.get("model") else [], "stop_reason": choice.get("finish_reason"),
                      "reasoning_chars": len(thought) if isinstance(thought, str) else 0}
 
@@ -199,7 +221,7 @@ def backend_for(entry, key_for):
     if via == "anthropic":
         return AnthropicAPI(key_for(entry["keychain"]), entry["model"], **prices)
     if via == "openai":
-        limits = {k: entry[k] for k in ("max_tokens", "timeout", "reasoning_effort") if entry.get(k)}
+        limits = {k: entry[k] for k in ("max_tokens", "timeout", "reasoning_effort", "cached_mult") if entry.get(k)}
         key = key_for(entry["keychain"]) if entry.get("keychain") else "local"
         return OpenAICompatible(key, entry["model"], entry["base_url"], vendor=entry.get("vendor", ""),
                                 label=entry.get("label", ""), keychain=entry.get("keychain", ""),

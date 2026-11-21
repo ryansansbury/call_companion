@@ -47,8 +47,8 @@
    },
    "held_rate": 0.023,
    "flagged": 0,
-   "cost_per_call": 0.00396,
-   "per_month_estimate": 3.96,
+   "cost_per_call": 0.00386,
+   "per_month_estimate": 3.86,
    "seconds_per_call": 57.2
   }
  ],
